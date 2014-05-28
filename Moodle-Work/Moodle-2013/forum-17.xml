@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1678" moduleid="11283" modulename="forum" contextid="58382">
+  <forum id="1678">
+    <type>general</type>
+    <name>21 March 2013 - 17: State Feedback Law</name>
+    <intro>&lt;p&gt;Forum to discuss the 17th lecture.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1363748089</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="14763">
+        <name>17th lecture: post the slide number and ask your question</name>
+        <firstpost>27374</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1367407237</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="27374">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1363748266</created>
+            <modified>1363748266</modified>
+            <mailed>1</mailed>
+            <subject>17th lecture: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27493">
+            <parent>27374</parent>
+            <userid>15642</userid>
+            <created>1363790802</created>
+            <modified>1363790802</modified>
+            <mailed>1</mailed>
+            <subject>Slide No. 5</subject>
+            <message>&lt;p&gt;Why do we use the term v(k) in the expression , &lt;span style="line-height: 1.4;"&gt;u(k)=-K.x(k)+v(k) ? T&lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;he system will be stable even if we remove this and close the loop with controller of the type u(k)=-K.x(k)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;Or is it representing something which has be modelled ?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27521">
+            <parent>27374</parent>
+            <userid>23191</userid>
+            <created>1363800263</created>
+            <modified>1363800424</modified>
+            <mailed>1</mailed>
+            <subject>slide no 19: computation requirement for K</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;is it difficult to convert a matrix into its controller canonical form (or more computation required) ?&lt;/p&gt;
+&lt;p&gt;if we can convert A and b in canonical form, we can calculate K easily without much computation.&lt;/p&gt;
+&lt;p&gt;in case of Ackermann's formula we need to calculate C then C&lt;sup&gt;-1&lt;/sup&gt; and α&lt;sub&gt;c&lt;/sub&gt;(A). this requires a lot of matrix multiplication and hence computation.&lt;/p&gt;
+&lt;p&gt;please clarify.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27526">
+            <parent>27374</parent>
+            <userid>13413</userid>
+            <created>1363802061</created>
+            <modified>1363802061</modified>
+            <mailed>1</mailed>
+            <subject>SLIDE NUMBER 5</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;     Here we are using feedback u(k) = -Kx(k) + v(k) which is a proportional controller. If we want to use same approach to find K in case of derivative or integral feedback, will it be valid ? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27527">
+            <parent>27374</parent>
+            <userid>23190</userid>
+            <created>1363802174</created>
+            <modified>1363802511</modified>
+            <mailed>1</mailed>
+            <subject>slide 3 : controller equation</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;so far in the control laws we discussed, u(n) and y(n) were used. Why  we are not considering a control law from y(n) = Cx(n) + D u(n). This can also give (zI-A) as characteristic polynomial. &lt;/p&gt;
+&lt;p&gt;Does the analysis hold good if u is a vector.?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27534">
+            <parent>27374</parent>
+            <userid>20594</userid>
+            <created>1363803473</created>
+            <modified>1363803885</modified>
+            <mailed>1</mailed>
+            <subject>slide 14</subject>
+            <message>&lt;p&gt;If (A,b) is controllable  or C is a non singular   matrix  then we can placed the poles at desired location.&lt;/p&gt;
+&lt;p&gt;But if  C is a singular then how we do the pole placement ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27544">
+            <parent>27374</parent>
+            <userid>13107</userid>
+            <created>1363807310</created>
+            <modified>1363807310</modified>
+            <mailed>1</mailed>
+            <subject>Re: 17th lecture: slide 5 </subject>
+            <message>&lt;p&gt;&lt;span&gt;In control equation that we are using i.e. u(k)=-K*x(k) +v(k) is there any reason to use proportional controller ? Is it necessary to put a minus sign before K ?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27548">
+            <parent>27374</parent>
+            <userid>15538</userid>
+            <created>1363807663</created>
+            <modified>1363807663</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 5, slide 15: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;In slide 5 the controller equation uses proportional control action. why we chose this.&lt;/p&gt;
+&lt;p&gt;Please explain the en^(T), I am not getting ith unit vector.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27549">
+            <parent>27374</parent>
+            <userid>15477</userid>
+            <created>1363807791</created>
+            <modified>1363807791</modified>
+            <mailed>1</mailed>
+            <subject>Slide 9: (A,b) in Controller Canonical Form</subject>
+            <message>Sir,
+The lecture presents one of the possible forms of (A,b). What are the parameters that are taken care of for (A,b) to be in controller canonical form?
+And how do we deal with (A,b) in other forms affecting the later derivations (like properties of eT*A) ?</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27552">
+            <parent>27374</parent>
+            <userid>15100</userid>
+            <created>1363810173</created>
+            <modified>1363810173</modified>
+            <mailed>1</mailed>
+            <subject>Controllability after state feedback</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;    Will the controllability and observability properties of the system be changed after state feedback?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27554">
+            <parent>27374</parent>
+            <userid>15509</userid>
+            <created>1363812712</created>
+            <modified>1363812712</modified>
+            <mailed>1</mailed>
+            <subject>slide 5 : control law for state feedback controller</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;To make the system behave better we introduce a control law which uses K and v. How did we arrive at that control law and what exactly is v ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27555">
+            <parent>27374</parent>
+            <userid>13781</userid>
+            <created>1363813142</created>
+            <modified>1363813142</modified>
+            <mailed>1</mailed>
+            <subject>slide 15</subject>
+            <message>&lt;p&gt;How to calculate matrix M?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27556">
+            <parent>27374</parent>
+            <userid>13634</userid>
+            <created>1363813830</created>
+            <modified>1363813830</modified>
+            <mailed>1</mailed>
+            <subject>slide 8 : closed loop polynomial</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Why is it necessary that the roots should exist in conjugate pairs ? why can't the polynomial have complex coefficients&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27557">
+            <parent>27374</parent>
+            <userid>19315</userid>
+            <created>1363817463</created>
+            <modified>1363817463</modified>
+            <mailed>1</mailed>
+            <subject>State Space approach vs. Transfer Function Approach</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;What is the advantage of State Space approach over Transfer Function Approach?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27558">
+            <parent>27374</parent>
+            <userid>17192</userid>
+            <created>1363817527</created>
+            <modified>1363817527</modified>
+            <mailed>1</mailed>
+            <subject>Slide 9 - Controller Canonical form</subject>
+            <message>&lt;p&gt;SIr,&lt;/p&gt;
+&lt;p&gt;When we write the canonical form of A, we have &lt;em&gt;n &lt;/em&gt;number of variables a&lt;sub&gt;i&lt;/sub&gt; in the first row of A&lt;sub&gt;canonical&lt;/sub&gt;. Sir, I wanted to know if there were any limitations on the values of a&lt;sub&gt;i&lt;/sub&gt; ??&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27559">
+            <parent>27374</parent>
+            <userid>15521</userid>
+            <created>1363817944</created>
+            <modified>1363817944</modified>
+            <mailed>1</mailed>
+            <subject>Slide 14 : Physical significance of matrix C</subject>
+            <message>&lt;p&gt;Why do we call matrix C as controllability matrix? With what purpose are we introducing it, what is its physical significance?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27560">
+            <parent>27493</parent>
+            <userid>31087</userid>
+            <created>1363830577</created>
+            <modified>1363830577</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide No. 5</subject>
+            <message>&lt;p&gt;You can take v(k) as the steady state value.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27593">
+            <parent>27521</parent>
+            <userid>31087</userid>
+            <created>1363843596</created>
+            <modified>1363843596</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 19: computation requirement for K</subject>
+            <message>&lt;p&gt;Slide 19 says how to calculate K DIRECTLY, without having to calculate the controller canonical form.&lt;/p&gt;
+&lt;p&gt;Please note that in $${\cal C}^{-1} \alpha_c (A)$$ the inverse should not be calculated.  Instead, one should only carry out Gaussian elimination.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27594">
+            <parent>27526</parent>
+            <userid>31087</userid>
+            <created>1363843663</created>
+            <modified>1363843663</modified>
+            <mailed>1</mailed>
+            <subject>Re: SLIDE NUMBER 5</subject>
+            <message>&lt;p&gt;This is only proportional control law.  In about two or three lectures, we will discuss the integral action.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27595">
+            <parent>27527</parent>
+            <userid>31087</userid>
+            <created>1363843762</created>
+            <modified>1363843762</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 3 : controller equation</subject>
+            <message>&lt;p&gt;We will precisely use this in the next lecture.  Although u can be a vector in the general case, we will consider a scalar u in this course.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27643">
+            <parent>27374</parent>
+            <userid>23067</userid>
+            <created>1363859435</created>
+            <modified>1363859435</modified>
+            <mailed>1</mailed>
+            <subject>Slide 8: </subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #222222; font-family: arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"&gt;In slide 8 (zI - (A-bk) ) is taken as the closed loop characteristic polynomial. Why the transfer of V(z) are not considered for this ?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27678">
+            <parent>27534</parent>
+            <userid>31087</userid>
+            <created>1363867761</created>
+            <modified>1363867761</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 14</subject>
+            <message>&lt;p&gt;All poles cannot be placed arbitrarily.  There will be some poles called "controllable poles", which can be placed at desired locations.  We cannot change the location of other poles.  If these poles are stable, i.e. inside the unit circle, the response due to them will decay asymptotically.  This is the best we can hope for.  In case these "uncontrollable" poles are also unstable, we can do nothing about this system, which will necessarily become unstable.  The only way to handle this situation is by changing the system itself (e.g. including a new control variable, etc.) and modifying the C matrix.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27679">
+            <parent>27544</parent>
+            <userid>31087</userid>
+            <created>1363867858</created>
+            <modified>1363867918</modified>
+            <mailed>1</mailed>
+            <subject>Re: 17th lecture: slide 5 </subject>
+            <message>&lt;p&gt;Proportional controller is the simplest controller to use.  Even this is effective, because we make use of "all" the states.  Of course, other state feedback controllers are also possible.  Towards the end of this course, we will discuss state space PI controllers.&lt;/p&gt;
+&lt;p&gt;We use negative sign, because it is a negative feedback controller.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27680">
+            <parent>27548</parent>
+            <userid>31087</userid>
+            <created>1363868119</created>
+            <modified>1363868290</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 5, slide 15: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;Proportional controller is the simplest controller to use.  Nevertheless, it is effective, because we use all the states.  There are, of course, other types of controllers also.  We will use a PI controller towards the end of the course.&lt;/p&gt;
+&lt;p&gt;en denotes nth unit vector.  It has all zeros, except the nth entry, which is one.  Similarly, in ei, only the ith entry is one and all other entries are zero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27686">
+            <parent>27549</parent>
+            <userid>31087</userid>
+            <created>1363868980</created>
+            <modified>1367407237</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 9: (A,b) in Controller Canonical Form</subject>
+            <message>&lt;p&gt;There are four forms of Canonical Form.  All of them will satisfy the properties listed in slides 9 and 10.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27689">
+            <parent>27552</parent>
+            <userid>31087</userid>
+            <created>1363869804</created>
+            <modified>1363869804</modified>
+            <mailed>1</mailed>
+            <subject>Re: Controllability after state feedback</subject>
+            <message>&lt;p&gt;No.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27690">
+            <parent>27554</parent>
+            <userid>31087</userid>
+            <created>1363869857</created>
+            <modified>1363869857</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 5 : control law for state feedback controller</subject>
+            <message>&lt;p&gt;It is a proportional controller, the simplest possible controller.  So, we tried it.  v is the steady state value.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27691">
+            <parent>27555</parent>
+            <userid>31087</userid>
+            <created>1363869971</created>
+            <modified>1363869971</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 15</subject>
+            <message>&lt;p&gt;M will never be calculated.  Please see slide 19, where the expression for K does not have M in it.  M enters the discussion quarter of the way and also leaves before the end.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27692">
+            <parent>27556</parent>
+            <userid>31087</userid>
+            <created>1363870045</created>
+            <modified>1363870045</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8 : closed loop polynomial</subject>
+            <message>&lt;p&gt;If we deal with real systems (i.e. those happening in real life, the coffecients of the polloynomial will be real!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27694">
+            <parent>27557</parent>
+            <userid>31087</userid>
+            <created>1363870127</created>
+            <modified>1363870127</modified>
+            <mailed>1</mailed>
+            <subject>Re: State Space approach vs. Transfer Function Approach</subject>
+            <message>&lt;p&gt;More people seem to like the state space approach.  Possibly as a result, more people are working on it, with the result that there are many algorithms available.  But, both are equally good.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27695">
+            <parent>27558</parent>
+            <userid>31087</userid>
+            <created>1363870289</created>
+            <modified>1363870289</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 9 - Controller Canonical form</subject>
+            <message>&lt;p&gt;If any $$a_i$$ is complex, there should be a complex conjugate entry also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27696">
+            <parent>27559</parent>
+            <userid>31087</userid>
+            <created>1363870818</created>
+            <modified>1363870818</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 14 : Physical significance of matrix C</subject>
+            <message>&lt;p&gt;Because it characterises the controllability of a system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27697">
+            <parent>27643</parent>
+            <userid>31087</userid>
+            <created>1363870944</created>
+            <modified>1363870944</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 8: </subject>
+            <message>&lt;p&gt;Why should V(z) be considered in the transfer function?  After all, V is the Z-transform of a variable!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

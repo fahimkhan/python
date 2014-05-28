@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1563" moduleid="7831" modulename="forum" contextid="54040">
+  <forum id="1563">
+    <type>general</type>
+    <name>Discussion for lecture 2</name>
+    <intro>&lt;p&gt;Discussions for lecture 2&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1358309047</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="9735">
+        <name>Q&amp;A for lecture 2</name>
+        <firstpost>18407</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1372885137</timemodified>
+        <usermodified>19028</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="18407">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358309215</created>
+            <modified>1358309215</modified>
+            <mailed>1</mailed>
+            <subject>Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;So, please do NOT start a new post.  Please follow the above guidelines.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18411">
+            <parent>18407</parent>
+            <userid>12583</userid>
+            <created>1358310963</created>
+            <modified>1358310963</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;non causal systems (depends on future input) where is it used ?, can you give a practical example for non causal system..&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18464">
+            <parent>18407</parent>
+            <userid>19455</userid>
+            <created>1358337714</created>
+            <modified>1358337714</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Sir, can you please post the URL for video lectures? I can't access them on http://10.102.152.131/CL-692-2008/&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18479">
+            <parent>18407</parent>
+            <userid>11394</userid>
+            <created>1358340629</created>
+            <modified>1358340629</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;This link 10.102.152.131/cl-692-2008/ is not working.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18497">
+            <parent>18407</parent>
+            <userid>23191</userid>
+            <created>1358347314</created>
+            <modified>1372857278</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 18)</subject>
+            <message>&lt;p&gt;dear sir,&lt;/p&gt;
+&lt;p&gt;I didn't get the concept of 'D' the time delay in the u(t) (disturbance variable) as mentioned in the equation d(x(t))/dt= F*x(t)+G*u(t-D).&lt;/p&gt;
+&lt;p&gt;what i understood from the video is that this is the propagation time delay between the u(t) and state variable x(t). if above is correct then as per my understanding, this propagation time will be different for the different input and state variable pair (combination). hence D should be different for all the states and input pairs.&lt;/p&gt;
+&lt;p&gt;please clarify.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 8:11 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18504">
+            <parent>18479</parent>
+            <userid>31087</userid>
+            <created>1358352873</created>
+            <modified>1358352873</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;http://10.102.152.31/CL-692-2008/ is the correct link.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18505">
+            <parent>18464</parent>
+            <userid>31087</userid>
+            <created>1358352906</created>
+            <modified>1358352906</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;http://10.102.152.31/CL-692-2008/ is the correct link.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18506">
+            <parent>18497</parent>
+            <userid>31087</userid>
+            <created>1358353050</created>
+            <modified>1358353050</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;The easiest way to understand this is to consider a system that has only a delay associated with it.  In other words, what is sent in will come out $$D$$ time units after.  Thus, we have $$y(t) = u(t-D)$$, where, $$y$$ and $$u$$ are output and input, respectively.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18507">
+            <parent>18411</parent>
+            <userid>31087</userid>
+            <created>1358353672</created>
+            <modified>1358353672</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;It is difficult to imagine a noncausal system.  But this is possible when space is the independent variable, as opposed to time being independent.  In this case, future value will actually refer to a value that is ahead in position.  This idea is useful to explain some concepts also.  For example, in Shannon's reconstruction theorem (which we will see in the near future), we will see that the formula is noncausal.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18508">
+            <parent>18506</parent>
+            <userid>23191</userid>
+            <created>1358353766</created>
+            <modified>1358354458</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;is it that we are assuming D (uniform) to simplify our problem formulation or is it really same for all combination of inputs and state variables?&lt;/p&gt;
+&lt;p&gt;how to represent memoryless system in state space form? is it useful in control system?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18510">
+            <parent>18407</parent>
+            <userid>19275</userid>
+            <created>1358354515</created>
+            <modified>1372884388</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;How do we decide the value of sampling time, is there any method for finding it?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 10:11 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18516">
+            <parent>18407</parent>
+            <userid>20594</userid>
+            <created>1358355470</created>
+            <modified>1372884362</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;what is effect of the sampling period Ts on the system?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 10:27 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18518">
+            <parent>18508</parent>
+            <userid>31087</userid>
+            <created>1358355554</created>
+            <modified>1358355734</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Different outputs can have different delays.&lt;/p&gt;
+&lt;p&gt;y(n) = Du(n) is a memoryless system, where u and y are input and output, respectively.  A proportional controller is a memoryless system!&lt;/p&gt;
+&lt;p&gt;By the way, you should not have posted this as a reply to your earlier post - it has nothing to do with your earlier post.  You should have posted as a reply to my first post!&lt;/p&gt;
+&lt;p&gt;Posting questions like this will make it very difficult to locate, especially when we have lots of posts.  We will have thousands of posts at the end of this course!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18519">
+            <parent>18510</parent>
+            <userid>31087</userid>
+            <created>1358355801</created>
+            <modified>1358355801</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;We will be discussing this after going through the frequency response topic, in about three classes or so.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18520">
+            <parent>18516</parent>
+            <userid>31087</userid>
+            <created>1358355885</created>
+            <modified>1358355885</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;If you sample too slow, there will be an information loss.  If you sample too fast, computational overheads will be high.  Sampling time Ts is a tuning parameter in digital control systems.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18524">
+            <parent>18407</parent>
+            <userid>15509</userid>
+            <created>1358357736</created>
+            <modified>1372884428</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 21)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Can you please clarify as to what happens if the delay time exceeds the sampling time that is D&amp;gt;Ts&lt;/p&gt;
+&lt;p&gt;How is the integral supposed to be broken down in that case.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 11:05 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18526">
+            <parent>18407</parent>
+            <userid>13634</userid>
+            <created>1358358366</created>
+            <modified>1372884535</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;1. Why are we not considering disturbance variables in the discretization discussed for a ZOH signal? Can we treat them in the same way mathematically as the manipulated variables?&lt;/p&gt;
+&lt;p&gt;2. If we use a linear or a polynomial function (such as Lagrange interpolation) to describe the discretized data, will that provide a better plant model than a zero order hold description? Or is this contrary to the approach that is being discussed in this course?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 11:16 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18534">
+            <parent>18407</parent>
+            <userid>10036</userid>
+            <created>1358360459</created>
+            <modified>1372884579</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;For discretization, when we use ZOH, for the points whose value we don't know, we use the value occuring just before. Instead, why not we use the average of the values occuring just before and just after?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 11:50 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18535">
+            <parent>18407</parent>
+            <userid>15521</userid>
+            <created>1358360493</created>
+            <modified>1372884624</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 21)</subject>
+            <message>&lt;p&gt;How is the system with delay written in stantard form using augmented state vector? I am not very clear about it! &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 16 January 2013, 11:51 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18536">
+            <parent>18407</parent>
+            <userid>15521</userid>
+            <created>1358361327</created>
+            <modified>1358361327</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;I still cant see the posts from others!! &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18541">
+            <parent>18505</parent>
+            <userid>15521</userid>
+            <created>1358363037</created>
+            <modified>1358363037</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;in your browser write 10.* in your exceptions then you will be able to access it! &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18542">
+            <parent>18407</parent>
+            <userid>19315</userid>
+            <created>1358363050</created>
+            <modified>1372884705</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 21)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;For systems with delay, if D &amp;gt; Ts (say Ts &amp;lt; D &amp;lt; 2Ts), will the system depend only on u(n-2) and u(n-1). If that is the case, will B in the original equation be zero?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 12:34 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18546">
+            <parent>18524</parent>
+            <userid>31087</userid>
+            <created>1358388215</created>
+            <modified>1358388215</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;I thought that this was explained in the lecture.  It is also explained in equations 2.49 to 2.50 in the textbook.  Please go through the video again.&lt;/p&gt;
+&lt;p&gt;What step of my explanation did you not understand?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18548">
+            <parent>18526</parent>
+            <userid>31087</userid>
+            <created>1358388485</created>
+            <modified>1358388485</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;ol&gt;
+&lt;li&gt;Yes, that is how we will deal with the disturbance variables also.&lt;/li&gt;
+&lt;li&gt;What you say is more correct: these methods are more accurate, but also involve a lot of work.  Because of ease, a lot of people use ZOH.  We now have lots of people who offer solutions around this method; we have a lot of theoretical results, etc.  Moreover, if the accuracy is not sufficient, we can always use a larger sampling.  Other hold methods will now be acceptable, only if they show extraordinary (say, 10 times or more) advantages over ZOH.&lt;/li&gt;
+&lt;/ol&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18549">
+            <parent>18534</parent>
+            <userid>31087</userid>
+            <created>1358388655</created>
+            <modified>1358388723</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;How do we know the value that has not yet come - presumably, it will depend on the measurement that is yet to be made.  This will be an acausal approach.  What is possible is to extrapolate the previous two data points, which is a first order hold.  But as I have replied to Baraskar earlier, it is not so popular as the ZOH.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18550">
+            <parent>18535</parent>
+            <userid>31087</userid>
+            <created>1358388805</created>
+            <modified>1358388805</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;What is not clear?  See also my answer to Ankit Deb.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18552">
+            <parent>18407</parent>
+            <userid>13030</userid>
+            <created>1358393609</created>
+            <modified>1372884747</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;Is there any better technique than the Zero Order Hold (ZOH)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 9:03 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18556">
+            <parent>18407</parent>
+            <userid>13130</userid>
+            <created>1358395941</created>
+            <modified>1372884833</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 4)</subject>
+            <message>&lt;p&gt;How can we identify noise and eliminate noise from the discrete time system??&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 9:42 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18565">
+            <parent>18407</parent>
+            <userid>13355</userid>
+            <created>1358399360</created>
+            <modified>1372884915</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;Will there be any effect on discritization process if sampling time is made very large or very small&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 10:39 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18582">
+            <parent>18407</parent>
+            <userid>13802</userid>
+            <created>1358408047</created>
+            <modified>1358408047</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;The given link is not working&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18587">
+            <parent>18565</parent>
+            <userid>13030</userid>
+            <created>1358409314</created>
+            <modified>1358409314</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;The discretization will improve if the sampling time is made very small because the integration term consists the input u(t). The smaller the sampling interval is the better the discretization will be.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18589">
+            <parent>18407</parent>
+            <userid>23191</userid>
+            <created>1358410321</created>
+            <modified>1372884955</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;do we discretise our system based on the sharpest variation in transients response of the systems or discetisation based on steady state variations are sufficient?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 1:42 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18597">
+            <parent>18536</parent>
+            <userid>31087</userid>
+            <created>1358412331</created>
+            <modified>1358412331</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;I am glad that you can see them now.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18599">
+            <parent>18407</parent>
+            <userid>18685</userid>
+            <created>1358412980</created>
+            <modified>1358412980</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;I was reading about non-linear controls and there I found lyapunov control which is often used for non linear models as per wikipedia. As we saw in class that we linearized the model then applied the discretization. So my question is "&lt;br /&gt;can we discretize nonlinear model without linearizing them (as for the case of lyapunov function)?".&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18613">
+            <parent>18552</parent>
+            <userid>31087</userid>
+            <created>1358417250</created>
+            <modified>1358417250</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Higher order methods are possibly more accurate, but ZOH is more popular.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18614">
+            <parent>18556</parent>
+            <userid>31087</userid>
+            <created>1358417288</created>
+            <modified>1358417288</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Noise handling will be covered later in this course.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18615">
+            <parent>18565</parent>
+            <userid>31087</userid>
+            <created>1358417355</created>
+            <modified>1358417355</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Yes, sampling time is indeed a tuning parameter.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18616">
+            <parent>18589</parent>
+            <userid>31087</userid>
+            <created>1358417427</created>
+            <modified>1358417427</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;It is dependent on the sharpest transients.  We will cover this later in this course.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18617">
+            <parent>18599</parent>
+            <userid>31087</userid>
+            <created>1358417605</created>
+            <modified>1358417605</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;We will deal with only linear systems in this course.  This topic will be discussed later in this course as to why we restrict ourselves to linear control onlly.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18620">
+            <parent>18407</parent>
+            <userid>15502</userid>
+            <created>1358419984</created>
+            <modified>1372884989</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 12 )</subject>
+            <message>&lt;p&gt;When we discretise a continuous system, on what factors does the sampling period, T&lt;sub&gt;s&lt;/sub&gt; depend on?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 4:27 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18623">
+            <parent>18407</parent>
+            <userid>13802</userid>
+            <created>1358420583</created>
+            <modified>1372885039</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 22)</subject>
+            <message>&lt;p&gt;When you say it is not possible to measure all components of a state, how many measurements are just enough to estimate other states?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 4:33 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18631">
+            <parent>18407</parent>
+            <userid>11675</userid>
+            <created>1358422379</created>
+            <modified>1358422379</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;In magnetically suspended ball model why it is necessary to write model equations in linear form ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18640">
+            <parent>18407</parent>
+            <userid>13107</userid>
+            <created>1358424867</created>
+            <modified>1372885112</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 9)</subject>
+            <message>&lt;p&gt;why e&lt;sup&gt;ft &lt;/sup&gt;particularly used to derive the model ? &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 17 January 2013, 5:44 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18645">
+            <parent>18620</parent>
+            <userid>13030</userid>
+            <created>1358426329</created>
+            <modified>1358426329</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;It depends on the rate of change of states. If the rate of change of states increases, sampling time must be reduced.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18858">
+            <parent>18407</parent>
+            <userid>19028</userid>
+            <created>1358600314</created>
+            <modified>1372885137</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2 (Slide 11)</subject>
+            <message>&lt;p&gt;How to simplify matrix B given in 11th slide to arrive at simplified version of B given in same slide?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Saturday, 19 January 2013, 6:28 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18895">
+            <parent>18623</parent>
+            <userid>31087</userid>
+            <created>1358650501</created>
+            <modified>1358650501</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;This is explained the concept of observability.  This topic will be discussed in detail towards the end of this course, under the topic of state space control.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18896">
+            <parent>18631</parent>
+            <userid>31087</userid>
+            <created>1358650555</created>
+            <modified>1358650555</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Because we will be using control techniques that are based on linear models.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18897">
+            <parent>18640</parent>
+            <userid>31087</userid>
+            <created>1358650607</created>
+            <modified>1358650607</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;This is the integrating factor that you would have studied in a course on differential equations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19440">
+            <parent>18407</parent>
+            <userid>13253</userid>
+            <created>1358958734</created>
+            <modified>1358958734</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Firstly, i wish to apologoze for posting the question after 2 weeks of starting the discussion. I promise that I will be upto date from today.&lt;/p&gt;
+&lt;p&gt;Sir, I wanted to know what advantage we are achieving by discretising the whole plant and using a digital controller instead of our conventional approach of analog system with A/D, D/A converters and a digital controller?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19453">
+            <parent>18407</parent>
+            <userid>23190</userid>
+            <created>1358987476</created>
+            <modified>1358987476</modified>
+            <mailed>1</mailed>
+            <subject>Re: Q&amp;A for lecture 2</subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Is convolution still applicable  if the LTI system has non zero initial state.?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10215">
+        <name>convolution</name>
+        <firstpost>19174</firstpost>
+        <userid>23190</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358858188</timemodified>
+        <usermodified>23190</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19174">
+            <parent>0</parent>
+            <userid>23190</userid>
+            <created>1358858188</created>
+            <modified>1358858188</modified>
+            <mailed>1</mailed>
+            <subject>convolution</subject>
+            <message>&lt;p&gt;Is convolution still applicable in if the LTI system has non zero initial state.?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="1414">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="1418">
+        <userid>19455</userid>
+      </subscription>
+      <subscription id="1420">
+        <userid>11394</userid>
+      </subscription>
+      <subscription id="1421">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="1422">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="1424">
+        <userid>20594</userid>
+      </subscription>
+      <subscription id="1425">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="1426">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="1427">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="1428">
+        <userid>15521</userid>
+      </subscription>
+      <subscription id="1429">
+        <userid>19315</userid>
+      </subscription>
+      <subscription id="1430">
+        <userid>13030</userid>
+      </subscription>
+      <subscription id="1431">
+        <userid>13130</userid>
+      </subscription>
+      <subscription id="1432">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="1943">
+        <userid>13802</userid>
+      </subscription>
+      <subscription id="1944">
+        <userid>18685</userid>
+      </subscription>
+      <subscription id="1947">
+        <userid>15502</userid>
+      </subscription>
+      <subscription id="1948">
+        <userid>11675</userid>
+      </subscription>
+      <subscription id="1949">
+        <userid>13107</userid>
+      </subscription>
+      <subscription id="1958">
+        <userid>19028</userid>
+      </subscription>
+      <subscription id="1997">
+        <userid>13253</userid>
+      </subscription>
+      <subscription id="2650">
+        <userid>15477</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

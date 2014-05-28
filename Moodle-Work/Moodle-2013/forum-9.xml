@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1663" moduleid="9683" modulename="forum" contextid="56509">
+  <forum id="1663">
+    <type>general</type>
+    <name>14 Feb. 2013 - 9: Laplace to Z transform</name>
+    <intro>&lt;p&gt;Please post your questions here&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1360806061</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="12232">
+        <name>Please post your questions here</name>
+        <firstpost>22774</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360846662</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="22774">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1360806124</created>
+            <modified>1360806124</modified>
+            <mailed>1</mailed>
+            <subject>Please post your questions here</subject>
+            <message>&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22800">
+            <parent>22774</parent>
+            <userid>15477</userid>
+            <created>1360822106</created>
+            <modified>1360822222</modified>
+            <mailed>1</mailed>
+            <subject>Slide 10</subject>
+            <message>&lt;p&gt;Sir, we are saying that y(output) is the integral of the input. Is this under the assumption that the transfer function, g(n-k)=1 in the expression we used earlier i.e. y(k)=∑u(k).g(n-k)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22806">
+            <parent>22774</parent>
+            <userid>23190</userid>
+            <created>1360825532</created>
+            <modified>1360825532</modified>
+            <mailed>1</mailed>
+            <subject>slide 4  :  ZOH</subject>
+            <message>&lt;p&gt;Is it correct to say step response equivalence = ZOH equivalence ?. &lt;/p&gt;
+&lt;p&gt;When  a continous time tranfer function is replaced with a  &lt;/p&gt;
+&lt;p&gt;sampler-&amp;gt; z domain tranfer function -&amp;gt; ZOH  , it is a ZOH equivalence.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22807">
+            <parent>22774</parent>
+            <userid>17192</userid>
+            <created>1360825860</created>
+            <modified>1360825860</modified>
+            <mailed>1</mailed>
+            <subject>SLIDE 10/11 Discrete Integration</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;You have mentioned that the integrator is a low pass filter and the derivative is the high pass filter. Sir, how could we say that from the G(z) equations that we have developed from trapezoidal approximation?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22853">
+            <parent>22774</parent>
+            <userid>10036</userid>
+            <created>1360831264</created>
+            <modified>1360831264</modified>
+            <mailed>1</mailed>
+            <subject>slide 30</subject>
+            <message>&lt;p&gt;On slide 30, why didn't we consider the case Sc = Tc(1) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22857">
+            <parent>22774</parent>
+            <userid>13634</userid>
+            <created>1360832578</created>
+            <modified>1360832578</modified>
+            <mailed>1</mailed>
+            <subject>Slide 22 : Reaction Curve Method: Allowable Uncertainty</subject>
+            <message>&lt;p&gt;Are there any definitive uncertainty margins for the PID paramteres empirically defined in the Reaction Curve method, or are we supposed to rely on the precise value for the PID gains obtained from the reaction curve properties?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22858">
+            <parent>22800</parent>
+            <userid>31087</userid>
+            <created>1360832633</created>
+            <modified>1360832633</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 10</subject>
+            <message>&lt;p&gt;No, look at the first line in slide 10: y(k) is the area under the curve until k.  In other words, y is the integral of u.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22859">
+            <parent>22806</parent>
+            <userid>31087</userid>
+            <created>1360832893</created>
+            <modified>1360832893</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 4  :  ZOH</subject>
+            <message>&lt;p&gt;Recall the discussion we had on Slide 12 of Lecture 2.  We said that we would assume that all our inputs would be coming through a ZOH.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22860">
+            <parent>22807</parent>
+            <userid>31087</userid>
+            <created>1360833064</created>
+            <modified>1360833064</modified>
+            <mailed>1</mailed>
+            <subject>Re: SLIDE 10/11 Discrete Integration</subject>
+            <message>&lt;p&gt;In Chapter 5 of the textbook, I have explained that if you want to amplify a certain frequency, put a pole there and put a zero, if you want to remove it.&lt;/p&gt;
+&lt;p&gt;The integrator, based on its pole and zero, amplifies the 0 frequency and filters out the highest frequency of 180 deg.  So, it is a low pass filter.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22861">
+            <parent>22853</parent>
+            <userid>31087</userid>
+            <created>1360833157</created>
+            <modified>1360833157</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 30</subject>
+            <message>&lt;p&gt;The main reason why I did not include is that usually Sc is of a higher degree than Tc.  Nevertheless, this option also can be included.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22862">
+            <parent>22857</parent>
+            <userid>31087</userid>
+            <created>1360833264</created>
+            <modified>1360833264</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 22 : Reaction Curve Method: Allowable Uncertainty</subject>
+            <message>&lt;p&gt;You cannot get precise values from reaction curve method, especially when plant (not simulated) data are used.  Unfortunately, there are no uncertainty margins.  We rely mainly on gain and phase margins.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22870">
+            <parent>22774</parent>
+            <userid>19275</userid>
+            <created>1360835111</created>
+            <modified>1360846025</modified>
+            <mailed>1</mailed>
+            <subject>Slide 11: low pass filter</subject>
+            <message>&lt;p&gt;on slide no. 11&lt;/p&gt;
+&lt;p&gt;how (z+1)/(z-1) is low pass filter?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Thursday, 14 February 2013, 3:15 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22874">
+            <parent>22774</parent>
+            <userid>13355</userid>
+            <created>1360835811</created>
+            <modified>1360846098</modified>
+            <mailed>1</mailed>
+            <subject>Slide 15: low pass and high pass filters</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;on slide 15 u mention that both the forward and backward differences are high pass filters, how do you decide that by just looking at the transfer functions?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Thursday, 14 February 2013, 3:26 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22878">
+            <parent>22774</parent>
+            <userid>23067</userid>
+            <created>1360836675</created>
+            <modified>1360836675</modified>
+            <mailed>1</mailed>
+            <subject>Re: Zeigler Nichloas settings for PD controller</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;1. Why there is no zeigler nicholas method to tune the Proportional derivative controller?&lt;/p&gt;
+&lt;p&gt;2. Why the estimation of Ku and Pu is instable method, please elobarate it?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22885">
+            <parent>22774</parent>
+            <userid>15509</userid>
+            <created>1360837260</created>
+            <modified>1360846424</modified>
+            <mailed>1</mailed>
+            <subject>Slide 4</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;1) Can we use more sophisticated numerical integration techniques like Simpson's rule instead of the trapezoidal approximation. For controller design which method is used ?&lt;/p&gt;
+&lt;p&gt;2) Also in the ZOH equivalent method where did we actually implement the ZOH approximation ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Thursday, 14 February 2013, 3:51 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22887">
+            <parent>22861</parent>
+            <userid>13634</userid>
+            <created>1360837469</created>
+            <modified>1360837469</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 30</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Isn't the condition Sc(1) = Tc(1) inclusive of the other conditions? Why do we have to list all of them?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22888">
+            <parent>22774</parent>
+            <userid>18685</userid>
+            <created>1360837477</created>
+            <modified>1360837477</modified>
+            <mailed>1</mailed>
+            <subject>slide 13</subject>
+            <message>&lt;p&gt;how the backword or forward difference is coming in formulae derivation?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22889">
+            <parent>22774</parent>
+            <userid>19309</userid>
+            <created>1360837605</created>
+            <modified>1360846594</modified>
+            <mailed>1</mailed>
+            <subject>Slide 11</subject>
+            <message>&lt;p&gt;how to check whether the transfer function is low pass or high pass?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Thursday, 14 February 2013, 3:56 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22907">
+            <parent>22774</parent>
+            <userid>15100</userid>
+            <created>1360844407</created>
+            <modified>1360845938</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;How can we say looking at the integrator transfer function, that it is low pass filter?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22913">
+            <parent>22870</parent>
+            <userid>31087</userid>
+            <created>1360846051</created>
+            <modified>1360846051</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 11: low pass filter</subject>
+            <message>&lt;p&gt;Please see my answer to Arka's post.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22915">
+            <parent>22874</parent>
+            <userid>31087</userid>
+            <created>1360846159</created>
+            <modified>1360846159</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 15: low pass and high pass filters</subject>
+            <message>&lt;p&gt;Please see my reply to Arka's post&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22920">
+            <parent>22885</parent>
+            <userid>31087</userid>
+            <created>1360846368</created>
+            <modified>1360846461</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;1.  We can use more sophisticated methods, but we will end up arriving at more complicated expressions.  What is described in the book is generally what is used.&lt;/p&gt;
+&lt;p&gt;2.  Please see my answer to the post made by Sudeesh.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22923">
+            <parent>22888</parent>
+            <userid>31087</userid>
+            <created>1360846564</created>
+            <modified>1360846564</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 13</subject>
+            <message>&lt;p&gt;Your question is not clear.  When you use rectangular approximation, you can use one of two heights: the current value or the previous value.  Based on which one you use, you get one of the two approximations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22924">
+            <parent>22889</parent>
+            <userid>31087</userid>
+            <created>1360846627</created>
+            <modified>1360846627</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 11</subject>
+            <message>&lt;p&gt;See my answer to Arka.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22926">
+            <parent>22907</parent>
+            <userid>31087</userid>
+            <created>1360846662</created>
+            <modified>1360846662</modified>
+            <mailed>1</mailed>
+            <subject>Slide 11</subject>
+            <message>&lt;p&gt;Please see my answer to Arka.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2446">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2447">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="2448">
+        <userid>23190</userid>
+      </subscription>
+      <subscription id="2449">
+        <userid>17192</userid>
+      </subscription>
+      <subscription id="2450">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="2451">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2452">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="2454">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="2455">
+        <userid>23067</userid>
+      </subscription>
+      <subscription id="2456">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2457">
+        <userid>18685</userid>
+      </subscription>
+      <subscription id="2458">
+        <userid>19309</userid>
+      </subscription>
+      <subscription id="2459">
+        <userid>15100</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

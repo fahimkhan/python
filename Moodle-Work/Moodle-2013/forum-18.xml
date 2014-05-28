@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1680" moduleid="11502" modulename="forum" contextid="58626">
+  <forum id="1680">
+    <type>general</type>
+    <name>25 March 2013 - 18: Compensator design</name>
+    <intro>&lt;p&gt;Discussion for lecture 18.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1364106490</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="15121">
+        <name>18th lecture: mention the slide number and ask your question</name>
+        <firstpost>28046</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1364218255</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="28046">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1364106570</created>
+            <modified>1364106570</modified>
+            <mailed>1</mailed>
+            <subject>18th lecture: mention the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28063">
+            <parent>28046</parent>
+            <userid>13634</userid>
+            <created>1364116711</created>
+            <modified>1364116711</modified>
+            <mailed>1</mailed>
+            <subject>Slide 21: Subtracting infinities</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;You have said that if the eigenvectors of A are outside the unit circle, e(m) will be a difference of two terms that both individually tend to infinity. How are we then deducing that their difference tends to infinity as well? For instance, if e(m) is a difference of f(x+1) -f(x), where f(x) = x, f tends to infinity for both terms as x and x+1 both tend to infinity, but the difference remains constant. Is there something more that allows us to definitely say that the error is blowing up?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28093">
+            <parent>28063</parent>
+            <userid>31087</userid>
+            <created>1364136346</created>
+            <modified>1364136742</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 21: Subtracting infinities</subject>
+            <message>&lt;p&gt;I could have given a better explanation in the slide.  We can write the equation for e(m+1) as follows: $$e(m) = A^m e(0) + \cdots$$.  As $$A$$ has eigen values outside the unit circle, $$e$$ will be unbounded if $$e(0) \neq 0$$.&lt;/p&gt;
+&lt;p&gt;Please also note that $$e(0)$$ will necessarily have to be nonzero.  If it is zero, it would imply that we know the initial state exactly, using which we can calculate all the future states "exactly".  We are building an estimator precisely because we do not know the states "exactly".  In other words, we do not know the initial state and hence $$e(0)$$ will necessarily have to be nonzero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28112">
+            <parent>28046</parent>
+            <userid>11633</userid>
+            <created>1364147183</created>
+            <modified>1364147183</modified>
+            <mailed>1</mailed>
+            <subject>slide 14 - Controllability</subject>
+            <message>&lt;p&gt;Apart from the singularity of C what are other conditions for the system to be controllable ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28113">
+            <parent>28046</parent>
+            <userid>23190</userid>
+            <created>1364147910</created>
+            <modified>1364147910</modified>
+            <mailed>1</mailed>
+            <subject>Re: 18th lecture: mention the slide number and ask your question</subject>
+            <message>&lt;p&gt;How to design the characteristic polynomial for estimator. Does the choice of α&lt;sub&gt;c&lt;/sub&gt; influence the choice of α&lt;sub&gt;e&lt;/sub&gt;? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28116">
+            <parent>28046</parent>
+            <userid>23191</userid>
+            <created>1364149440</created>
+            <modified>1364149440</modified>
+            <mailed>1</mailed>
+            <subject>State space matrices</subject>
+            <message>sir,
+in state space representation, X(n+1) = Ax+bu; and y=Cx, 
+please explain me which matrices (out of A, B C) are in designer's control.
+do we have any scope to alter any of these matrices.
+to me A can not be changed as it is internal to the plant. but i am not sure about B and C.
+
+ </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28117">
+            <parent>28046</parent>
+            <userid>15642</userid>
+            <created>1364149546</created>
+            <modified>1364149546</modified>
+            <mailed>1</mailed>
+            <subject>Slide No.13</subject>
+            <message>&lt;p&gt;In the video at the end of the example you told that order of matrix multiplication will make a difference.&lt;span style="line-height: 1.4;"&gt;Why is it so ? if  &lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;(AxB)xC and Ax(BxC) gives the same output.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28119">
+            <parent>28046</parent>
+            <userid>15477</userid>
+            <created>1364150926</created>
+            <modified>1364150926</modified>
+            <mailed>1</mailed>
+            <subject>Slide 21: Desired characteristics of error</subject>
+            <message>&lt;p&gt;Sir, why do we want the error in the &lt;strong&gt;states&lt;/strong&gt; to have characteristics like small overshoot, small rise time etc? Earlier it was needed as we wanted such characteristics in the error in &lt;strong&gt;output&lt;/strong&gt;.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28120">
+            <parent>28046</parent>
+            <userid>13355</userid>
+            <created>1364151570</created>
+            <modified>1364151570</modified>
+            <mailed>1</mailed>
+            <subject>Slide 20: Estimating the initial condition</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;how are we calculating the initial estimate &lt;span style="text-decoration: underline;"&gt;x0?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28121">
+            <parent>28046</parent>
+            <userid>13107</userid>
+            <created>1364152827</created>
+            <modified>1364152827</modified>
+            <mailed>1</mailed>
+            <subject>Re:slide 14</subject>
+            <message>&lt;p&gt;Is nonsigularity of C ,the only condition for a system to be controller ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28122">
+            <parent>28046</parent>
+            <userid>18685</userid>
+            <created>1364153946</created>
+            <modified>1364153946</modified>
+            <mailed>1</mailed>
+            <subject>slide 7 Ackermann's </subject>
+            <message>&lt;p&gt;Can the Ackermann's Formula be extended for the control equation of the form u = -k1*x(k)+k2*x(k-1)+u(k)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28125">
+            <parent>28046</parent>
+            <userid>20594</userid>
+            <created>1364154751</created>
+            <modified>1364154751</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide33</subject>
+            <message>&lt;p&gt;can we design controller and estimator independently ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28128">
+            <parent>28046</parent>
+            <userid>15100</userid>
+            <created>1364166475</created>
+            <modified>1364166475</modified>
+            <mailed>1</mailed>
+            <subject>Slide 15</subject>
+            <message>&lt;p&gt;In an uncontrollable system, can the state feedback be used to place the poles wherever required? If so, how is the matrix M and K calculated?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28129">
+            <parent>28046</parent>
+            <userid>13781</userid>
+            <created>1364166637</created>
+            <modified>1364166637</modified>
+            <mailed>1</mailed>
+            <subject>Slide 33</subject>
+            <message>&lt;p&gt;What is the equation for state matrix when both state feedback and estimator are used?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28130">
+            <parent>28046</parent>
+            <userid>15509</userid>
+            <created>1364168193</created>
+            <modified>1364168193</modified>
+            <mailed>1</mailed>
+            <subject>slide 11</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;How are we saying that the matrix made up of ai's in slide 11 is nonsingular?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28131">
+            <parent>28046</parent>
+            <userid>17192</userid>
+            <created>1364168342</created>
+            <modified>1364168342</modified>
+            <mailed>1</mailed>
+            <subject>Slide - 24. Regulator - Estimator Duality</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Can α&lt;sub&gt;c&lt;/sub&gt; be equal to α&lt;sub&gt;e &lt;/sub&gt;? Or, should the characteristic polynomial for the estimator (α&lt;sub&gt;e&lt;/sub&gt;) have faster rise time than the closed loop characteristic polynomial (α&lt;sub&gt;c&lt;/sub&gt;) ? What I mean is theoretically should the estimator take less time to converge to the unknown state than the time taken by the closed loop to converge to a final steady state value?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28132">
+            <parent>28046</parent>
+            <userid>19315</userid>
+            <created>1364170889</created>
+            <modified>1364170889</modified>
+            <mailed>1</mailed>
+            <subject>Slide - 33. Separation Principle</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;You say in this slide that: "&lt;span style="line-height: 1.4;"&gt;Assume that states are bounded and design an esti&lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;mator L&lt;/span&gt;&lt;sub&gt;p&lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;."&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to know why do we need to assume that the states are bounded? to calculate the estimator L&lt;sub&gt;p&lt;/sub&gt;?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28135">
+            <parent>28112</parent>
+            <userid>31087</userid>
+            <created>1364178083</created>
+            <modified>1364178083</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 14 - Controllability</subject>
+            <message>&lt;p&gt;For SISO systems, nonsingularity of $$\cal C$$ is required.  For mulitiple input systems, the $$\cal C$$ matrix should have full row rank.  No other condition has to be fulfilled.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28136">
+            <parent>28113</parent>
+            <userid>31087</userid>
+            <created>1364178213</created>
+            <modified>1364178213</modified>
+            <mailed>1</mailed>
+            <subject>Re: 18th lecture: mention the slide number and ask your question</subject>
+            <message>&lt;p&gt;These two characteristic polynomials are independent.  The guideline we use is that we make the estimator a lot faster than the controller.  For this, we make the poles of the estimator to be closer to the origin of the Z-plane.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28137">
+            <parent>28116</parent>
+            <userid>31087</userid>
+            <created>1364178295</created>
+            <modified>1364178295</modified>
+            <mailed>1</mailed>
+            <subject>Re: State space matrices</subject>
+            <message>&lt;p&gt;Depending on the realisation, A, B, C and D matrices can change.  But the transfer function, namely $$C(sI-A)^{-1}B + D$$ will be the same for a given transfer function.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28139">
+            <parent>28117</parent>
+            <userid>31087</userid>
+            <created>1364178503</created>
+            <modified>1364178503</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide No.13</subject>
+            <message>&lt;p&gt;What you say is correct - the answer will be the same no matter what order you choose for multiplication.  But depending on the sequence of computation, the required effort may be more or less.  For example, because of the order I have chosen, the numbers 3 and -2 do not participate in the calculation at all, thereby reducing the computational effort!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28140">
+            <parent>28119</parent>
+            <userid>31087</userid>
+            <created>1364178577</created>
+            <modified>1364178577</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 21: Desired characteristics of error</subject>
+            <message>&lt;p&gt;This is because the output is a linear combination of the states.  As a matter of fact, the output can be just one of the states.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28141">
+            <parent>28120</parent>
+            <userid>31087</userid>
+            <created>1364178617</created>
+            <modified>1364178617</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 20: Estimating the initial condition</subject>
+            <message>&lt;p&gt;One should use the domain knowledge.  If nothing is known, it can be chosen as zero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28142">
+            <parent>28121</parent>
+            <userid>31087</userid>
+            <created>1364178693</created>
+            <modified>1364178693</modified>
+            <mailed>1</mailed>
+            <subject>Re:slide 14</subject>
+            <message>&lt;p&gt;This question is identical to the one asked by Manish Choudhary.  My answer is the same.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28144">
+            <parent>28122</parent>
+            <userid>31087</userid>
+            <created>1364178793</created>
+            <modified>1364178793</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 Ackermann's </subject>
+            <message>&lt;p&gt;Your question is not clear.  From where do you get u(k) on the right hand side of the equation?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28145">
+            <parent>28125</parent>
+            <userid>31087</userid>
+            <created>1364178836</created>
+            <modified>1364178836</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide33</subject>
+            <message>&lt;p&gt;Yes, that is the point conveyed by the Separation Principle, proved by Kalman.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28146">
+            <parent>28128</parent>
+            <userid>31087</userid>
+            <created>1364178878</created>
+            <modified>1364178878</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 15</subject>
+            <message>&lt;p&gt;No, this is not possible in an uncontrollable system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28147">
+            <parent>28129</parent>
+            <userid>31087</userid>
+            <created>1364178925</created>
+            <modified>1364178925</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 33</subject>
+            <message>&lt;p&gt;Your question is not clear.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28148">
+            <parent>28130</parent>
+            <userid>31087</userid>
+            <created>1364178996</created>
+            <modified>1364178996</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 11</subject>
+            <message>&lt;p&gt;The determinant of the M matrix is the product of its diagonals, because it is an upper triangular matrix.  The determinant is 1 and hence M is nonsingular.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28149">
+            <parent>28131</parent>
+            <userid>31087</userid>
+            <created>1364179054</created>
+            <modified>1364179054</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide - 24. Regulator - Estimator Duality</subject>
+            <message>&lt;p&gt;What you say is correct.  The estimator should be faster than the controller.  This will result in the controller using the correct state information.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28150">
+            <parent>28132</parent>
+            <userid>31087</userid>
+            <created>1364179134</created>
+            <modified>1364179134</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide - 33. Separation Principle</subject>
+            <message>&lt;p&gt;A good question.  If the states are unbounded, how can we estimate them?  We can build a meaningful estimator only when what it tries to estimate is bounded.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28186">
+            <parent>28046</parent>
+            <userid>14023</userid>
+            <created>1364196092</created>
+            <modified>1364196092</modified>
+            <mailed>1</mailed>
+            <subject>Book Problems</subject>
+            <message>&lt;p&gt;In some of the problems of this and previous lecture in book, we have to design the pole placement controller or estimator for given poles. Where do those poles come from if we have to apply this concept in real life system? Does it work for any poles inside Unit Circle?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28189">
+            <parent>28046</parent>
+            <userid>14023</userid>
+            <created>1364196275</created>
+            <modified>1364196275</modified>
+            <mailed>1</mailed>
+            <subject>Estimator applications</subject>
+            <message>&lt;p&gt;Is state estimation an alternative to fast sampling? How is it exactly applied on a plant?&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;For example, how to apply an estimator on SBHS? Can we slow down the sampling and estimate state values between the sample to virtually increase sampling rate? Or do we estimate only when we have some states missing?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28223">
+            <parent>28046</parent>
+            <userid>13802</userid>
+            <created>1364203906</created>
+            <modified>1364203906</modified>
+            <mailed>1</mailed>
+            <subject>Slide 28</subject>
+            <message>&lt;p&gt;If the initial estimates of the observer are significantly different from the plant behavior, would the predictions converge fast enough so that we do not have anything to worry about?&lt;br /&gt;&lt;br /&gt;How long does it usually take for such convergence to take place?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28262">
+            <parent>28144</parent>
+            <userid>18685</userid>
+            <created>1364214245</created>
+            <modified>1364214245</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 Ackermann's </subject>
+            <message>&lt;p&gt;If the differential term is introduced then the u(k) will look like &lt;span&gt;-kp*x(k) -kd*(x(k)-x(k-1)) = -(kp+kd)*x(k)+kd*x(k-1)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28263">
+            <parent>28122</parent>
+            <userid>18685</userid>
+            <created>1364214394</created>
+            <modified>1364214394</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 Ackermann's </subject>
+            <message>&lt;p&gt;It was, by mistake, written as u(k) .. The RHS u(k) was supposed to be x0*delta(k+1)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28267">
+            <parent>28262</parent>
+            <userid>31087</userid>
+            <created>1364218255</created>
+            <modified>1364218255</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 Ackermann's </subject>
+            <message>&lt;p&gt;If I am not mistaken, we only modify the state equations in the case of PI controller and use a normal state feedback control law.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,2406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="929" moduleid="6624" modulename="forum" contextid="52490">
+  <forum id="929">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>0</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1357331829</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="9844">
+        <name>Link for the video lectures</name>
+        <firstpost>18580</firstpost>
+        <userid>15538</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358415869</timemodified>
+        <usermodified>19028</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="18580">
+            <parent>0</parent>
+            <userid>15538</userid>
+            <created>1358407704</created>
+            <modified>1358407704</modified>
+            <mailed>1</mailed>
+            <subject>Link for the video lectures</subject>
+            <message>&lt;p&gt;Does any one have the link for the video lectures for the course.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18608">
+            <parent>18580</parent>
+            <userid>19028</userid>
+            <created>1358415869</created>
+            <modified>1358415869</modified>
+            <mailed>1</mailed>
+            <subject>Re: Link for the video lectures</subject>
+            <message>&lt;p&gt;10.102.152.31/CL-692-2008/&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10038">
+        <name>Moodle participation is compulsory</name>
+        <firstpost>18899</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358654934</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="18899">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358654934</created>
+            <modified>1358654934</modified>
+            <mailed>1</mailed>
+            <subject>Moodle participation is compulsory</subject>
+            <message>&lt;p&gt;Some of you have not posted questions for the previous lecture.  I let it go, as it was the first lecture.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Asking questions and participating in the discussions is compulsory for this course.  Over and above the marks allocated for this participation, a penal action (grade reduction) may be enforced for those who do not participate.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10073">
+        <name>Aakash tablets on loan for CL 692</name>
+        <firstpost>18985</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358736896</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="18985">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358736896</created>
+            <modified>1358736896</modified>
+            <mailed>1</mailed>
+            <subject>Aakash tablets on loan for CL 692</subject>
+            <message>&lt;p&gt;Every student of CL-692 will get one Aakash tablet, with lectures pre-loaded.  We hope to distribute this on Wednesday between 12:30 to 13:30 and in the evening 5 to 6pm.  The tablets have to be returned at the end of the semester.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10298">
+        <name>Ask your questions one day before</name>
+        <firstpost>19324</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361715801</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19324">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358923854</created>
+            <modified>1358923854</modified>
+            <mailed>1</mailed>
+            <subject>Ask your questions one day before</subject>
+            <message>&lt;p&gt;Dear All,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;You should post your questions the day before the lecture.  I would want it to be completed by the midnight, when the LAN ban comes into force.  For those who have access to internet, the deadline is "extended" till 6am (yes, at 6 in the morning) on the day of the lecture.  Please note that there can be no extension to the extension, whatever may be the reason.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;This will ensure that you don't ask a question in the last minute, just for the sake of asking a question.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;This will also give sufficient time for everyone to participate in the discussions, which is the main objective of this activity itself.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Finally, this will take care of problems, such as, Moodle not working in the last minute, etc.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19475">
+            <parent>19324</parent>
+            <userid>31087</userid>
+            <created>1358995751</created>
+            <modified>1358995751</modified>
+            <mailed>1</mailed>
+            <subject>Re: Ask your questions one day before</subject>
+            <message>&lt;p&gt;I notice that Moodle was down last night also.  In view of this, I give an extension: can you please post your questions ASAP?  Thanks.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24041">
+            <parent>19324</parent>
+            <userid>31087</userid>
+            <created>1361715801</created>
+            <modified>1361715801</modified>
+            <mailed>1</mailed>
+            <subject>Re: Ask your questions one day before</subject>
+            <message>&lt;p&gt;When you post your question, can you please change your subject to slide number?  For example, you can say something like, &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Slide 3: Tustin Approximation&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;This will help organise the discussion better.  It will also help understand the questions better.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10314">
+        <name>Post your questions on Moodle - not by email</name>
+        <firstpost>19355</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358931772</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19355">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358931772</created>
+            <modified>1358931772</modified>
+            <mailed>1</mailed>
+            <subject>Post your questions on Moodle - not by email</subject>
+            <message>&lt;p&gt;Some of you have sent your questions through email.  Please note that you have to post your questions in Moodle only.  If you post your question early, there is no need to worry about Moodle working or not working.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Can those who sent my questions on Z-transform through email please re-post their questions on the forum? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10316">
+        <name>Please post your photo on Moodle</name>
+        <firstpost>19358</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358931900</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19358">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358931900</created>
+            <modified>1358931900</modified>
+            <mailed>1</mailed>
+            <subject>Please post your photo on Moodle</subject>
+            <message>&lt;p&gt;Please post your photo on Moodle.  A passport photo will be preferable, but any photo with good clarity should also be acceptable.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10469">
+        <name>Proxy settings for Aakash app </name>
+        <firstpost>19636</firstpost>
+        <userid>18658</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1359603297</timemodified>
+        <usermodified>17192</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19636">
+            <parent>0</parent>
+            <userid>18658</userid>
+            <created>1359041034</created>
+            <modified>1359041034</modified>
+            <mailed>1</mailed>
+            <subject>Proxy settings for Aakash app </subject>
+            <message>&lt;p&gt;Dear Sir &lt;/p&gt;
+&lt;p&gt;As discussed after the class, I am posting my question here. &lt;/p&gt;
+&lt;p&gt;There is option for setting proxy settings for browser, and hence I am able to access internet using browser. But there is no option for setting proxy settings for apps and hence no app is able to access wifi and are not running. &lt;/p&gt;
+&lt;p&gt;Can you please post the solution for this problem&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20340">
+            <parent>19636</parent>
+            <userid>31087</userid>
+            <created>1359516922</created>
+            <modified>1359516922</modified>
+            <mailed>1</mailed>
+            <subject>Re: Proxy settings for Aakash app </subject>
+            <message>&lt;p&gt;I am posting a reply given by our Aakash expert, Srikant:&lt;/p&gt;
+&lt;p&gt;-------- Original Message --------&lt;br /&gt;Subject:     Re: [Fwd: CL 692-2012-2: Proxy settings for Aakash app]&lt;br /&gt;Date:     Fri, 25 Jan 2013 09:38:22 +0530&lt;br /&gt;From:     Srikant &amp;lt;u.srikant.patnaik@gmail.com&amp;gt;&lt;br /&gt;To:     Kannan Moudgalya &amp;lt;kannan@iitb.ac.in&amp;gt;&lt;br /&gt;CC:     sachin patil &amp;lt;iclcoolster@gmail.com&amp;gt;, shubhamgupta@iitb.ac.in&lt;br /&gt;References:     &amp;lt;5101E1AA.5050404@iitb.ac.in&amp;gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Deas Shubham,&lt;br /&gt;&lt;br /&gt;This is a problem with android. I will suggest two solutions. Download this opensource app&lt;br /&gt;ProxyDroid from here &amp;lt;http://www.appszoom.com/android_applications/communication/proxydroid_xtmc_download.html&amp;gt; and try your luck. There many such proxy authentication apps on Google play too, to try those you should connect to some direct internet source using 3G/2G dongle or wifi hotspot from any compatible phone.&lt;br /&gt;&lt;br /&gt;Second solution is bit complex.&lt;br /&gt;&lt;br /&gt;In a GNU/Linux machine(assuming its IP to be 192.168.1.2) install squid3 proxy server(say on your laptop)&lt;br /&gt;&lt;br /&gt;Then open */etc/squid3/squid.conf* file as sudo and add these lines at the end of the file after updating *username:password *field.&lt;br /&gt;&lt;br /&gt;*http_port hostmachine-ip:3128&lt;br /&gt;cache_peer netmon.iitb.ac.in &amp;lt;http://netmon.iitb.ac.in&amp;gt; parent 80 0 no-query default login=/username:password/&lt;br /&gt;# No direct access&lt;br /&gt;never_direct allow all&lt;br /&gt;&lt;br /&gt;*Save and close the above file. Restart the squid3 sever by&lt;br /&gt;*sudo service squid3 restart*&lt;br /&gt;&lt;br /&gt;Now connect your aakash to a wifi, long press on connected wifi and select *modify network, *Then enable *Show advance options* *-&amp;gt; Proxy settings (select manual)&lt;br /&gt;*Add your squid3 server's detail here&lt;br /&gt;*Proxy hostname *192.168.1.2&lt;br /&gt;*Proxy port *3128&lt;br /&gt;*Bypass proxy for *iitb.ac.in &amp;lt;http://iitb.ac.in&amp;gt;, 127.0.0.1, localhost      (*.iitb.ac.in &amp;lt;http://iitb.ac.in&amp;gt; will not work)&lt;br /&gt;&lt;br /&gt;Then add your static IP/Gateway/DNS as usual, and for&lt;br /&gt;*Network prefix* give 16 (if your subnet mask is 255.255.0.0, if not sure search your value from net)&lt;br /&gt;&lt;br /&gt;Save settings, disable and enable wifi to make it work.&lt;br /&gt;Your gmail may not work properly but this will set internet system wide. The only disadvantage is you need to engage a machine to use this feature.&lt;br /&gt;&lt;br /&gt;Srikant&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20581">
+            <parent>20340</parent>
+            <userid>17192</userid>
+            <created>1359603297</created>
+            <modified>1359603297</modified>
+            <mailed>1</mailed>
+            <subject>Re: Proxy settings for Aakash app </subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;If I may, I would like to point out that many of the users have special characters in their username/password. For them a small hack is to use URL escape characters in their settings. i.e. when configuring this line :&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;cache_peer netmon.iitb.ac.in &amp;lt;http://netmon.iitb.ac.in&amp;gt; parent 80 0 no-query default login=/username:password/&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;suppose username is &lt;strong&gt;arka&lt;/strong&gt; and password is &lt;strong&gt;@rk@&lt;/strong&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;then the config line would be:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;cache_peer netmon.iitb.ac.in &amp;lt;http://netmon.iitb.ac.in&amp;gt; parent 80 0 no-query default login=/arka:%40rk%40/&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;br /&gt;&lt;/em&gt;For a comprehensive list of URL escape characters one could refer to:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.w3schools.com/tags/ref_urlencode.asp" target="_blank"&gt;&lt;span&gt;http://www.w3schools.com/tags/ref_urlencode.asp&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Thanks!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Arka.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="10845">
+        <name>All slides posted</name>
+        <firstpost>20342</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1359517301</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="20342">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1359517301</created>
+            <modified>1359517301</modified>
+            <mailed>1</mailed>
+            <subject>All slides posted</subject>
+            <message>&lt;p&gt;I have now posted all the slides on the main page.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="11627">
+        <name>Aakash</name>
+        <firstpost>21775</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360200014</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="21775">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1360200014</created>
+            <modified>1360200014</modified>
+            <mailed>1</mailed>
+            <subject>Aakash</subject>
+            <message>&lt;p&gt;All of you need to bring Aakash today.  I plan to conduct a quiz using Aakash today.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="11628">
+        <name>Moodle</name>
+        <firstpost>21776</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360200133</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="21776">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1360200133</created>
+            <modified>1360200133</modified>
+            <mailed>1</mailed>
+            <subject>Moodle</subject>
+            <message>&lt;p&gt;Although I had told in the class that the discussion thread would be closed at 6am whatever may be the reason, I am going to keep it open until 9am, as the Moodle was down last evening.  Please post your questions at the earliest.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="11820">
+        <name>Lecture on Monday - Lab 1</name>
+        <firstpost>22138</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360562414</timemodified>
+        <usermodified>17635</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="22138">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1360393693</created>
+            <modified>1360394017</modified>
+            <mailed>1</mailed>
+            <subject>Lecture on Monday - Lab 1</subject>
+            <message>&lt;p&gt;The next lecture class will be devoted to lab related discussion.  If you have any questions on Lab 1 (now or later), you may post them as a reply to this post.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22280">
+            <parent>22138</parent>
+            <userid>12583</userid>
+            <created>1360518161</created>
+            <modified>1360518161</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture on Monday - Lab 1</subject>
+            <message>&lt;p&gt;sir, scilab seems to have  limited functions for handling control system problems. many times computer hangs , the error messages are also not displayed . can we switch to matlab?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22296">
+            <parent>22280</parent>
+            <userid>31087</userid>
+            <created>1360545018</created>
+            <modified>1360545076</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture on Monday - Lab 1</subject>
+            <message>&lt;p&gt;Absolutely not.  Your observation about Scilab is totally incorrect.  Do you know that that all the calculations required to launch the Arianne rockets have been done using Scilab?  If Arianne rockets that have placed many of our satellites are based on Scilab, it is sufficiently good enough for us.&lt;br /&gt;We will see if we can give a link to my talk that explains why we should NOT use Matlab.  You shall use only Scilab in this course.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22298">
+            <parent>22138</parent>
+            <userid>23190</userid>
+            <created>1360546838</created>
+            <modified>1360546838</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture on Monday - Lab 1</subject>
+            <message>&lt;p&gt;Not able to resolv  code dependencies. For example,  the executing the code 'ball_basic.sce' as mentioned in 'DigitalControl' book gives the error 'sort - undefined' &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22327">
+            <parent>22298</parent>
+            <userid>17635</userid>
+            <created>1360562241</created>
+            <modified>1360562414</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture on Monday - Lab 1</subject>
+            <message>&lt;p&gt;Please use gsort() as sort() is obsolete in higher versions of scilab.&lt;/p&gt;
+&lt;p&gt;also note, for gsort() the default way of arranging is by decreasing order of magnitude. Please refer to scilab help for more info.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="11852">
+        <name>First Lab</name>
+        <firstpost>22189</firstpost>
+        <userid>20599</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361967377</timemodified>
+        <usermodified>14023</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="22189">
+            <parent>0</parent>
+            <userid>20599</userid>
+            <created>1360428809</created>
+            <modified>1360428809</modified>
+            <mailed>1</mailed>
+            <subject>First Lab</subject>
+            <message>&lt;p&gt;Dear Students,&lt;/p&gt;
+&lt;p&gt;Please see the files and problem statement for the first lab. The deadline and the submission link will be announced soon.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22464">
+            <parent>22189</parent>
+            <userid>23191</userid>
+            <created>1360635449</created>
+            <modified>1360635449</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;dear sir,&lt;/p&gt;
+&lt;p&gt;did you update these files?&lt;/p&gt;
+&lt;p&gt;i am trying to run the files i have downloaded. but it is showning error message.&lt;/p&gt;
+&lt;p&gt;i have installed it on windows 7. latest scilab availlable with website.&lt;/p&gt;
+&lt;p&gt;when i am running first order simulation file, it is showing 4 errors as follows.&lt;/p&gt;
+&lt;p&gt;!--error 4 &lt;br /&gt;Undefined variable: costf_2&lt;br /&gt;at line       6 of function order_1 called by :  &lt;br /&gt;[lsterr, kp, tau] = order_1(t,y)&lt;br /&gt;at line      19 of exec file called by :    &lt;br /&gt;simulation.sce', -1 &lt;/p&gt;
+&lt;p&gt;please help.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22481">
+            <parent>22189</parent>
+            <userid>20599</userid>
+            <created>1360648955</created>
+            <modified>1360648955</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;There was a slight mistake in the "order_1.sci" file. The "costf_2" was supposed to be "costf_1". Attaching the corrected file. Kindly replace the incorrect file with the one attached.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22486">
+            <parent>22189</parent>
+            <userid>20599</userid>
+            <created>1360649721</created>
+            <modified>1360649721</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;Kindly register on the SBHS vlabs site latest by 3pm. I have to make sure that the SBHS allocation is done uniformly across the class strength.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22910">
+            <parent>22486</parent>
+            <userid>20599</userid>
+            <created>1360844592</created>
+            <modified>1360844592</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;The submmission deadline for first lab is Monday 18 Feb, 2013. A submission link has been created for the same.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23079">
+            <parent>22189</parent>
+            <userid>23190</userid>
+            <created>1361015135</created>
+            <modified>1361015135</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Is there a change in the lab assignment deadline ?.  It was mentioned in the last class that, assignment submission can be rescheduled considering  mid sem exams.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23107">
+            <parent>23079</parent>
+            <userid>31087</userid>
+            <created>1361028598</created>
+            <modified>1361028598</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Yes, as I announced in the class, the deadline is shifted to Tuesday, 26 Feb. 2013 at 11:55 PM (i.e., midnight).  You are urged to complete your experiments, Scilab based problem solving, etc., well ahead of time and to submit by this deadline. &lt;/p&gt;
+&lt;p&gt;Keeping the uncertainties in Internet, connectivity, Moodle, etc., there is also a one day "EXTENSION", so that the extended deadline is Wednesday, 27 Feb. 2013 at 11:55 PM (i.e., midnight).  Please note that the submission time will not be futher extended for ANY reason.  This is a hard deadline.  There can be no extension on extension!  In order that you do not get stuck with the problem of Moodle/Internet failing in the last minute, please upload at least one working version well before the deadline and keep improving it.&lt;/p&gt;
+&lt;p&gt;Submissions have to be made only through Moodle.  Files sent to email addresses will NOT be considered.&lt;/p&gt;
+&lt;p&gt;Please also make a note of our departmental policy: FR grade to be given to people who use unfair means in assignments, labs, projects, quiz, and, of course, exams.&lt;/p&gt;
+&lt;p&gt;Please note that Matlab based solution is not acceptable and will result in zero marks.  If anyone needs help with Scilab training, please let us know and we can make arrangements.  The deadlines will not be changed because of this, however.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23972">
+            <parent>22189</parent>
+            <userid>23190</userid>
+            <created>1361609483</created>
+            <modified>1361609483</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab </subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;some clarification needed on the data to be submitted as a part of lab assignment.  &lt;/p&gt;
+&lt;p&gt;For the 'Experiment part'  is it reqd to submit any file other than  the logfile and image file?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23974">
+            <parent>23972</parent>
+            <userid>19455</userid>
+            <created>1361612404</created>
+            <modified>1361612404</modified>
+            <mailed>1</mailed>
+            <subject>SBHS device not found</subject>
+            <message>&lt;p&gt;I am getting this error "SBHS device not found. Please contact the administrator."&lt;/p&gt;
+&lt;p&gt;My username is: 09002034&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24175">
+            <parent>23974</parent>
+            <userid>20599</userid>
+            <created>1361785018</created>
+            <modified>1361785018</modified>
+            <mailed>1</mailed>
+            <subject>Re: SBHS device not found</subject>
+            <message>&lt;p&gt;Hello Saurabh Gupta,&lt;/p&gt;
+&lt;p&gt;The problem is solved. Please check now.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24178">
+            <parent>23972</parent>
+            <userid>20599</userid>
+            <created>1361786855</created>
+            <modified>1361786855</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab </subject>
+            <message>&lt;p&gt;Hello sudeesh,&lt;/p&gt;
+&lt;p&gt;For the experiment part we need only the image file and the data file.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24188">
+            <parent>24178</parent>
+            <userid>20599</userid>
+            <created>1361790487</created>
+            <modified>1361790487</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab </subject>
+            <message>&lt;p&gt;Dear Students,&lt;/p&gt;
+&lt;p&gt;Please rename the Step test experiment log file as &lt;strong&gt;step.dat&lt;/strong&gt; before submitting. Do not rename it with any other name or extension. Windows users kindly do the renaming properly.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24395">
+            <parent>22189</parent>
+            <userid>23191</userid>
+            <created>1361934221</created>
+            <modified>1361935669</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;i have tried hard to rectify the errors in my files for lab assignments. but unable to solve. i am attaching it&lt;/p&gt;
+&lt;p&gt;it is giving following error&lt;/p&gt;
+&lt;p&gt;error 21 &lt;br /&gt;Invalid index.&lt;br /&gt;at line       3 of function costf_1 called by :  &lt;br /&gt;at line       6 of function order_1 called by :  &lt;br /&gt;[lsterr, k1, k2] = order_1(n,y)&lt;br /&gt;at line      27 of exec file called by :    &lt;br /&gt;stlab-files\step-simulation\dis_firstorder.sce', -1&lt;/p&gt;
+&lt;p&gt;please help me.&lt;/p&gt;
+&lt;p&gt;i am not able to understand cost function exactly.&lt;/p&gt;
+&lt;p&gt;i have tried to do it with the help of the Continuous time transfer function files given by you.&lt;/p&gt;
+&lt;p&gt;i have completed my SBHS experiments.&lt;/p&gt;
+&lt;p&gt;with regards&lt;/p&gt;
+&lt;p&gt;J K Mishra&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24418">
+            <parent>24395</parent>
+            <userid>20599</userid>
+            <created>1361945983</created>
+            <modified>1361945983</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;We do not want you to upload your code on the forum as it becomes available for all other students. You may unkowingly get involved in malpractices like copy cases etc. We do not encourage to share your files with others.&lt;/p&gt;
+&lt;p&gt;@ J K Mishra: You are defining a variable refering to its zeroth index i.e. y_n(0). We deal with vectors and matrices and the minimum index can be 1. &lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24429">
+            <parent>24418</parent>
+            <userid>23191</userid>
+            <created>1361950480</created>
+            <modified>1361950904</modified>
+            <mailed>1</mailed>
+            <subject>Re: First Lab</subject>
+            <message>&lt;p&gt;sorry, i didn't think about it, because i was completely occupied with the problem.&lt;/p&gt;
+&lt;p&gt;you are right.&lt;/p&gt;
+&lt;p&gt;but how to remove it from here now.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24466">
+            <parent>22189</parent>
+            <userid>14023</userid>
+            <created>1361967377</created>
+            <modified>1361967377</modified>
+            <mailed>1</mailed>
+            <subject>optim function</subject>
+            <message>&lt;p&gt;What exactly is the optim function?&lt;br /&gt;&lt;br /&gt;Any article(wikipedia or something) regarding its algorithm would be helpful.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="11946">
+        <name>No Quiz today</name>
+        <firstpost>22340</firstpost>
+        <userid>17635</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360805978</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="22340">
+            <parent>0</parent>
+            <userid>17635</userid>
+            <created>1360565565</created>
+            <modified>1360565565</modified>
+            <mailed>1</mailed>
+            <subject>No Quiz today</subject>
+            <message>&lt;p&gt;There will  be no quiz today.i.e., 11-02-2012, Monday&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22372">
+            <parent>22340</parent>
+            <userid>13130</userid>
+            <created>1360572371</created>
+            <modified>1360572371</modified>
+            <mailed>1</mailed>
+            <subject>Lab tutotrial</subject>
+            <message>&lt;p&gt;I have never used scilab but i am familiar with matlab. While simulating first order simulation file it is showing that order_1 file does not exist. I use scilab 5.3.3 which does not recognize symbolic variables. So what should i do?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22394">
+            <parent>22372</parent>
+            <userid>19275</userid>
+            <created>1360583142</created>
+            <modified>1360583142</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lab tutotrial</subject>
+            <message>&lt;p&gt;check out your current directory.&lt;/p&gt;
+&lt;p&gt;type "pwd" command and see if you are working in same directory in which your oreder_1.sci file is saved. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22725">
+            <parent>22340</parent>
+            <userid>13634</userid>
+            <created>1360763488</created>
+            <modified>1360763488</modified>
+            <mailed>1</mailed>
+            <subject>Re: No Quiz today</subject>
+            <message>&lt;p&gt;Is there a quiz in tomorrow's class hours? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22750">
+            <parent>22725</parent>
+            <userid>17635</userid>
+            <created>1360774678</created>
+            <modified>1360774678</modified>
+            <mailed>1</mailed>
+            <subject>Quiz </subject>
+            <message>&lt;p&gt;Dear students&lt;/p&gt;
+&lt;p&gt;There will be a quiz and a discussion session tomorrow. We will let you know if there is any change.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="22773">
+            <parent>22750</parent>
+            <userid>31087</userid>
+            <created>1360805938</created>
+            <modified>1360805978</modified>
+            <mailed>1</mailed>
+            <subject>Re: Quiz </subject>
+            <message>&lt;p&gt;Sorry, for various reasons, I could not start the discussion thread.  Rakhi: you could start the thread in the future, in case I forget.&lt;/p&gt;
+&lt;p&gt;There will be a quiz today.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="12476">
+        <name>Mid Sem </name>
+        <firstpost>23137</firstpost>
+        <userid>15100</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361283456</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="23137">
+            <parent>0</parent>
+            <userid>15100</userid>
+            <created>1361043384</created>
+            <modified>1361043384</modified>
+            <mailed>1</mailed>
+            <subject>Mid Sem </subject>
+            <message>&lt;p&gt;Sir, Will the mid sem be open book test?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23145">
+            <parent>23137</parent>
+            <userid>31087</userid>
+            <created>1361061713</created>
+            <modified>1361061713</modified>
+            <mailed>1</mailed>
+            <subject>Re: Mid Sem </subject>
+            <message>&lt;p&gt;Yes, it will be an open book test.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23191">
+            <parent>23145</parent>
+            <userid>14023</userid>
+            <created>1361086563</created>
+            <modified>1361086563</modified>
+            <mailed>1</mailed>
+            <subject>Re: Mid Sem </subject>
+            <message>&lt;p&gt;Reference will be only the Digital Control Book, or can we bring our notes as well?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23478">
+            <parent>23145</parent>
+            <userid>19455</userid>
+            <created>1361250488</created>
+            <modified>1361250488</modified>
+            <mailed>1</mailed>
+            <subject>Re: Mid Sem </subject>
+            <message>&lt;p&gt;sir can we bring our notes?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23572">
+            <parent>23478</parent>
+            <userid>31087</userid>
+            <created>1361283456</created>
+            <modified>1361283456</modified>
+            <mailed>1</mailed>
+            <subject>Re: Mid Sem </subject>
+            <message>&lt;p&gt;You may bring whatever you want.&lt;/p&gt;
+&lt;p&gt;But there cannot be borrowing of anything.  For every borrowing (pens, pencils, ruler, eraser, books, notebooks, printouts, etc.), there will be a 20% penalty for the lender and also the person who receives it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="12676">
+        <name>midsem exam date</name>
+        <firstpost>23579</firstpost>
+        <userid>13130</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361296209</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="23579">
+            <parent>0</parent>
+            <userid>13130</userid>
+            <created>1361286073</created>
+            <modified>1361286073</modified>
+            <mailed>1</mailed>
+            <subject>midsem exam date</subject>
+            <message>&lt;p&gt;Please inform the exam timings, date and venue.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23591">
+            <parent>23579</parent>
+            <userid>14023</userid>
+            <created>1361292205</created>
+            <modified>1361292236</modified>
+            <mailed>1</mailed>
+            <subject>Re: midsem exam date</subject>
+            <message>&lt;p&gt;&lt;a href="http://www.che.iitb.ac.in/online/system/files/107/book/Mid+Semester+Exam+Time+Table+%28Spring%29+Feb-2013.pdf"&gt;http://www.che.iitb.ac.in/online/system/files/107/book/Mid+Semester+Exam+Time+Table+%28Spring%29+Feb-2013.pdf&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23602">
+            <parent>23579</parent>
+            <userid>31087</userid>
+            <created>1361296209</created>
+            <modified>1361296209</modified>
+            <mailed>1</mailed>
+            <subject>Re: midsem exam date</subject>
+            <message>&lt;p&gt;It is from 5:30pm to 7:30pm tomorrow, i.e., Wednesday, 20 Feb. 2013, in LCC 01.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="12902">
+        <name>Discussion on Mid Semester Exam</name>
+        <firstpost>23999</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361673931</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="23999">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1361673612</created>
+            <modified>1361673612</modified>
+            <mailed>1</mailed>
+            <subject>Discussion on Mid Semester Exam</subject>
+            <message>&lt;p&gt;Some students told me that they solved 1(a) of the first problem by step response approximation and then wrote an one line answer each for 1(b) and 1(c) saying that the answer will be the same.&lt;/p&gt;
+&lt;p&gt;In the class, the discussion on this topic ended inconclusively.  I told you that we need to look for a reference that will "prove" that statement.  I also mentioned that it would be worthwhile checking this statement with some more examples.  Finally, in the exam paper, I had assigned 16 marks for 1(b) and 1(c) together - please don't expect me to assign 16 marks for one line statement.  Also, I had mentioned that we would provide help for those who wanted to calculate exponential of a matrix.  Please note that if there is a method to avoid a particular difficult calculation, I will not offer that help.&lt;/p&gt;
+&lt;p&gt;I hope that at least some of you solved 1b and 1c.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24000">
+            <parent>23999</parent>
+            <userid>31087</userid>
+            <created>1361673870</created>
+            <modified>1361673931</modified>
+            <mailed>1</mailed>
+            <subject>Re: Discussion on Mid Semester Exam</subject>
+            <message>&lt;p&gt;The same students mentioned that as they expected the paper to be conceptual and short (as I mentioned in the class), they thought that a one line answer was sufficient for 1b and 1c.&lt;/p&gt;
+&lt;p&gt;Here, I want to comment on the length of an open book exam.  The length of an open book will necessarily have to be different from that of a closed book exam.  Otherwise, there is a risk of some students not studying for the exam at all, hoping that they can "figure out" during the exam time.  Any amount of time provided for such students will be insufficient.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="13135">
+        <name>Feedback on SBHS Lab</name>
+        <firstpost>24471</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361969215</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="24471">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1361969215</created>
+            <modified>1361969215</modified>
+            <mailed>1</mailed>
+            <subject>Feedback on SBHS Lab</subject>
+            <message>&lt;p&gt;We are doing a survey on the usefulness of SBHS.  Can the current 4th year B.Tech and DD students of Chemical Engineering please give their feedback by following this link:&lt;/p&gt;
+&lt;p&gt;https://docs.google.com/spreadsheet/gform?key=0AuTIDSCqacnVdGlOZmZCYTFhdzNzQ3g3MUZMR2dTUWc#invite&lt;/p&gt;
+&lt;p&gt;Please put both lines together in one line without any space in between them.  It will be nice if you can ask some of your friends (who may not even be taking this course) to give their feedback, based on their experience in CL-417.  Thanks. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="13667">
+        <name>Sorry I could not come to the Monday's class</name>
+        <firstpost>25378</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1362560807</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="25378">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362560807</created>
+            <modified>1362560807</modified>
+            <mailed>1</mailed>
+            <subject>Sorry I could not come to the Monday's class</subject>
+            <message>&lt;p&gt;Sorry I missed the last class.  I was ok until late afternoon.  Then I suddenly became unwell and could not even stand.  I later realised that I was close to getting a sun stroke.&lt;/p&gt;
+&lt;p&gt;In the next class, I will answer the questions of both lectures: 12th and 13th.  Please do ask your questions on the 13th lecture ASAP.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="13754">
+        <name>Slide number on your subject heading</name>
+        <firstpost>25566</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1362640279</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="25566">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362640279</created>
+            <modified>1362640279</modified>
+            <mailed>1</mailed>
+            <subject>Slide number on your subject heading</subject>
+            <message>&lt;p&gt;Can those of you who forgot to put the slide number in the subject heading of your post, please include it through an edit?  Thanks.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="14001">
+        <name>Lecture 14: no time limit for asking questions</name>
+        <firstpost>25990</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1362999080</timemodified>
+        <usermodified>12583</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="25990">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362965008</created>
+            <modified>1362965008</modified>
+            <mailed>1</mailed>
+            <subject>Lecture 14: no time limit for asking questions</subject>
+            <message>&lt;p&gt;As I started the discussion thread late, there is no time limit for you to ask quesitons.  Please go ahead and ask them.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26042">
+            <parent>25990</parent>
+            <userid>12583</userid>
+            <created>1362999080</created>
+            <modified>1362999080</modified>
+            <mailed>1</mailed>
+            <subject>slide 3</subject>
+            <message>&lt;p&gt;In this method are we going to cancel the effect of noise on output (assuming that output depends on past values of noise signal, say 10 samples- degree of C polynomial is 10, and there is delay of 5 samples in input output relation-k=-10) , by taking suitable control action?.&lt;/p&gt;
+&lt;p&gt;I think this method works only if the delay (K) is less than the degree of the C polynomial. What is your opinion?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="14633">
+        <name>Second Lab</name>
+        <firstpost>27150</firstpost>
+        <userid>20599</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1365745118</timemodified>
+        <usermodified>15477</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="27150">
+            <parent>0</parent>
+            <userid>20599</userid>
+            <created>1363611214</created>
+            <modified>1363611214</modified>
+            <mailed>1</mailed>
+            <subject>Second Lab</subject>
+            <message>&lt;p&gt;Dear Students,&lt;/p&gt;
+&lt;p&gt;See the Second Lab problem statement. You have to submit the first part i.e. the identification part by March 23, 2013 and the second part i.e. the controller implementation part by April 3, 2013.&lt;/p&gt;
+&lt;p&gt;For people who perform atleast one meaningful experiment by these deadlines, get an extention. For these students, the extention for the first part is till March 25, 2013 and for the second part the extention is till April 5, 2013.&lt;/p&gt;
+&lt;p&gt;Please note that all the submissions will be accepted till midnight 11:55 pm of the due date. No email submissions (partial or full) will be accepted, during or after the deadline.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27614">
+            <parent>27150</parent>
+            <userid>13030</userid>
+            <created>1363852449</created>
+            <modified>1363852762</modified>
+            <mailed>1</mailed>
+            <subject>HECKED</subject>
+            <message>&lt;p&gt;The website seems to be HECKED&lt;/p&gt;
+&lt;p&gt;I went to http://vlabs.iitb.ac.in/ first, then clicked on 'labs' which showed me http://vlabs.iitb.ac.in/labs.html. Everything seemed fine till now but when you click on '&lt;a href="http://vlabs.iitb.ac.in/sbhs/" target="_blank"&gt;Click to access Single Board Heater system&lt;/a&gt;' the attached print screen appears.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27739">
+            <parent>27150</parent>
+            <userid>13030</userid>
+            <created>1363882705</created>
+            <modified>1363882778</modified>
+            <mailed>1</mailed>
+            <subject>Still not working!</subject>
+            <message>&lt;p&gt;You might have not solved the problem correctly. The following error appears when I try to visit the website. The same error is appearing after 3 pm for sure.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27742">
+            <parent>27739</parent>
+            <userid>20599</userid>
+            <created>1363884113</created>
+            <modified>1363884113</modified>
+            <mailed>1</mailed>
+            <subject>Re: Still not working!</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;The server is hosted on the chemical engineering department network. The network of chem dept seems to be down. Hence there is problem accessing the sbhs vlabs website. You should be able to access the vlabs as soon as the dept network is up.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27743">
+            <parent>27150</parent>
+            <userid>23191</userid>
+            <created>1363884845</created>
+            <modified>1363884845</modified>
+            <mailed>1</mailed>
+            <subject>SBHS not working</subject>
+            <message>&lt;p&gt;when i click on SBHS it is taking me to link http://www.co-learn.in/web_sbhs/ and says page not found.&lt;/p&gt;
+&lt;p&gt;please solve it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27764">
+            <parent>27743</parent>
+            <userid>20599</userid>
+            <created>1363890314</created>
+            <modified>1363890314</modified>
+            <mailed>1</mailed>
+            <subject>Re: SBHS not working</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;Use this link vlabs.iitb.ac.in/sbhs/index.php to access the sbhs vlabs. This site is however inactive due to chem dept network outage.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27851">
+            <parent>27764</parent>
+            <userid>20599</userid>
+            <created>1363948029</created>
+            <modified>1363948404</modified>
+            <mailed>1</mailed>
+            <subject>Re: SBHS not working</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;The vlabs site is accessible since afternoon.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27866">
+            <parent>27150</parent>
+            <userid>13634</userid>
+            <created>1363952225</created>
+            <modified>1363952225</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;I'm getting an error saying that my SBHS device can't be found. Could you please look into this?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27883">
+            <parent>27150</parent>
+            <userid>14023</userid>
+            <created>1363956432</created>
+            <modified>1363956471</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;There is a misconfiguration in MySQL settings of the server. It is showing error.&lt;/p&gt;
+&lt;div&gt;
+&lt;div class="layout1"&gt;&lt;span style="color: #ff0000;"&gt;ERROR: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27888">
+            <parent>27150</parent>
+            <userid>15502</userid>
+            <created>1363957262</created>
+            <modified>1363957262</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;The following error is displayed when I am trying to login. Could you please look into it.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;ERROR: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27899">
+            <parent>27150</parent>
+            <userid>14023</userid>
+            <created>1363960153</created>
+            <modified>1363960153</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;I am not able to access the SBHS via python client. I did a little debugging. The client is showing "500 Internal Server Error", where the user is being authenticated.&lt;/p&gt;
+&lt;p&gt;I manually posted my username and password to that link via curl.&lt;br /&gt;The error is&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff0000;"&gt;(1045, "Access denied for user 'root'@'localhost' (using password: YES)")&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff0000;"&gt;&lt;br /&gt;&lt;span style="color: #000000;"&gt;I am attaching the HTML file I received with this error.&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27900">
+            <parent>27150</parent>
+            <userid>15502</userid>
+            <created>1363961196</created>
+            <modified>1363961196</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;I am also facing the same problem as above.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27908">
+            <parent>27150</parent>
+            <userid>15502</userid>
+            <created>1363963047</created>
+            <modified>1363963047</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;I am trying to connect to SBHS number-13 and now its shows ' SBHS device not found. Contact administrator. '&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27912">
+            <parent>27900</parent>
+            <userid>20599</userid>
+            <created>1363963835</created>
+            <modified>1363963835</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Dear Students,&lt;/p&gt;
+&lt;p&gt;Yes there were some problems. Everything has been fixed now. The lab is up and running.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27953">
+            <parent>27150</parent>
+            <userid>23191</userid>
+            <created>1364015500</created>
+            <modified>1364015500</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;dear sir,&lt;/p&gt;
+&lt;p&gt;its not working, when i click on SBHS, it is directing me to http://www.co-learn.in/web_sbhs/.&lt;/p&gt;
+&lt;p&gt;this time its completely out of order.&lt;/p&gt;
+&lt;p&gt;please resolve it.&lt;/p&gt;
+&lt;p&gt;whenever i have tried to do the lab its down or not working.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27984">
+            <parent>27150</parent>
+            <userid>18658</userid>
+            <created>1364035136</created>
+            <modified>1364035136</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>My machine no. is 3. I am getting an error "SBHS device not found. Please contact the administrator". Please look into it.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28000">
+            <parent>27150</parent>
+            <userid>13781</userid>
+            <created>1364040774</created>
+            <modified>1364040774</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Even I am getting the same error of SBHS device not found.please contact the administrator.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28004">
+            <parent>27150</parent>
+            <userid>23191</userid>
+            <created>1364044259</created>
+            <modified>1364044259</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>sir,
+i am unable to book a slot. 
+I am attaching the page after login. but when i click on the book slot, it says this facility is available after login. i don't know what it is saying as i have already entered my login and password. it never says your login or password is wrong. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28007">
+            <parent>27150</parent>
+            <userid>15100</userid>
+            <created>1364044633</created>
+            <modified>1364044633</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Even I am getting the same error as people have posted above : SBHS device not found, contact the administrator. Please solve this prob as soon as possible..&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28014">
+            <parent>27150</parent>
+            <userid>15521</userid>
+            <created>1364049427</created>
+            <modified>1364049427</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;"SBHS device not found. Please contact the administrator." This error is coming. Please look into this. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28016">
+            <parent>28014</parent>
+            <userid>20599</userid>
+            <created>1364053226</created>
+            <modified>1364053226</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;We will try to fix the problems by tomorrow afternoon. All submissions will be accepted by March 25, 2013 Monday midnight.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28045">
+            <parent>27150</parent>
+            <userid>23191</userid>
+            <created>1364103925</created>
+            <modified>1364104596</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;please solve my login issue.&lt;/p&gt;
+&lt;p&gt;after login to SBHS, i am getting this screen. unable to book slot for experiment.&lt;/p&gt;
+&lt;p&gt;thanks&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28060">
+            <parent>28045</parent>
+            <userid>17635</userid>
+            <created>1364115487</created>
+            <modified>1364115487</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Hello Jitendra,&lt;/p&gt;
+&lt;p&gt;I don't see any issue with this page. This is how it looks once you login. You can book slot by going to the Book slot tab on the same page.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28065">
+            <parent>28060</parent>
+            <userid>20599</userid>
+            <created>1364117997</created>
+            <modified>1364117997</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;We are facing some serious problems with the server after it was hacked. As a result we are stopping the vlabs server for a week. We hopefully expect to fix it in a week. Start experimenting after the "holi festival" week. You would be however intimated as soon as the server problem is completely resolved.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28091">
+            <parent>28065</parent>
+            <userid>12583</userid>
+            <created>1364133678</created>
+            <modified>1364133678</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;hi , I could do the experiment (part A) , completed  identification and submitted the results(on 23/03/2013). hope i dont need to repeat it again.&lt;/p&gt;
+&lt;p&gt;                                                                     bimal&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28103">
+            <parent>28060</parent>
+            <userid>23191</userid>
+            <created>1364142519</created>
+            <modified>1364142519</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>when i am trying to book slot it is saying please login to use this facility.
+i don't know what are other ways to login.
+</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28110">
+            <parent>27150</parent>
+            <userid>31087</userid>
+            <created>1364146662</created>
+            <modified>1364146662</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Some of you seem to have missed Rupak's post.  Basically the facility seem to have run into some difficulty after it was hacked.  Please see below Rupak's post.  Until the facility is restored, please do not waste your time attempting to do the lab.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;We are facing some serious problems with the server after it was hacked. As a result we are stopping the vlabs server for a week. We hopefully expect to fix it in a week. Start experimenting after the "holi festival" week. You would be however intimated as soon as the server problem is completely resolved.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28970">
+            <parent>28110</parent>
+            <userid>20599</userid>
+            <created>1364889723</created>
+            <modified>1364889723</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;The SBHS vlabs site is up and all the devices are working properly. The SBHS no. 5 was faulty and is replaced with a new board. Students using SBHS no. 5 are requested to repeat the step test experiment in case if they have already done. The deadline will be anounced soon. However, start experimenting and finish the lab as soon as possible.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29071">
+            <parent>27150</parent>
+            <userid>23190</userid>
+            <created>1364924924</created>
+            <modified>1364925104</modified>
+            <mailed>1</mailed>
+            <subject> Second Lab partA submission</subject>
+            <message>&lt;p&gt;I didn't submit second lab partA since the faciltiy was down. wanted to redo the experiment and was waiting for the facility to be up and running.( It was not communicated -  to submit with whatever available data.) But now partA submission link is removed. Please enble partA submission.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29146">
+            <parent>29071</parent>
+            <userid>20599</userid>
+            <created>1364980067</created>
+            <modified>1364980067</modified>
+            <mailed>1</mailed>
+            <subject>Re:  Second Lab partA submission</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;Please contiune to perform experiments. You would be intimated about the submission link, deadline etc soon.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29461">
+            <parent>29146</parent>
+            <userid>20599</userid>
+            <created>1365148160</created>
+            <modified>1365148225</modified>
+            <mailed>1</mailed>
+            <subject>Re:  Second Lab partA submission</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;The submission deadline for Second lab is 10 April, 2013 and you are expected to submit the second lab results by this date. There is a two days extension for this submission deadline. The extention deadline for second lab is 12 April, 2013. This deadline will not be further extended.&lt;/p&gt;
+&lt;p&gt;For submission, only the PartB submission link is active till 12 April. You can submit both Part A as well as Part B here. However, this link will take only one file. Hence, make sure you put both your PartA and Part B submissions in a folder, rename it with your vlabs username, zip/rar this folder and submit. This way, your submission will contain two separate folders PartA and PartB.&lt;/p&gt;
+&lt;p&gt;If you have any queries regarding second lab submissions then reply to this post.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="30501">
+            <parent>27150</parent>
+            <userid>15477</userid>
+            <created>1365737710</created>
+            <modified>1365737710</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;After logging in through the command prompt, it reports "no valid slot found" even after booking the slot.&lt;/p&gt;
+&lt;p&gt;Please look into this. My SBHS no. is 13.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="30523">
+            <parent>30501</parent>
+            <userid>15477</userid>
+            <created>1365745118</created>
+            <modified>1365745118</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab</subject>
+            <message>&lt;p&gt;The problem seems to have been solved.&lt;/p&gt;
+&lt;p&gt;I could log on to the slot booked at 11.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="14848">
+        <name>Quiz 7 answer sheets</name>
+        <firstpost>27520</firstpost>
+        <userid>17635</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363799648</timemodified>
+        <usermodified>17635</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="27520">
+            <parent>0</parent>
+            <userid>17635</userid>
+            <created>1363799648</created>
+            <modified>1363799648</modified>
+            <mailed>1</mailed>
+            <subject>Quiz 7 answer sheets</subject>
+            <message>&lt;p&gt;Dear students&lt;/p&gt;
+&lt;p&gt;Please bring your Quiz 7 answer sheets to the class tomorrow (March 21, 2013). We realised that we had deducted marks for some of the correct answers, by mistake. The papers will be re-evaluated and will be given back to you in the next class.&lt;/p&gt;
+&lt;p&gt;Rakhi &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="15032">
+        <name>Lab 1 Marks Uploaded</name>
+        <firstpost>27891</firstpost>
+        <userid>20599</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363957583</timemodified>
+        <usermodified>20599</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="27891">
+            <parent>0</parent>
+            <userid>20599</userid>
+            <created>1363957583</created>
+            <modified>1363957583</modified>
+            <mailed>1</mailed>
+            <subject>Lab 1 Marks Uploaded</subject>
+            <message>&lt;p&gt;Dear All,&lt;/p&gt;
+&lt;p&gt;    Marks for first lab have been uploaded. Please check. &lt;/p&gt;
+&lt;p&gt;- Ganesh&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="15739">
+        <name>Second Lab Doubts</name>
+        <firstpost>29110</firstpost>
+        <userid>14023</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1364980598</timemodified>
+        <usermodified>20599</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="29110">
+            <parent>0</parent>
+            <userid>14023</userid>
+            <created>1364969237</created>
+            <modified>1364969237</modified>
+            <mailed>1</mailed>
+            <subject>Second Lab Doubts</subject>
+            <message>&lt;h1&gt;&lt;strong&gt;Implementation on SBHS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;Based on the data collected in Part 1, I modelled the system and created a pole placement controller. Simulation of the controller on the transfer function with Xcos works correctly. But, I am not able to apply the controller on SBHS.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Approach: I modified the &lt;span style="font-family: courier new,courier,monospace;"&gt;steptest.sci&lt;/span&gt; file. The function &lt;span style="font-family: courier new,courier,monospace;"&gt;steptest&lt;/span&gt; now returns the temperature along with other variables. I feed the temperature back in the loop to the controller.&lt;/p&gt;
+&lt;p&gt;Problem: The function &lt;span style="font-family: courier new,courier,monospace;"&gt;steptest &lt;/span&gt;is showing errors "algebraic loop" when I put it with same clock as the controller. When I delay the controller by 1 second, the function does not give any output.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29149">
+            <parent>29110</parent>
+            <userid>20599</userid>
+            <created>1364980548</created>
+            <modified>1364980598</modified>
+            <mailed>1</mailed>
+            <subject>Re: Second Lab Doubts</subject>
+            <message>&lt;p&gt;Hello Amol,&lt;/p&gt;
+&lt;p&gt;The Algedric loop error occurs because the feedback has no delay factor and hence is expected at the input instantenously. This error can be avoided by adding a very small delay factor in the feedback loop (explore the palette browser of Xcos to get the delay block). The inroduction of this delay factor may however affect the performance and one should be aware of it.&lt;/p&gt;
+&lt;p&gt;The other way of clossing the loop is by directly writing the control law in the steptest.sci file. This is the easiest approach since you already have the heat, fan and temperature variables available.&lt;/p&gt;
+&lt;p&gt;Rupak&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="16393">
+        <name>Quiz marks</name>
+        <firstpost>30254</firstpost>
+        <userid>17635</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1366183247</timemodified>
+        <usermodified>17635</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="30254">
+            <parent>0</parent>
+            <userid>17635</userid>
+            <created>1365590439</created>
+            <modified>1365590439</modified>
+            <mailed>1</mailed>
+            <subject>Quiz marks</subject>
+            <message>&lt;p&gt;Quiz marks (until Quiz 16) have been uploaded. You may cross check them and report issues, if any. The marks for Quiz 17 - 20 will be uploaded soon.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="31631">
+            <parent>30254</parent>
+            <userid>17635</userid>
+            <created>1366183247</created>
+            <modified>1366183247</modified>
+            <mailed>1</mailed>
+            <subject>Re: Quiz marks</subject>
+            <message>&lt;p&gt;Marks of all quizzes have now been uploaded. Please have a look. Those of you who have not collected quiz papers can collect them from me (at Automation Lab, Second Floor, Chem Engg Dept)  today from 5:00 -5:30 pm or tomorrow 12:30 - 1:00 pm.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="18173">
+        <name>Returning of Aakash tablets</name>
+        <firstpost>33754</firstpost>
+        <userid>17635</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1367328793</timemodified>
+        <usermodified>17635</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="33754">
+            <parent>0</parent>
+            <userid>17635</userid>
+            <created>1367328793</created>
+            <modified>1367328793</modified>
+            <mailed>1</mailed>
+            <subject>Returning of Aakash tablets</subject>
+            <message>&lt;p&gt;Dear students&lt;/p&gt;
+&lt;p&gt;We will collect the Aakash tablets on 02-05-2013. So Please bring it along with you to the venue of CL 692 end sem exam.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="18195">
+        <name>End sem exam</name>
+        <firstpost>33808</firstpost>
+        <userid>15100</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1367463759</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="33808">
+            <parent>0</parent>
+            <userid>15100</userid>
+            <created>1367348942</created>
+            <modified>1367348942</modified>
+            <mailed>1</mailed>
+            <subject>End sem exam</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;    Is the end sem open book exam?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="33888">
+            <parent>33808</parent>
+            <userid>31087</userid>
+            <created>1367405421</created>
+            <modified>1367405623</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;There will be two parts to the exam.  The first part will be a closed book exam.  It will be for about 30 to 45minutes.  After you return this paper, you can attempt the second part of the paper, which will be open book.  &lt;/p&gt;
+&lt;p&gt;In the mid semester exam, some students wanted to bring in computers to use an e-book version.  I did not permit this, however.  We will follow the same policy in the final exam also: no computers or mobile phones will be allowed in the open book part also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="33935">
+            <parent>33888</parent>
+            <userid>15100</userid>
+            <created>1367421481</created>
+            <modified>1367421481</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;    What is the weightage of End sem exam? And what is the distribution of closed book and open book exam?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Thank you&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="33962">
+            <parent>33935</parent>
+            <userid>31087</userid>
+            <created>1367428975</created>
+            <modified>1367428975</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;30% for closed book part.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34000">
+            <parent>33888</parent>
+            <userid>19471</userid>
+            <created>1367460349</created>
+            <modified>1367460349</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Just for a last minute go-through,&lt;/p&gt;
+&lt;p&gt;can you upload any of the last years' endsems' papers?&lt;/p&gt;
+&lt;p&gt;It would be very helpful for self-evaluation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34003">
+            <parent>34000</parent>
+            <userid>31087</userid>
+            <created>1367463485</created>
+            <modified>1367463485</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;I am attaching the last year's final exam paper.&lt;/p&gt;
+&lt;p&gt;Please note that most of the exercise problems at the end of the chapters were asked in some exam or other.  As a result, these problems also will give an idea of what type of questions will be asked.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34005">
+            <parent>33808</parent>
+            <userid>31087</userid>
+            <created>1367463714</created>
+            <modified>1367463759</modified>
+            <mailed>1</mailed>
+            <subject>Re: End sem exam</subject>
+            <message>&lt;p&gt;The following instructions will be given in Today's exam:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No computer/mobile phone is allowed in the exam hall.&lt;/li&gt;
+&lt;li&gt;Part A is closed book, notes, exam.  One can take up to 45 minutes for this part.  Part A has to be completed first.&lt;/li&gt;
+&lt;li&gt;Part B is open book, notes, exam.  &lt;/li&gt;
+&lt;li&gt;No borrowing of anything (pens, pencils, erasers, rulers, calculator, books, notes, etc.) is allowed.  For every borrowing, there is a penalty of 20 marks for borrower and lender.&lt;/li&gt;
+&lt;/ul&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="18278">
+        <name>Lab 2 marks uploaded</name>
+        <firstpost>34036</firstpost>
+        <userid>20599</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1367565107</timemodified>
+        <usermodified>20599</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="34036">
+            <parent>0</parent>
+            <userid>20599</userid>
+            <created>1367478102</created>
+            <modified>1367478102</modified>
+            <mailed>1</mailed>
+            <subject>Lab 2 marks uploaded</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;Marks for second lab have beed uploaded.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;- Ganesh&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34145">
+            <parent>34036</parent>
+            <userid>13634</userid>
+            <created>1367511465</created>
+            <modified>1367511465</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lab 2 marks uploaded</subject>
+            <message>&lt;p&gt;I had submitted part A of my second lab well ahead of the deadline, and yet my marks have not been entered. Is the grade for the part B inclusive of part A?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34175">
+            <parent>34036</parent>
+            <userid>23191</userid>
+            <created>1367555917</created>
+            <modified>1367555917</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lab 2 marks uploaded</subject>
+            <message>&lt;p&gt;same for me as well. my marks for part A of second lab are not uploaded. i have submitted my part A with part B submission as directed.&lt;/p&gt;
+&lt;p&gt;please clarify on the issue.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34184">
+            <parent>34036</parent>
+            <userid>13355</userid>
+            <created>1367560920</created>
+            <modified>1367560920</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lab 2 marks uploaded</subject>
+            <message>&lt;p&gt;My part A submission has not been graded&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34190">
+            <parent>34036</parent>
+            <userid>20599</userid>
+            <created>1367565107</created>
+            <modified>1367565107</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lab 2 marks uploaded</subject>
+            <message>&lt;p&gt;Dear students,&lt;/p&gt;
+&lt;p&gt;    Please note that marks entered in the column of Lab 2 - B are the total marks for Lab 2.&lt;/p&gt;
+&lt;p&gt;Regards,&lt;/p&gt;
+&lt;p&gt;Ganesh&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="18551">
+        <name>End Sem Paper</name>
+        <firstpost>34594</firstpost>
+        <userid>15100</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1368261614</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="34594">
+            <parent>0</parent>
+            <userid>15100</userid>
+            <created>1368050250</created>
+            <modified>1368050250</modified>
+            <mailed>1</mailed>
+            <subject>End Sem Paper</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;    It would be very helpful if we can see our end sem papers. Can you please arrange for it?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34613">
+            <parent>34594</parent>
+            <userid>31087</userid>
+            <created>1368084752</created>
+            <modified>1368084752</modified>
+            <mailed>1</mailed>
+            <subject>Re: End Sem Paper</subject>
+            <message>&lt;p&gt;I am at NIT Durgapur now.  I will be returning tomorrow night only.  We can make the papers available on Saturday afternoon.&lt;/p&gt;
+&lt;p&gt;The students who did not attend the class regularly may not know that all the questions of Part A are based on the classroom discussion, which itself was based on the questions posted in the Moodle forum.  Answers to all the questions of Part A are available on the Moodle page.  All that you have to do is to click my picture from any discussion thread and then click the posts.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="34680">
+            <parent>34613</parent>
+            <userid>31087</userid>
+            <created>1368261614</created>
+            <modified>1368261614</modified>
+            <mailed>1</mailed>
+            <subject>Re: End Sem Paper</subject>
+            <message>&lt;p&gt;We want to know whether anyone is interested in coming for this.  If I get any response to this post, we can meet at 4pm in my office.  If I get no response, we will not be available.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="18590">
+        <name>End sem marks</name>
+        <firstpost>34699</firstpost>
+        <userid>23191</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1368628563</timemodified>
+        <usermodified>23191</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="34699">
+            <parent>0</parent>
+            <userid>23191</userid>
+            <created>1368628563</created>
+            <modified>1368628563</modified>
+            <mailed>1</mailed>
+            <subject>End sem marks</subject>
+            <message>dear sir,
+when we wil get our final marks/grades</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

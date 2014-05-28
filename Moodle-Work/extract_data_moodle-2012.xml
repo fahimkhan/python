@@ -1,0 +1,1489 @@
+<DISCUSSIONS>
+  <DISCUSSION>
+    <ID>2871</ID>
+    <LECTURE>Questions for First Lecture on 10 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Post your questions here</SUBJECT>
+        <MESSAGE>Please post your questions on Lecture 1 here. </MESSAGE>
+        <SUBJECT>Question for Lecture 1</SUBJECT>
+        <MESSAGE>&lt;p&gt;Question for Lecture 1&lt;/p&gt;
+&lt;p&gt;What is difference between Model Predictive Control, Adaptive Control and Control by linearizing at operating point or piecewise linear Control?&lt;/p&gt;
+&lt;p&gt;-M.Y.Dixit&lt;/p&gt;
+&lt;p&gt;11v020002&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Post your questions here</SUBJECT>
+        <MESSAGE>What is the order of the time step between two samples of the RPC client-server problem? Is it milliseconds/seconds or even more? I guess it would depend on the capability of the server and the average RIS. </MESSAGE>
+        <SUBJECT>Re: Post your questions here</SUBJECT>
+        <MESSAGE>I have a doubt in the ZOH part.
+
+When we are using ZOH, and if the plant or a subsequent analog controller has a diffrentiator, then at the point when we switch between the voltages, there will be an infinite peak. How is this taken care of?</MESSAGE>
+        <SUBJECT>Re: Post your questions here</SUBJECT>
+        <MESSAGE>&lt;p&gt;ZOH part is used before A/D&#160;which require constant voltage for conversion time. A/D should be so selected that&#160;in its conversion time&#160;it will&#160;see nigligible change in voltage even when input voltage is changing at its maximum rate.&lt;/p&gt;
+&lt;p&gt;Then only proper discretization of input is possible.&lt;/p&gt;
+&lt;p&gt;When used&#160;after D/A, in absence of any knowledge of what output should be between sampling instants, ZOH is the best output.&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Post your questions here</SUBJECT>
+        <MESSAGE>This is addressed by the sampling theorem, which will be covered later in the course.&lt;br /&gt;&lt;br /&gt;The idea is that you should use a very high frequency of sampling in this case. So high, that you will essentially trace the continuous curve.&lt;br /&gt;&lt;br /&gt;Please note that if you have a &amp;quot;pure&amp;quot; differentiator, you need infinite sampling rate. Fortunately, pure differentiators do not arise in the plant. We also do not implement pure differentiators, as it is physically impossible.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question For Lecture 1 of CL-692</SUBJECT>
+        <MESSAGE>What is difference between Model Predictive Control, Adaptive Control and Control by linearizing at operating point or piecewise linear Control?</MESSAGE>
+        <SUBJECT>Re: Question For Lecture 1 of CL-692</SUBJECT>
+        <MESSAGE>In model predictive control, models are obtained online somewhat manually and control implemented automatically. In adaptive control, the entire process, including the model development, is automated. The control strategies implemented for these two could be anything: linear or nonlinear. The piecewise linear control strategy is linear and the control strategy could be anything, as it is not mentioned.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question For Lecture 1: ZOH</SUBJECT>
+        <MESSAGE>What are the alternatives to ZOH? and why is it popularly used? Specifically how is it easy to implement than other methods from previous question?
+
+Akshansh Gupta</MESSAGE>
+        <SUBJECT>Re: Question For Lecture 1: ZOH</SUBJECT>
+        <MESSAGE>&lt;p&gt;There are higher order holds, in which the&#160;data value&#160;decrease as per known equation with time, like&#160;fall in value at some fixed&#160;linear or exponebtial rate. Suppose a voltage of 2 V is&#160;given to&#160;ZOH at t = 0, it will be 2 V,&#160;at t=&#160;t' microsec, say, in case of ZOH.&#160;It can be 2-kt' V where k is const &amp;gt;0 if it is dropping linearly in hold. It can be 2*exp(-t'/T) V where the hold is such that value decreases exponentially, T is time constant of&#160;exponent. Some times application is such that the value in future time of hold is expected to follow such characteristics, other than ZOH.&lt;/p&gt;
+&lt;p&gt;For normal A/D concersion and D/A, it is expected that the value of signal should be steady during conversion time for accuracy requirement, then ZOH is most desired.&#160;&#160;&lt;/p&gt;
+&lt;p&gt;Holding the value constant is easier that ensuring that it follows a known characteristics. However even ZOH has some droop rate.&lt;/p&gt;
+&lt;p&gt;-Dixit&#160;&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question For Lecture 1: ZOH</SUBJECT>
+        <MESSAGE>You can use any kind of interpolation between the two data points that you have, linear, quadratic, cubic and so on. This is popularly used because it is the easiest to implement as I dont have to remember or store in my memory more data, only the two data points are needed.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question on Taylor Series Approximation</SUBJECT>
+        <MESSAGE>Sir
+
+When we did the Taylor Series approximation for the magnetic ball problem, we assumed a small deviation from the equilibrium position. 
+
+What will happen when we have a large deviation? We cannot use Taylor approximation then. So what do we do if we have to change our system state completely, go to another equilibrium point?</MESSAGE>
+        <SUBJECT>Re: Question on Taylor Series Approximation</SUBJECT>
+        <MESSAGE>Most of the times the controllers designed for a steady state model work reasonably well at a different operating point as well. &lt;br /&gt;&lt;br /&gt;When a new operating point is so different that a previously designed controller does not work, one has to come up with a different controller. One can go for gain scheduling, model predictive control, adaptive control, etc.&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2884</ID>
+    <LECTURE>Questions for Second Lecture on 13 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Post your questions for second lecture only here</SUBJECT>
+        <MESSAGE>Not much is covered in the first lecture - it is only an introduction. In view of this, I suggest that we take up the second lecture also on Tuesday. Please post at least one question from the second lecture &lt;span style="color: rgb(255, 0, 0);"&gt;as a reply to this post&lt;/span&gt;.&lt;br /&gt;&lt;br /&gt;The quiz will be based on both the lectures. If you don't have any question on the first lecture, it is ok - you don't have to ask one. But you must post at least one question on the second lecture.&lt;br /&gt;&lt;br /&gt;You may not have any question based on the lecture - everything may seem to be clear to you. But if you read the textbook (Digital Control by Moudgalya, Wiley India, 2009), you will definitely have doubts. Please note that the portion for the exams is based on the book and not restricted to what is covered in the lectures. So from the point of understanding the subject, doing the assignments and also for doing well in the exams, you must read the textbook.&lt;br /&gt;&lt;br /&gt;I may have to go to Delhi on Friday - to be confirmed. If this happens, the class to be held on Friday will be cancelled.&lt;br /&gt;&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Post your questions for second lecture only here</SUBJECT>
+        <MESSAGE>&lt;font lang="JA" face="CMR10" size="2"&gt;&lt;font lang="JA" face="CMR10" size="2"&gt;
+&lt;p align="left"&gt;Impulse response method of obtaining the response to arbitrary input depend on&#160; convolution summation from -infinity to + infinity, as initial conditions are assumed to be zero.In contrast the concept of state permit predicting future output based on present state and present and future inputs, no past inputs are required. Is there is way in which the non zero initial conditions can be directly taken care in impulse response method, eliminating need for past input?&lt;/p&gt;
+&lt;p align="left"&gt;-Dixit&lt;/p&gt;&lt;/font&gt;&lt;/font&gt;</MESSAGE>
+        <SUBJECT>Re: Post your questions for second lecture only here</SUBJECT>
+        <MESSAGE>Yes, it is indeed possible through the superposition theorem. It is covered later in the course. </MESSAGE>
+        <SUBJECT>Re: Post your questions for second lecture only here</SUBJECT>
+        <MESSAGE>On Slide 27 is the output y(n) a linear combination of the states?
+</MESSAGE>
+        <SUBJECT>Re: Post your questions for second lecture only here</SUBJECT>
+        <MESSAGE>Yes, for the systems considered in this course. If it is a nonlinear function, we linearise it around the operating point and use. In a nonlinear control course, one deals with certain types of nonlinear functions directly. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2946</ID>
+    <LECTURE>Questions for the third Lecture on 17 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Z transform and Causal system</SUBJECT>
+        <MESSAGE>On slide 22, shouldn't x_0 be zero so as to make the system causal?
+
+Has causality got anything to do with Z transform?
+
+-Dhruv</MESSAGE>
+        <SUBJECT>Re: Z transform and Causal system</SUBJECT>
+        <MESSAGE>Sir
+
+What is meant by bounded input? Does it mean that the number of inputs are given? As in n is bounded?</MESSAGE>
+        <SUBJECT>Re: Z transform and Causal system</SUBJECT>
+        <MESSAGE> No, $$x_0$$ need not be zero to make the system causal. If we insist that a causal system has to be at zero state, the causality concept itself becomes useless. &lt;br /&gt;&lt;br /&gt;The output of a causal system responds to stimulus only - i.e. it obeys cause and effect model; it does not predict. &lt;br /&gt;&lt;br /&gt;Imagine a system at an initial state $$x_0\neq 0$$. Suppose that it gets excited and suppose that only after that it moves away from $$x_0$$. It is definitely causal. &lt;br /&gt;&lt;br /&gt;The concept of initial rest is useful, however, to arrive at the condition on causality: g(k)=0, for all k&amp;lt;0. &lt;br /&gt;&lt;br /&gt;Superposition principle is used to handle systems that are not initially at rest.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Z transform and Causal system</SUBJECT>
+        <MESSAGE>No, bounded input means the &amp;quot;magnitude&amp;quot; of the input is bounded. For example, if we want to study the effect of a step input, its &amp;quot;height&amp;quot; has to be bounded. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for third lecture - non-linear cascade</SUBJECT>
+        <MESSAGE>Suppose&#160;we have two non linear systems in cascade such that the nonlinearity of the first is exactly cancelled by nonlinearity of the second. Can the cascade of these two systems be considered linear for its input-output performance and stability? </MESSAGE>
+        <SUBJECT>Re: Question for third lecture - non-linear cascade</SUBJECT>
+        <MESSAGE>Yes, you can do it, if the nonlinearity is &amp;quot;exactly&amp;quot; cancelled. But the predicted and the actual output of the first system may not be the same. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Final Value Theorem</SUBJECT>
+        <MESSAGE>Why a simple pole is required at z = 1? I didn't get the meaning of this statement explaining the above condition: "This allows the important situation of stable systems being excited by a unit step signal".
+
+Akshansh Gupta</MESSAGE>
+        <SUBJECT>Re: Final Value Theorem</SUBJECT>
+        <MESSAGE>This is because the Z-transform of a step signal is $$\frac z{z-1}$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Causal system</SUBJECT>
+        <MESSAGE>Are all real systems causal? How can a system be identified as causal?</MESSAGE>
+        <SUBJECT>Re: Causal system</SUBJECT>
+        <MESSAGE>Yes, most systems are causal. A system that will only respond based on the input it receives is a causal system. A causal system does not do something arbitrarily on its own. &lt;br /&gt;&lt;br /&gt;A causal system obeys the cause and effect model.&lt;br /&gt;&lt;br /&gt;A living being is possibly an example of a noncausal system.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question on Absolute convergence</SUBJECT>
+        <MESSAGE>If a series converges absolutely, it may not have a closed form solution, in that case how do we use the Z-transform of this sequence in finding the convolution of the it with another sequence.&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Question on Absolute convergence</SUBJECT>
+        <MESSAGE>Your statement &amp;quot;If a series converges absolutely, it may not have a closed form solution&amp;quot; is not clear. Have I made this statement? </MESSAGE>
+        <SUBJECT>Re: Question on Absolute convergence</SUBJECT>
+        <MESSAGE>What I meant was if we take the Z-transform of a sequence and prove that it converges absolutely for certain z by showing that the sum is less than a certain value/expression(which we can call the upper bound), it may not always be the case that it converges to this value, also we may not be able to find a lower bound. In this case is how can we use the Z-transform approach in finding the convolution of this sequence with another. &lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question on Absolute convergence</SUBJECT>
+        <MESSAGE>The only problem we may have is that the series may converge to $$-\infty$. But because of absolute convergence, this cannot happen either. As a result, the sum remains finite. Hence, we can work with it. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Z transforms of two multiplied functions</SUBJECT>
+        <MESSAGE>If one function diverges and another one converges can we tell anything about the converges or divergence about their multiplication? </MESSAGE>
+        <SUBJECT>Re: Z transforms of two multiplied functions</SUBJECT>
+        <MESSAGE>I don't understand this question. Unbounded functions can also have Z-transforms. For example, the Z-transform of a ramp exists! </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Post your questions to the third lecture here</SUBJECT>
+        <MESSAGE> Sorry, I forgot to create this thread. Please post your questions as a reply to this. At 2pm, I will convert this Forum to a normal forum, because, by then all of you would have posted your first questions.&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Question for Lecture 3:- Linearity of nonlinear cascade</SUBJECT>
+        <MESSAGE>Suppose&#160;we have two non linear systems in cascade such that the nonlinearity of the first is exactly cancelled by nonlinearity of the second. Can the cascade of these two systems be considered linear for its input-output performance and stability? </MESSAGE>
+        <SUBJECT>Linearity and commutability of convolution</SUBJECT>
+        <MESSAGE>Sir,
+Only From the impulse response g(n) can one deduce if it is the response of an I/O LTI and hence know if convolution commutabilty applies?</MESSAGE>
+        <SUBJECT>Re: Post your questions to the third lecture here</SUBJECT>
+        <MESSAGE>Just reposting my question on this thread.
+
+Sir
+
+What is meant by bounded input? Does it mean that the number of inputs are given? As in n is bounded?</MESSAGE>
+        <SUBJECT>Re: Post your questions to the third lecture here</SUBJECT>
+        <MESSAGE>No, it means that the magnitude of the signal is bounded. In other words, in the case of a step input, the height is bounded. </MESSAGE>
+        <SUBJECT>Re: Question for Lecture 3:- Linearity of nonlinear cascade</SUBJECT>
+        <MESSAGE>I think it should be possible. And also I feel that not always linear systems need to be consist of linear parts only. Some linear functions albeit systems may be realized by combining two non linear systems which can give effect of a linear system.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Z Transforms for continuous systems</SUBJECT>
+        <MESSAGE>Is it possible to develop generalized equations for the z transforms of integrals and derivatives ?</MESSAGE>
+        <SUBJECT>Re: Z Transforms for continuous systems</SUBJECT>
+        <MESSAGE>What is a generalised equation? </MESSAGE>
+        <SUBJECT>Re: Z Transforms for continuous systems</SUBJECT>
+        <MESSAGE>In the form of numerator and denominator .</MESSAGE>
+        <SUBJECT>Re: Z Transforms for continuous systems</SUBJECT>
+        <MESSAGE>Integrals and derivatives do not exactly exist in discrete time systems. We can, of course, approximate them. Once approximated, we can find the Z-transform of integrals and derivatives. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Relation of stability of a system with ROC</SUBJECT>
+        <MESSAGE>Stability of a system can be checked whether its pole lies inside unit circle or not.               Is it important to see region of convergence(ROC) always to find the nature of the system. If not, what is the significance of ROC in real world.</MESSAGE>
+        <SUBJECT>Re: Relation of stability of a system with ROC</SUBJECT>
+        <MESSAGE>It is also used to separate causal systems from noncausal systems. For example, $$\dfrac z{z-1}$$ can have one of two time sequences as its inverse with one being causal and the other noncausal. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2961</ID>
+    <LECTURE>Questions for the fourth Lecture on 20 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Question for Lecture-4: Condition of absolute convergence of impulse response</SUBJECT>
+        <MESSAGE>&lt;p&gt;Q.1 The condition for absolute convergence of impulse response for BIBO stability is only necessary or both necessary and sufficient? &lt;/p&gt;
+&lt;p&gt;Q2. In Jury's stability rule if any &amp;quot;a&lt;sub&gt;o&lt;/sub&gt;&lt;sup&gt;m&lt;/sup&gt;&amp;quot; is zero,&#160; then how to determine if poles lie outside unit circle or inside?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question for Lecture-4: Condition of absolute convergence of impulse response</SUBJECT>
+        <MESSAGE>I think as it is given as "iff" it is both necessary and sufficient.</MESSAGE>
+        <SUBJECT>Re: Question for Lecture-4: Condition of absolute convergence of impulse response</SUBJECT>
+        <MESSAGE> As Akshansh mentioned, iff is equivalent to necessary and sufficient.&lt;br /&gt;&lt;br /&gt;It is similar to what one does in continuous time control. In the place of $$a_0$$, put an $$\varepsilon$$, and study the limiting case.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Causality</SUBJECT>
+        <MESSAGE>Sir, is the example of the moving average filter in lecture four that averages over u(n+1),u(n) and u(n-1) an example of a noncausal system?</MESSAGE>
+        <SUBJECT>Re: Causality</SUBJECT>
+        <MESSAGE>I don't think its a non causal system. We will calculate the moving average of a system whose complete output we would already know.</MESSAGE>
+        <SUBJECT>Re: Causality</SUBJECT>
+        <MESSAGE>Why is it non-causal? Moving average output is available after n+1 instant. This means output&#160;response&#160;is causal and has some time-constant.&#160;</MESSAGE>
+        <SUBJECT>Re: Causality</SUBJECT>
+        <MESSAGE>Yes, it is noncausal. When the independent variable is not time, this methodology is useful. An example application is image processing. There, we may send samples and reconstruct an image. In the place of time axis, we may have displacement and hence all the signals are available. So, &amp;quot;noncausal&amp;quot; filters can be used in this case. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Contour Integration for finding inverse Z-transform</SUBJECT>
+        <MESSAGE>I have a doubt in the Cauchy Integral theorem that we use while deriving the Contour integration method. Why is the integral term 0 in case k is not equal to n. When n is greater than k, the power of z is greater than or equal to 0, hence the function is holomorphic which makes the integral 0, but what about the case when n is less than k, is the function still holomorphic? </MESSAGE>
+        <SUBJECT>Re: Contour Integration for finding inverse Z-transform</SUBJECT>
+        <MESSAGE>You can learn more about Cauchy Integral theorem at http://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem. For $$k=n$$, you will integrate 1/z over a contour. This URL shows that this integral is $$2\pi j$$. &lt;br /&gt;&lt;br /&gt;Those who are not familiar with this topic need not worry. The main emphasis of this course is the second part of the textbook.&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Contour Integration for finding inverse Z-transform</SUBJECT>
+        <MESSAGE>The integration around the pole can be carried out by switching to polar form:
+
+$$\oint \frac{1}{z} \operatorname{d}z=\oint \frac{1}{{|z|}e^{\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right)
+=\oint \frac{j}{j}\operatorname{d}\theta=\big 1|^{2\pi}_0=2\pi$$
+
+$$\oint \frac{1}{z^2} \operatorname{d}z=\oint \frac{1}{{|z|^2}e^{2\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right)
+=\oint \frac{1}{{|z|}}je^{-\theta j} \operatorname{d}\theta=-\frac{e^{-\theta j}}{{|z|}}\big |^{2\pi}_0=-\frac{1}{|z|}+\frac{1}{|z|}=0$$</MESSAGE>
+        <SUBJECT>Re: Contour Integration for finding inverse Z-transform</SUBJECT>
+        <MESSAGE>I am re-sending this post. I have now everyone compulsorily subscribed to this forum. I have to see how to make this the default for future postings also. Dhruv posted this reply on the Forum:&lt;br /&gt;&lt;br /&gt;&lt;a href="../../filter/tex/displaytex.php?%5Coint+%5Cfrac%7B1%7D%7Bz%7D+%5Coperatorname%7Bd%7Dz%3D%5Coint+%5Cfrac%7B1%7D%7B%7B%7Cz%7C%7De%5E%7B%5Ctheta+j%7D%7D+%5Coperatorname%7Bd%7D%5Cleft%28%7Cz%7Ce%5E%7B%5Ctheta+j%7D%5Cright%29%0D%0A%3D%5Coint+%5Cfrac%7Bj%7D%7Bj%7D%5Coperatorname%7Bd%7D%5Ctheta%3D%5Cbig+1%7C%5E%7B2%5Cpi%7D_0%3D2%5Cpi" title="TeX" target="popup"&gt;&lt;img src="../../filter/tex/pix.php/8752459440abc6887172f6d8b694f06a.png" alt="\oint \frac{1}{z} \operatorname{d}z=\oint \frac{1}{{|z|}e^{\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right) =\oint \frac{j}{j}\operatorname{d}\theta=\big 1|^{2\pi}_0=2\pi" title="\oint \frac{1}{z} \operatorname{d}z=\oint \frac{1}{{|z|}e^{\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right) =\oint \frac{j}{j}\operatorname{d}\theta=\big 1|^{2\pi}_0=2\pi" class="texrender" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href="../../filter/tex/displaytex.php?%5Coint+%5Cfrac%7B1%7D%7Bz%5E2%7D+%5Coperatorname%7Bd%7Dz%3D%5Coint+%5Cfrac%7B1%7D%7B%7B%7Cz%7C%5E2%7De%5E%7B2%5Ctheta+j%7D%7D+%5Coperatorname%7Bd%7D%5Cleft%28%7Cz%7Ce%5E%7B%5Ctheta+j%7D%5Cright%29%0D%0A%3D%5Coint+%5Cfrac%7B1%7D%7B%7B%7Cz%7C%7D%7Dje%5E%7B-%5Ctheta+j%7D+%5Coperatorname%7Bd%7D%5Ctheta%3D-%5Cfrac%7Be%5E%7B-%5Ctheta+j%7D%7D%7B%7B%7Cz%7C%7D%7D%5Cbig+%7C%5E%7B2%5Cpi%7D_0%3D-%5Cfrac%7B1%7D%7B%7Cz%7C%7D%2B%5Cfrac%7B1%7D%7B%7Cz%7C%7D%3D0" title="TeX" target="popup"&gt;&lt;img src="../../filter/tex/pix.php/80dcfb7b718317a2324ed466e6489942.png" alt="\oint \frac{1}{z^2} \operatorname{d}z=\oint \frac{1}{{|z|^2}e^{2\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right) =\oint \frac{1}{{|z|}}je^{-\theta j} \operatorname{d}\theta=-\frac{e^{-\theta j}}{{|z|}}\big |^{2\pi}_0=-\frac{1}{|z|}+\frac{1}{|z|}=0" title="\oint \frac{1}{z^2} \operatorname{d}z=\oint \frac{1}{{|z|^2}e^{2\theta j}} \operatorname{d}\left(|z|e^{\theta j}\right) =\oint \frac{1}{{|z|}}je^{-\theta j} \operatorname{d}\theta=-\frac{e^{-\theta j}}{{|z|}}\big |^{2\pi}_0=-\frac{1}{|z|}+\frac{1}{|z|}=0" class="texrender" /&gt;&lt;/a&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Shannan Theorem</SUBJECT>
+        <MESSAGE>In the example given in video about cos [2*pi*t/8] and cos [2*pi*7t/8], I had a doubt about their equality. According to the graph they are equal only at 1 sec, 2 sec etc. Lets say I sample at 1.5 sec, 2.5 sec etc they will not be equal then for the same sampling rate?</MESSAGE>
+        <SUBJECT>Re: Shannan Theorem</SUBJECT>
+        <MESSAGE>They will not be equal. Because for a different sampling rate, we will not get u2[n] = u1[n]. It is only for the case of Ts = 1 second that they are equal.
+
+Sir, does this mean that our input signal can lead to a totally different response if the sampling rate is changed?</MESSAGE>
+        <SUBJECT>Re: Shannan Theorem</SUBJECT>
+        <MESSAGE>In my question I mentioned same sampling rate. My doubt was that should &amp;quot;when&amp;quot; we start the sampling affect the response? </MESSAGE>
+        <SUBJECT>Re: Shannan Theorem</SUBJECT>
+        <MESSAGE>Example is demonstrating that signal with freq 7/8Hz can be misinterpreted as some low frequency signal, due to inadequately less sampling frequency, irrespective of when you start sampling. However signal with freq 1/8 Hz, will not be misinterpreted in that way as sampling frequency is adequate. </MESSAGE>
+        <SUBJECT>Re: Shannan Theorem</SUBJECT>
+        <MESSAGE>Yes, different sampling times could improve the situation. But we are worried about the worst case situation. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Z transform inverse</SUBJECT>
+        <MESSAGE>During inversion isn't it necessary to be aware of ROC for Z? </MESSAGE>
+        <SUBJECT>Re: Z transform inverse</SUBJECT>
+        <MESSAGE>Yes it is absolutely necessary. In fact with different ROC you will get different inversions as given on Page 101 and 102 [Example 4.31 and 4.33].</MESSAGE>
+        <SUBJECT>Re: Z transform inverse</SUBJECT>
+        <MESSAGE>Yes, one must. Book&#160;gives example of same Z tranform but different inverse Z transform depending on ROC.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Continuous signal reconstruction</SUBJECT>
+        <MESSAGE>Can we employ Spline interpolation technique to reconstruct continuous signals, if the sampling frequency is less than max frequency?</MESSAGE>
+        <SUBJECT>Re: Continuous signal reconstruction</SUBJECT>
+        <MESSAGE>&lt;p&gt;If sampling is less than max frequency, one may miss that frequency completely. However if smpling frequency is only slightly less than max frequency and you know the shape of signal, you can do the fitting, but it may give resolution loss in amplitude. For no loss of information, it should be sampled at a freqency&#160;sufficiently higher than twice the max. frequency.&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Continuous signal reconstruction</SUBJECT>
+        <MESSAGE>The interpolation technique given by Shannon is the most optimal. In fact, it is EXACT. Zero Order Hold is an approximation. Spline may be better, but it will still be an approximation. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Real life examples</SUBJECT>
+        <MESSAGE>Sir
+
+We were sampling the input signal of the form  u(n) = Acos(2pifn + theta). Can you give an example of real life industry where such an input signal is used. I understand it mathematically, but a physical example would be better, like a signal to a valve, or some switch.</MESSAGE>
+        <SUBJECT>Re: Real life examples</SUBJECT>
+        <MESSAGE>The study of such a wave form is like the study of a basis function. Using the basis function, one can construct any function. In a similar way, all periodic waveforms can be written as a sum of sinusoids. As a result, if one knows about a sine function, one can know about all periodic functions.&lt;br /&gt;&lt;br /&gt;For non periodic wave forms, we use Fourier Transform.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Causality and Bibo Stability</SUBJECT>
+        <MESSAGE>On slide 20 why are we saying only for casual system that we need BIBO stability is required? 
+
+Even for non-causal systems also BIBO stability will be needed for DTFT.</MESSAGE>
+        <SUBJECT>Re: Causality and Bibo Stability</SUBJECT>
+        <MESSAGE>Which slide 20 are you talking about? I don't see this in slide 20. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Partial Fractions</SUBJECT>
+        <MESSAGE>Sir,
+I just wanted to know what are the conditions for which the partial fraction method that you have described in class can be used?</MESSAGE>
+        <SUBJECT>Re: Partial Fractions</SUBJECT>
+        <MESSAGE>They work in almost all real life situations. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Alias example on slide 19</SUBJECT>
+        <MESSAGE>What if the signal u1(n) is = sin (wn)? The  -pi to pi limitation doesn't work. How can we explain that?</MESSAGE>
+        <SUBJECT>Re: Alias example on slide 19</SUBJECT>
+        <MESSAGE>Not sure of your question. Please explain your question better. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Filter range of a periodic signal</SUBJECT>
+        <MESSAGE>How A periodic signal (sum of infinite sinusoidal signal with different frequency) works as low or high pass filter. Because at different sinusoidal signal, frequency is different; so selecting the range of low/high pass filter might become a problem.</MESSAGE>
+        <SUBJECT>Re: Filter range of a periodic signal</SUBJECT>
+        <MESSAGE>That is the beauty of sampling. The concept of normalised frequency is important. The amplitue vs.&#160;frequency plot of sampled signal will extend from -infinity to +infinity with normalised pattern repeated. Hence by appropriately selecting frequency band we can get a low pass or high pass filter. Shape of filter is decided by&#160; sum of normalised sinusoidal signals.</MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2962</ID>
+    <LECTURE>Questions for the fifth Lecture on 24 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Time Series Forecasting</SUBJECT>
+        <MESSAGE>I have heard that time series models are often used to forecast output values v(n+1),v(n+2) etc. Is forecasting helpful in system identification techniques?</MESSAGE>
+        <SUBJECT>Re: Time Series Forecasting</SUBJECT>
+        <MESSAGE>One generally constructs an internal model before forecasting. Construction of this model is known as the identification. </MESSAGE>
+        <SUBJECT>Re: Time Series Forecasting</SUBJECT>
+        <MESSAGE>Sir, But modelling of black box depend only on statistical data,;No prior model is available. In this case,how internal model can be known without getting data.</MESSAGE>
+        <SUBJECT>Re: Time Series Forecasting</SUBJECT>
+        <MESSAGE>See what I said in my earlier post: &lt;span style="color: rgb(255, 0, 0);"&gt;One generally constructs an internal model before forecasting.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; &lt;/span&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>ARMA Process</SUBJECT>
+        <MESSAGE>What happens when mean(or variance) of the time series data used to predict the future values using ARMA model are not constant ?</MESSAGE>
+        <SUBJECT>Re: ARMA Process</SUBJECT>
+        <MESSAGE>What slide are you referring to? </MESSAGE>
+        <SUBJECT>Re: ARMA Process</SUBJECT>
+        <MESSAGE>Slide 6. What happens if the mean of white noise is varying ?</MESSAGE>
+        <SUBJECT>Re: ARMA Process</SUBJECT>
+        <MESSAGE>Then the process is not Stationary. Hence the methods that assume Stationarity of underlying process&#160;can not be applied.</MESSAGE>
+        <SUBJECT>Re: ARMA Process</SUBJECT>
+        <MESSAGE>In particular, replacing the mean over all possible realisations by the mean of a time series will not be applicable. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Identifying ARMA Model</SUBJECT>
+        <MESSAGE>&lt;p&gt;For simplicity one tries to use either AR or MA model in indentification. However how to acertain&#160;correctness this assumption in practice? Will it not be better to start with ARMA model and ignore lower amplitude coefficients if justified?&#160;&lt;/p&gt;
+&lt;p&gt;Given the required accuracy of model correctness, are the number of parameters different in case of all the three models? Which one has least no. of parameters?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Identifying ARMA Model</SUBJECT>
+        <MESSAGE>AR models may require only a few parameters. But MA models are less biased. Using the MA models with a large number of parameters is one way to address this situation. When computation was expensive, MA option with a large number of parameters was not preferred. But with the availability of inexpensive computation, MA option is quite feasible now.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Example 6.6</SUBJECT>
+        <MESSAGE>I don't understand what is meant by taking the expectation? and why (6.41) = 0 according to the fact stated by equation (6.38)?</MESSAGE>
+        <SUBJECT>Re: Example 6.6</SUBJECT>
+        <MESSAGE>Expectation is basically the mean, see http://en.wikipedia.org/wiki/Expected_value.&lt;br /&gt;&lt;br /&gt;What do you mean by (6.41) = 0? The book does not say this anywhere! In any case, perhaps (6.32) answers your question.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Example 6.6</SUBJECT>
+        <MESSAGE>This is because, $$y$$ is a function of $$\xi$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Weighing Matrix for LSE</SUBJECT>
+        <MESSAGE>How do we select a suitable weighing matrix? Is it affected by factors like sampling rate?</MESSAGE>
+        <SUBJECT>Re: Weighing Matrix for LSE</SUBJECT>
+        <MESSAGE> No, it is dependent on how important a component is in the overall scheme of things. For example, if we do not want a component much, we will increase its weight and conversely. </MESSAGE>
+        <SUBJECT>Re: Weighing Matrix for LSE</SUBJECT>
+        <MESSAGE>while selecting W MATRIX&lt;br /&gt;there are any necessary conditions ?&lt;br /&gt;like symetric,positive definite....?&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Underfitting and Overfitting in LSE</SUBJECT>
+        <MESSAGE>I have a doubt regarding how N is chosen in the linear model of a system. N determines the size of the matrix that is solved in LSE. A large value of N can result in overfitting whereas a small value will result in underfitting. How are these problems checked? </MESSAGE>
+        <SUBJECT>Re: Underfitting and Overfitting in LSE</SUBJECT>
+        <MESSAGE>N must atleast be equal to no. of parameters. Phi matrix and LSE procedure will take care of excess N. Since excess N means more dependance on previous values, the W matrix can be adjusted to decided importance of previous dependance.</MESSAGE>
+        <SUBJECT>Re: Underfitting and Overfitting in LSE</SUBJECT>
+        <MESSAGE>Larger value of N does not result in overfitting. It results in averaging over a longer time interval. Weighting could help arrive at fitting over a specified interval more heavily compared to other time duration. </MESSAGE>
+        <SUBJECT>Re: Underfitting and Overfitting in LSE</SUBJECT>
+        <MESSAGE>Example 6.15 explains what happens if a larger number of parameters than the actual is used. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>FIR model</SUBJECT>
+        <MESSAGE>In slide no. 17, how do we get a good estimate of the value of N ? </MESSAGE>
+        <SUBJECT>Re: FIR model</SUBJECT>
+        <MESSAGE> There is no fool-proof method. There are some heuristics, such as twice the number of parameters. Another heuristic approach is to go on increasing N until no appreciable difference is found in the result. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>white noise</SUBJECT>
+        <MESSAGE>while listening FM RADIO some noisy sound we experienced is that white noise?&lt;br /&gt;&lt;br /&gt;if it is yes then may i get some explanation about properties of white noise like &lt;br /&gt;mean is zero,uncorrelated with itself.....&lt;br /&gt;&lt;br /&gt;http://moodle.iitb.ac.in/mod/forum/post.php?forum=2962&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: white noise</SUBJECT>
+        <MESSAGE>Values realised by a white noise will be uncorrelated at ANY two DIFFERENT time instants, including successive time instants. It is difficult to imagine a process that takes a value at a time totally uncorrelated to the value taken at the previous instant. &lt;br /&gt;&lt;br /&gt;But the concept of white noise is very convenient. It allows many terms to be made zero, when mean is taken.&lt;br /&gt;&lt;br /&gt;The closest to a white noise we can realise is through random numbers. We can only create pseudo random numbers.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: white noise</SUBJECT>
+        <MESSAGE>Yes,it is.
+As white noise is random,identically independently distributed signal,so there is no correlation.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Discrete white noise</SUBJECT>
+        <MESSAGE>Sir, Is white noise in actuality discrete, or is it an analog continuous signal?</MESSAGE>
+        <SUBJECT>Re: Discrete white noise</SUBJECT>
+        <MESSAGE> white noise has the quality of being independent and identically distributed, which implies no autocorrelation. So it is discrete.</MESSAGE>
+        <SUBJECT>Re: Discrete white noise</SUBJECT>
+        <MESSAGE>We work with discrete time white noise, with the properties as given in the book. All these properties will hold good even if it is obtained by discretising a continuous time white noise. </MESSAGE>
+        <SUBJECT>Re: Discrete white noise</SUBJECT>
+        <MESSAGE>White noise is continuous and analog. It is superimposed on whatsoever signal we have.  So if we have a continuous signal, we will perceive white noise to be continuous, and if we have a discrete signal the white noise will be superimposed on the discrete signals as well.
+
+</MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2963</ID>
+    <LECTURE>Questions for the sixth Lecture on 27 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Overlapping plots</SUBJECT>
+        <MESSAGE>Is it possible that two or more encirclements around the origin overlap completely so that on the graph only one encirclement is visible. Wouldn't this be a problem if one is trying to understand F(z) using the plot?
+
+Example : F(z) = z^2
+ </MESSAGE>
+        <SUBJECT>Re: Overlapping plots</SUBJECT>
+        <MESSAGE>Yes, it is a problem. This is another reason why we need to understand a computerised solution. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture 6: Nyquist stability Criterion</SUBJECT>
+        <MESSAGE>If (-1/K,0) point lies on the nyquist plot,how to calculate no. of encirclements?</MESSAGE>
+        <SUBJECT>Re: Question for Lecture 6: Nyquist stability Criterion</SUBJECT>
+        <MESSAGE>The same discussion that we used for marginal or no stability should be used here also. Suppose that this point should not be encircled, but that it passes through this point. We should take it that this point is encircled. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Controller In forward loop</SUBJECT>
+        <MESSAGE>Sir,
+On slide 6 of the pdf, what is the point of putting a controller on the input? We generally take a input and subract it with the output and then apply some control on the error. I could not visualize a case in which we would need apply any control on the input. </MESSAGE>
+        <SUBJECT>Re: Controller In forward loop</SUBJECT>
+        <MESSAGE>The &lt;span style="font-style: italic;"&gt;standard&lt;/span&gt; controller of the first control course is a special case of what is discussed here. When the forward path controller is equal to that of the backward path, it gets reduced to the standard controller. Allowing them to be different gives another degree of freedom: now we can handle disturbance and reference signal separately. Design of such controllers, including the special case of the standard controller, is done in Chapters 8 and 9 of the book.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Need for Nyquist Plots</SUBJECT>
+        <MESSAGE>Why is it easier to use the Encirclement Stability criterion rather than just directly finding the poles/zeros of the transfer function and then applying the normal stability check that all the zeros lie within the unit circle? Is it because the computational effort is lesser? </MESSAGE>
+        <SUBJECT>Re: Need for Nyquist Plots</SUBJECT>
+        <MESSAGE>Nyquist plot and Bode plot methods are based on experimentally obtained data. One can use them even if the transfer function is not known. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Position of K in system</SUBJECT>
+        <MESSAGE>Sir, does it not make more sense to put K in the feedback loop instead of where it is at present in slide 6?
+
+y = (G/1+KG)r in that case.
+
+The advantage would be for cases like the example you gave where 0&lt;K&lt;1, the amplitude of the output signal will be larger than the previous case, and it would prevent unnecessary power loss?</MESSAGE>
+        <SUBJECT>Re: Position of K in system</SUBJECT>
+        <MESSAGE>What is the advantage? Your post seems to be incomplete. </MESSAGE>
+        <SUBJECT>Re: Position of K in system</SUBJECT>
+        <MESSAGE>y = (G/1+KG)r in that case. Thus, the magnitude of y will not directly depend on K.
+
+In the example given in the lecture, we have 0&lt;K&lt;1 and this will result in power loss. So is it not better to use K in the feedback? </MESSAGE>
+        <SUBJECT>Re: Position of K in system</SUBJECT>
+        <MESSAGE>y = (G/1+KG)r in that case. Thus, the magnitude of y will not directly depend on K.
+
+In the example given in the lecture, we have K between 1 and 0 and this will result in power loss. So is it not better to use K in the feedback? </MESSAGE>
+        <SUBJECT>Re: Position of K in system</SUBJECT>
+        <MESSAGE> The result will not change even if you shift K to the feedback path. See how the Nyquist condition has been arrived at.&lt;br /&gt;&lt;br /&gt;In this case, you will be working with r-Ky, which is not what we want to do.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Indentation To include/disclude the Pole</SUBJECT>
+        <MESSAGE>When we indent the smaller circle inside the unit circle will the values of $$\phi$$ be 90-180-(-90) or 90-180-270?</MESSAGE>
+        <SUBJECT>Re: Indentation To include/disclude the Pole</SUBJECT>
+        <MESSAGE>Problem 7.2 has an example of this. The indented circle starts at +90 degree, goes through -180 degree and comes down to -90 degree. Keeping track of -180 gives an extra point. This usually helps arrive at the direction of the Nyquist plot corresponding to the indented branch. &lt;br /&gt;&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>POLAR PLOT</SUBJECT>
+        <MESSAGE> there is any other method to plot nyquist plot?&lt;br /&gt;e.g. draw polar plot &amp;amp; then according to poles at origin draw semicircle of infinite radius in clockwise direction ....&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: POLAR PLOT</SUBJECT>
+        <MESSAGE>I am not aware of such techniques. Are you aware of any such technique in continuous time control? </MESSAGE>
+        <SUBJECT>Re: POLAR PLOT</SUBJECT>
+        <MESSAGE>not sure.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Range of K for stability</SUBJECT>
+        <MESSAGE>On slide 16, why a negative fraction $$K$$ not allowed, such that 
+$$-\frac{1}{K}$$ lies between 1 and infinity.</MESSAGE>
+        <SUBJECT>Re: Range of K for stability</SUBJECT>
+        <MESSAGE>We use positive values of K and derived the root locus condition. There, the conditions will change if K is negative. The same assumption was made for Nyquist plot. One can work with negative K, of course. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>A very good read on the physical insights of control</SUBJECT>
+        <MESSAGE>http://en.wikipedia.org/wiki/PID_controller
+
+I found the above link on PIDs very informative. I think the link can be used as a good primer for Chapter 7.
+</MESSAGE>
+        <SUBJECT>Re: A very good read on the physical insights of control</SUBJECT>
+        <MESSAGE>Yes, this is a good background material, who have not seen PID controllers before. Hence it is a good primer for Chapter 7. Even those who have studied PID controllers may want to go through it to refresh their memory. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>So many domains</SUBJECT>
+        <MESSAGE>There are three domains that as par the parlance of controls:
+
+1.Time domain
+2.Z domain
+3.Frequency domain
+
+Why do we call Root locus technique a time domain technique when we are actually working in Z domain? 
+At the same time when we are working in frequency domain we still do see a Z.
+
+So what are these domains then?</MESSAGE>
+        <SUBJECT>Re: So many domains</SUBJECT>
+        <MESSAGE>The root locus method gives closed loop poles. We learn about time domain behaviour from closed loop poles. So, root locus is a time domain technique.&lt;br /&gt;&lt;br /&gt;From frequency response study, we know that this domain corresponds to $$z=e^{j\omega}$$, which is the unit circle. As this deals with the response to inputs of the form $$e^{j\omega}$$, which is basically sin and cos functions, the unit circle belongs to the frequency domain.&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2977</ID>
+    <LECTURE>Questions for the seventh Lecture on 31 Jan. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Question for 7th Lecture: Poles of alpha</SUBJECT>
+        <MESSAGE>Is it necessary that the unstable poles of r&amp;amp;v appear as it is (in Least Common factor form) in alpha, or any pole which will give faster&#160;change than the poles of r or v will do? Suppose r has pole z-2, can alpha has z-3 term instead of z-2? </MESSAGE>
+        <SUBJECT>Re: Question for 7th Lecture: Poles of alpha</SUBJECT>
+        <MESSAGE>If as a result of what you say, you get (2/3)^n, it is ok. Not otherwise. In general, what you have suggested will not work.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Internal Stability when the Pole cancelled is 1</SUBJECT>
+        <MESSAGE>In the internal stability problem we say that unstable poles shouldn't be cancelled as a hidden mode appears in the form of a^k*x[0]. What if the cancelled pole is 1, that is a = 1. The hidden mode would be finite. Would we call the two systems identical? Does this system have the property of internal stability?&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Internal Stability when the Pole cancelled is 1</SUBJECT>
+        <MESSAGE>No, a should be less than 1. If it is equal to 1, the error in the tracking case will be finite, but not zero. Similarly, the response to a disturbance will be nonzero. We want both of these go to zero. We always take the poles on the unit circle to be unstable. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Sufficient condition for Internal Stability</SUBJECT>
+        <MESSAGE>Sir
+
+Is output stability and absence of unstable pole cancellation a sufficient condition for internal stability? 
+
+Because in the lecture it was proved for an example, though I have not been able to find a G, Gc pair which leads to instability without unstable pole cancellation yet.</MESSAGE>
+        <SUBJECT>Re: Sufficient condition for Internal Stability</SUBJECT>
+        <MESSAGE>Yes it is a sufficient condition too.&lt;br /&gt;&lt;br /&gt;If there is unstable pole zero cancellation, one of the transfer functions in the 2x2 matrix of slide 11 will be unstable.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Controller realizability</SUBJECT>
+        <MESSAGE>Sir, &lt;br /&gt;I couldn't understand how we can say that z inverse won't appear in denominator if we don't allow cancellation.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Controller realizability</SUBJECT>
+        <MESSAGE>If we cancel a factor of the form $$z^{-1}+a$$, it is equivalent to cancelling a factor which corresponds to $$z^{-1}+a=0$$, or at $$z=a^{-1}$$. Put $$a=0$$ in this. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Node in System</SUBJECT>
+        <MESSAGE>Sir,
+
+I didn't understand why there is a negative sign at the junction where r and y (with output as e) meet in slide 1 diagram?
+
+Akshansh Gupta</MESSAGE>
+        <SUBJECT>Re: Node in System</SUBJECT>
+        <MESSAGE>We want to find the difference between the reference signal and the actual value. This difference, or the error, goes as the input to the controller. Remember the room cooling problem. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Aryabhatta's identity</SUBJECT>
+        <MESSAGE>Solving polynomial equation by Aryabhatta's identity is quite interesting. As given in book, it is also named bezout identity or diophantine equation. why same approach is named after mathematician bezout while Aryabhatta already did it very before.</MESSAGE>
+        <SUBJECT>Re: Aryabhatta's identity</SUBJECT>
+        <MESSAGE>The people who came later (e.g. Bezout) may not have known about the earlier result. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2978</ID>
+    <LECTURE>Questions for the eighth Lecture on 3 Feb. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Question for Lecture-8: Aryabhatt Identity</SUBJECT>
+        <MESSAGE>What are&#160;applications&#160;of&#160;Aryabhatt's identity?</MESSAGE>
+        <SUBJECT>Re: Question for Lecture-8: Aryabhatt Identity</SUBJECT>
+        <MESSAGE> This question is like asking where do we solve the linear equation Ax=b?&lt;br /&gt;&lt;br /&gt;This method can be used to solve a class of polynomial equations. Such equations can occur in almost any field. Control is one area. If you go through the index in the book, you will see that it is heavily used.&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question for Lecture-8: Aryabhatt Identity</SUBJECT>
+        <MESSAGE>In control applications, we&#160;solve 1+GGc=0 for ensuring stability. If we take G=N/D and Gc=Y/X, we get 1+NY/DX = 0; which gives DX+NY=0. Even for a closed loop TF performance to some known input, I am not able to clearly visualize the problem formulation&#160;in that identity form, where C is non-zero. </MESSAGE>
+        <SUBJECT>Re: Question for Lecture-8: Aryabhatt Identity</SUBJECT>
+        <MESSAGE>In the textbook, see equation 9.14 on page 330, equation 11.49 on page 416 and equation 13.51 on page 472.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>The Example in Slides</SUBJECT>
+        <MESSAGE>Why did we take the third row? When we clearly mentioned in the Unique Solution Strategy that dX should be less than dN and dY should be less than dD, didn't it make sure that v will be less than 2?</MESSAGE>
+        <SUBJECT>Re: The Example in Slides</SUBJECT>
+        <MESSAGE>Which slide? </MESSAGE>
+        <SUBJECT>Re: The Example in Slides</SUBJECT>
+        <MESSAGE>I apologise for not being clear. I was referring to the only example solved for aryabhatta's identity.</MESSAGE>
+        <SUBJECT>Re: The Example in Slides</SUBJECT>
+        <MESSAGE>Yes, I guess that we could have done this. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>When F matrix not independent</SUBJECT>
+        <MESSAGE>Sir,one is supposed to find integer v such to get a matrix F whose rows are linearly independent. So when v=3 gives a dependent set, should we not go back to v-2, instead of deleting a row? and wont the answer change with the row deleted?</MESSAGE>
+        <SUBJECT>Re: When F matrix not independent</SUBJECT>
+        <MESSAGE>No, for v=2, we get four rows and six for v=3. When we remove one row, we are left with five rows. Thus, these two are not the same. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>last row of 7.8.2 Aryabhatta's identity</SUBJECT>
+        <MESSAGE>on page 291 in book how d(Q+Y)&lt;dD. </MESSAGE>
+        <SUBJECT>Re: last row of 7.8.2 Aryabhatta's identity</SUBJECT>
+        <MESSAGE>The question is not clear. </MESSAGE>
+        <SUBJECT>Re: last row of 7.8.2 Aryabhatta's identity</SUBJECT>
+        <MESSAGE>After equation 7.123 it is written 
+"(QN + R)D +YN = C
+We rearrange the terms to arrive at
+RD + (Q + Y )N = C
+We see that d(Q + Y ) &lt; dD,"
+
+problem is rearranging (QN + R)D +YN = C
+gives   RD + QDN + YN = C instaed of 
+        RD + (Q + Y )N = C .
+so it is difficult to proceed.
+</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Types of error models</SUBJECT>
+        <MESSAGE>What are the different types of error models used in control systems? Other than the coswn one.</MESSAGE>
+        <SUBJECT>Re: Types of error models</SUBJECT>
+        <MESSAGE>One studies the step response of an underdamped systems in continuous time control. I am not aware of any other signals. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>On desired response approach</SUBJECT>
+        <MESSAGE>Why did we consider the error form to be 
+
+e(n) = rho^n * cos(w*n)
+
+couldn't we consider the response itself to be of the form
+
+y(n) = rho^n * sin(w*n), and then proceed with application of conditions to find desired region? </MESSAGE>
+        <SUBJECT>Re: On desired response approach</SUBJECT>
+        <MESSAGE> We want the initial error to be one. If you use sin, you will get the initial error to be zero.&lt;br /&gt;&lt;br /&gt;I thought that you were talking about e. For y, the proposed model will result in y=0 at infinite time.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Aryabhatta Identity algorithm</SUBJECT>
+        <MESSAGE>I did not understand why we removed the last row to get linearly independent F. In the video you said the book explains it, but I was not able to find it in the book, under the Aryabhatta identity section. 
+
+More importantly, if in the example given, if I had removed the second last row, my solution would have been different. Does that not nullify the principle of a unique solution?</MESSAGE>
+        <SUBJECT>Re: Aryabhatta Identity algorithm</SUBJECT>
+        <MESSAGE>If there are not enough rows, the system will be linearly independent. If you add more rows, the system will eventually lose the linear independence. &lt;br /&gt;&lt;br /&gt;Yes, the solution would have been different. This choice results in a zero being assigned to the last coefficient of Y. This algorithm was originally developed for polynomials in powers of $$z$$ (and not $$z^{-1}$$). In that algorithm, a controller would be Y/X. This choice resulted in a causal controllers in that algorithm.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>User requirements</SUBJECT>
+        <MESSAGE>Sir,
+I am sure that most of the times when the user specifies the requirements, not all of them can be met simultaneously by our controller design. How does one decide as to with which one should the trade off be done with?</MESSAGE>
+        <SUBJECT>Re: User requirements</SUBJECT>
+        <MESSAGE>It is to be decided by trial and error. First guess some specs. Design the controller and check the closed loop performance. If any of the specification is not good enough, change the specs and repeat. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>V matrix</SUBJECT>
+        <MESSAGE>Sir, &lt;br /&gt;what's the mathematical justification for adding a zero in the V matrix ?&lt;br /&gt;(page 294)&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: V matrix</SUBJECT>
+        <MESSAGE>How will you mathematically represent the fact that you do not want some rows to be there? By putting a zero in the coefficient matrix. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>xdync routine</SUBJECT>
+        <MESSAGE>&lt;p&gt; Hi everybody,&lt;/p&gt;
+&lt;p&gt;This is request for help. Can any one email me a copy of xdync.m file along with its associated files if any and link to procedure or procedure itself to install or to use that .m file?&lt;/p&gt;
+&lt;p&gt;I am unable to open dc from here.&lt;/p&gt;
+&lt;p&gt;regards&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;hr /&gt; &lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: xdync routine</SUBJECT>
+        <MESSAGE>You can download all codes from http://moudgalya.org/ under the title of Digital Control book. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: xdync routine</SUBJECT>
+        <MESSAGE>&lt;p&gt;Thank you dear Gupta for the information.&lt;/p&gt;
+&lt;p&gt;I could download it but unable to execute it successfully. It resulted in error in parameter gap. The foot note in book recommend downloading some files in dc.tar from the same website. I could download .tar, extracted dc file from it but I don't have software to open it. It opens by which software? and from where to download it?&lt;/p&gt;
+&lt;p&gt;So further help is needed!&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: xdync routine</SUBJECT>
+        <MESSAGE>What do you mean by you cannot open it? It is an ASCII file. You may open it using any text editor. </MESSAGE>
+        <SUBJECT>Re: xdync routine</SUBJECT>
+        <MESSAGE>&lt;p&gt;Thank you Sir,&lt;/p&gt;
+&lt;p&gt;I could now install every thing and execute the rounine.The answer tallyed with the manual calculations. This was required for Prob.7.6 in assignment&lt;/p&gt;
+&lt;p&gt;regards&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Stability Margin</SUBJECT>
+        <MESSAGE>Pg253 of the book. In case we have multiple incidents of the transfer function intersecting unit circle, do we count the phase margin to be the phase which is the least for intersection?</MESSAGE>
+        <SUBJECT>Re: Stability Margin</SUBJECT>
+        <MESSAGE>In general, you should take the worst case. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2984</ID>
+    <LECTURE>Questions for the ninth Lecture on 7 Feb. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Laplace Transform</SUBJECT>
+        <MESSAGE>Are we expected to know the Laplace Transforms of different functions? Which functions are generally used in this course?
+
+Akshansh</MESSAGE>
+        <SUBJECT>Re: Laplace Transform</SUBJECT>
+        <MESSAGE>Whatever you would have learnt in your Laplace Transforms course would be good enough. At the least, you will be able to derive the required formulae, provided your basics on Laplace Transforms are good. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture-9: s2z&amp;PID Controller</SUBJECT>
+        <MESSAGE>
+&lt;p&gt; Sir,&lt;/p&gt;
+&lt;p&gt;If we consider a transfer function G(s), take its inverse Laplace transform, which is the impulse response in time domain, sample it and take its Z-transform, call it G(z). Will G(z) and G(s) equivalent, meaning they contain same information? &lt;/p&gt; </MESSAGE>
+        <SUBJECT>Re: Question for Lecture-9: s2z&amp;PID Controller</SUBJECT>
+        <MESSAGE> Discretisation is an approximation with an associated loss of information.&lt;br /&gt;&lt;br /&gt;Zero order hold is equivalent to step response equivalent. See example 8.5 on page 305 and example 8.6 on page 306 of the textbook. We use step response equivalence for control system design. If sampled properly, we do not lose much information.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Low pass filter</SUBJECT>
+        <MESSAGE>Sir,
+In continuous domain, I can understand why $$\frac{1}{s}$$ will be a low pass filter because as s tends to infinity this will tend to zero. But how is this reflected by the discreet time domain low pass filter?</MESSAGE>
+        <SUBJECT>Re: Low pass filter</SUBJECT>
+        <MESSAGE>$$\frac z{z-1}$$ is low pass also. See Sec. 5.4.1 - in particular, see fig. 5.16 on page 142. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>2-DOF controller</SUBJECT>
+        <MESSAGE>Why is denominator of the transfer functions for y and r taken to be the same that is Rc in the 2-DOF controller? Can't they be taken as different?&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: 2-DOF controller</SUBJECT>
+        <MESSAGE>Your question is not clear. Which slide are you talking about. </MESSAGE>
+        <SUBJECT>Re: 2-DOF controller</SUBJECT>
+        <MESSAGE>The first slide for 2-DOF controller, slide 26.&lt;br /&gt;$$u = \frac{T_c}{R_C}r -\frac{S_c}{R_C}y$$&lt;br /&gt;Why is $$R_c$$ taken to be the common denominator for the above 2 transfer functions?&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: 2-DOF controller</SUBJECT>
+        <MESSAGE>We need only two degrees of freedom. It is provided by $$S_c$$ and $$T_c$$. If we change the denominator also, we will get more freedom, which is not required.&lt;br /&gt;&lt;br /&gt;The proposed structure also reduces to the conventional controller when $$S_c=T_c$$. This is possible only when $$R_c$$ is common.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Low Pass Filter</SUBJECT>
+        <MESSAGE>Sir
+
+How do we deduce that it is a low pass filter from the Z Transform. I can see the 1/s form and understand, but in the lecture you use the pole and zeroes of z+1/2Z-1 to say it is a low pass filter. How do we do that?</MESSAGE>
+        <SUBJECT>Re: Low Pass Filter</SUBJECT>
+        <MESSAGE>We have skipped this discussion in the class. See Sec. 5.4.1 - in particular, see fig. 5.16 on page 142. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>2-DOF controller</SUBJECT>
+        <MESSAGE>When is the use of a 2-DOF recommended instead of 1-DOF controller?</MESSAGE>
+        <SUBJECT>Re: 2-DOF controller</SUBJECT>
+        <MESSAGE>When you want to handle the effect of the reference signal r differently from the disturbance signal d. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>R,L and Tau</SUBJECT>
+        <MESSAGE>Sir,
+In the Reaction Curve Method of Z-N tuning I am unable to understand at what points of the response L and Tau have been designated, hence unable to understand how R is found.(Slide 14)
+(I am afraid I have the wrong video for 9, so I am sorry if this has already been explained in the video.)</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>filtered form PID</SUBJECT>
+        <MESSAGE>In this we choose higher value of N &lt;br /&gt;may i get statistical explanation by taking different cases like&lt;br /&gt;1.without using N&lt;br /&gt;2.with using N but medium value(20)&lt;br /&gt;3.with high value(more than 100)&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Well Behaved Signal Section 7.7</SUBJECT>
+        <MESSAGE>Pg 288 of the book. How do we get eqn 7.112?
+
+This is what I get:
+
+$$e[n]={\rho}^n \cos {wn} \\ E(z)=S(z)R(z)\\ R(z)=\frac{z}{z-1}\ \text{step function}\\
+S(z)=E(z)/R(z)\$$ 
+
+Now the denominator of S(z) is $$\phi_{cl}(z^{-1})$$. 
+
+Finding E(z):
+
+$$E(z)=Z[e[n]]=\frac{\rho z^{-1}\cos{jw}}{(1-\rho e^{jw}z^{-1})(1-{\rho} e^{-jw}z^{-1})}$$
+Hence, 
+
+$$S(z)=(\frac{\rho z^{-1}\cos{jw}}{(1-\rho e^{jw}z^{-1})(1-{\rho} e^{-jw}z^{-1})})\times \frac{z-1}{z}$$
+
+So $$\phi_{cl}(z^{-1})=(1-\rho e^{jw}z^{-1})(1-{\rho} e^{-jw}z^{-1})$$
+
+My doubt is how do we decide what to include in the denominator and what not to?
+
+The denominator could also be $$\phi_{cl}(z^{-1})=z^{2}(1-\rho e^{jw}z^{-1})(1-{\rho} e^{-jw}z^{-1})$$
+
+Is it to do with causality? Please elaborate in detail.
+
+If we have a ramp: $$\frac{z}{(z-1)^{2}}$$, then how do we decide what we should put in the denominator?</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Intergrator</SUBJECT>
+        <MESSAGE>why do we call $$\Delta=\frac{1}{z-1}$$ as an integrator?</MESSAGE>
+        <SUBJECT>Re: Intergrator</SUBJECT>
+        <MESSAGE>One can see this in two ways. z-1 denotes a difference between two successive time instants. Hence can be seen as an approximation to derivative. The reciprocal of it is an approximation to integration.&lt;br /&gt;&lt;br /&gt;For z&amp;gt;1, write the denominator as $$1-z^{-1}$$ and expand it by long division. You will get all powers of $$z^{-1}$$ summed. This results in summing values at all previous time instants. This is an approximation to integration.&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>2995</ID>
+    <LECTURE>Post your questions for 10th lecture on 17 Feb. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Question for Lecture10:2 DOF pole placement Controller</SUBJECT>
+        <MESSAGE>
+&lt;p&gt; Sir,&lt;/p&gt;
+&lt;p&gt;We cancel the good part of G. But if cancellation is not exact,&lt;/p&gt;
+&lt;p&gt;1. What is its effect on closed loop stability?&lt;/p&gt;
+&lt;p&gt;2.What is its effect on response even if closed loop system is stable?&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;/p&gt; </MESSAGE>
+        <SUBJECT>Re: Question for Lecture10:2 DOF pole placement Controller</SUBJECT>
+        <MESSAGE>All cancelled poles will appear in the final response. But as it is due to good poles, the response will die for large time.&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Question for Lecture10:2 DOF pole placement Controller</SUBJECT>
+        <MESSAGE>Pole placement controller is a higher form of a controller compared to a PID controller. You need a better model of the plant, as a result, when you use a pole placement controller. You cannot have such a large plant-model mismatch that the closed loop system is unstable, even without unstable pole-zero cancellation! </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Kicks</SUBJECT>
+        <MESSAGE>Sir,
+I did not understand the difference between setpoint kick and diffrential and proportional kick. Are diffrential and proportional kicks just subsets of set point kicks?</MESSAGE>
+        <SUBJECT>Re: Kicks</SUBJECT>
+        <MESSAGE>Yes. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Implementation of controller</SUBJECT>
+        <MESSAGE>The equation derived in the end, how do we implement it physically in plant. I mean how do we get such functions?
+
+AKSHANSH</MESSAGE>
+        <SUBJECT>Re: Implementation of controller</SUBJECT>
+        <MESSAGE>Which equation are you talking about? Please also mention the slide number. </MESSAGE>
+        <SUBJECT>Re: Implementation of controller</SUBJECT>
+        <MESSAGE>In page 316, we discretise this controller. After that, it is easy to implement it. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Different Discretization schemes</SUBJECT>
+        <MESSAGE>We have seen that the continuous time domain transfer functions can be discretized using many different methods, how do we choose which one to implement for the plant? The methods have to be realizable, that is one condition. Is there any metric on which would perform better? </MESSAGE>
+        <SUBJECT>Re: Different Discretization schemes</SUBJECT>
+        <MESSAGE>There is no hard and fast rule. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>PI-PD</SUBJECT>
+        <MESSAGE>Sir, in the PI-Pd controller, the forward path has an proportional action Kcb and the PD controller has proportional Kc(1-b), reducing proportional kicks as b less than one.Is that right?</MESSAGE>
+        <SUBJECT>Re: PI-PD</SUBJECT>
+        <MESSAGE>Yes, as the control law has the term $$br(t)$$ (see slide 27), only a part of the reference signal is sent. This reduces the proportional kick. As the feedback does not have the derivative component, the corresponding kick is completely eliminated.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Bumpless transfer</SUBJECT>
+        <MESSAGE>I am not able to understand the concept of bumpless transfer. 
+Suppose the controller is in manual mode and has achieved steady state with some control signal given by the operator. Now if control is switched to automatic mode with the set point adjusted to the manually achieved steady state value, then Ysp-Y = 0 and no further control action is applied by the automatic controller. Clearly there is no bumping of controller output in this case. 
+So in what scenario can we observe bumping in control output?</MESSAGE>
+        <SUBJECT>Re: Bumpless transfer</SUBJECT>
+        <MESSAGE> When there is an information loss between the end control element and the controller. For example, the controller may think that the temperature of the plant is $$80^\circ C$$, while the actual value may be $$50^\circ C$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Differentiation schemes</SUBJECT>
+        <MESSAGE>How are $$T_s \frac{1}{z-1}$$ and $$T_s \frac{z}{z-1}$$ high pass?
+Since the pole is located at $$\omega=0$$, shouldn't this be low pass filters?
+
+The very fact that these are high pass, will render them of not much advantage as compared to Tustin formula since noise is still being propagated.</MESSAGE>
+        <SUBJECT>Re: Differentiation schemes</SUBJECT>
+        <MESSAGE>Why you call them HP?, They are LP.</MESSAGE>
+        <SUBJECT>Re: Differentiation schemes</SUBJECT>
+        <MESSAGE>As Makarand has already replied, these are low pass. Why are they low pass? It is because the pole is at $$z=1$$, which corresponds to $$\omega = 0$$. This concept was discussed in the last class also. </MESSAGE>
+        <SUBJECT>Re: Differentiation schemes</SUBJECT>
+        <MESSAGE>Slide 10 of lecture on s to z conversion, says that they are high pass, that is why I asked the question. 
+
+So perhaps it can be corrected in the slides.</MESSAGE>
+        <SUBJECT>Re: Differentiation schemes</SUBJECT>
+        <MESSAGE>I have two comments:&lt;br /&gt;&lt;br /&gt;
+&lt;ol&gt;
+  &lt;li&gt;You seem to be looking at the 2007 video/slides. Please use only that of 2008.&lt;/li&gt;
+  &lt;li&gt;The slide you are referring to gives an expression for the &amp;quot;integrator&amp;quot; and then says that the corresponding &amp;quot;derivative&amp;quot; mode is high pass. This is perfectly ok. It is because, both the derivative expressions have a zero at z=1. This corresponds to high pass.&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Discretization approximation</SUBJECT>
+        <MESSAGE>Sir, &lt;br /&gt;I can't get the feel why using different approximations of 1/s in the same expression should still give us correct answer.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Discretization approximation</SUBJECT>
+        <MESSAGE>You will get different approximations. But there may be a rule that so long as the final error goes to zero, all is well. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Coefficient of Derivative control</SUBJECT>
+        <MESSAGE>Why is $$\frac{\tau _d s}{1+\frac{\tau_ds}{N}}$$
+low pass?
+
+Is $$s$$ directly proportional to $$\omega$$, so that when we say high frequency we can put $$s$$ going to $$\inf$$?</MESSAGE>
+        <SUBJECT>Re: Coefficient of Derivative control</SUBJECT>
+        <MESSAGE>&lt;p&gt;It is not low pass. It is high pass with max. high freq. gain limited. &lt;/p&gt;
+&lt;p&gt;Yes, s is proportional to omega&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Coefficient of Derivative control</SUBJECT>
+        <MESSAGE>$$\tau_d s$$ is high pass. As $$s\rightarrow\infty$$, this term will be unbounded. The inclusion of $$s$$ in the denominator keeps the final value at a constant value. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Final Value theorem in Continuous domain</SUBJECT>
+        <MESSAGE>How do we prove the final value theorem for the continuous domain?</MESSAGE>
+        <SUBJECT>Re: Final Value theorem in Continuous domain</SUBJECT>
+        <MESSAGE>See http://wikis.controltheorypro.com/index.php?title=Final_Value_Theorem </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3006</ID>
+    <LECTURE>Questions for the twelfth lecture on 2 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Doubt in Internal Model Principle for Robustness</SUBJECT>
+        <MESSAGE>How is a perturbation in gain related to the step disturbance transfer function delta? </MESSAGE>
+        <SUBJECT>Re: Doubt in Internal Model Principle for Robustness</SUBJECT>
+        <MESSAGE>Suppose the actual gain of a transfer function is T, but that we believe that it is F. We design the controller for F, but apply on the plant whose gain is T. Thus, it is equivalent to perturbing the gain of the plant by T/F. </MESSAGE>
+        <SUBJECT>Re: Doubt in Internal Model Principle for Robustness</SUBJECT>
+        <MESSAGE>Perturbation in plant gains cannot be handled by a controller that is explicitly dependent on the plant gains. For example, if the plant gain is not known exactly, this controller could perform badly.&lt;br /&gt;&lt;br /&gt;So, which controller can reject step changes, even if the plant gain is perturbed? The one that takes care of internal model principle. That is, we make the controller include $$\Delta$$.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Doubt in finding delta</SUBJECT>
+        <MESSAGE>Sir,
+I understood that to cancel out any input we give a pole of the controller at that point. But while finding the value of delta in the lectures, i have two doubts:
+
+1. Why are we taking delta to be a step input?
+2. How is this related to the change in gain?
+
+Thank you. </MESSAGE>
+        <SUBJECT>Re: Doubt in finding delta</SUBJECT>
+        <MESSAGE>&lt;ol&gt; 
+  &lt;li&gt;This is a good approach if we expect changes to take place in steps. &lt;/li&gt; 
+  &lt;li&gt;The answer to this is given in another thread.&lt;br /&gt;&lt;/li&gt; 
+&lt;/ol&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Internal Model Principle for Robustness</SUBJECT>
+        <MESSAGE>Sir
+
+Do we also design controllers for rejecting ramp inputs? In which case our Sc(1) = Tc(1) condition will further change? 
+
+When DO we have to reject ramp inputs? Is designing a controller for rejecting Step inputs enough?</MESSAGE>
+        <SUBJECT>Re: Internal Model Principle for Robustness</SUBJECT>
+        <MESSAGE>If you expect most of the disturbances will be of the form of ramps, you will have to consider them at the time of design. Yes, one has to arrive at the condition on Sc and Tc.&lt;br /&gt;&lt;br /&gt;There is no guarantee that the controller that is good for rejecting steps is also good for ramps.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Finding delta</SUBJECT>
+        <MESSAGE>How would we obtain delta if disturbance has white noise characteristcs?</MESSAGE>
+        <SUBJECT>Re: Finding delta</SUBJECT>
+        <MESSAGE>We solve only one problem at a time. This is enabled through the mechanism of the superposition principle. Chapters 11 and 12 are devoted to handling random noise. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>delta selection</SUBJECT>
+        <MESSAGE>instead of step is present in the loop, if other signal present &lt;br /&gt;then what is our delta?&lt;br /&gt;what are diff cases for delta?&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: delta selection</SUBJECT>
+        <MESSAGE>What do you mean by &amp;quot;in&amp;quot; the loop? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Pg 336 Moving Rc inside the loop</SUBJECT>
+        <MESSAGE>Refer to fig 9.5 in book and the last line of pg 336. If we move $$R_c$$ inside the loop we have to do some extra work if it is in term of $$z$$. I am not able to see what extra work we need to do. Since we are playing with just expressions, we can put them to be anything.</MESSAGE>
+        <SUBJECT>Re: Pg 336 Moving Rc inside the loop</SUBJECT>
+        <MESSAGE>What it means is that the realisability is ensured when we express in terms of $$z^{-1}$$. If we instead use $$z$$, we may end up with unrealisable elements if we are not careful.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Anti windup controller</SUBJECT>
+        <MESSAGE>1. Positive feedback cause i/p U grows and grows but    constrained to Usat. if Usat smaller than U,it is ok but For Usat,larger than U,it may be devastating as actual control effort acting on plant is more than controller is sending due to +ve fb.
+2. What is delta? 
+3. Finally we get "P = A". problem remains if OL poles unstable.Then how to choose 'P'.</MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3000</ID>
+    <LECTURE>Questions for the Elevent lecture on 28 Feb. 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Question For Lecture11: PP</SUBJECT>
+        <MESSAGE>&lt;p&gt; Sir,&lt;/p&gt;
+&lt;p&gt;Phi&lt;sub&gt;cl&lt;/sub&gt; is second degree. If A&lt;sup&gt;b &lt;/sup&gt;and B&lt;sup&gt;b&lt;/sup&gt; are unity (no unstable p or z in G) and k=1, then to formulate Aryabhatta's identity we have to use some good part as bad. How to select it?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question For Lecture11: PP</SUBJECT>
+        <MESSAGE>may be&lt;br /&gt;without using Aryabhatta's identity &lt;br /&gt;&lt;br /&gt;by comparing we can take one set of solution out of infinite solution&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Question For Lecture11: PP</SUBJECT>
+        <MESSAGE>in this case performance of controller is higher compared to non-minimum phase system.&lt;br /&gt;&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Question For Lecture11: PP</SUBJECT>
+        <MESSAGE>Take the factors closest to the unit circle as bad. If many factors are at the same distance, choose any. In case the roots are complex, you may have to choose both the complex conjugates as bad. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for lecture 11: 2-DoF</SUBJECT>
+        <MESSAGE>Sir,&lt;br /&gt;&lt;br /&gt;If we are not even considering noises in our analysis then what's the use to go for 2-DoF system. (we needed 2-DoF system so as to deal with set-point changes and noises independently of each-other)&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question for lecture 11: 2-DoF</SUBJECT>
+        <MESSAGE>may be this related with perturbations in initial conditions (9.4 in textbook)&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Question for lecture 11: 2-DoF</SUBJECT>
+        <MESSAGE> This point is going to be discussed, perhaps soon. We can attend to this question later. Also see Sec. 9.6 in the text.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Dead Beat controller</SUBJECT>
+        <MESSAGE>Sir
+
+I did not understand the condition of Gm(z) = z^(-k) for a dead beat controller. Why do we apply this?</MESSAGE>
+        <SUBJECT>Re: Dead Beat controller</SUBJECT>
+        <MESSAGE>&lt;p&gt;Gm(z) is a closed loop TF of the plant and z&lt;sup&gt;-k&lt;/sup&gt; represent the k samples delay in output. The delay is comming from open loop TF. This delay is present only if it is there in open loop and we know that it can't be reduced by any implementable controller. Also k can't be zero for any real causal system.&lt;/p&gt;
+&lt;p&gt;This is the simplest requirement that controller should be so designed that it should not add any more delay (than that forced by open loop TF);&#160;any transient response is accepatble.&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Dead Beat controller</SUBJECT>
+        <MESSAGE>according to me &lt;br /&gt;dead beat controller following a set point change and after a time period equal to the system time delay, the output should be at set point and remains there&lt;br /&gt;to follow this we take Gm(z) = z^(-k)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Dead Beat controller</SUBJECT>
+        <MESSAGE>Once again Makarand's answer is ok. For it to be a deadbeat controller, we would like to make the desired closed loop transfer function as 1. But if the open loop transfer function has a $$k$$ sample delay, the closed loop transfer function should have a minimum delay of $$k$$ samples, else, the resulting controller will not be causal. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Numerator of Error Transfer Function</SUBJECT>
+        <MESSAGE>Is there any condition on T1 due to the numerator of the error transfer function that is the transfer function of rho^n coswn. Does the numerator put any condition on the output response which contains the term BbT1? </MESSAGE>
+        <SUBJECT>Re: Numerator of Error Transfer Function</SUBJECT>
+        <MESSAGE>From error TF we want numerator to be Sci. But achieving it by T1 will mean cancellation of B&lt;sup&gt;b&lt;/sup&gt; by T1 which is forbidden for internal stability (presently we are considering&#160; B&lt;sup&gt;b&lt;/sup&gt; as unstable part only). Hence Sci can not be achieved, which is the limitation and one of the reasons why actual&#160;step response &#160;is different from desired. </MESSAGE>
+        <SUBJECT>Re: Numerator of Error Transfer Function</SUBJECT>
+        <MESSAGE>The answer given by Makarand is ok. This is precisely what the book also says. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Stability by Deadbeat control</SUBJECT>
+        <MESSAGE>Is deadbeat like a feedback controller which brings the system at complete stable condition in minimum time.If it is,why not to apply it everywhere; or say how to set control gain to achieve it.</MESSAGE>
+        <SUBJECT>Re: Stability by Deadbeat control</SUBJECT>
+        <MESSAGE>The deadbeat controllers could result in very large control efforts. For example, a temperature controller may require millions of joules for a few nanoseconds to increase the temperature of water in a beaker by $$1^\circ$$C. A deadbeat controller is only used as a reference. It is rarely used to implement controllers. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Dead Beat Controller</SUBJECT>
+        <MESSAGE>In what physical systems would we want to use a dead beat controller?</MESSAGE>
+        <SUBJECT>Re: Dead Beat Controller</SUBJECT>
+        <MESSAGE>may be ups inverter &lt;br /&gt;because we need fast response in this case&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Order of a system</SUBJECT>
+        <MESSAGE>What do we mean by order of a system? Is it the order of the differential equation governing the system?</MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE>Why do we want a lower order for any given system. This is the basis for equation 9.8 
+ie $$deg B_r&lt; deg B$$</MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE>In the case of continuous time systems, the order refers to the number of differential equations or the integrators required to realise the system.&lt;br /&gt;&lt;br /&gt;In the case of discrete time systems, it refers to the number of difference equations or the number of $$z^{-1}$$ terms required. You may want to see Sec. 4.4.3 in the textbook.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE>Our reference system is a second order system. This is the easiest to study. It also fulfills the condition that it should exhibit the necessary feature of oscillations to the extent we want. A first order system does not exhibit oscillations. The first order system on the negative real axis has a fixed frequency of oscillations and hence is useless. A third order system is more complicated than the second order system.&lt;br /&gt;&lt;br /&gt;As an engineer, we always attempt to reduce a given system to the one that can be analysed.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE>If we have an expression of the form
+
+$$Y(z)=G(z)U(z)$$. Then, in the context of oscillations discussed above, what kind of signal is $$U(z)$$?
+
+With context to
+"The first order system on the negative real axis has a fixed frequency of oscillations"
+
+So are we talking about giving different sinusoids as $$U(z)$$ and then saying that $$Y(z)$$ has the same frequency irrespective of the frequency of the sinusoid?</MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE>If we have an expression of the form $$Y(z)=G(z)U(z)$$. Then, in the context of oscillations discussed above, what kind of signal is $$U(z)$$?
+
+With context to:
+"The first order system on the negative real axis has a fixed frequency of oscillations"
+
+So are we talking about giving different sinusoids as $$U(z)$$ and then saying that $$Y(z)$$ has the same frequency irrespective of the frequency of the sinusoid?</MESSAGE>
+        <SUBJECT>Re: Order of a system</SUBJECT>
+        <MESSAGE> u(k) will be of the form $$e^{jk\theta}$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Pg 328 Example 9.1</SUBJECT>
+        <MESSAGE>In Example 9.1, why do we assume k=2? 
+Is it because we want the system with the least possible delay which has to be at least as high as that of the controller and the plant?
+
+Given a z transform how do we find the delay associated with it? Is it the difference in the degree of numerator and denominator?
+
+</MESSAGE>
+        <SUBJECT>Re: Pg 328 Example 9.1</SUBJECT>
+        <MESSAGE>We do not assume k to be 2, it is a part of the problem statement. The plant of this system has a delay of two samples. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Non-Minimum Phase system</SUBJECT>
+        <MESSAGE>Could you please teach non-minimum phase system in the class today. This is a topic that keeps coming up in the book but has not been addressed properly in Ch5 for those who have had no basic control course.</MESSAGE>
+        <SUBJECT>Re: Non-Minimum Phase system</SUBJECT>
+        <MESSAGE>Please read Sec. 5.4.2 to understand what is meant by nonminimum phase systems. If after this, you have questions, we can discuss them in the class. By the way, nonminimum phase systems are not covered in the first process control course also.&lt;br /&gt;&lt;br /&gt;You may also want to see the last piece of discussion in Sec. 7.6.1. This explains an important property of a nonminimum phase system: inverse response.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Example 9.3 pg 331</SUBJECT>
+        <MESSAGE>How do we obtain $$G(s)$$ in example 9.3 on Pg 331?
+
+</MESSAGE>
+        <SUBJECT>Re: Example 9.3 pg 331</SUBJECT>
+        <MESSAGE>from page no 9. chapter 2.2&lt;br /&gt;we know A,B,C,D&lt;br /&gt;use formula for state space to transfer function&lt;br /&gt;&lt;tt&gt;[b,a]=ss2tf(A,B,C,D)&lt;/tt&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3008</ID>
+    <LECTURE>Questions for the thirteenth lecture on 6 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 13</SUBJECT>
+        <MESSAGE>Dear Students
+
+For tomorrow's session (i.e., on March 6,2012), please listen to the Lecture video 13, the slides of which are attached.
+The initial part of the Lecture (about 35 min) has a demo of Scilab/Scicos. This is for your understanding.
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture-13: Smith Predictor</SUBJECT>
+        <MESSAGE>
+&lt;p&gt; It is not possible to reduce the inherent delay in the plant TF. Then what is achieved by smith predictor?&lt;/p&gt;
+&lt;p&gt;Is it that the fastest control action is provided by IMC?&lt;/p&gt; </MESSAGE>
+        <SUBJECT>Re: Question for Lecture-13: Smith Predictor</SUBJECT>
+        <MESSAGE>The smith predictor is used to make a prediction of the plant output now, as opposed to seeing it after the delay. There is no contradiction here.&lt;br /&gt;&lt;br /&gt;IMC does not give the fastest action.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Non-minimum phase and negative zeros in Internal Model Control</SUBJECT>
+        <MESSAGE>How are the terms, after inverting the transfer function, for the Non-minimum phase and negative zeros in Internal Model Control derived? Are there any alternative formulations? </MESSAGE>
+        <SUBJECT>Re: Non-minimum phase and negative zeros in Internal Model Control</SUBJECT>
+        <MESSAGE>Even for the non-minimum phase zeros of plant with negative real part we have to consider its stedy state value in controller. It is clear from the examples given in the textbook.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>smith predictor causality</SUBJECT>
+        <MESSAGE>Sir, 
+while using Smith predictor we are trying to get rid of the delay by trying to predict it. Is this making our system non causal? </MESSAGE>
+        <SUBJECT>Re: smith predictor causality</SUBJECT>
+        <MESSAGE>No, we are not trying to get rid of the delay. We try to use the current output for control, as opposed to using the delayed output. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Internal model control</SUBJECT>
+        <MESSAGE>Why don't we consider minimum delay in plant model when constructing internal model control?</MESSAGE>
+        <SUBJECT>Re: Internal model control</SUBJECT>
+        <MESSAGE>Not clear, can you please clarify? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Doubt from the book</SUBJECT>
+        <MESSAGE>Sir
+
+In the book shouldn't So and Ro be interchanged in equation 10.8?</MESSAGE>
+        <SUBJECT>Re: Doubt from the book</SUBJECT>
+        <MESSAGE>Yes, what you say is correct, as also mentioned in errata. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>smith predictor control law</SUBJECT>
+        <MESSAGE>eq (10.8) how we get this control law?&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: smith predictor control law</SUBJECT>
+        <MESSAGE>This is the standard 2-DOF control law that we used extensively in pole placement. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Slide 17</SUBJECT>
+        <MESSAGE>sir, on slide 17, figure 1, is not the G*u term fed back twice to the loop?Is the figure correct?
+And Sir,the benefits of IMC in slide 15, that y=0, when Gp= G^-1, is only a hypothetical construct for an imaginary plant with no delay?</MESSAGE>
+        <SUBJECT>Re: Slide 17</SUBJECT>
+        <MESSAGE>There is no mistake in the figure. One Gu cancels another. Is this not explained in the video?&lt;br /&gt;&lt;br /&gt;Yes, use of the inverse is rarely possible. Have you seen the video?&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>SLIDE 16</SUBJECT>
+        <MESSAGE>In the transfer function matrix&lt;br /&gt;(1,3)element &lt;br /&gt;how we get that ans?&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: SLIDE 16</SUBJECT>
+        <MESSAGE>There are two paths from $$u_2$$ to $$y$$. The first one has a gain of $$G_p=G$$. The second path has a gain of $$-GG_QG_p$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>comparison of new tf with old tf</SUBJECT>
+        <MESSAGE>In what condition should we use, obtained new plant transfer function on slide 23 compared to earlier studied plant tf(factored good and bad part based on stability on unit circle).</MESSAGE>
+        <SUBJECT>Re: comparison of new tf with old tf</SUBJECT>
+        <MESSAGE>I don't understand your question. This is how IMC is proposed. In what ways is this factorisation different from the earlier one? </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3013</ID>
+    <LECTURE>Questions for the fourteenth lecture on 13 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Questions for the fourteenth lecture on 13 March 2012</SUBJECT>
+        <MESSAGE> I am shifting this link to 13 March 2012. Please post your questions here.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question for lecture on mvc</SUBJECT>
+        <MESSAGE>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Sorry for the mistake in qustion asked on degree of Fj. &lt;/p&gt;
+&lt;p&gt;The Fj polynomial&#160;is not monic&#160;but with first term as constant.&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question for lecture on mvc</SUBJECT>
+        <MESSAGE>We will use prediction models for k, k+1, k+2, etc. For the second question, the answer is that we will constrain the manipulated variables also. Both are addressed in the next topic, namely GPC.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question for lecture on mvc</SUBJECT>
+        <MESSAGE>One first decides j and hence $$z^{-j}$$ gets fixed. The resulting E and F on carrying out the long division are respectively called $$E_j$$ and $$F_j$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Grouping of Terms</SUBJECT>
+        <MESSAGE>Sir,
+Since we dont have the lecture slides I dont know the exact page of this doubt. But in the video, when you group the terms while splitting the terms into past and future (in topic 10), how do the co-effecients of u(n+j-k) and u(n-k) get grouped together?</MESSAGE>
+        <SUBJECT>Re: Grouping of Terms</SUBJECT>
+        <MESSAGE>Multiply by $$z^-$$j and $$z^+$$j to the u(n-k) term. Now $$z^+$$j can be absorbed in u(n-k) as u(n+j-k). $$z^-$$j term appear in coefficient.</MESSAGE>
+        <SUBJECT>Re: Grouping of Terms</SUBJECT>
+        <MESSAGE>Now that you have the slides, please mention the slide number. </MESSAGE>
+        <SUBJECT>Re: Grouping of Terms</SUBJECT>
+        <MESSAGE>if you see carefully ,you get z^(-j)term also added while grouping.&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Slides</SUBJECT>
+        <MESSAGE>Dear students
+
+Posting the slides for the Lecture. Please watch the corresponding Lecture video.
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Prediction Error Model</SUBJECT>
+        <MESSAGE>Sir 
+
+I did not understand what y^(n+k|n) is. And how the error term was made zero. </MESSAGE>
+        <SUBJECT>Re: Prediction Error Model</SUBJECT>
+        <MESSAGE>&lt;p&gt;y^(n+k|n) is predicted value of y at instant n+k, given all values (including measured y) upto instant n. The actual value of y at instant n+k is dependent on system model&#160;for input u&#160;and the noise at instant n+k. The noise has two parts. Past and future. The past terms (Fj) depend on value of noise at present and past times, where as future&#160;terms (Ej) depend on value of noise at instant n+j, j &amp;gt;=1, which are unknown. The past values are accounted in PEM as they are known. The future unknown terms&#160;being independent and un-corelated with u and y,&#160;are estimated as zero, as property of noise.&lt;/p&gt;
+&lt;p&gt;These future terms, whose&#160;actual value is non-zero, but (average) estimate is zero&#160;contribute to&#160;errors.&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Prediction Error Model</SUBJECT>
+        <MESSAGE>estimated value of y(n+k) (when n values are given/known)&lt;br /&gt;&lt;br /&gt;here we are estimating future value of error so we taken mean value,&lt;br /&gt;and mean of white noise is zero.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Choice of rho while minimising error</SUBJECT>
+        <MESSAGE>To reduce the control effort we introduce the rho*u(n)^2 term in the minimisation function. Is there any criteria for choosing rho? I guess it would depends on the maximum control effort that can be applied to the plant. </MESSAGE>
+        <SUBJECT>Re: Choice of rho while minimising error</SUBJECT>
+        <MESSAGE>Only heuristics are available. If some control effort is larger than acceptable, increase the corresponding component of the weighting vector. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Differentiating within the expectation term</SUBJECT>
+        <MESSAGE>In the video, you emphasized that differentiation within the expectation term is an approximation. When is this approximation valid?</MESSAGE>
+        <SUBJECT>Re: Differentiating within the expectation term</SUBJECT>
+        <MESSAGE>Derivative of the expectations and the expectation of the derivatives need not be different. &lt;br /&gt;&lt;br /&gt;The rigorous answer is given in Chapter 14 - Linear Quadratic Gaussian control. But this topic will not be covered in this course.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>EjB/C</SUBJECT>
+        <MESSAGE>Sir slide 11, final form of predictor expression,
+how do we know EjB/C has a numerator degree less than j-k,else wont we be using a 'u' in the future for prediction?</MESSAGE>
+        <SUBJECT>Re: EjB/C</SUBJECT>
+        <MESSAGE> $$\dfrac{E_jB}C$$ is equal to $$\dfrac B A \left[1 - \dfrac{F_j}Cz^{-j}\right]$$, as per our derivation. So this term depends only on the past. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3020</ID>
+    <LECTURE>Questions for the fifteenths lecture on 16 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 15 slides</SUBJECT>
+        <MESSAGE>Dear Students
+
+Please listen to the video lecture corresponding to the slides attached. 
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for GPC Lecture</SUBJECT>
+        <MESSAGE>Control effort is less in which of the two controllers, mvc or gpc? Any quantitative analysis exists as to less by how much percentage?</MESSAGE>
+        <SUBJECT>Re: Question for GPC Lecture</SUBJECT>
+        <MESSAGE>it may be gpc&lt;br /&gt;bcaus in this we minimizing a weighted sum of setpoint error and the control effort&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Question for GPC Lecture</SUBJECT>
+        <MESSAGE>What if we try to compare GMVC and GPC? In GMVC also we can minimize weighted sum of error and control effort.</MESSAGE>
+        <SUBJECT>Re: Question for GPC Lecture</SUBJECT>
+        <MESSAGE>There is no definite answer to this. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Use of gamma</SUBJECT>
+        <MESSAGE>Sir why don't we have y-gamma*r instead of y-r in the function to be minimized in gpc?</MESSAGE>
+        <SUBJECT>Re: Use of gamma</SUBJECT>
+        <MESSAGE>What is the reason for your answer? What is gamma? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>DEl*u</SUBJECT>
+        <MESSAGE>Sir, in slide 16, we define vectors of u and u_. the terms of u start from del*u(n-1). As it is multiplied by del, is that equal to u(n-2)?
+If so, should not we start vector u from del*u(n)?</MESSAGE>
+        <SUBJECT>Re: DEl*u</SUBJECT>
+        <MESSAGE>Here meaning of del is not (1-z^-1). Here it means change in u from u value at previous instant. </MESSAGE>
+        <SUBJECT>Re: DEl*u</SUBJECT>
+        <MESSAGE>It is just a naming convention. So long as you are consistent in your convention, you can do this? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Vector u in GPC Model</SUBJECT>
+        <MESSAGE>Sir
+
+The size of u vector depends on the N we take. So how do we decide this N? As such the vector u is unknown, so 
+1. How do we decide N
+2. How do we then find u
+
+Because our aim is to find y^ for which this u is needed.</MESSAGE>
+        <SUBJECT>Re: Vector u in GPC Model</SUBJECT>
+        <MESSAGE>N is a tuning parameter. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Control horizon vs Prediction Horizon</SUBJECT>
+        <MESSAGE>Is there any particular reason for choosing the Control horizon to be less than the Prediction horizon? </MESSAGE>
+        <SUBJECT>Re: Control horizon vs Prediction Horizon</SUBJECT>
+        <MESSAGE>Yes, it may take some time for the effects of a control move to die out. The prediction horizon should be such that the effect of the last control move also would have ceased. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>using Delta u</SUBJECT>
+        <MESSAGE>Sir,
+I did not understand why have you used $\delta$ u in this lecture when you have used u in the last lecture, even though its the same controller?</MESSAGE>
+        <SUBJECT>Re: using Delta u</SUBJECT>
+        <MESSAGE>It depends on what prediction model is used. This depends on what kind of disturbances are used. If you expect step changes in disturbance (say, random steps), you have no option, but to use delta. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3023</ID>
+    <LECTURE>Questions for the sixteenth lecture on 20 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 16 slides</SUBJECT>
+        <MESSAGE>
+Dear Students
+
+Please listen to the video lecture corresponding to the slides attached. 
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>GPC performance</SUBJECT>
+        <MESSAGE>Does a GPC guarantee better performance than a DMC in real systems owing to its better noise modelling? Where is the use of GPC favoured over DMC?</MESSAGE>
+        <SUBJECT>Re: GPC performance</SUBJECT>
+        <MESSAGE>As GPC has a better noise model, it should be used when the noise is important. There is no noise modelling in DMC at all. This is explained further in the answer to Makarand's mail. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture 16: DMC</SUBJECT>
+        <MESSAGE> We calculate bias at next instant as difference in actual and estimated value at this instant. Also we use it in estimating value of y at next instant. Use of bias term in DMC is very confusing. Not clear as to what is achieved by this.</MESSAGE>
+        <SUBJECT>Re: Question for Lecture 16: DMC</SUBJECT>
+        <MESSAGE>Yes, the moment a new measurement comes, the difference between it and the model prediction is taken as the bias. This bias term is applied for ALL future time instants, as an estimate of the future bias terms.&lt;br /&gt;&lt;br /&gt;Just as the measurement, the bias also change every time instant. This to some extent accounts for the time varying nature of the system.&lt;br /&gt;&lt;br /&gt;People have found DMC easier to model and acceptable. DMC is quite popular amongst the practitioners.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>using del u(n) only</SUBJECT>
+        <MESSAGE>Sir,
+There was considerable discussion in the video about using del u(n) only and discarding del(u(n+1)) and so on in GPC. A possible reason for this was that the model is changing and one might want to update it. Could another reason be that one wants to update u_old and y_old as well, from the information obtained by solving at instant n?</MESSAGE>
+        <SUBJECT>Re: using del u(n) only</SUBJECT>
+        <MESSAGE>Yes, if you want to re-calculate the control law, the old parameters naturally get updated. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>getting the value of rho</SUBJECT>
+        <MESSAGE>Sir,
+In the example that you have solved in class, how did you take the initial parameter $$\rho$$ ? I know its a tuning parameter, but what value does one start of with?</MESSAGE>
+        <SUBJECT>Re: getting the value of rho</SUBJECT>
+        <MESSAGE>The most popular method is to use simulations to arrive at an initial value. A slightly less popular method is to use some other method (e.g. PID) to arrive at a tuning parameter and then back calculate rho. One can then tune rho thereafter. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>e in Setpoint Tracking</SUBJECT>
+        <MESSAGE>Sir
+I did not understand from the explanation in the lecture, how a non square system makes us take e. Why can we not take it to be identically equal to zero?</MESSAGE>
+        <SUBJECT>Re: e in Setpoint Tracking</SUBJECT>
+        <MESSAGE>In a martix equation AX=B, if no. of equations are equal to no. of unknowns, rows of A are equal to columns of A and so A is square matrix. Then if matrix is not singular, the solution X=A&lt;sup&gt;-1&lt;/sup&gt; B is such&#160; AX-B = 0,i.e. column matrix,e, has all the elements as zero. When number of equations are more than number of unknowns, we get a tall matrix A, i.e. no. of rows in the matrix are more than no. of columns in the matrix. Such a non-square matrix can't be inverted and solution of matrix equation in such cases is obtained in least square sense,i.e. X=(A&lt;sup&gt;T&lt;/sup&gt;A)&lt;sup&gt;-1&lt;/sup&gt;A&lt;sup&gt;T&lt;/sup&gt;B. If we calculate AX-B with this solution obtained for X in least square sense, AX-B is not equal to zero. This difference is e matrix.</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>GPC</SUBJECT>
+        <MESSAGE>Sir, is there any school of thought which thinks that they can utilize the previously computed(but unused in GPC) del_u values along with the new values computed at next time step to give better performance ? Afterall a lot of computations get wasted otherwise!&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: GPC</SUBJECT>
+        <MESSAGE>In linear quadratic regulator, ALL the previously computed values are used. As a matter of fact, these calculations are done only once. The other extreme is to calculate every time step. It is possible to use some intermediate numbers also. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>DMC</SUBJECT>
+        <MESSAGE>Sir
+When we define y^, why do we not take deltau(k+1) as well? We have defined s(0)=1 So, that should also be included in the equation right? s(0)deltau(k+1)</MESSAGE>
+        <SUBJECT>Re: DMC</SUBJECT>
+        <MESSAGE>Sorry, S(0)=0 and not 1. As a result, this term does not appear.&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3028</ID>
+    <LECTURE>Questions for the seventeenth lecture on 27 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 17 slides</SUBJECT>
+        <MESSAGE>Dear Students
+
+Attaching the slides for Lecture 17. Please watch the corresponding lecture video.
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Additional Controllers in State Space models</SUBJECT>
+        <MESSAGE>The input(u) equation in the state space models is written in terms of the state variable(x) as u = -k*x +v
+This seems like a proportional controller, what if add integral and derivative terms. How would the analysis change? </MESSAGE>
+        <SUBJECT>Re: Additional Controllers in State Space models</SUBJECT>
+        <MESSAGE>Yes, it is indeed a proportional controller, but acting on ALL the states. We will study the integral mode in another lecture, but soon. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Doubt in Slide 5</SUBJECT>
+        <MESSAGE>Sir 
+What is the reason for the minus sign in front of K in the expression we have written for u? Do we want x to follow u proportionally, because of which we have written that expression for u? If that is the case, why the negative sign?</MESSAGE>
+        <SUBJECT>Re: Doubt in Slide 5</SUBJECT>
+        <MESSAGE> The minus sign indicates that it is negative feedback. Let us consider the regulation problem: driving the state x to zero. The setpoint or the reference value is zero. Thus, error = $$0-x$$ = $$-x$$. The control effort is $$K(-x)$$ or $$-Kx$$. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Questin foe Lecture 17:  SS Canonical Form</SUBJECT>
+        <MESSAGE>&lt;p&gt;In general the degree of desired characteristic polynomial&#160;will be less than&#160; degree of |(zI-(A-bK))|. In such cases, method of comparing coefficients will mean K=-a&lt;sub&gt;n&#160;&lt;/sub&gt;for n &amp;gt; degree of desired cha.eq.&lt;sub&gt;&#160;&lt;/sub&gt;. Then how to choose which K's should be non-zero? As the order in which equations are listed in matrix, will decide which is K1 which is K2 and so on. Or is it that the controller cannonical form of a system is unique, in the sense that let the order in which equations are lised be arbitrary, but MAM&lt;sup&gt;-1&lt;/sup&gt; is correctly ordered and unique?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Questin foe Lecture 17:  SS Canonical Form</SUBJECT>
+        <MESSAGE>In the state space approach, the characteristic polynomial has the EXACT degree - not more, not less! </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>2-dof  controller using state space method</SUBJECT>
+        <MESSAGE>Can we obtain something like a 2-dof controller using state space method, so that tracking and regulatory problems can be dealt separately?</MESSAGE>
+        <SUBJECT>Re: 2-dof  controller using state space method</SUBJECT>
+        <MESSAGE>In a future lecture, but soon, we will solve a problem by both the transfer function approach and the state space method. We will find the conditions under which both approaches give the same result. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>feedback from observer canonical form</SUBJECT>
+        <MESSAGE>Can we inferred anything about feedback from observer canonical form?</MESSAGE>
+        <SUBJECT>Re: feedback from observer canonical form</SUBJECT>
+        <MESSAGE> The observer canonical form helps observe the states of a system from the measurement y. But we cannot say anything about feedback.&lt;br /&gt;&lt;br /&gt;This problem is dual to the control problem. In the latter, we ask the question whether it is possible to control all the states through only one manipulated variable. In the observer problem, we ask whether it is possible to reconstruct all the states through only one measurement.&lt;br /&gt;</MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3029</ID>
+    <LECTURE>Questions for the eighteenth lecture on 30 March 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 18 slides</SUBJECT>
+        <MESSAGE>Attaching the slides for Lecture 18. Please watch the corresponding Lecture video.
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture 18:Controllability&amp;Observability</SUBJECT>
+        <MESSAGE>&lt;p align="justify"&gt;If a system is observable but state is not measured, one can use estimator to arrive at control law. If the state is not observable, its contribution will not be reflected in y and hence&#160;the estimator of the form Lp(y-cxbar) will not work. But can't any other&#160;estimator be designed for such unobservable system? In general the states are the energy storage elements in the system and there&#160;should be a way to know them from energy balance equations.&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question for Lecture 18:Controllability&amp;Observability</SUBJECT>
+        <MESSAGE> No, if unobservable, you cannot estimate the states. You have to change either the plant (i.e. the state equations) or the measurements.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Deciding c vector</SUBJECT>
+        <MESSAGE>How can we decide which variables to measure in the system?</MESSAGE>
+        <SUBJECT>Re: Deciding c vector</SUBJECT>
+        <MESSAGE>by considering example ,we get exact picture&lt;br /&gt;&lt;br /&gt;e.g invrted pendulm&lt;br /&gt;&lt;br /&gt;x and theta we get directly from decoder&lt;br /&gt;but rate of change of x and theta we cant get directly&lt;br /&gt;&lt;br /&gt;with this background we can defintly in the position to decide measuring variables.&lt;br /&gt;</MESSAGE>
+        <SUBJECT>Re: Deciding c vector</SUBJECT>
+        <MESSAGE>Try measuring all of the states, if possible. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Desired characteristic polynomial for estimator</SUBJECT>
+        <MESSAGE>The desired characteristic polynomial for estimator is different from that of the controller. We want the estimator to perform better than the controller. How different(in terms of magnitude) are the values of rise time and overshoot that are used to generate the polynomials?</MESSAGE>
+        <SUBJECT>Re: Desired characteristic polynomial for estimator</SUBJECT>
+        <MESSAGE>The estimator has to be faster than the controller. The reason is that the states that are estimated have to be used in the controller. If the estimated values reach the actual values quickly, the controller will use the correct values most of the time. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>What to observe?</SUBJECT>
+        <MESSAGE>Sir,
+Is it purely upto us as to which variable we want to observe in the system or is there some other technical reasoning behind this?</MESSAGE>
+        <SUBJECT>Re: What to observe?</SUBJECT>
+        <MESSAGE>no it varies case by case&lt;br /&gt;if we take example of inverted pendulum in that we can get displacement and theta directly&lt;br /&gt;but rate of change of above states are unknown&lt;br /&gt;so according to that we choose C=[1 0 1 0]&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: What to observe?</SUBJECT>
+        <MESSAGE> If all states are equally easy to measure, equally noisy, equally expensive and equally robust, etc., we will have options. But usually, this is not the case. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>absolute y/deviaton y?</SUBJECT>
+        <MESSAGE>Sir,
+In the state space feedback observer-controller loop shown in slide 33, Is not the y used deviation variable of y from steady state?So in a real plant does the output from the sensor always go to a comparator/any other hardware, that produces the  deviation y or is the sensor calibrated to give y as zero fro steady state??
+I had the same doubt while designing the 2-dof for the assignment.</MESSAGE>
+        <SUBJECT>Re: absolute y/deviaton y?</SUBJECT>
+        <MESSAGE>If the controller is implemented through a hardware, i.e. through an electronic circuitry, a lot of features are generally added to make it versatile. So, a comparator is definitely a part of such a circuit. If it is implemented through software, it is easy to accommodate it. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3030</ID>
+    <LECTURE>Questions for the nineteenth lecture on 03 April 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 19 slides</SUBJECT>
+        <MESSAGE>Dear students
+
+Attaching the slides for Lecture 19. Please watch the corresponding video.
+
+Rakhi</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Equivalence of polynomial and reduced order estimator approaches</SUBJECT>
+        <MESSAGE>Sir if the two methods yield the same control law for a dead beat estimator, what could be the benefit of reduced order estimator over polynomial method or vice-versa?</MESSAGE>
+        <SUBJECT>Re: Equivalence of polynomial and reduced order estimator approaches</SUBJECT>
+        <MESSAGE>It is equivalent under (1) reduced order estimator AND (2) deadbeat estimation. </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture 19: Reduced Order Estimator</SUBJECT>
+        <MESSAGE>&lt;p&gt;1.In state space approach closed loop characteristic polynomial is of same degree as that of dimension of A. In polynomial approach it may not be so. Then will it not happen that the controller order is differnt in two cases?&lt;/p&gt;
+&lt;p&gt;2. For a given system with n&lt;sup&gt;th &lt;/sup&gt;order closed loop characteristic polynomial will both approaches always give same degree of controller? Is the control law unique?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question for Lecture 19: Reduced Order Estimator</SUBJECT>
+        <MESSAGE>&lt;ol&gt; 
+  &lt;li&gt;Yes, the controller designed in the state space could be of a higher order, if not properly designed.&lt;/li&gt; 
+  &lt;li&gt;Are you asking whether the controller through both methods will be the same if the target characteristic polynomial is the same? First of all, you cannot get a high order polynomial in transfer function approach. In case of a reduced order controller (the order decided by a reduced order estimator), the controller will be the same when represented as a transfer function.&lt;br /&gt;&lt;/li&gt; 
+&lt;/ol&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Roboustness of Reduced Order Controller</SUBJECT>
+        <MESSAGE>&lt;p align="justify"&gt;In full order estimator, we estimate the states though they are measured. This appears to be a sort of noise filtering. In reduced order estimator, the correctness of estimated states will depend on inaccuracies in measurement of measurable states. In such cases will the designed controller work satisfactorily only for very accurately identified plant model or sufficient inaccuracies in modelling of the plant can be tolerated?&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Roboustness of Reduced Order Controller</SUBJECT>
+        <MESSAGE>The answer to this question depends on how well behaved the system is. For example, in simple systems, the integral mode help track the reference signal even if we don't know the plant model exactly. This may not work in more complicated systems.&lt;br /&gt;&lt;br /&gt;The topic of robust controller design is precisely devoted to answering these questions.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Number of measured states</SUBJECT>
+        <MESSAGE> In the lecture only 1 case has been discussed for the number of measured states. In the reduced order estimator the polynomial is of the Ackermann formula form only when the number of measured states is 1. What to do when the number of measured states is more than 1?&lt;br /&gt;I don't have the slides currently, will explain the question in the class.&lt;br /&gt;
+&lt;p&gt;(&lt;span class="edited"&gt;Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=8266&amp;course=2996"&gt;Moudgalya Kannan. &lt;/a&gt; - original submission Tuesday, 3 April 2012, 09:53 AM&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;How does the reduced order estimator work for multivariable systems?&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Initial estimate of xbar</SUBJECT>
+        <MESSAGE>Sir&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;How do we determine the intial xbar, which is required for future xbar terms? If I take some arbitrary initial state far away from the actual state, will the state not diverge instead of converging to zero?&lt;/div&gt;</MESSAGE>
+        <SUBJECT>Re: Initial estimate of xbar</SUBJECT>
+        <MESSAGE> If the estimator is well designed (e.g. good choice of eigenvalues), the estimator will reach the correct value for sufficiently long times. This assumes that the model does not depend too much on the operating point. That is, the linearity assumption is good.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>order of Xtilda</SUBJECT>
+        <MESSAGE>In magnetically suspended ball problem,what would be the order of x(tilda).where original state x is of 3rd order and xbar is of 2nd order;if only one state is initially measurable.</MESSAGE>
+        <SUBJECT>Re: order of Xtilda</SUBJECT>
+        <MESSAGE>Not sure what you mean by x(tilde). Can you at least specify the slide? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>initial value of X bar</SUBJECT>
+        <MESSAGE>while taking X bar value we have think about any other conditions?&lt;br /&gt;or its in our hand ?&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: initial value of X bar</SUBJECT>
+        <MESSAGE>Your question is not clear. </MESSAGE>
+        <SUBJECT>Re: initial value of X bar</SUBJECT>
+        <MESSAGE>actually someone ask if we take some arbitrary initial state far away from the actual state&lt;br /&gt;so &lt;br /&gt;i dont understand why we need to take initial state far away?&lt;br /&gt;&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: initial value of X bar</SUBJECT>
+        <MESSAGE>while taking initial X bar value we have to think about any other conditions?&lt;br /&gt;or we can choose any value? </MESSAGE>
+        <SUBJECT>Re: initial value of X bar</SUBJECT>
+        <MESSAGE>When you don't know the initial states, you may not know whether the guesses are close to the actual values or far away. So, far away can be taken as the worst case values. </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+  <DISCUSSION>
+    <ID>3031</ID>
+    <LECTURE>Questions for the twentieth lecture on 10 April 2012</LECTURE>
+    <POSTS>
+      <POST>
+        <SUBJECT>Lecture 20 slides</SUBJECT>
+        <MESSAGE>Attaching the slides for lecture 20. Please watch the corresponding lecture video.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Rakhi&lt;/div&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Question for Lecture 20: SS-LQR</SUBJECT>
+        <MESSAGE>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;The formulation for the problem of PI mode in SS frame work is understood. How to formulate derivative control in SS frame work?&lt;/p&gt;
+&lt;p&gt;-Dixit&lt;/p&gt;</MESSAGE>
+        <SUBJECT>Re: Question for Lecture 20: SS-LQR</SUBJECT>
+        <MESSAGE>I have not looked at this topic before.&lt;br /&gt;&lt;br /&gt;I did a search and located a paper that talks about derivative LQR for time varying systems. It has references to earlier papers on this topic. I am attaching this paper for your convenience.&lt;br /&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Iteratively solving the 3 equations derived in LQR</SUBJECT>
+        <MESSAGE>When we assume u(n)=0, can't we use this information to directly find the relationship between x(k) and u(k) for any k by iteratively finding the previous values? </MESSAGE>
+        <SUBJECT>Re: Iteratively solving the 3 equations derived in LQR</SUBJECT>
+        <MESSAGE>Can you please explain your question better? </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Discrete time riccati equation</SUBJECT>
+        <MESSAGE>On slide 33, in discrete riccati equation; At k=N,s(N)=Q1 is put then riccati eqn reduces to 'M(k+1)=0'.Is is true because it affects subsequent terms.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Q2. If s(k) is not time varied matrix then how to obtain k(k) by iterative way.&lt;/div&gt;</MESSAGE>
+        <SUBJECT>Re: Discrete time riccati equation</SUBJECT>
+        <MESSAGE>My doubt is cleared;what i asked.&lt;div&gt;Sir,Is there sign mismatch of K(k) matrix between slide 35 and 39.&lt;/div&gt;</MESSAGE>
+        <SUBJECT>Re: Discrete time riccati equation</SUBJECT>
+        <MESSAGE>No, there is no difference. In both slides, u(k) = -K(k)x(k). </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Queing problem</SUBJECT>
+        <MESSAGE>Sir,&lt;div&gt;Just a few doubts in the&#160;queuing&#160;problem that you have solved in class using scilab.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;1. What is the matrix C? is it [1 1]? are we observing x1+x2?&lt;/div&gt;&lt;div&gt;2. When everything is in 2d in the problem, why are we solving everything in 3d in scilab? Is this because of the addition of the integral state?&lt;/div&gt;</MESSAGE>
+        <SUBJECT>Re: Queing problem</SUBJECT>
+        <MESSAGE>&lt;ol&gt; 
+  &lt;li&gt;Yes, the interpretation of C is correct. It was presented in the first lecture.&lt;/li&gt; 
+  &lt;li&gt;This interpretation also is correct. The subscript a in Aa denotes &amp;quot;augment&amp;quot;.&lt;br /&gt;&lt;/li&gt; 
+&lt;/ol&gt; </MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Tracking problem</SUBJECT>
+        <MESSAGE>Sir,&lt;br /&gt;&lt;br /&gt;I didn't get why Xi isn't going to zero when we have put all eigen values less than 1.&lt;br /&gt; </MESSAGE>
+        <SUBJECT>Re: Tracking problem</SUBJECT>
+        <MESSAGE>(A-BK)Xa = 0; This results in Xi(k+1) becoming a constant.&lt;br /&gt;</MESSAGE>
+      </POST>
+      <POST>
+        <SUBJECT>Queuing </SUBJECT>
+        <MESSAGE>Sir&lt;br /&gt;I did not understand the concept of buffer time and the use of Rbar. What is the meaning of R1bar and R2bar? Why are we finding this deviation?</MESSAGE>
+        <SUBJECT>Re: Queuing </SUBJECT>
+        <MESSAGE>In these problems, keeping the response time short is the main objective. Would you not want the computer to respond fast to your queries? &lt;br /&gt;&lt;br /&gt;The response time is split into two parts, R1 and R2. R1bar and R2bar give the setpoints for each of these.&lt;br /&gt; </MESSAGE>
+      </POST>
+    </POSTS>
+  </DISCUSSION>
+</DISCUSSIONS>

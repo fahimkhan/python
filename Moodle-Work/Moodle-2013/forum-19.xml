@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1682" moduleid="11691" modulename="forum" contextid="58843">
+  <forum id="1682">
+    <type>general</type>
+    <name>1 April 2014 - 19: Reduced order estimator</name>
+    <intro>&lt;p&gt;Discussion forum for lecture 19&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1364720694</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="15482">
+        <name>19th lecture: post the slide number and ask your question</name>
+        <firstpost>28674</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1364793005</timemodified>
+        <usermodified>23067</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="28674">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1364720771</created>
+            <modified>1364720771</modified>
+            <mailed>1</mailed>
+            <subject>19th lecture: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;P&lt;span&gt;lease post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28725">
+            <parent>28674</parent>
+            <userid>23191</userid>
+            <created>1364747900</created>
+            <modified>1364747900</modified>
+            <mailed>1</mailed>
+            <subject>slide no 9: controller order</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;on the slide we said that controller order = dimension of A. while in the discussion in video lecture, it was told that order of controller is order of A-number of states which are measured in y.&lt;/p&gt;
+&lt;p&gt;please clarify.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28732">
+            <parent>28674</parent>
+            <userid>15509</userid>
+            <created>1364751613</created>
+            <modified>1364751613</modified>
+            <mailed>1</mailed>
+            <subject>slide 30 - equivalent response using polynomial approach</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;The controllers obtained using the polynomial and the estimator approaches are identical.&lt;/p&gt;
+&lt;p&gt;But in the estimator approach we use a reduced order estimator which has an error. In that case how are both controllers same since Aryabhatta's identity uses an exact analytical approach.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28741">
+            <parent>28674</parent>
+            <userid>15642</userid>
+            <created>1364754373</created>
+            <modified>1364754373</modified>
+            <mailed>1</mailed>
+            <subject>Slide no. 4,5</subject>
+            <message>&lt;p&gt;How do we determine initial Xbar?&lt;sup&gt;&lt;br /&gt;&lt;/sup&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28744">
+            <parent>28674</parent>
+            <userid>23190</userid>
+            <created>1364754727</created>
+            <modified>1364754727</modified>
+            <mailed>1</mailed>
+            <subject>slide 12: Comparison of output equation and state equation</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;what is meant by  'corresponden&lt;span style="line-height: 1.4;"&gt;ce' when we compare the state equation and output equation. ? output is also a state, it is a function of all other state variables , measured and unmeasured, how it is compared with a single state variable.?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28747">
+            <parent>28674</parent>
+            <userid>13355</userid>
+            <created>1364756753</created>
+            <modified>1364756753</modified>
+            <mailed>1</mailed>
+            <subject>Slide number 30</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;If the polynomial approach gives the same controller as dat of reduced estimator, why do we use the estimator mehtod at all?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28749">
+            <parent>28674</parent>
+            <userid>20594</userid>
+            <created>1364756870</created>
+            <modified>1364756870</modified>
+            <mailed>1</mailed>
+            <subject>Re:slide 22</subject>
+            <message>&lt;p&gt;What  is  deadbeat  estimator?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28752">
+            <parent>28674</parent>
+            <userid>13107</userid>
+            <created>1364759548</created>
+            <modified>1364759548</modified>
+            <mailed>1</mailed>
+            <subject>Re: 19th lecture:slide 5</subject>
+            <message>&lt;p&gt;How do we decide initial value of Xbar , so that we can get it's future value correctly ?  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28753">
+            <parent>28674</parent>
+            <userid>15477</userid>
+            <created>1364759720</created>
+            <modified>1364759720</modified>
+            <mailed>1</mailed>
+            <subject>Slide 22: Deadbeat Estimator</subject>
+            <message>&lt;p&gt;By definition, it seems like the ideal estimator. Are there any problems associated with the implementation of this estimator?&lt;/p&gt;
+&lt;p&gt;Also, please explain why is it named as "deadbeat"?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28754">
+            <parent>28674</parent>
+            <userid>17192</userid>
+            <created>1364759959</created>
+            <modified>1364759959</modified>
+            <mailed>1</mailed>
+            <subject>Slide 5: xbar and x</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;It appears that the value of xbar being close to x is very essential for optimum controller performance; and initial guess will play an important role in that.&lt;/p&gt;
+&lt;p&gt;Is there anything which is taken care of while making the initial guess so that xbar approaches x fast enough?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28755">
+            <parent>28674</parent>
+            <userid>15100</userid>
+            <created>1364760320</created>
+            <modified>1364760320</modified>
+            <mailed>1</mailed>
+            <subject>slide 11</subject>
+            <message>&lt;p&gt;How do the state space equations change if the output matrix C is not [ I 0]?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28756">
+            <parent>28674</parent>
+            <userid>15100</userid>
+            <created>1364760410</created>
+            <modified>1364760410</modified>
+            <mailed>1</mailed>
+            <subject>slide 6</subject>
+            <message>&lt;p&gt;In the estimator state space equation, why and how is y(k) considered as the input??&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28757">
+            <parent>28674</parent>
+            <userid>13781</userid>
+            <created>1364760532</created>
+            <modified>1364760532</modified>
+            <mailed>1</mailed>
+            <subject>slide no.22</subject>
+            <message>&lt;p&gt;After discreticizing should there be a zero term instead of 0.02 in B vector&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28758">
+            <parent>28674</parent>
+            <userid>13781</userid>
+            <created>1364760864</created>
+            <modified>1364760864</modified>
+            <mailed>1</mailed>
+            <subject>slide no.15</subject>
+            <message>&lt;p&gt;Why is the term \eta introduced to derive error equation? The error estimator equations for reduced order can be derived by directly replacing the analogous A (A_{bb}),B and C (A_{ab}) matrices in the full order error estimator equation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28759">
+            <parent>28674</parent>
+            <userid>11633</userid>
+            <created>1364773224</created>
+            <modified>1364773224</modified>
+            <mailed>1</mailed>
+            <subject>slide 9 : Controller order</subject>
+            <message>&lt;p&gt;Is controller order always equal to dimension of A. If so, why?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28760">
+            <parent>28674</parent>
+            <userid>13634</userid>
+            <created>1364773509</created>
+            <modified>1364773509</modified>
+            <mailed>1</mailed>
+            <subject>Slide 25 : If e(k) is not a scalar</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;If we want the response of the state estimator to be deadbeat, we have carried out analysis under the assumption that e(k) is a scalar. If e(k) is a vector of greater dimension, how would we interpret all eigenvalues being zero? Would that represent a real life situation or a purely hypothetical one?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28763">
+            <parent>28725</parent>
+            <userid>31087</userid>
+            <created>1364782231</created>
+            <modified>1364782231</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 9: controller order</subject>
+            <message>&lt;p&gt;Sorry if I made a mistake.  Order of A - number of states measured in y should be equal to the order of the reduced order ESTIMATOR.  For example, if all the states are measured, there is no need to estimate anything and the order of the reduced order estimator is zero.  In a n state system the order of the reduced order estimator is n-m when m states are measured.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28764">
+            <parent>28732</parent>
+            <userid>31087</userid>
+            <created>1364782323</created>
+            <modified>1364782323</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 30 - equivalent response using polynomial approach</subject>
+            <message>&lt;p&gt;Remember that we used a dead-beat estimator that gives the exact value immediately.  So there is no approximation in the state space approach also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28765">
+            <parent>28741</parent>
+            <userid>31087</userid>
+            <created>1364782376</created>
+            <modified>1364782376</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no. 4,5</subject>
+            <message>&lt;p&gt;I believe that you missed previous classes.  Initial Xbar is left to the user.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28766">
+            <parent>28744</parent>
+            <userid>31087</userid>
+            <created>1364783202</created>
+            <modified>1364783202</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 12: Comparison of output equation and state equation</subject>
+            <message>&lt;p&gt;The correspondence is between what is estimated and what is measured.&lt;/p&gt;
+&lt;p&gt;In the full order estimator, all the states are estimated and y is the output.&lt;/p&gt;
+&lt;p&gt;In the reduced order estimator, what is not measured is estimated (xb) and a function of measured states (xa) is the output.&lt;/p&gt;
+&lt;p&gt;The correspondence is between (1) estimator equations and (2) output equations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28767">
+            <parent>28747</parent>
+            <userid>31087</userid>
+            <created>1364783279</created>
+            <modified>1364783279</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide number 30</subject>
+            <message>&lt;p&gt;We arrive at the polynomial approach for a particular choice (dead-beat) of estimator.  For other choices, you will get different compensators.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28768">
+            <parent>28749</parent>
+            <userid>31087</userid>
+            <created>1364783475</created>
+            <modified>1364783519</modified>
+            <mailed>1</mailed>
+            <subject>Re:slide 22</subject>
+            <message>&lt;p&gt;When the poles of the estimator are chosen to be at the origin.  The response is of the form $$e=a^n$$, where $$e$$ is the error, $$a$$ is the pole location and $$n$$ is the sampling instant.  The time taken for $$e$$ to reach zero is nil.  This provides the fastest response possible. &lt;/p&gt;
+&lt;p&gt;There is an example of dead beat controller in the book.  Please read it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28769">
+            <parent>28752</parent>
+            <userid>31087</userid>
+            <created>1364783568</created>
+            <modified>1364783568</modified>
+            <mailed>1</mailed>
+            <subject>Re: 19th lecture:slide 5</subject>
+            <message>&lt;p&gt;I believe that you missed the previous class, where we discussed it at length.  Xbar is chosen to be arbitrary.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28770">
+            <parent>28753</parent>
+            <userid>31087</userid>
+            <created>1364783968</created>
+            <modified>1364783968</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 22: Deadbeat Estimator</subject>
+            <message>&lt;p&gt;The word deadbeat came from the controller design.  A deadbeat controller is one that follows the setpoint exactly and immediately.  For the controller to behave like this, we need the controller to be the fastest, which mathematically translates into the poles of the controller being at the origin - please see the book for an example of a deadbeat controller.  The same logic is used in the coining of this term for the estimator.&lt;/p&gt;
+&lt;p&gt;The deadbeat estimator may be susceptible to noise, just as the output feedback controller is.  On the other hand, it is possible to smoothen the measurement by properly designing an estimator.  An optimally designed estimator is called the Kalman Filter.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28771">
+            <parent>28754</parent>
+            <userid>31087</userid>
+            <created>1364784097</created>
+            <modified>1364784097</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 5: xbar and x</subject>
+            <message>&lt;p&gt;The poles of the estimator decide how fast we converge to the actual value.  As metnioned in the previous class, we have no facility to choose the initial estimate - domain knowledge is required.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28772">
+            <parent>28755</parent>
+            <userid>31087</userid>
+            <created>1364784167</created>
+            <modified>1364784167</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 11</subject>
+            <message>&lt;p&gt;You will have to come up with the correspondence equation once again for the new scenario.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28773">
+            <parent>28756</parent>
+            <userid>31087</userid>
+            <created>1364784260</created>
+            <modified>1364784260</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 6</subject>
+            <message>&lt;p&gt;For the estimator block, y is the input and the estimated state is the output.  Of course,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28774">
+            <parent>28757</parent>
+            <userid>31087</userid>
+            <created>1364784699</created>
+            <modified>1364784699</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no.22</subject>
+            <message>&lt;p&gt;Why?  In general, both entries in B can change.  Please see Slide 17 in the second lecture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28775">
+            <parent>28758</parent>
+            <userid>31087</userid>
+            <created>1364785051</created>
+            <modified>1364785051</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no.15</subject>
+            <message>&lt;p&gt;Can you please derive using your simplified approach and offer it to the class?  It will be an improvement over Ogata's approach.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28776">
+            <parent>28759</parent>
+            <userid>31087</userid>
+            <created>1364785155</created>
+            <modified>1364785155</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 9 : Controller order</subject>
+            <message>&lt;p&gt;Because of the presence of A matrix in the explression for $$G_c$$, its order will always be equal to the dimension of A.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="28787">
+            <parent>28674</parent>
+            <userid>23067</userid>
+            <created>1364793005</created>
+            <modified>1364793005</modified>
+            <mailed>1</mailed>
+            <subject>slide 29: identical controllers</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;We got identical controllers from polynomial and estimator methods.  If we chose a different estimator, do we get different controllers?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

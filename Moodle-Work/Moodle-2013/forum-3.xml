@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1591" moduleid="8136" modulename="forum" contextid="54443">
+  <forum id="1591">
+    <type>general</type>
+    <name>21 Jan. 2013 - 3: Z-Transform</name>
+    <intro>&lt;p&gt;Please post your questions here&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1358654500</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="10037">
+        <name>21 Jan. 2013 - 3: Z-Transform</name>
+        <firstpost>18898</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1372886493</timemodified>
+        <usermodified>13130</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="18898">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358654560</created>
+            <modified>1358654694</modified>
+            <mailed>1</mailed>
+            <subject>21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;So, please do NOT start a new post.  Please follow the above guidelines.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18950">
+            <parent>18898</parent>
+            <userid>15477</userid>
+            <created>1358693345</created>
+            <modified>1372885736</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 7)</subject>
+            <message>&lt;p&gt;In the Example: Convolution, we have already ignored the terms where 1(n-k) is zero. Now, for the limit 0 to n, n-k is always &amp;gt;=0 (assumption: n&amp;gt;=0). So, would it be wrong to ignore 1(n) in the final expression as it is always equal to.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18952">
+            <parent>18898</parent>
+            <userid>23191</userid>
+            <created>1358694638</created>
+            <modified>1372885974</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 28)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;while doing manipulations for calculating inverse transform, we are multiplying/dividing by z. please clarify what will happen to ROC of the transform by doing this. will it affect ROC? what care one should take while doing this.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 20 January 2013, 8:40 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18958">
+            <parent>18898</parent>
+            <userid>15509</userid>
+            <created>1358698661</created>
+            <modified>1372886009</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 10)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;I wasn't clear as to what is meant by a causal signal.&lt;/p&gt;
+&lt;p&gt;u(k) should be zero for k&amp;lt;0 but doesnt the value of k totally depend on the reference time assumed for the entire system&lt;/p&gt;
+&lt;p&gt;In that case how is a causal signal defined.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 20 January 2013, 9:47 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18967">
+            <parent>18950</parent>
+            <userid>31087</userid>
+            <created>1358703737</created>
+            <modified>1358703737</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;No, it is not obvious.  For example, what if g(n) has had nonzero terms for negative argument? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18968">
+            <parent>18952</parent>
+            <userid>31087</userid>
+            <created>1358704167</created>
+            <modified>1358704167</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;One should keep track of the ROC, at least mentally.  ROC is the region where the Z-transform converges.  As a result, different terms of a partial fraction can have different ROCs.  For example, see Example 4.29 in the book, page 99.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18969">
+            <parent>18958</parent>
+            <userid>31087</userid>
+            <created>1358704344</created>
+            <modified>1358704344</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;The phrase "causal signal" is not rigorously defined as a "causal system".  In fact, this phrase is introduced mainly for convenience.  Of course, if you view it as the output of a causal system, then it makes more sense.  Instead of using some k, please use the "current" time - in this case the problems you have raised do not arise.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18971">
+            <parent>18898</parent>
+            <userid>20594</userid>
+            <created>1358706363</created>
+            <modified>1372886063</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 2)</subject>
+            <message>&lt;p&gt;system at rest and  system at steady state, are these statements hold  equal meaning?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 20 January 2013, 11:57 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18978">
+            <parent>18898</parent>
+            <userid>13634</userid>
+            <created>1358726098</created>
+            <modified>1372886119</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 12)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;When we say that 'convolution is associative' we are not really proving it to be so..we are just saying that the order of the brackets does not matter. One can prove it mathematically, but is there an intuitive way to grasp the fact without resorting to equations?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 21 January 2013, 5:24 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18979">
+            <parent>18971</parent>
+            <userid>31087</userid>
+            <created>1358729835</created>
+            <modified>1358729835</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;This is an interesting suggestion.  Let others in the class also respond to it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="18980">
+            <parent>18978</parent>
+            <userid>31087</userid>
+            <created>1358729969</created>
+            <modified>1358729969</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Intutively we can feel this, as we always do in a control course.  In fact, we take it for granted as well.  What is required is the rigorous mathematical derivation.  This derivation is available in most basic signal processing books.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19008">
+            <parent>18971</parent>
+            <userid>23191</userid>
+            <created>1358749684</created>
+            <modified>1358749684</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;In my view, the main difference between system at rest and system at steady state is that one do not have driving force (excitation signals) and other has driving force.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19016">
+            <parent>18971</parent>
+            <userid>13030</userid>
+            <created>1358752610</created>
+            <modified>1358752610</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;All systems at rest are also in steady state but not vice verse. System at rest means there is/are no input(s).&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19020">
+            <parent>18898</parent>
+            <userid>13030</userid>
+            <created>1358758052</created>
+            <modified>1372886163</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 10)</subject>
+            <message>&lt;p&gt;How can a system depend on future inputs? If it is named future inputs then they are not provided to the system at current time, so how can the system output change? Please give an example of such system.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 21 January 2013, 2:17 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19023">
+            <parent>18898</parent>
+            <userid>13413</userid>
+            <created>1358759097</created>
+            <modified>1372886230</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 14)</subject>
+            <message>&lt;p&gt;what is the physical interpretation of convolution and correlation, what is the difference between them?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 21 January 2013, 2:34 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19025">
+            <parent>19020</parent>
+            <userid>17635</userid>
+            <created>1358760320</created>
+            <modified>1358760320</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;If we have/design a system which needs the input sample at a later sampling instant (to calculate the output at the current instant), then that system becomes non - causal. (i.e., it depends on future inputs). e.g., y(n) = u(n+1). As you have suggested, such systems will never get future inputs at the given instant and cannot be realised in practise. This is the reason why a controller design should be done carefully to produce only causal systems/designs.&lt;/p&gt;
+&lt;p&gt;Rakhi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19026">
+            <parent>18971</parent>
+            <userid>13355</userid>
+            <created>1358760798</created>
+            <modified>1358760798</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;when we consider deviation variables their meaning appears to be same cause deviation is zero but if absolute variables are considered their values may be different&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19027">
+            <parent>18898</parent>
+            <userid>15538</userid>
+            <created>1358760844</created>
+            <modified>1372886272</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 23)</subject>
+            <message>&lt;p&gt;from where this final value theorem is derived.&lt;/p&gt;
+&lt;p&gt;lim_{k--&amp;gt;infinity} u(k) = lim_{z--&amp;gt;1} (1-z^{-1})U(z)&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 21 January 2013, 3:04 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19029">
+            <parent>18898</parent>
+            <userid>13355</userid>
+            <created>1358760991</created>
+            <modified>1372886303</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 10)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;As Rakhi mentioned that non causal systems cannot be realised in reality, so what are the uses of non-causal systems apart from making sure that the controller we design should not become non causal&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 21 January 2013, 3:06 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19059">
+            <parent>18898</parent>
+            <userid>15521</userid>
+            <created>1358797586</created>
+            <modified>1372886336</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 10)</subject>
+            <message>&lt;p&gt;My doubt was what does 'past I/P' and 'future I/P' exactly mean? can ypu give an example for the same? &lt;/p&gt;
+&lt;p&gt;Also, what exactly is the need for a causal system? &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Tuesday, 22 January 2013, 1:16 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19084">
+            <parent>18898</parent>
+            <userid>13130</userid>
+            <created>1358830873</created>
+            <modified>1372886493</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 18)</subject>
+            <message>&lt;p&gt;What is the utility of bilinear transformation?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Tuesday, 22 January 2013, 10:31 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 4 July 2013, 2:50 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19221">
+            <parent>18898</parent>
+            <userid>19275</userid>
+            <created>1358873411</created>
+            <modified>1358873411</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Instead of taking Z-transform can't we generate a continuous signal from discrete signal and then using laplace transform, and then again discretise it?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19277">
+            <parent>19026</parent>
+            <userid>31087</userid>
+            <created>1358912538</created>
+            <modified>1358912538</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;&lt;span style="background-color: #ffffff;"&gt;&lt;span style="color: #000000;"&gt;Quoting Garodia:&lt;/span&gt;&lt;span style="color: #ff0000;"&gt; &lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffffff;"&gt;&lt;span style="color: #ff0000;"&gt;when we consider deviation variables their meaning appears to be same cause deviation is zero but if absolute variables are considered their values may be&lt;/span&gt; &lt;span style="color: #ff0000;"&gt;different&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffffff;"&gt;&lt;span style="color: #ff0000;"&gt;&lt;span style="color: #000000;"&gt;I agree with this observation.  We normally use deviational variables only.  If there are any objections to this observation, please respond.&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19279">
+            <parent>19020</parent>
+            <userid>31087</userid>
+            <created>1358912735</created>
+            <modified>1358912735</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;As I mentioned in an another post, we do not work with non causal systems in control applications.  If the independent variable is length - this happens in image processing applications - then we may use the information ahead of us (in position) and behind us to reconstruct the information in the current location.  The same interpolation noncausal formula may be used effectively.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19282">
+            <parent>19027</parent>
+            <userid>31087</userid>
+            <created>1358913335</created>
+            <modified>1358913335</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Please see section &lt;span style="font-size: 12.000000pt; font-family: 'CMBX12';"&gt;4.2.5, Final Value Theorem for Causal Signals, in the textbook.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19283">
+            <parent>19029</parent>
+            <userid>31087</userid>
+            <created>1358913436</created>
+            <modified>1358913436</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Please see my reply to Patel Pranavkumar's post.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19285">
+            <parent>19059</parent>
+            <userid>31087</userid>
+            <created>1358913706</created>
+            <modified>1358913706</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Past input refers to what inputs already occurred and future input refers to the yet to be applied inputs.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Causal system is one that responds "after" an input is applied.  This is what we deal with in real life systems, especially in control applications.  So your question could have been, "what is the need for a noncausal system?", as these respond even before an input is applied.  I have already answered this question as a reply to Patel Pranavkumar's post.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19286">
+            <parent>19084</parent>
+            <userid>31087</userid>
+            <created>1358913920</created>
+            <modified>1358913920</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;This is useful for direct conversion of Laplace Transformed transfer function into Z-transform domain.  This topic will be taken up in a future class.  It is discussed in chapter 8 of the textbook.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19287">
+            <parent>19221</parent>
+            <userid>31087</userid>
+            <created>1358914011</created>
+            <modified>1358914011</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Yes, this is one approach.  But then you will not "think digital".  I answered this very question in my first lecture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19375">
+            <parent>18898</parent>
+            <userid>18685</userid>
+            <created>1358936155</created>
+            <modified>1372886466</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform (Slide 16)</subject>
+            <message>&lt;p&gt;z transform .. is it equivalent to lapalce transform or fourier. We take the summetion from -infinity to + infinity. If it is equivalent to lapalace the shouldnt it be 0 to + infinity. Z(X(n+1)) in terms of Z(X(n)) comes different if we changes the limit.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 23 January 2013, 3:45 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19405">
+            <parent>19375</parent>
+            <userid>10036</userid>
+            <created>1358949192</created>
+            <modified>1358949192</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;I don't see the advantage of using z^-1 in the series. Why don't we use just u(0) +  u(1)*z + u(2)*z*z + ... ? &lt;/p&gt;
+&lt;p&gt;Is it just to increase the degree of the denominator or a convention ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19420">
+            <parent>18898</parent>
+            <userid>15100</userid>
+            <created>1358953403</created>
+            <modified>1358953403</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;pre&gt;What is the difference between superposition and linearity in
+difference equations as well as differential equations?
+&lt;/pre&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19421">
+            <parent>19405</parent>
+            <userid>31087</userid>
+            <created>1358954079</created>
+            <modified>1358954079</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;One can do this also.  But then, the entire unstable reagion will get mapped INSIDE the unit circle.  With $$z^{-1}$$, the unstable region will be OUTSIDE the unit circle.  One has to develop a complete set of theory for this new transform that you have proposed!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19422">
+            <parent>19420</parent>
+            <userid>31087</userid>
+            <created>1358954235</created>
+            <modified>1358954235</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;These concepts are very similar whether you are dealing with difference equations or with differential equations.  You may refer to DSP by Proakis and Manolakis or Signals and Systems by Openheim, Wilsky and Young.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19423">
+            <parent>19023</parent>
+            <userid>31087</userid>
+            <created>1358954395</created>
+            <modified>1358954395</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Correlation is used heavily in identification problems - you can see it chapter 6 of the textbook.  It helps find the relation between two signals - for example, input and output.  It will not be used so much in the current course.  Convolution, on the other hand, is used to find the response of a linear system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19424">
+            <parent>19008</parent>
+            <userid>31087</userid>
+            <created>1358954485</created>
+            <modified>1358954485</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Please see a different viewpoint of this topic in the post made Garodia.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19425">
+            <parent>19016</parent>
+            <userid>31087</userid>
+            <created>1358954536</created>
+            <modified>1358954536</modified>
+            <mailed>1</mailed>
+            <subject>Re: 21 Jan. 2013 - 3: Z-Transform</subject>
+            <message>&lt;p&gt;Please see the answer given by Garodia - it is an alternate view point, compared to yours.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="1960">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="1964">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="1965">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="1966">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="1969">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="1971">
+        <userid>13413</userid>
+      </subscription>
+      <subscription id="1972">
+        <userid>17635</userid>
+      </subscription>
+      <subscription id="1973">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="1974">
+        <userid>15538</userid>
+      </subscription>
+      <subscription id="1976">
+        <userid>15521</userid>
+      </subscription>
+      <subscription id="1983">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="1985">
+        <userid>13130</userid>
+      </subscription>
+      <subscription id="1988">
+        <userid>18685</userid>
+      </subscription>
+      <subscription id="1992">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="1993">
+        <userid>15100</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

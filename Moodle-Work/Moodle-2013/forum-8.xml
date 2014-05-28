@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1651" moduleid="9196" modulename="forum" contextid="55924">
+  <forum id="1651">
+    <type>general</type>
+    <name>7 Feb. 2013 - 8: Desired region, Aryabhatta's identity</name>
+    <intro>&lt;p&gt;Discussion related to desired region and Aryabhatta's identity are here.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1360200386</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="11501">
+        <name>7 Feb. 2013 - 8: Desired region, Aryabhatta's society</name>
+        <firstpost>21548</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1360234289</timemodified>
+        <usermodified>18685</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="21548">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1360085794</created>
+            <modified>1360085794</modified>
+            <mailed>1</mailed>
+            <subject>7 Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;So, please do NOT start a new post.  Please follow the above guidelines.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21660">
+            <parent>21548</parent>
+            <userid>23190</userid>
+            <created>1360145085</created>
+            <modified>1360226297</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Can  equation Nr &amp;gt; Π / 2w  be extended to Nr &amp;gt; 1/ 4f and used in&lt;/p&gt;
+&lt;p&gt;finding a thumb rule  for  sampling frequency as fs &amp;gt; 4 times frequency&lt;/p&gt;
+&lt;p&gt;of error signal ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 3:34 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21682">
+            <parent>21548</parent>
+            <userid>13030</userid>
+            <created>1360148839</created>
+            <modified>1360226367</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;In video lecture (for slide no. 4/5), you said that 180 degree is the maximum degree possible for ω in discrete time domain.&lt;br /&gt;&lt;br /&gt;Please explain, why is it so?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 4:49 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21711">
+            <parent>21548</parent>
+            <userid>13355</userid>
+            <created>1360160819</created>
+            <modified>1360226471</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;on slide number 10, where desired region between discrete and continous system is shown, why is there so significant difference in them and will we get the same result if we shift from discrete to continous and vie versa.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 7:56 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21734">
+            <parent>21548</parent>
+            <userid>23191</userid>
+            <created>1360165579</created>
+            <modified>1360226493</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;please clarify the definition of δ. is it the ratio between two successive peaks or is it ratio between peak value to next crest value ( which is the case in the example)?&lt;/p&gt;
+&lt;p&gt;as a general definition, can i define it as minimum value of the ratio between two successive peaks or crest.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 9:16 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21736">
+            <parent>21548</parent>
+            <userid>23191</userid>
+            <created>1360166412</created>
+            <modified>1360226515</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;please clarify the meaning of negative ω in the plot related to Nr.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 9:30 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21737">
+            <parent>21548</parent>
+            <userid>15538</userid>
+            <created>1360167036</created>
+            <modified>1360226545</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;In the lecture, you have mentioned that there are different error model exist other than we used in the lecture or in this course for damped sinusoidal oscillation{pho*cos(wn)} . Can you please breifly explain them too.&lt;/p&gt;
+&lt;p&gt;Or other error models are for different error characteristics not for this one.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 9:40 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21739">
+            <parent>21548</parent>
+            <userid>23191</userid>
+            <created>1360167223</created>
+            <modified>1360226641</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Example</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;1. whether there is any quick way to identify that rows are independent.&lt;/p&gt;
+&lt;p&gt;2. when they are not independent,are we  free to remove any one row?&lt;/p&gt;
+&lt;p&gt;3. F matrix should be made square to calculate F-1.? then please elaboate validity of the equations VF=C → V= CF-1? (since F (not square)in first equation is not same as F (square) in F-1.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 9:43 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21747">
+            <parent>21548</parent>
+            <userid>10036</userid>
+            <created>1360168739</created>
+            <modified>1360226705</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;For finding minima in discrete space, why don't we check the values of function at the integral values of n around the value found by equatiing dy/dx to 0 and then consider the minima point to be one of those two neighbouring n values where the function has lower value ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 10:08 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21752">
+            <parent>21548</parent>
+            <userid>13253</userid>
+            <created>1360170298</created>
+            <modified>1360226798</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's identity: Algorithm</subject>
+            <message>&lt;p&gt;1. How do we choose the polynomials D(z), N(z), C(z) for calculating X(z) and Y(z) values? Is there a criteria for choosing their degree and coefficients?&lt;/p&gt;
+&lt;p&gt;2. How can we get our desired Transfer function from the obtained X(z) and Y(z)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 10:34 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21757">
+            <parent>21548</parent>
+            <userid>20594</userid>
+            <created>1360171008</created>
+            <modified>1360226838</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Is error always a function of cos(wn)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 10:46 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21758">
+            <parent>21548</parent>
+            <userid>20594</userid>
+            <created>1360171407</created>
+            <modified>1360226865</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;is the error always a function of cos(wn)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 6 February 2013, 10:53 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21765">
+            <parent>21548</parent>
+            <userid>13634</userid>
+            <created>1360190543</created>
+            <modified>1360226892</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir in slide 9 we are saying that we generally have epsilon &amp;lt; delta. However, whereas epsilon is the threshold for the absolute error e(n), delta is the ratio of errors and hence dimensionless. So how are we even comparing the two quantities?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 4:12 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21766">
+            <parent>21548</parent>
+            <userid>13781</userid>
+            <created>1360190543</created>
+            <modified>1360226974</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Slide no.10 shows the comparison of desired regions by discrete time and CT domain approach.Which approach gives more accurate results and why?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 4:12 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21768">
+            <parent>21548</parent>
+            <userid>15509</userid>
+            <created>1360191969</created>
+            <modified>1360227008</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Can you clarify as to how the circular diagram on slide 3 was obtained&lt;/p&gt;
+&lt;p&gt;How did rho turn out to be the radius ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 4:36 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21769">
+            <parent>21548</parent>
+            <userid>17192</userid>
+            <created>1360192127</created>
+            <modified>1360227030</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;For deriving the desired region&lt;/p&gt;
+&lt;p&gt;In the case of small fall time the bound is taken on omega but for small undershoot bound on rho is taken.&lt;/p&gt;
+&lt;p&gt;Can you explain why&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 4:38 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21770">
+            <parent>21548</parent>
+            <userid>15100</userid>
+            <created>1360192787</created>
+            <modified>1360227083</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Algorithm</subject>
+            <message>&lt;p&gt;Sir, &lt;/p&gt;
+&lt;p&gt;How is the GCD of 2 matrices defined? What physical significance does it hold?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 4:49 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21771">
+            <parent>21548</parent>
+            <userid>15642</userid>
+            <created>1360193628</created>
+            <modified>1360193628</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7 Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;1. The respose discussed in the lecture is unit step response of second order underdamped system. Why did we take this only? Is there any reason or just for simplicity?&lt;/p&gt;
+&lt;p&gt;2. Generally rise time is defined as time taken by the signal to reach 90%  from 10% of its final value. Why didn't we use this ?&lt;/p&gt;
+&lt;p&gt;3. what are the applications of Aryabhatta's Identity?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21772">
+            <parent>21548</parent>
+            <userid>15477</userid>
+            <created>1360194619</created>
+            <modified>1360227162</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Desired Transfer Function</subject>
+            <message>&lt;p&gt;1. In the leaf like plot of allowed ω, how do we find the left most point (of the bulge) and the point where it cuts the y-axis?&lt;/p&gt;
+&lt;p&gt;2. What is the physical significance of the poles and zeros of T&lt;sub&gt;E&lt;/sub&gt; i.e the roots of Φ and ψ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21773">
+            <parent>21548</parent>
+            <userid>19315</userid>
+            <created>1360196029</created>
+            <modified>1360227230</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Example</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In the example for aryabhatta's identity, it happened that the matrix was square. However if thats not the case, I am not clear how do we take the inverse. Do we take the pseudo inverse?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 5:43 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21777">
+            <parent>21548</parent>
+            <userid>19275</userid>
+            <created>1360201272</created>
+            <modified>1360227255</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;What are the factors which decide value of Nr?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 7:11 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21778">
+            <parent>21548</parent>
+            <userid>12583</userid>
+            <created>1360201588</created>
+            <modified>1360227287</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;The desired response considered is of order 2. If the plant is higher order this will result cancellation of some of the poles of the plant by the controller. This is fine as far as the cancelled poles are stable. How to proceed if there is an unstable pole zero cancelation?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 7:16 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21779">
+            <parent>21548</parent>
+            <userid>19455</userid>
+            <created>1360201788</created>
+            <modified>1360228592</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's identity: Motivation</subject>
+            <message>&lt;p&gt;sir what are the applications of Aryabhatta's identity?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 7:19 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 2:25 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21780">
+            <parent>21548</parent>
+            <userid>19471</userid>
+            <created>1360205225</created>
+            <modified>1360227393</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Algorithm</subject>
+            <message>&lt;p&gt;Sir,&lt;br /&gt;slide no 14, how can you replace two-component polynomial vectors, D, E and X,Y by a single polynomial V and F?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 8:17 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21782">
+            <parent>21548</parent>
+            <userid>13130</userid>
+            <created>1360205889</created>
+            <modified>1360227420</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;How can we control simultaneously both the small decay ratio and large overshoot?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 8:28 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21783">
+            <parent>21548</parent>
+            <userid>13130</userid>
+            <created>1360206460</created>
+            <modified>1360227447</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir why are you taking value of δ only between 0.25 and 0.5??&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 8:37 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21791">
+            <parent>21548</parent>
+            <userid>15521</userid>
+            <created>1360210766</created>
+            <modified>1360227481</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;&lt;span&gt;1) We have chosen a standard form of error in our approach. What if the error is something else? How will it affect our approach? &lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;2) How does this approach is used in designing the controller?  (- Monika Meena, as I am not yet registered, I am posting here)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 9:49 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21806">
+            <parent>21660</parent>
+            <userid>31087</userid>
+            <created>1360216829</created>
+            <modified>1360216829</modified>
+            <mailed>1</mailed>
+            <subject>Re: Sampling and rise time - Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;Yes, this is an interesting observation.  This will give a relation for $$F_s$$ in terms of $$N_r$$.  We have to see how this compares with the thumb rule for sampling in terms of rise time.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21814">
+            <parent>21548</parent>
+            <userid>13413</userid>
+            <created>1360218607</created>
+            <modified>1360227525</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;       In book , restrictions for error model are given , how nonminimum phase zeros of plant causes undesirable overshoots ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 12:00 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21820">
+            <parent>21548</parent>
+            <userid>13107</userid>
+            <created>1360219796</created>
+            <modified>1360228620</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Motivation</subject>
+            <message>&lt;p&gt;what are the practical applications of Aryabhatta's identity ? &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 12:19 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 2:29 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21824">
+            <parent>21682</parent>
+            <userid>31087</userid>
+            <created>1360220460</created>
+            <modified>1360220460</modified>
+            <mailed>1</mailed>
+            <subject>Re: Max Degree in Discrete Time Domain</subject>
+            <message>&lt;p&gt;See slide 18 of lecture 4. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21825">
+            <parent>21711</parent>
+            <userid>31087</userid>
+            <created>1360220593</created>
+            <modified>1360220593</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7 Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;Actually, there is not too much difference between the two.  In any case, Astrom's approach is based on approximations.  In comparison, our approach is more rigorous.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21826">
+            <parent>21734</parent>
+            <userid>31087</userid>
+            <created>1360220719</created>
+            <modified>1360220719</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 8</subject>
+            <message>&lt;p&gt;Yes, the decay ratio, as defined conventionally, is smaller than $$\delta$$.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21828">
+            <parent>21736</parent>
+            <userid>31087</userid>
+            <created>1360220782</created>
+            <modified>1360220782</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 6</subject>
+            <message>&lt;p&gt;It is the same as in the slide 18 in lecture 4.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21830">
+            <parent>21737</parent>
+            <userid>31087</userid>
+            <created>1360220885</created>
+            <modified>1360220885</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7 Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;Our error model was constructed based on step response.  Instead, we could have considered the response of a ramp, for example.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21832">
+            <parent>21548</parent>
+            <userid>23067</userid>
+            <created>1360221038</created>
+            <modified>1360227591</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;You considerd only wn=Π/2 means e(n)=0, what happens if we take wn=3Π/2 tomake e(n)=0 because both Π/2 and 3Π/2 are in the circle 360 degrees.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 12:40 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21835">
+            <parent>21739</parent>
+            <userid>31087</userid>
+            <created>1360221277</created>
+            <modified>1360221277</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 19-20</subject>
+            <message>&lt;p&gt;Checking whether two rows of numbers (i.e. two vectors) is indenpendent is easy - you just have to check whether one is an exact multiple of the other!&lt;/p&gt;
+&lt;p&gt;Where are we removing an independent row?&lt;/p&gt;
+&lt;p&gt;What I mean by that equation is to find the right inverse.  You may go through the code given in the book and try it out!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21844">
+            <parent>21548</parent>
+            <userid>18658</userid>
+            <created>1360223295</created>
+            <modified>1360228644</modified>
+            <mailed>1</mailed>
+            <subject>Aryabhatta's Identity: Motivation</subject>
+            <message>&lt;p&gt;What is the motive behind studying Aryabhatt's identity. How is it helpful in process control ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 1:18 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 2:30 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21849">
+            <parent>21548</parent>
+            <userid>11633</userid>
+            <created>1360223940</created>
+            <modified>1360227649</modified>
+            <mailed>1</mailed>
+            <subject>Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Which factors determine the value of Nr ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 7 February 2013, 1:29 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21855">
+            <parent>21747</parent>
+            <userid>31087</userid>
+            <created>1360227742</created>
+            <modified>1360227742</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;We could do that.  Is that a better approximation than what we obtained?  In any case, using this approach, can you arrive at simple expressions, as given in slides 6 and 7?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21858">
+            <parent>21752</parent>
+            <userid>31087</userid>
+            <created>1360227941</created>
+            <modified>1360227941</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aryabhatta's identity: Algorithm</subject>
+            <message>&lt;p&gt;1.  D, N and C arise in practical problems.  We will see examplese of these in Chapter 9 of the book.  Advanced examples of this are given in Chapter 13 of the book.&lt;/p&gt;
+&lt;p&gt;2.  There may not be any relation between X and Y, and the desired transfer function.  We will use the X and Y values to design the controller.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21859">
+            <parent>21757</parent>
+            <userid>31087</userid>
+            <created>1360228036</created>
+            <modified>1360228036</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Any other function that satisfies the three requirements in Slide 4 is also fine.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21863">
+            <parent>21765</parent>
+            <userid>31087</userid>
+            <created>1360228190</created>
+            <modified>1360228190</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Because the error is because of unit step input, it can be assumed to be dimensionless.  To see this, if the step is of height 2, we will divide the error by 2 and so on.  Thus, the error e can also be thought of as scaled and hence the two quantities can be compared.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21864">
+            <parent>21766</parent>
+            <userid>31087</userid>
+            <created>1360228325</created>
+            <modified>1360228325</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;Discrete time approach is more accurate.  To get overshoot, you need to have complex conjugate poles.  This is possible only in our approach.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21865">
+            <parent>21768</parent>
+            <userid>31087</userid>
+            <created>1360228487</created>
+            <modified>1360228487</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;By taking Z-transform of $$\cos\omega n$$, one can see that it has poles at the indicated points.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21867">
+            <parent>21770</parent>
+            <userid>31087</userid>
+            <created>1360228864</created>
+            <modified>1360228864</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aryabhatta's Identity: Algorithm</subject>
+            <message>&lt;p&gt;A divisor of a polynomial matrix should divide without reminder (up to a constant) every entry of the said matrix.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21868">
+            <parent>21771</parent>
+            <userid>31087</userid>
+            <created>1360228990</created>
+            <modified>1360228990</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7 Feb. 2013 - 8: Desired region, Aryabhatta's society</subject>
+            <message>&lt;p&gt;1.  Just simplicity.&lt;/p&gt;
+&lt;p&gt;2.  For overdamped systems only, we need to consider the change from 10 to 90%.  For underdamped systems, which will give rise to finite rise time, our definition is better.&lt;/p&gt;
+&lt;p&gt;3.  To design controllers - you can see it in the 9th chapter of the book.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21870">
+            <parent>21772</parent>
+            <userid>31087</userid>
+            <created>1360229526</created>
+            <modified>1360229526</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Desired Transfer Function</subject>
+            <message>&lt;p&gt;The expression in slide 7 has to be used.  There is no explicit expression - you have to do trial and error.  Some people, to simplify the calculation, forbid the entire LHP.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21873">
+            <parent>21773</parent>
+            <userid>31087</userid>
+            <created>1360229849</created>
+            <modified>1360229849</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aryabhatta's Identity: Example</subject>
+            <message>&lt;p&gt;Did I say right inverse in my video?  It is not the same as inverse.  The procedure is as explained in the example.  For more details, please see the file left_prm.pdf, which I have uploaded in the slides folder.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21874">
+            <parent>21777</parent>
+            <userid>31087</userid>
+            <created>1360229896</created>
+            <modified>1360229896</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;It depends on how fast you want the response to be and the sampling time.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21877">
+            <parent>21778</parent>
+            <userid>31087</userid>
+            <created>1360230364</created>
+            <modified>1360230364</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;If you want a higher degree polynomial, say degree 4, you can take the square of the polynomial that we have used.  If you have an odd degree, you can take a pole to be at the origin.&lt;/p&gt;
+&lt;p&gt;Even if we follow your argument, where will we get unstable pole-zero cancellation?  The closed loop polynomial, even for closed loop systems should be Hurwitz.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21878">
+            <parent>21779</parent>
+            <userid>31087</userid>
+            <created>1360230418</created>
+            <modified>1360230418</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aryabhatta's identity: Motivation</subject>
+            <message>&lt;p&gt;One applications we will see in this course is control system design.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21879">
+            <parent>21780</parent>
+            <userid>31087</userid>
+            <created>1360230509</created>
+            <modified>1360230509</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aryabhatta's Identity: Algorithm</subject>
+            <message>&lt;p&gt;The matrix that has two elements X and Y side by side is called V.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21880">
+            <parent>21782</parent>
+            <userid>31087</userid>
+            <created>1360230562</created>
+            <modified>1360230562</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>It turns out to be that way.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21881">
+            <parent>21783</parent>
+            <userid>31087</userid>
+            <created>1360230665</created>
+            <modified>1360230665</modified>
+            <mailed>1</mailed>
+            <subject>Re: Desired Response: Specifications and Desired Region</subject>
+            <message>&lt;p&gt;If you assume decay ratio to be half of $$\delta$$, then the decay ratios that we have considered are 0.125 and 0.25.  These are acceptable (in fact, popular) values and hence we have used them.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21896">
+            <parent>21548</parent>
+            <userid>18685</userid>
+            <created>1360234289</created>
+            <modified>1360234289</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7 Feb. 2013 - 8:nature of f matrix</subject>
+            <message>&lt;p&gt;will the f matrix be always square (for the course syllabus) as given in example in last 3 sildes..&lt;/p&gt;
+&lt;p&gt;is size of column F0 equal to v (size of row matrix v)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2278">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2280">
+        <userid>15538</userid>
+      </subscription>
+      <subscription id="2286">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="2412">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2413">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="2415">
+        <userid>13253</userid>
+      </subscription>
+      <subscription id="2416">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2417">
+        <userid>13781</userid>
+      </subscription>
+      <subscription id="2418">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2419">
+        <userid>17192</userid>
+      </subscription>
+      <subscription id="2420">
+        <userid>15100</userid>
+      </subscription>
+      <subscription id="2421">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="2422">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="2423">
+        <userid>19315</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

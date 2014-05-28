@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1638" moduleid="8782" modulename="forum" contextid="55390">
+  <forum id="1638">
+    <type>general</type>
+    <name>31 Jan. 2013 - 6: Nyquist Plot</name>
+    <intro>&lt;p&gt;Questions on Nyquist Plot&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>2</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1359593368</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="10844">
+        <name>Nyquist plot questions</name>
+        <firstpost>20338</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1372969295</timemodified>
+        <usermodified>13355</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="20338">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1359516131</created>
+            <modified>1359516131</modified>
+            <mailed>1</mailed>
+            <subject>Nyquist plot questions</subject>
+            <message>&lt;div class="box generalbox"&gt;
+&lt;div class="no-overflow"&gt;
+&lt;p&gt;&lt;strong&gt;Please reply to this post.  Do NOT start a new post for discussions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20341">
+            <parent>20338</parent>
+            <userid>23190</userid>
+            <created>1359517212</created>
+            <modified>1359517269</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Why it is said that in frequency domain design method ( nyquist analysis) the dependence on the model is not as stringent as in any other control system design and analysis methods ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20397">
+            <parent>20341</parent>
+            <userid>31087</userid>
+            <created>1359528764</created>
+            <modified>1359528764</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Other types of models (e.g. pole, zero model) are possibly more sensitive to perturbations.  For example, if we perturb the frequency information a little bit, the behaviour may not change much.  On the other hand, if we perturb the pole or zero a little bit, the behaviour can change dramatically.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20508">
+            <parent>20338</parent>
+            <userid>19315</userid>
+            <created>1359558197</created>
+            <modified>1372967875</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 27)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Referring to the slide on stability margins, what do unmodelled gains and delays mean?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 30 January 2013, 8:33 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20526">
+            <parent>20338</parent>
+            <userid>13030</userid>
+            <created>1359563663</created>
+            <modified>1372967906</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 27)</subject>
+            <message>&lt;p&gt;Referring to Figure 7.10 in the book / last slide, points O, A and B are on Nyquist plot. What if there are more than 1 points of Nyquist plot lying on unit circle (same as point B)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 30 January 2013, 10:04 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20531">
+            <parent>20338</parent>
+            <userid>15642</userid>
+            <created>1359565656</created>
+            <modified>1372967986</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 27)</subject>
+            <message>&lt;p&gt;1. What is the difference between open loop gain and loop gain ? are they both equal to G(z).H(z) ?&lt;/p&gt;
+&lt;p&gt;2. what are the advantages of nyquist plot other than stability estimation of closed loop system by observing open loop gain?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 30 January 2013, 10:37 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20533">
+            <parent>20338</parent>
+            <userid>15538</userid>
+            <created>1359565923</created>
+            <modified>1372968059</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 16)</subject>
+            <message>&lt;p&gt;Are there any preassumption/constraint on nyquist criteria or Is it valid for every system(transfer function) ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 30 January 2013, 10:42 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20540">
+            <parent>20338</parent>
+            <userid>13413</userid>
+            <created>1359567607</created>
+            <modified>1372968222</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 21, 23)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt; 1.    Can we use &lt;span&gt;Routh–Hurwitz stability criterion (as used in laplace transfer function)&lt;/span&gt; for Z transform transfer function for finding value of k so that system is stable ?&lt;/p&gt;
+&lt;p&gt;2. In example given for Nyquist Plot , after determiation of points A,B,C and D , how can we assure in which direction two symmetric curves will join ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 30 January 2013, 11:10 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20550">
+            <parent>20338</parent>
+            <userid>13634</userid>
+            <created>1359573744</created>
+            <modified>1372968272</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 13)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Why do we need the zeros of the rational function 1 + Ka(z)/b(z) 'inside' the unit circle? Why can't it be on the unit circle and still be stable, since magnitude runaway won't happen anyway?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 12:52 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20553">
+            <parent>20338</parent>
+            <userid>15509</userid>
+            <created>1359574524</created>
+            <modified>1372968343</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 16)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;According to the stability criterion C2 contour should encircle origin P times that is equal to the number of open loop unstable poles.&lt;/p&gt;
+&lt;p&gt;Say we have the Kb(z)/a(z) open loop transfer function and while calculating the unstable poles should infinity be taken into account ?&lt;/p&gt;
+&lt;p&gt;In the analog control course while calculating open loop and closed loop poles I don't think we ever took infinity into account.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 1:05 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20554">
+            <parent>20338</parent>
+            <userid>19275</userid>
+            <created>1359575062</created>
+            <modified>1359575062</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;If we want to put a controller on a running plant , how is it done (experiments) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20557">
+            <parent>20338</parent>
+            <userid>15100</userid>
+            <created>1359581629</created>
+            <modified>1372968395</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 9)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Could you give guidelines on how to prove cauchy's principle?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 3:27 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20558">
+            <parent>20338</parent>
+            <userid>15100</userid>
+            <created>1359583029</created>
+            <modified>1372968450</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 15)</subject>
+            <message>&lt;p&gt;while studying nyquist criterion in laplace domain, 'N' in Eq : N = P-Z , was defined as the number of encirclements in counter clockwise direction. However in digital domain, it is taken as clockwise direction. Explain the difference.&lt;/p&gt;
+&lt;p&gt;Also, are there any other differences between the two?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 3:27 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20559">
+            <parent>20550</parent>
+            <userid>15100</userid>
+            <created>1359583987</created>
+            <modified>1359583987</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;If 1 zero of the characteristic equation is on the unit circle, then it is marginally stable. However, if more than 1 zero of the characteristic equation is on the unit circle, it is unstable.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20560">
+            <parent>20553</parent>
+            <userid>15100</userid>
+            <created>1359584533</created>
+            <modified>1359584533</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;The poles at infinity should not be taken into account. I guess they were considered here for ease in derivation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20562">
+            <parent>20508</parent>
+            <userid>31087</userid>
+            <created>1359593929</created>
+            <modified>1359593929</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Many approximations are made while arriving at the transfer function of any plant.  These approximations could have a bearing on the performance of the control system and in fact, the stability itself.  One way to account for these is through gain and phase margins.  We insist that these should be large enough to account for plant variations.  We refer to this as the unmodelled gains and delays.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20563">
+            <parent>20526</parent>
+            <userid>31087</userid>
+            <created>1359594051</created>
+            <modified>1359594051</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;You should work with the one point that is closest to (-1,0).&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20564">
+            <parent>20531</parent>
+            <userid>31087</userid>
+            <created>1359594651</created>
+            <modified>1359594651</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;1. Open loop gain refers to the gain of the plant alone - this is $$G(z)$$ - this is the methodology I follow - this is what we will use in this course.  If the control system with a transfer function $$G_c(z)$$ is already present, some also refer to $$G(z)G_c(z)$$ as the open loop gain - but I will not use this nomenclature.  To arrive at the closed loop gain, one has to close the feedback loop first.  The closed loop gain is the transfer function between the external input (say, reference or disturbance signals) and the output of the plant.  It is of the form $$\dfrac{G_c(z)G(z)}{1+G_c(z)G(z)}$$.&lt;/p&gt;
+&lt;p&gt;2.  Using Nyquist plot, it is easier to explain the stability of systems, compared to Bode plots.  Nyquist and Bode plots can be built using experimental data alone - this cannot be done in other methods, for example, root-locus method, which relies on pole-zero information, which in turn is not available through experimentation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20565">
+            <parent>20533</parent>
+            <userid>31087</userid>
+            <created>1359594730</created>
+            <modified>1359639203</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;It has to be a linear time invariant system.  I cannot think of any other constraint. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20566">
+            <parent>20554</parent>
+            <userid>31087</userid>
+            <created>1359594896</created>
+            <modified>1359594896</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;One will first run the controller in open loop mode.  That is, one will set the manipulated variables, such as, cooling rate, motor speed, etc., manually.  Once the logic is established and verified to be working, the loop is closed. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;It is important to point out that one carries out simulation before doing anything to the plant directly.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20567">
+            <parent>20558</parent>
+            <userid>31087</userid>
+            <created>1359595052</created>
+            <modified>1359595052</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;The directions of C1 and C3 have to be consistent, that's all.  If C1 is measured in the clockwise direction, you should count C2 (and hence, C3 and C4) also in the clockwise direction.  You may also use counterclockwise measurement.&lt;/p&gt;
+&lt;p&gt;There is only a sign change between the two.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20568">
+            <parent>20553</parent>
+            <userid>31087</userid>
+            <created>1359597906</created>
+            <modified>1359597906</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;At infinity, we may have zeros, but not poles.  Only when the numerator transfer function is of greater degree than the denominator, we will have this situtaiton.  We know that this cannot happen for causal systems.  We will not deal with anything other than causal plants!&lt;/p&gt;
+&lt;p&gt;Because of this observation, we will never have to worry about unstable poles at infinity.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20569">
+            <parent>20557</parent>
+            <userid>31087</userid>
+            <created>1359597966</created>
+            <modified>1359597966</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Please read Churchill's book on Complex Analysis.  As a matter of fact, any first good book on complex analysis will explain this.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20570">
+            <parent>20338</parent>
+            <userid>23191</userid>
+            <created>1359598028</created>
+            <modified>1372968518</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 18)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;contour C1 in the problem G(z) = 1/z(z-1), has indentation circle at z=1. can we make that circle with φ= +90 to 180 to -90. and ε→0. if not why?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 7:37 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20576">
+            <parent>20338</parent>
+            <userid>23191</userid>
+            <created>1359600029</created>
+            <modified>1372968624</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 7,23)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;for stability we say, all poles of a transfer function should be inside unity circle in z plane. but if a pole is on z=1, as in our example, it is also stable, as we asserted in the problem G(z) = 1/z(z-1). if it is the case, why we do not say that for stability all poles should lie on or inside unity cirle.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 8:10 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20577">
+            <parent>20564</parent>
+            <userid>23191</userid>
+            <created>1359600638</created>
+            <modified>1359600638</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;dear sir,&lt;/p&gt;
+&lt;p&gt;how nyquist plot is made using experimental data, please explain?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20580">
+            <parent>20338</parent>
+            <userid>17192</userid>
+            <created>1359602459</created>
+            <modified>1372968689</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 14)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;While saying that for stability requirements Z=0 is necessary, we say at one slide " let G(z)=1+K*b(z)/a(z) have 'n' zeros and 'n' poles ....".&lt;/p&gt;
+&lt;p&gt;Sir, I could not understand how can we say for certain that G(z) has equal number of poles and zeros??&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 8:50 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20613">
+            <parent>20338</parent>
+            <userid>13030</userid>
+            <created>1359610647</created>
+            <modified>1372968723</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 18)</subject>
+            <message>&lt;p&gt;C1 should not go through poles/zeros. So is it a convention to take those poles/zeros inside C1?&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;For example, G(z)=1/z(z-1) on slide no. 18&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 11:07 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20615">
+            <parent>20338</parent>
+            <userid>18685</userid>
+            <created>1359610793</created>
+            <modified>1372968754</modified>
+            <mailed>1</mailed>
+            <subject>Re:about determining constants (Slide 27)</subject>
+            <message>&lt;p&gt;As we can fing the gain margines, can we determing values of Kp or Kd using nyquist plots to get stable controller?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 11:09 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20617">
+            <parent>20338</parent>
+            <userid>19309</userid>
+            <created>1359610978</created>
+            <modified>1372968840</modified>
+            <mailed>1</mailed>
+            <subject>Re: stability check (Slide 19)</subject>
+            <message>&lt;p&gt;To check the stability of system why it is required to transform function in frequency domain. Is it a acceptable method if we check the convergance in time domain only?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 11:12 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20626">
+            <parent>20338</parent>
+            <userid>12583</userid>
+            <created>1359614175</created>
+            <modified>1372968887</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 14)</subject>
+            <message>&lt;p&gt;&lt;span&gt;its is assumed that number of poles and number of zeros of the open loop system ('n') are same. Is it valid ?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 12:06 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20644">
+            <parent>20338</parent>
+            <userid>19028</userid>
+            <created>1359619962</created>
+            <modified>1372968917</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 8)</subject>
+            <message>&lt;p&gt;Is it compulsory to take c1 curve to be unit circle?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 1:42 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20645">
+            <parent>20338</parent>
+            <userid>13130</userid>
+            <created>1359620336</created>
+            <modified>1359620336</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Dear Sir&lt;/p&gt;
+&lt;p&gt;why we face difficulty while plotting 1 + KG(z)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20646">
+            <parent>20338</parent>
+            <userid>13107</userid>
+            <created>1359620600</created>
+            <modified>1359620600</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Is there any relationship between  Nyquist Plot and Polar Plot .  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20648">
+            <parent>20338</parent>
+            <userid>20594</userid>
+            <created>1359621228</created>
+            <modified>1372968996</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 18)</subject>
+            <message>&lt;p&gt;In the example 1/z(z-1),   c1 is selcted unit circle with a semicircle , can we select c1 a circle of radius less then unity in this case we would not require semicircle. &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 2:05 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20650">
+            <parent>20338</parent>
+            <userid>13802</userid>
+            <created>1359621854</created>
+            <modified>1372969057</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 4)</subject>
+            <message>&lt;p&gt;Is it necessary to model the disturbance as stochatic variable.&lt;span style="line-height: 1.4;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt; Can there be a solution such that disturbance is merged with the input and the problem is posed as system identification problem, to accurately model the combined input?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;If so, do we have any special advantage in modeliing the disturbance variable as a stochastic variable?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 2:14 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20660">
+            <parent>20615</parent>
+            <userid>18685</userid>
+            <created>1359625097</created>
+            <modified>1359625097</modified>
+            <mailed>1</mailed>
+            <subject>Re:about determining constants</subject>
+            <message>&lt;p&gt;&lt;span&gt;As we can find the gain margines, can we determing values of Kp or Kd using nyquist plots to get stable controller?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20661">
+            <parent>20338</parent>
+            <userid>19471</userid>
+            <created>1359625834</created>
+            <modified>1359625834</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In case of Laplace TF, we wanted the resulting CLTF to not have poles in RHP, because their inverse would give us a exp(+ve real part) which wud diverge as t becomes infinity....&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Why are the stability for Z-transform TF the way they are? We are concerned only with the co-efficients not the value of the Z-function...&lt;br /&gt;The series shouldnt diverge, thats ok; but what about the CL output signal? Roots and poles of Z should have nothing to do wiht that....&lt;br /&gt;&lt;br /&gt;Please clarify&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20663">
+            <parent>20568</parent>
+            <userid>15509</userid>
+            <created>1359626400</created>
+            <modified>1359626400</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Causal systems will not have poles at infinity.&lt;/p&gt;
+&lt;p&gt;But Sir I am still not clear when you have considered infinity to be a possible zero. The video says there are n zeros and n poles including infinity (infinity then is considered only for the zeros I think); how do we obtain the same number of poles and zeros (n) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20664">
+            <parent>20568</parent>
+            <userid>15509</userid>
+            <created>1359626401</created>
+            <modified>1359626401</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;Causal systems will not have poles at infinity.&lt;/p&gt;
+&lt;p&gt;But Sir I am still not clear when you have considered infinity to be a possible zero. The video says there are n zeros and n poles including infinity (infinity then is considered only for the zeros I think); how do we obtain the same number of poles and zeros (n) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20667">
+            <parent>20338</parent>
+            <userid>15477</userid>
+            <created>1359627840</created>
+            <modified>1372969155</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 22)</subject>
+            <message>&lt;p&gt;When making the Nyquist plot, after deciding that for the indent, G will go from -90 to 0 to +90, we had two options of drawing the (infinite) circular part: clockwise and anticlockwise. Why did we choose anticlockwise?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20679">
+            <parent>20667</parent>
+            <userid>15509</userid>
+            <created>1359632019</created>
+            <modified>1359632019</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;The infinite circle is supposed to follow a exp(-j*phi) trajectory&lt;/p&gt;
+&lt;p&gt;as phi moves from 90 to -90 degrees, -phi changes from -90 to 90 hence the trajectory moves in the anticlockwise direction&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20680">
+            <parent>20338</parent>
+            <userid>15502</userid>
+            <created>1359632202</created>
+            <modified>1372969191</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 7)</subject>
+            <message>&lt;p&gt;Sir, why should poles of closed loop system lie inside unit circle for stability?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 31 January 2013, 5:06 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20683">
+            <parent>20338</parent>
+            <userid>19455</userid>
+            <created>1359633157</created>
+            <modified>1359633157</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;in process control course, we chose C1 curve arbitrarily. But here we only take a unit circle as C1. why is it so?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20690">
+            <parent>20580</parent>
+            <userid>15502</userid>
+            <created>1359636283</created>
+            <modified>1359636283</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions</subject>
+            <message>&lt;p&gt;It is assumed that the degree of b(z) is less than that of a(z) and say a(z) is a polynomial in z of degree n. Then, 1+K*b(z)/a(z) = {a(z)+K*b(z)}/a(z). Now both the degrees of the polynomial in denominator and numerator is n. Hence the expression has n zeros( zeros of numerator) and n poles(zeros of denominator).&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21085">
+            <parent>20338</parent>
+            <userid>13355</userid>
+            <created>1359899473</created>
+            <modified>1372969295</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nyquist plot questions (Slide 20)</subject>
+            <message>&lt;p&gt;Sir,I apologize for posting question so late as i was out of town for a family function.&lt;/p&gt;
+&lt;p&gt;1) how do we know which are crucial points on C1 on which G(z) should be evaluated&lt;/p&gt;
+&lt;p&gt;2) At which points should the gain and phase margins be calcuated&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 7:21 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2095">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2096">
+        <userid>23190</userid>
+      </subscription>
+      <subscription id="2130">
+        <userid>12583</userid>
+      </subscription>
+      <subscription id="2131">
+        <userid>19315</userid>
+      </subscription>
+      <subscription id="2132">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="2133">
+        <userid>15538</userid>
+      </subscription>
+      <subscription id="2135">
+        <userid>13413</userid>
+      </subscription>
+      <subscription id="2136">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2137">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2138">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="2139">
+        <userid>15100</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1677" moduleid="11142" modulename="forum" contextid="58221">
+  <forum id="1677">
+    <type>general</type>
+    <name>18 March 2013 - 16: GPC Control Law</name>
+    <intro>&lt;p&gt;Post GPC Control Law discussion here.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>2</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1363543814</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="14505">
+        <name>16th lecture: post the slide number and ask your question</name>
+        <firstpost>26852</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363609875</timemodified>
+        <usermodified>18685</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="26852">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1363484115</created>
+            <modified>1363484115</modified>
+            <mailed>1</mailed>
+            <subject>16th lecture: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26909">
+            <parent>26852</parent>
+            <userid>23191</userid>
+            <created>1363527501</created>
+            <modified>1363527727</modified>
+            <mailed>1</mailed>
+            <subject>Slide no 8: control effort stability</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;we have calculated &lt;span style="text-decoration: underline;"&gt;u&lt;/span&gt; based on min (least square error) for &lt;span style="text-decoration: underline;"&gt;u&lt;/span&gt;.  &lt;span style="text-decoration: underline;"&gt;u&lt;/span&gt; has been found out as (G&lt;sup&gt;T&lt;/sup&gt;G)&lt;sup&gt;-1&lt;/sup&gt;G&lt;sup&gt;T&lt;/sup&gt;&lt;span style="text-decoration: underline;"&gt;b&lt;/span&gt;. Is it possible to comment on bounded nature of &lt;span style="text-decoration: underline;"&gt;u&lt;/span&gt; from this expression.&lt;/p&gt;
+&lt;p&gt;if it is unstable which is tuning parameter here which helps us to make &lt;span style="text-decoration: underline;"&gt;u&lt;/span&gt; stable.&lt;/p&gt;
+&lt;p&gt;also explain how it is stabilised&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26914">
+            <parent>26852</parent>
+            <userid>12583</userid>
+            <created>1363528582</created>
+            <modified>1363528582</modified>
+            <mailed>1</mailed>
+            <subject>slide 7 and 9</subject>
+            <message>&lt;p&gt;Sir, column vector &lt;span style="text-decoration: underline;"&gt;r&lt;/span&gt; contains future values of reference and how are you going to predict future values of input unless it is a regulator problem? General tracking control problem , the reference signal is calcuated in real time cannot be predicted in advance.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26916">
+            <parent>26852</parent>
+            <userid>13030</userid>
+            <created>1363528881</created>
+            <modified>1363528881</modified>
+            <mailed>1</mailed>
+            <subject>Slide 27/32 - bias</subject>
+            <message>&lt;p&gt;What is the difference between bias and error?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26917">
+            <parent>26852</parent>
+            <userid>12583</userid>
+            <created>1363528998</created>
+            <modified>1363528998</modified>
+            <mailed>1</mailed>
+            <subject>slide 9</subject>
+            <message>&lt;p&gt;sir, he you considered the case where G matrix is tall, ie number of equations are more than the number of unkowns. but there if the control horizon is less than the K (delay) , the G matrix will become fat. will this design technique fail in such situation?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26950">
+            <parent>26852</parent>
+            <userid>23190</userid>
+            <created>1363540716</created>
+            <modified>1363540716</modified>
+            <mailed>1</mailed>
+            <subject>slide 17  re estimating the model</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;It was not clear where u(n+1) is used, since every step of the control move is computed seperately.&lt;/p&gt;
+&lt;p&gt;Also please explain  the procedure for re-estimation of&lt;/p&gt;
+&lt;p&gt;the plant model. Is manual intervention required?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26979">
+            <parent>26909</parent>
+            <userid>31087</userid>
+            <created>1363543957</created>
+            <modified>1363543957</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no 8: control effort stability</subject>
+            <message>&lt;p&gt;This is identical to the situation where the control effort is available for free - recall the room cooling example that I gave in the last class.  Naturally, the control effort can go unbounded.  The solution is to bound the control effort as well.  A way to overcome this difficulty is given in slide 10.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26980">
+            <parent>26914</parent>
+            <userid>31087</userid>
+            <created>1363544023</created>
+            <modified>1363544023</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 and 9</subject>
+            <message>&lt;p&gt;This is like asking what bus to take when you don't know where to go!  If the reference variable is not defined, no control input can be given.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26982">
+            <parent>26916</parent>
+            <userid>31087</userid>
+            <created>1363544136</created>
+            <modified>1363544136</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 27/32 - bias</subject>
+            <message>&lt;p&gt;The difference between actual measurement of the output, namely y and the model predicted value $$\hat y$$ is known as the bias here.  We assume the bias to be the same for all future time instants in DMC.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26986">
+            <parent>26917</parent>
+            <userid>31087</userid>
+            <created>1363544319</created>
+            <modified>1363544319</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 9</subject>
+            <message>&lt;p&gt;Fat matrix of G is equivalent to fitting more number of parameters using less number of data points.  An example of this situation is to give only two points and to try to fit a sine curve through it.  In contrast, a tall matrix of G is equivalent to fitting a straight line through three or more points.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27003">
+            <parent>26852</parent>
+            <userid>15477</userid>
+            <created>1363546964</created>
+            <modified>1363547027</modified>
+            <mailed>1</mailed>
+            <subject>Use of the bias term</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Why isn't the bias term used in other MPC's such as Generalized Predictive control, which is even more rigorous than DMC?  It doesn't seem too difficult to implement it and will only improve the model prediction&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27008">
+            <parent>26852</parent>
+            <userid>17192</userid>
+            <created>1363547595</created>
+            <modified>1363547595</modified>
+            <mailed>1</mailed>
+            <subject>Detrmination of Control Horizon</subject>
+            <message>Sir,
+How do we decide that for how long control effort should be made?</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27016">
+            <parent>26852</parent>
+            <userid>13107</userid>
+            <created>1363550178</created>
+            <modified>1363550178</modified>
+            <mailed>1</mailed>
+            <subject>Re: 16th lecture: slide 18 </subject>
+            <message>&lt;p&gt;In the example how you have select the value of tuning paramenter ρ ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27018">
+            <parent>26852</parent>
+            <userid>15642</userid>
+            <created>1363553713</created>
+            <modified>1363553713</modified>
+            <mailed>1</mailed>
+            <subject>Re: 16th lecture: slide no. 22</subject>
+            <message>&lt;p&gt;Among GPC and DMC , which one give better performance for a particular system ? Why we have not included bias term in the GPC model ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27019">
+            <parent>26852</parent>
+            <userid>15509</userid>
+            <created>1363556580</created>
+            <modified>1363556580</modified>
+            <mailed>1</mailed>
+            <subject>slide 9 : least square problem</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;The linear least squares solution derives u as a function of GtG^-1 but this expression is generally used to give the least square estimator.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;I didn't understand how u is related to the least square estimator.. &lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27020">
+            <parent>26852</parent>
+            <userid>19315</userid>
+            <created>1363561054</created>
+            <modified>1363561054</modified>
+            <mailed>1</mailed>
+            <subject>Slide 3: Ny &gt; Nu</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;How is it possible to have N&lt;sub&gt;y&lt;/sub&gt; &amp;gt; N&lt;sub&gt;u&lt;/sub&gt;. As long as there is an error signal, shouldn't the control effort be non zero?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27022">
+            <parent>26852</parent>
+            <userid>13634</userid>
+            <created>1363564028</created>
+            <modified>1363564028</modified>
+            <mailed>1</mailed>
+            <subject>slide 19: Reducing computing time</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;As you have said, for deriving the GPC control law, we just need the first row of the matrix equation. In case that we have our system re-identified every now and then as you have suggested in some cases, isn't there a way to just implement the first row of the matrix equation in our scilab code so that we don't have to compute the rest of the rows unnecessarily each time? Also is there a way to avoid inversion of what would probably be a large matrix every time to obtain K?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27023">
+            <parent>26852</parent>
+            <userid>13355</userid>
+            <created>1363564676</created>
+            <modified>1363564676</modified>
+            <mailed>1</mailed>
+            <subject>slide 32: Model for the bias</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;since we have a model for the error in some previous lectures as e(n) = ρ^n*(wn), can we try using a similar model for modeling the bias in our expression instead of letting it be constant for all control moves?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27024">
+            <parent>26950</parent>
+            <userid>31087</userid>
+            <created>1363565822</created>
+            <modified>1363565822</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 17  re estimating the model</subject>
+            <message>&lt;p&gt;Yes, u(n+1) is never used, although it is calculated at every time instant.  Same thing happens for u(n+2), u(n+3), etc.&lt;/p&gt;
+&lt;p&gt;Although the future control moves are never used, they still need to be calculated.  Although they are never used, they influence the calculation of u(n) itself, tempering it, as it were.  As a result, even though the future control moves are not used directly, their indirect use is of great significance.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27025">
+            <parent>27003</parent>
+            <userid>31087</userid>
+            <created>1363566502</created>
+            <modified>1363566502</modified>
+            <mailed>1</mailed>
+            <subject>Re: Use of the bias term</subject>
+            <message>&lt;p&gt;The GPC approach has a rigorous noise model.  It will make more sense to re-calculate the model parameters also, at every time step, or whenever possible/required.  This is because the bias term approach is just a "fix", involving a crude approximation that the bias term remains constant throughout the future.  Such an approximation is required only when other options don't exist, for example in DMC, where the noise is not even modelled.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27026">
+            <parent>27008</parent>
+            <userid>31087</userid>
+            <created>1363566572</created>
+            <modified>1363566572</modified>
+            <mailed>1</mailed>
+            <subject>Re: Detrmination of Control Horizon</subject>
+            <message>&lt;p&gt;The control horizon and also the prediction horizon are tuning parameters in all MPC.  Control horizon is smaller than the prediction horizon.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27027">
+            <parent>27016</parent>
+            <userid>31087</userid>
+            <created>1363566747</created>
+            <modified>1363566747</modified>
+            <mailed>1</mailed>
+            <subject>Re: 16th lecture: slide 18 </subject>
+            <message>&lt;p&gt;It is selected by trial and error.  Based on the domain knowledge and past experience, one comes up with an initial value of $$\rho$$.  If the resulting control effort is unacceptably large, increase $$\rho$$ and re-calculate the control law.  If the control is ineffective, however, and if the control effort can be increased, decrease $$\rho$$ instead.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27028">
+            <parent>27019</parent>
+            <userid>31087</userid>
+            <created>1363566944</created>
+            <modified>1363566944</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 9 : least square problem</subject>
+            <message>&lt;p&gt;In the equation Gu = b+e, we want to calculate u such that e is made zero.  In other words, we want to solve Gu=b.  As this is not a square system, there is no solution in strict sense.  One option is to invoke the least squares approach.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27029">
+            <parent>27020</parent>
+            <userid>31087</userid>
+            <created>1363567101</created>
+            <modified>1363567101</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 3: Ny &gt; Nu</subject>
+            <message>&lt;p&gt;This can be explained with a simple example.  Suppose that the control effort has to be changed by a constant value, i.e. a step change.  Suppose also that the control effort remains constant thereafter.  Depending on the settling time of the system, this control change will influence the output value for a long time.  Ny should be large enough to capture all these changes.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27030">
+            <parent>27022</parent>
+            <userid>31087</userid>
+            <created>1363567404</created>
+            <modified>1363567404</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 19: Reducing computing time</subject>
+            <message>&lt;p&gt;You have two questions:&lt;/p&gt;
+&lt;p&gt;Can we calculate u at just one time instant?  The answer is no.  Please see the answer that I gave to Sudeesh.&lt;/p&gt;
+&lt;p&gt;Can we avoid calculating the inverse at every time instant?  The answer is "Yes".  This method is called recursive least squares.  This involves "adjusting" the solution calculated in the last time step, based on the changes in the G matrix, in the equation Gu = b.&lt;/p&gt;
+&lt;p&gt;Of course, it should be understood that one never "inverts" any matrix in the calculation of K.  One just solves it by Gaussian elimination or similar methods.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27031">
+            <parent>27023</parent>
+            <userid>31087</userid>
+            <created>1363567504</created>
+            <modified>1363567504</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 32: Model for the bias</subject>
+            <message>&lt;p&gt;No, we cannot do that.  The model that you have proposed will work only for deterministic systems.  It will not work when one of the elements is noise, which changes randomly.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27070">
+            <parent>26852</parent>
+            <userid>19275</userid>
+            <created>1363593010</created>
+            <modified>1363593010</modified>
+            <mailed>1</mailed>
+            <subject>Slide 22</subject>
+            <message>&lt;p&gt;Which type of Noise model is used in DMC ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27093">
+            <parent>26852</parent>
+            <userid>23067</userid>
+            <created>1363601327</created>
+            <modified>1363601327</modified>
+            <mailed>1</mailed>
+            <subject>slide 11: Tuning of parameter $$rho$$</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt; How we will tune the parameter $$rho$$&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="27144">
+            <parent>26852</parent>
+            <userid>18685</userid>
+            <created>1363609875</created>
+            <modified>1363609875</modified>
+            <mailed>1</mailed>
+            <subject>General Question </subject>
+            <message>&lt;p&gt;In one of the courses that I took in last sem, we calculated the values of Kp Kd and Ki by hit and trial method. Are there any analytical methods to determine those values?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2583">
+        <userid>19569</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang='en'>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Digital Control</title>
+        
+        <style type="text/css">
+          body {
+                  color: purple;
+                  background-color: #d8da3d }
+         </style>
+    
+    </head>
+
+<body>
+    <div id="heading">
+        <h1 class="title"> Archive of digital control </h1>
+    </div>    
+       
+    <div id="lectures">
+            <select align="center" id="lecture">
+                <option value="select" selected>Select Lecture</option>
+                <option value="Lecture-1">Lecture-1</option>
+                <option value="Lecture-2">Lecture-2</option>
+                <option value="Lecture-3">Lecture-3</option>
+                <option value="Lecture-4">Lecture-4</option>
+                <option value="Lecture-5">Lecture-5</option>
+                <option value="Lecture-6">Lecture-6</option>
+                <option value="Lecture-7">Lecture-7</option>
+                <option value="Lecture-8">Lecture-8</option>
+                <option value="Lecture-9">Lecture-9</option>
+                <option value="Lecture-10">Lecture-10</option>
+                <option value="Lecture-11">Lecture-11</option>
+                <option value="Lecture-12">Lecture-12</option>
+                <option value="Lecture-13">Lecture-13</option>
+                <option value="Lecture-14">Lecture-14</option>
+                <option value="Lecture-15">Lecture-15</option>
+                <option value="Lecture-16">Lecture-16</option>
+                <option value="Lecture-17">Lecture-17</option>
+                <option value="Lecture-18">Lecture-18</option>
+                <option value="Lecture-19">Lecture-19</option>
+                <option value="Lecture-20">Lecture-20</option>
+               
+            </select>
+            
+            <input type="button"  onclick="display('1');" name="Submit" value="Submit" >
+    </div>
+
+    
+    <script type="text/javascript" >
+
+
+    function display(showhidecheck)
+    {
+        var xmlhttp = new Array();   
+        var xmlDoc = new Array(); 
+        var xmlhttp;
+        var xmlDoc;
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safarii
+            
+            for(var i=0;i<5;i++)
+            {
+                
+                xmlhttp[i]=new XMLHttpRequest();
+            
+            }
+            
+        }
+
+        else
+        {// code for IE6, IE5
+          
+            for(var i=0;i<5;i++)
+            {
+
+                xmlhttp[i]=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            
+        }
+        sOption=document.getElementById("lecture").value; 
+        
+        xmlhttp[0].open("GET","extract_data_moodle-2009.xml",false);
+        xmlhttp[1].open("GET","extract_data_moodle-2010.xml",false);
+        xmlhttp[2].open("GET","extract_data_moodle-2011.xml",false);
+        xmlhttp[3].open("GET","extract_data_moodle-2012.xml",false);
+        xmlhttp[4].open("GET","extract_data_moodle-2013.xml",false);
+        
+
+        
+        for(var i=0;i<5;i++)
+        {
+            xmlhttp[i].send();
+            xmlDoc[i]=xmlhttp[i].responseXML;
+        }
+        
+        
+        //Calling select lecture 
+        selectlecture(sOption,xmlDoc,showhidecheck);
+        
+        
+    }
+    
+    
+    function selectlecture(sOption,xmlDoc,showhidecheck)
+
+    {
+      //selecting lecture 
+      for(var l=0;l<xmlDoc.length;l++)
+      {
+        document.write("<table boder='1'>");
+        var discussion=xmlDoc[l].getElementsByTagName("DISCUSSION");
+        var parts = sOption.split('-');
+        var selectoption = parts[parts.length-1];
+
+        lect_name=discussion[selectoption-1].getElementsByTagName("LECTURE")[0].childNodes[0].nodeValue;
+        document.write(lect_name);
+        posts=discussion[selectoption-1].getElementsByTagName("POSTS");
+        post=posts[0].getElementsByTagName("POST");
+        document.write("<br>");
+    
+        for(var i=0;i<post.length;i++)
+        {
+            subject=post[i].getElementsByTagName("SUBJECT");
+            message=post[i].getElementsByTagName("MESSAGE");
+            for(var j=0;j<subject.length;j++)
+            {  
+                if(j==0)
+                {
+                    document.write("<tr><td>");                                             
+                    document.write(subject[j].childNodes[0].nodeValue);
+                    document.write("</td><td>");
+                    document.write(message[j].childNodes[0].nodeValue);
+                    document.write("</td></tr>"); 
+                }
+                else
+                {
+                    if(showhidecheck=='1')
+                    {
+       
+                        document.write("<tr><td>");                                             
+                        document.write("</div>");
+                        document.write("</td><td>");                                            
+                        document.write("Reply");
+                        document.write("<br>");                                            
+                        document.write(message[j].childNodes[0].nodeValue);    
+                        document.write("</div>");
+                        document.write("</td></tr>"); 
+                    }
+
+                    else
+                    {
+                        document.write("<tr><td>");                                             
+                        document.write("</td><td>");                                            
+                        document.write("Reply");                                            
+                        document.write("<br>");                                            
+                        document.write(message[j].childNodes[0].nodeValue);    
+                        document.write("</td></tr>"); 
+                        
+                    }
+                }
+            }
+      }
+      document.write("</table>");
+    }    
+    }    
+    function showstuff(sOption,xmlDoc,showhidecheck)
+    {
+        
+        selectlecture(sOption,xmlDoc,showhidecheck);
+    }
+
+    </script>
+
+</body>
+</html>

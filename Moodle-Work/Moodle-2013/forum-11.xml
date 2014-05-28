@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1666" moduleid="10195" modulename="forum" contextid="57161">
+  <forum id="1666">
+    <type>general</type>
+    <name>28 Feb. 2013 - 11: 2-DOF Pole Placement Controller</name>
+    <intro>&lt;p&gt;Please post your question here.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1361980807</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="13111">
+        <name>Give slide number and ask a question</name>
+        <firstpost>24422</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1362042404</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="24422">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1361947806</created>
+            <modified>1361947806</modified>
+            <mailed>1</mailed>
+            <subject>Give slide number and ask a question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24468">
+            <parent>24422</parent>
+            <userid>23190</userid>
+            <created>1361967593</created>
+            <modified>1361967593</modified>
+            <mailed>1</mailed>
+            <subject>slide 7</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;while discussing 1 DOF controllers  we 've seen that the condition S+T = 1 as the restriction on the degree of freedom. In the case of 2 DOF, when we assume that Sc = A^g* S1, Tc = A^9* T1, is there a compromise on the degree of freedom?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24490">
+            <parent>24422</parent>
+            <userid>13030</userid>
+            <created>1361976382</created>
+            <modified>1361976382</modified>
+            <mailed>1</mailed>
+            <subject>Slide 8</subject>
+            <message>&lt;p&gt;We have made a simple choice of T&lt;sub&gt;1&lt;/sub&gt; as 1, so why cannot we make a simple choice of R&lt;sub&gt;1&lt;/sub&gt; or S&lt;sub&gt;1&lt;/sub&gt; as 1 and find the other one? Why is it necessary to use Aryabhatta's identity?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24504">
+            <parent>24422</parent>
+            <userid>20594</userid>
+            <created>1361983307</created>
+            <modified>1361983325</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;Why we assume  A(z) and B(z)  coprime in G(z),?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24517">
+            <parent>24422</parent>
+            <userid>23067</userid>
+            <created>1361989017</created>
+            <modified>1361989017</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt; why we are taking good ones in inside circle, why not outside circle for good one to cancel it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24522">
+            <parent>24422</parent>
+            <userid>23191</userid>
+            <created>1361991723</created>
+            <modified>1361991723</modified>
+            <mailed>1</mailed>
+            <subject>slide 8-9</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;is it correct that aryabhatta's identity has unique least degree solution but has many more higher degree solution?&lt;/p&gt;
+&lt;p&gt;if yes then there will be one solution for the system will be corresponding to least degree solution and many other corresponding to higher degree solutions.&lt;/p&gt;
+&lt;p&gt;which solution will give me better result? we working with least degree solutions why?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24524">
+            <parent>24422</parent>
+            <userid>19275</userid>
+            <created>1361992403</created>
+            <modified>1361992403</modified>
+            <mailed>1</mailed>
+            <subject>slide 24</subject>
+            <message>&lt;p&gt;why we are taking desired closed loop poles at ρ*exp(+-jw)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24528">
+            <parent>24422</parent>
+            <userid>18685</userid>
+            <created>1361992975</created>
+            <modified>1361992975</modified>
+            <mailed>1</mailed>
+            <subject>slide 8</subject>
+            <message>&lt;p&gt;Can we equat numerators and denominators directly without assuming proportionaly constant?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24529">
+            <parent>24422</parent>
+            <userid>15502</userid>
+            <created>1361993931</created>
+            <modified>1361994001</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7</subject>
+            <message>&lt;p&gt;Sir, &lt;/p&gt;
+&lt;p&gt;If we are anyways choosing Tc, Rc, and Sc according to A and B, why can't we choose them such that there wont be any cancellation (either good or bad)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24531">
+            <parent>24422</parent>
+            <userid>19315</userid>
+            <created>1361994666</created>
+            <modified>1361994666</modified>
+            <mailed>1</mailed>
+            <subject>Slide 31</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;When auxiliary condition on rise time is not met, you have metioned the reason as ZOH equivalence. How does zero order hold equivalence introduces extra delay in the system? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24534">
+            <parent>24422</parent>
+            <userid>15477</userid>
+            <created>1361997290</created>
+            <modified>1361997857</modified>
+            <mailed>1</mailed>
+            <subject>Slide 6: Open loop delay≥ Closed Loop Delay!!</subject>
+            <message>&lt;p&gt;Sir, we are specifying closed loop delay≥open loop delay. However I think that it should be strictly greater than the later. I give the following arguments:&lt;/p&gt;
+&lt;p&gt;open loop delay = k means the change in input now will affect output y(k). When this is fed back to the controller it can incorporate it in u(k+1) which will have an effect on y(k+1) making the closed loop delay= k+1.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24535">
+            <parent>24422</parent>
+            <userid>15642</userid>
+            <created>1361997899</created>
+            <modified>1361997899</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;in 2-DOF controller Sc/Rc  stabilizes and rejects disturbance and Tc/Rc helps track the reference signal. Can you explain this using a example/illustration ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24536">
+            <parent>24422</parent>
+            <userid>15538</userid>
+            <created>1361998056</created>
+            <modified>1361998056</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;In Slide 8,&lt;br /&gt;&lt;br /&gt;In this we have assume T1 = 1. If we assume T1 to be some polynomial other than 1. Will be able to improve the system performance. or what is imapact of selection of T1 on the system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24537">
+            <parent>24422</parent>
+            <userid>13781</userid>
+            <created>1361998512</created>
+            <modified>1361998512</modified>
+            <mailed>1</mailed>
+            <subject>Slide 7</subject>
+            <message>&lt;p&gt;Why should Tc and Sc have A^g as a factor?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24538">
+            <parent>24422</parent>
+            <userid>13634</userid>
+            <created>1361999188</created>
+            <modified>1361999188</modified>
+            <mailed>1</mailed>
+            <subject>slide 18</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In slide 18, how do we obtain &lt;/p&gt;
+&lt;p&gt;G = C(sI-A)^(-1)B?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24540">
+            <parent>24422</parent>
+            <userid>17192</userid>
+            <created>1361999919</created>
+            <modified>1361999919</modified>
+            <mailed>1</mailed>
+            <subject>Slide 7: 2 DOF Pole Placement Controller</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;We have T&lt;sub&gt;c&lt;/sub&gt;=A&lt;sup&gt;g&lt;/sup&gt;&lt;sub&gt;*&lt;/sub&gt;T&lt;sub&gt;1&lt;/sub&gt; and so on with R&lt;sub&gt;c&lt;/sub&gt; and S&lt;sub&gt;c&lt;/sub&gt;. And, from what I understand our target is finding T&lt;sub&gt;1&lt;/sub&gt;, R&lt;sub&gt;1&lt;/sub&gt; and S&lt;sub&gt;1&lt;/sub&gt;.&lt;/p&gt;
+&lt;p&gt;Sir, so should T&lt;sub&gt;c&lt;/sub&gt;, R&lt;sub&gt;c&lt;/sub&gt; and S&lt;sub&gt;c&lt;/sub&gt; have all the good factors of A in them? Or, can I get multiple solutions by using some factors of A?&lt;sub&gt;&lt;br /&gt;&lt;/sub&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24541">
+            <parent>24422</parent>
+            <userid>15509</userid>
+            <created>1362000124</created>
+            <modified>1362000124</modified>
+            <mailed>1</mailed>
+            <subject>slide 8</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;What happens if we choose some other value for T1 ?&lt;/p&gt;
+&lt;p&gt;The solution R1 and S1 of Aryabhatta's identity doesn't seem to depend on T1.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24542">
+            <parent>24422</parent>
+            <userid>15100</userid>
+            <created>1362008247</created>
+            <modified>1362008247</modified>
+            <mailed>1</mailed>
+            <subject>Slide 6</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;I did not understand how deg(B_r)&amp;lt;deg(B). What does it imply?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24543">
+            <parent>24422</parent>
+            <userid>11633</userid>
+            <created>1362009551</created>
+            <modified>1362009551</modified>
+            <mailed>1</mailed>
+            <subject>Slide 18</subject>
+            <message>&lt;p&gt;How do we get the equation -  G = C(sI-A)^(-1)B&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24546">
+            <parent>24422</parent>
+            <userid>12583</userid>
+            <created>1362017737</created>
+            <modified>1362017737</modified>
+            <mailed>1</mailed>
+            <subject>slide no 7</subject>
+            <message>&lt;p&gt;sir, in the design of 2 DOF controller , it is taken that the poles of the feedback controller and the poles of the input tracking filter are the same. why is it required? Is it possible to have different Rc for tracking and feedback control?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24547">
+            <parent>24422</parent>
+            <userid>12583</userid>
+            <created>1362018045</created>
+            <modified>1362018127</modified>
+            <mailed>1</mailed>
+            <subject>slide 25</subject>
+            <message>&lt;p&gt;When we design a continuous time 2 DOF control, generally disturbance rejection requirements will be also given. But in our magnetic ball problem, only the tracking spec is given and the controller is synthesized based on that only. Can we design a controller to satisfy the requirement without using Aryabhattas identity?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24591">
+            <parent>24468</parent>
+            <userid>31087</userid>
+            <created>1362035073</created>
+            <modified>1362035112</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7</subject>
+            <message>&lt;p&gt;By S+T=1, I believe that you are talking about the sum of sensitivity and complementary sensitivity functions.&lt;/p&gt;
+&lt;p&gt;This equation will continue to hold.  The Sc and Tc that we have used here have nothing to do with S and T of the first para.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24592">
+            <parent>24490</parent>
+            <userid>31087</userid>
+            <created>1362035260</created>
+            <modified>1362035260</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 8</subject>
+            <message>&lt;p&gt;You may not be able to do this.  Aryabhatta's identity says (a) under what conditions the solution is available (b) what is the degree of each polynomial, etc.  You cannot violate these conditions.  So you may not be able to assign some polynomial as a constant all the time, although it may be possible once in a while.  If this is indeed possible, Aryabhatta's identity will give the same very solution, modulo some constant.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24595">
+            <parent>24422</parent>
+            <userid>13355</userid>
+            <created>1362035888</created>
+            <modified>1362035888</modified>
+            <mailed>1</mailed>
+            <subject>Slide 7</subject>
+            <message>&lt;p&gt;When we cancelled Ag and Bg is it an assumption dat they are equal?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24604">
+            <parent>24504</parent>
+            <userid>31087</userid>
+            <created>1362037492</created>
+            <modified>1362037492</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;So that the resulting controller equation (Aryabhatta's Identity) is solvable.  &lt;/p&gt;
+&lt;p&gt;Why should there be common factors?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24606">
+            <parent>24517</parent>
+            <userid>31087</userid>
+            <created>1362037798</created>
+            <modified>1362037798</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7</subject>
+            <message>&lt;p&gt;The controller is made up of Rc, Sc and Tc.  These terms in turn depend on Ag and Bg.  If Ag and Bg are outside the unit circle, the controller will become unstable.  Would you want to use unstable controllers, if you can avoid that.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24607">
+            <parent>24522</parent>
+            <userid>31087</userid>
+            <created>1362038160</created>
+            <modified>1362038160</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8-9</subject>
+            <message>&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;You should use the least degree solution.  The reason for this is explained in Section 9.6 of the textbook.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24608">
+            <parent>24524</parent>
+            <userid>31087</userid>
+            <created>1362038252</created>
+            <modified>1362038252</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 24</subject>
+            <message>&lt;p&gt;This choice results in error e(n) of the type discussed in slide 5 of lecture 8.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24609">
+            <parent>24528</parent>
+            <userid>31087</userid>
+            <created>1362038304</created>
+            <modified>1362038304</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8</subject>
+            <message>&lt;p&gt;Yes, we can do it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24610">
+            <parent>24529</parent>
+            <userid>31087</userid>
+            <created>1362038371</created>
+            <modified>1362038371</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7</subject>
+            <message>&lt;p&gt;See the second example in Section 9.6 of the book for a reason.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24611">
+            <parent>24422</parent>
+            <userid>10036</userid>
+            <created>1362038616</created>
+            <modified>1362038616</modified>
+            <mailed>1</mailed>
+            <subject>slide 6</subject>
+            <message>&lt;p&gt;While comparing the neumerators i.e. Br and B, we said that deg Br &amp;gt; deg B. Why do we care about their degrees ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24614">
+            <parent>24531</parent>
+            <userid>31087</userid>
+            <created>1362038958</created>
+            <modified>1362038958</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 31</subject>
+            <message>&lt;p&gt;This is explained in page 57 of the book.  I have a feeling that we also explained it in one of the lectures.  Can anyone tell in which lecture?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24615">
+            <parent>24534</parent>
+            <userid>31087</userid>
+            <created>1362039166</created>
+            <modified>1362039166</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 6: Open loop delay≥ Closed Loop Delay!!</subject>
+            <message>&lt;p&gt;By using your logic repeatedly, can we go on increasing the delay?  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24616">
+            <parent>24535</parent>
+            <userid>31087</userid>
+            <created>1362039211</created>
+            <modified>1362039211</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;This will be explained in subsequent lectures.  It is also given in the book.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24618">
+            <parent>24536</parent>
+            <userid>31087</userid>
+            <created>1362039515</created>
+            <modified>1362039515</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give slide number and ask a question</subject>
+            <message>&lt;p&gt;Because of the presence of Bb in the numerator in Slide 10, the final transfer function of the error transfer function will not be equal to the Z-transform of the expression for e(n) in slide 4 of lecture 8.  As a result, T1 could be made as simple as possible.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24619">
+            <parent>24537</parent>
+            <userid>31087</userid>
+            <created>1362039563</created>
+            <modified>1362039563</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7</subject>
+            <message>&lt;p&gt;So that we can cancel them!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24620">
+            <parent>24538</parent>
+            <userid>31087</userid>
+            <created>1362039671</created>
+            <modified>1362039671</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 18</subject>
+            <message>&lt;p&gt;Please check the Scilab code that carries out this calculation.  All of you should be able to reproduce the solution of all examples using the appropriate Scilab code.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24621">
+            <parent>24540</parent>
+            <userid>31087</userid>
+            <created>1362039753</created>
+            <modified>1362039753</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 7: 2 DOF Pole Placement Controller</subject>
+            <message>&lt;p&gt;See the second example in Section 9.6 of the book.  It argues that you should cancel all the good factors.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24622">
+            <parent>24541</parent>
+            <userid>31087</userid>
+            <created>1362039828</created>
+            <modified>1362039828</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8</subject>
+            <message>&lt;p&gt;&lt;span&gt;Because of the presence of Bb in the numerator in Slide 10, the final transfer function of the error transfer function will not be equal to the Z-transform of the expression for e(n) in slide 4 of lecture 8.  As a result, T1 could be made as simple as possible.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24630">
+            <parent>24542</parent>
+            <userid>31087</userid>
+            <created>1362042296</created>
+            <modified>1362042296</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 6</subject>
+            <message>&lt;p&gt;The part of B after cancellation will be of lower degree than B.  It is Br.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24633">
+            <parent>24543</parent>
+            <userid>31087</userid>
+            <created>1362042333</created>
+            <modified>1362042333</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 18</subject>
+            <message>&lt;p&gt;It is computed using Scilab.  Please check the book for the code.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24634">
+            <parent>24546</parent>
+            <userid>31087</userid>
+            <created>1362042404</created>
+            <modified>1362042404</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 7</subject>
+            <message>&lt;p&gt;Yes, what we have is a simpler approach, with fewer number of parameters.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2488">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2489">
+        <userid>23190</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

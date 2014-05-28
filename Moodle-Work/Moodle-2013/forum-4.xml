@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1605" moduleid="8289" modulename="forum" contextid="54647">
+  <forum id="1605">
+    <type>general</type>
+    <name>24 Jan. 2013 - 4: Inv. Z-transform and Frequency Response</name>
+    <intro>&lt;p&gt;Discussion forum for the 4th lecture.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1358948527</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="10343">
+        <name>24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</name>
+        <firstpost>19401</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1372887662</timemodified>
+        <usermodified>13802</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19401">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1358947723</created>
+            <modified>1358947723</modified>
+            <mailed>1</mailed>
+            <subject>24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;div id="intro" class="box generalbox"&gt;
+&lt;div class="no-overflow"&gt;
+&lt;p&gt;&lt;strong&gt;Please reply to this post.  Do NOT start a new post for discussions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19418">
+            <parent>19401</parent>
+            <userid>23067</userid>
+            <created>1358952892</created>
+            <modified>1372886612</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 21)</subject>
+            <message>&lt;p&gt;How to relate Inverse Z transform and fourier transform&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 23 January 2013, 8:24 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19430">
+            <parent>19401</parent>
+            <userid>13413</userid>
+            <created>1358955584</created>
+            <modified>1372886645</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 22)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;     What is convergence condition for fourier transform and why it is not with z transform?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 23 January 2013, 9:09 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19431">
+            <parent>19401</parent>
+            <userid>15642</userid>
+            <created>1358955786</created>
+            <modified>1358955786</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;if we takhe signal U1no as a sinusoidal then the limit -pi to pi doesn't work. How can we explain this? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19439">
+            <parent>19401</parent>
+            <userid>13030</userid>
+            <created>1358958506</created>
+            <modified>1372886719</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 17)</subject>
+            <message>&lt;p&gt;Because of sampling rate, there are chances of getting same sampled data for 2 or more different functions. Why is it good/necessary to stick with unique sampling rate? Why can't we go for random sampling?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Wednesday, 23 January 2013, 9:58 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19441">
+            <parent>19401</parent>
+            <userid>15477</userid>
+            <created>1358980664</created>
+            <modified>1372886767</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 18)</subject>
+            <message>&lt;p&gt;When talking about F and Fs, we assumed that Fs is fixed and accordingly we check which values F can take. However, I think it should be the other way round; i.e. our sampling frequency which is in our hand, should be adjusted according to F.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19443">
+            <parent>19401</parent>
+            <userid>15509</userid>
+            <created>1358983519</created>
+            <modified>1372886914</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 16)</subject>
+            <message>&lt;p&gt;Sir,&lt;br /&gt; The unique frequency range for a discrete time sinusoidal&lt;br /&gt; signal is 2pi.&lt;br /&gt; But is there any reason that the unique frequency range&lt;br /&gt; is defined from -pi to pi, why isn't any other interval covering&lt;br /&gt; 2pi used in this definition.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 4:55 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19444">
+            <parent>19401</parent>
+            <userid>17192</userid>
+            <created>1358983765</created>
+            <modified>1372886958</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 5)</subject>
+            <message>&lt;p&gt;Sir,&lt;br /&gt;How would we implement partial fraction based expansion if the degree of the numerator is greater than the degree of the denominator?&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 4:59 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19445">
+            <parent>19401</parent>
+            <userid>15100</userid>
+            <created>1358984617</created>
+            <modified>1372887001</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 22)</subject>
+            <message>&lt;p&gt;Can the frequency response be looked from the change of basis (linear algebra) point of view? If so, please explain..&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 5:13 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19447">
+            <parent>19401</parent>
+            <userid>14023</userid>
+            <created>1358985812</created>
+            <modified>1372887049</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 2)</subject>
+            <message>&lt;p&gt;Is Z-transform a one-to-one mapping??&lt;br /&gt;&lt;br /&gt;Meaning that if $$U_1(z) = U_2(z) $$, does that imply $$u_1(n) = u_2(n)$$ ??&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 5:34 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19450">
+            <parent>19401</parent>
+            <userid>19315</userid>
+            <created>1358987008</created>
+            <modified>1372887104</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 15)</subject>
+            <message>&lt;p&gt;&lt;sub&gt;While continuous time signals with different frequencies are different, discretised signals separated by 2π are identical. So in this case, wouldn't the information we get by discretizing a continuous signal be rather misleading?&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 5:53 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19451">
+            <parent>19401</parent>
+            <userid>13130</userid>
+            <created>1358987101</created>
+            <modified>1372887147</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 17)</subject>
+            <message>&lt;p&gt;How optimum sampling rate is determined for a continuous signal?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 5:55 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19454">
+            <parent>19401</parent>
+            <userid>23190</userid>
+            <created>1358987595</created>
+            <modified>1372887195</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 16)</subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;For non identical discrete time sinusoids -Π &amp;lt; w &amp;lt; Π is used for deriving 'alias' conditions. Is it possible to find the same conclusions with 0 &amp;lt; w &amp;lt;2Π.?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 6:03 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19455">
+            <parent>19401</parent>
+            <userid>13130</userid>
+            <created>1358989219</created>
+            <modified>1372887231</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 18)</subject>
+            <message>&lt;p&gt;Why normalized frequency is kept under a limit of -0.5 to +0.5? Cant we modify its limit?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 6:30 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19457">
+            <parent>19418</parent>
+            <userid>31087</userid>
+            <created>1358991539</created>
+            <modified>1358991539</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Fourier Transfrom is the same as Z-transform, but restricted to $$\vert z\vert =1$$. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19458">
+            <parent>19430</parent>
+            <userid>31087</userid>
+            <created>1358991737</created>
+            <modified>1358991737</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;The reason is the restriction on the choice of z in Fourier Transform.  In Z-transform, there is no restriction on z.  In Fourier transform, however, we restrict it to unit circle.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19459">
+            <parent>19431</parent>
+            <userid>31087</userid>
+            <created>1358991825</created>
+            <modified>1358991825</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;The context of your question is not clear.  Can you explain the question better?  At the least, please specify the slide number.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19461">
+            <parent>19439</parent>
+            <userid>31087</userid>
+            <created>1358992236</created>
+            <modified>1358992236</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;I guess that this has to do with the type of signal that is being sampled.  Suppose that the signal under consideration is completely random and that we know nothing about it.  Then we have no option but to sample at a very high rate.  Then, it does not matter how you sample, random sampling may do.  But if you know something about the signal and you want to minimise the sampling rate, you would want to use some logic - random sampling does not seem to be the right choice.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19467">
+            <parent>19441</parent>
+            <userid>31087</userid>
+            <created>1358994301</created>
+            <modified>1358994301</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Chronologically, what you say is correct.  Using the maximum value of F, we decide Fs.  On the other hand, when we do a thought experiment, we can do the opposite.  This helps discuss the following issue: Given a nominal value of F, Fs is selected and fixed.  If now F changes, how it will affect the sampling process?  A similar kind of procedure will be followed in control system design also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19468">
+            <parent>19443</parent>
+            <userid>31087</userid>
+            <created>1358994465</created>
+            <modified>1358994465</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;This is a symmetric choice.  Moreover, as shown in Slide 31, using the properties of odd and even functions, we need to carry out the calculations for only half the $$\omega$$ values.  This cannot be done if you use arbitrary domain.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19469">
+            <parent>19444</parent>
+            <userid>31087</userid>
+            <created>1358994627</created>
+            <modified>1358994627</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;You will first have to divide the numerator by the denominator and bring it to the form $$K + \frac {B(z)}{A(z)}$$, with the fraction being strictly proper.  One can then apply the partial fraction expansion techniques to the second term, B/A.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19470">
+            <parent>19445</parent>
+            <userid>31087</userid>
+            <created>1358994682</created>
+            <modified>1358994682</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Can you please elaborate your question?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19471">
+            <parent>19447</parent>
+            <userid>31087</userid>
+            <created>1358994992</created>
+            <modified>1358994992</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;It depends on ROC.  If the ROC is the same for both $$U_1$$ and $$U_2$$, then the implication you have suggested is true.  But if the ROCs are different, the time domain signals can be different, even if their Z-transforms are identical.  This is explained in Section 4.1.2 of the book, the tile of the section being "Absolute Convergence".&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19472">
+            <parent>19450</parent>
+            <userid>31087</userid>
+            <created>1358995093</created>
+            <modified>1358995093</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Yes, if we don't sample fast enough, we will indeed get into trouble.  But on the other hand, if we sample fast enough, we are ok.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19473">
+            <parent>19451</parent>
+            <userid>31087</userid>
+            <created>1358995134</created>
+            <modified>1358995134</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;The concept of minimum sampling rate will be covered in the next lecture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19474">
+            <parent>19401</parent>
+            <userid>23191</userid>
+            <created>1358995562</created>
+            <modified>1372887307</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 25)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;with discrete time fourier transform, we get a function in frequency domain which is periodic over frequency and causes aliasing problem if sampling rate is less than FMax/2. and if i have understood correctly, its special case of  Z transform ( z= e(jw)). we know that Z transform is not periodic except for this ( z= e(jw) and may be some other similar values). so is it one of the reasons for development of Z transforms?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 8:16 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19478">
+            <parent>19454</parent>
+            <userid>31087</userid>
+            <created>1358997932</created>
+            <modified>1358997932</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;This can be explained for any $$\omega$$ value in the range of 0 to $$2\pi$$.  Although in slide 19, we said that $$\omega_0&amp;gt;\pi$$, we never used these values.  The results are true for any $$2\pi&amp;gt;\omega_0&amp;gt;0$$.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19479">
+            <parent>19455</parent>
+            <userid>31087</userid>
+            <created>1358998026</created>
+            <modified>1358998026</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;This is just for convenience.  The total interval should be of length 1, that's all.  Please also see my answers to other questions.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19480">
+            <parent>19474</parent>
+            <userid>31087</userid>
+            <created>1358998230</created>
+            <modified>1358998230</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;No that is not the main reason for the development of Z-transform.  Fourier transform is defined only for bounded signals.  This restriction is not there in case of Z-transforms.  This is important because we have to deal with unbounded signals also in control applications.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19498">
+            <parent>19401</parent>
+            <userid>13355</userid>
+            <created>1359005879</created>
+            <modified>1372887353</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 21)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;The motivation behind Z transforms was very clear but motivation for fourier transform is unclear to me. Can you please elaborate on this point&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 11:08 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19512">
+            <parent>19401</parent>
+            <userid>11675</userid>
+            <created>1359009955</created>
+            <modified>1359009955</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Why do we use z-transformation ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19513">
+            <parent>19401</parent>
+            <userid>14476</userid>
+            <created>1359010036</created>
+            <modified>1359010036</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;What are the alternatives for z-transformation ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19519">
+            <parent>19401</parent>
+            <userid>15521</userid>
+            <created>1359011687</created>
+            <modified>1372887402</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 17)</subject>
+            <message>&lt;p&gt;Sir, What if the sampling time is greater than 1?? &lt;/p&gt;
+&lt;p&gt;Also can you give an example of moving avarage filter (physical significance)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 12:53 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19532">
+            <parent>19401</parent>
+            <userid>19275</userid>
+            <created>1359014627</created>
+            <modified>1372887533</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 19)</subject>
+            <message>&lt;p&gt;We have a discrete output response, and want to find out transfer function for a plant, but there can be many alias system possible for a given discrete response. How do we ensure that we will get the right one?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 1:33 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19538">
+            <parent>19401</parent>
+            <userid>20594</userid>
+            <created>1359015730</created>
+            <modified>1359015730</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;&lt;span&gt;Bode plot of G(e^jῳ) have to be drawn in [0,pi],why?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19550">
+            <parent>19532</parent>
+            <userid>31087</userid>
+            <created>1359018279</created>
+            <modified>1359018279</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;There are two issues that have to be taken care of:  1. There should not be any loss of information due to low sampling rate.  2. All modes of the system should be excited - this is known as the persistent excitation condition - explained in the next lecture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19551">
+            <parent>19538</parent>
+            <userid>31087</userid>
+            <created>1359018325</created>
+            <modified>1372887572</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 31)</subject>
+            <message>&lt;p&gt;Are you asking this question after viewing the video?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 2:35 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19553">
+            <parent>19512</parent>
+            <userid>31087</userid>
+            <created>1359018373</created>
+            <modified>1359018373</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;To simplify convolution - did you watch the video?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19554">
+            <parent>19513</parent>
+            <userid>31087</userid>
+            <created>1359018401</created>
+            <modified>1359018401</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Please explain your question.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19558">
+            <parent>19498</parent>
+            <userid>31087</userid>
+            <created>1359018599</created>
+            <modified>1359018599</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Because Fourier transform is restricted to unit circle, it helps provide frequency dependent information.  The concepts of filtering, etc., can be explained easily in the frequency domain, i.e., after taking Fourier transform.  In order to explain the important concept of frequency response, you need Fourier transform.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19561">
+            <parent>19519</parent>
+            <userid>31087</userid>
+            <created>1359018782</created>
+            <modified>1359018782</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;I don't understand your question.  Where did I say that the sampling time should be equal to one or less than one?&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;A moving average filter just finds an average of a few numbers.  This may be useful in smoothing operations, for example.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19567">
+            <parent>19401</parent>
+            <userid>13107</userid>
+            <created>1359020818</created>
+            <modified>1372887611</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 27)</subject>
+            <message>&lt;p&gt;Is moving average filter , that averages over u(n+1),u(n) and u(n-1) an non casual system? &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 3:16 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19597">
+            <parent>19401</parent>
+            <userid>13634</userid>
+            <created>1359028104</created>
+            <modified>1359028104</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Does the z transform preserve frequency at the output for non-sinusoidal preiodic signals? Could this perhaps be done by expressing the periodic function as a fourier series?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19602">
+            <parent>19401</parent>
+            <userid>13802</userid>
+            <created>1359029274</created>
+            <modified>1372887662</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response (Slide 24)</subject>
+            <message>&lt;p&gt;Should it not be |Gexp(jw)| instead of |Gexp(jwn)| in the slide 24 of frequency response.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Thursday, 24 January 2013, 5:37 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19611">
+            <parent>19567</parent>
+            <userid>31087</userid>
+            <created>1359032697</created>
+            <modified>1359032697</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Yes, it is a noncausal system.  It is not used in control applications.  But it is useful in image processing applications, where n denotes a position variable.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19613">
+            <parent>19597</parent>
+            <userid>31087</userid>
+            <created>1359032939</created>
+            <modified>1359032939</modified>
+            <mailed>1</mailed>
+            <subject>Re: 24 Jan. 2013 - 4: Inv. Z-Transform and Frequency Response</subject>
+            <message>&lt;p&gt;Yes, express the input using Fourier series.  Apply the principle of frequency response to every element of Fourier series.  Finally, apply the superposition principle.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="1990">
+        <userid>23067</userid>
+      </subscription>
+      <subscription id="1991">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="1994">
+        <userid>13413</userid>
+      </subscription>
+      <subscription id="1995">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="1998">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="1999">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2000">
+        <userid>17192</userid>
+      </subscription>
+      <subscription id="2001">
+        <userid>15100</userid>
+      </subscription>
+      <subscription id="2002">
+        <userid>14023</userid>
+      </subscription>
+      <subscription id="2003">
+        <userid>19315</userid>
+      </subscription>
+      <subscription id="2004">
+        <userid>13130</userid>
+      </subscription>
+      <subscription id="2005">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2006">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="2008">
+        <userid>11675</userid>
+      </subscription>
+      <subscription id="2009">
+        <userid>14476</userid>
+      </subscription>
+      <subscription id="2010">
+        <userid>15521</userid>
+      </subscription>
+      <subscription id="2012">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="2015">
+        <userid>13107</userid>
+      </subscription>
+      <subscription id="2016">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2017">
+        <userid>13802</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

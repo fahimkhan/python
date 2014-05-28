@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1674" moduleid="10855" modulename="forum" contextid="57900">
+  <forum id="1674">
+    <type>general</type>
+    <name>11 March 2013 - 14: Minimum variance control</name>
+    <intro>&lt;p&gt;To discuss lecture 14&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1362947356</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="14000">
+        <name>State the slide number and ask your question</name>
+        <firstpost>25987</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1367341649</timemodified>
+        <usermodified>23190</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="25987">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362947395</created>
+            <modified>1362947395</modified>
+            <mailed>1</mailed>
+            <subject>State the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25988">
+            <parent>25987</parent>
+            <userid>13634</userid>
+            <created>1362960056</created>
+            <modified>1362960056</modified>
+            <mailed>1</mailed>
+            <subject>Slide 21: Differentiating wrt a discrete variable</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;How are we differentiating with respect to u(n), which is in fact a discrete signal?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25989">
+            <parent>25987</parent>
+            <userid>23191</userid>
+            <created>1362963435</created>
+            <modified>1362963435</modified>
+            <mailed>1</mailed>
+            <subject>slide no 5, noise: past and future</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;Noise is random and non-deterministic quantity.  how we can get future values for it.please elaborate.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25997">
+            <parent>25987</parent>
+            <userid>19275</userid>
+            <created>1362974505</created>
+            <modified>1362974505</modified>
+            <mailed>1</mailed>
+            <subject>slide 14</subject>
+            <message>&lt;p&gt;What is the benefit of using integrator (1/Δ) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26006">
+            <parent>25987</parent>
+            <userid>13355</userid>
+            <created>1362978638</created>
+            <modified>1362978638</modified>
+            <mailed>1</mailed>
+            <subject>Slide 15</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In ARIX model we use C=1, how does this effect noise propogation and in what type of noise system is ARIX used and not ARIMAX&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26020">
+            <parent>25987</parent>
+            <userid>15509</userid>
+            <created>1362986041</created>
+            <modified>1362986041</modified>
+            <mailed>1</mailed>
+            <subject>slide 3: delay</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Can you please explain what is meant by all delay is factored into k&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26025">
+            <parent>25987</parent>
+            <userid>18658</userid>
+            <created>1362989086</created>
+            <modified>1362989086</modified>
+            <mailed>1</mailed>
+            <subject>slide 16, minimum variance</subject>
+            <message>&lt;p&gt;Dear Sir &lt;/p&gt;
+&lt;p&gt;Why you are equating y at kth instant to zero for minimizing the variance&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26026">
+            <parent>25987</parent>
+            <userid>15477</userid>
+            <created>1362991558</created>
+            <modified>1362991558</modified>
+            <mailed>1</mailed>
+            <subject>Slide 5: White Noise</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;While predicting for the values of y, we take the expected value of ξ to be zero. Wouldn't it be more accurate if we start from zero and keep updating the expected value according to the mean of the values observed till now?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26027">
+            <parent>25987</parent>
+            <userid>13802</userid>
+            <created>1362992305</created>
+            <modified>1362993232</modified>
+            <mailed>1</mailed>
+            <subject>Slide 6</subject>
+            <message>&lt;p&gt;Use of long divison for finding the coefficients of u from ARMAX form&lt;/p&gt;
+&lt;p&gt;How are we supposed to take a call on the order of model, in cases where divison is recurring?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26029">
+            <parent>25987</parent>
+            <userid>11394</userid>
+            <created>1362992723</created>
+            <modified>1362992723</modified>
+            <mailed>1</mailed>
+            <subject>slide 16 </subject>
+            <message>&lt;p&gt;Sir, for calculation of minimum variance why you are equating &lt;/p&gt;
+&lt;p&gt;EkBu(n) + Fky(n) to zero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26031">
+            <parent>25987</parent>
+            <userid>11633</userid>
+            <created>1362993593</created>
+            <modified>1362993593</modified>
+            <mailed>1</mailed>
+            <subject>slide 14</subject>
+            <message>&lt;p&gt;Are there any advantages of using integrator 1/Δ ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26041">
+            <parent>25987</parent>
+            <userid>13030</userid>
+            <created>1362998659</created>
+            <modified>1362998732</modified>
+            <mailed>1</mailed>
+            <subject>Slide 21 - Value of ρ</subject>
+            <message>&lt;p&gt;How do we choose value of ρ? What should be the parameters for choosing ρ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26043">
+            <parent>25987</parent>
+            <userid>12583</userid>
+            <created>1362999162</created>
+            <modified>1362999162</modified>
+            <mailed>1</mailed>
+            <subject>slide 3</subject>
+            <message>&lt;p&gt;In this method are we going to cancel the effect of noise on output (assuming that output depends on past values of noise signal, say 10 samples- degree of C polynomial is 10, and there is delay of 5 samples in input output relation-k=-10) , by taking suitable control action?.&lt;/p&gt;
+&lt;p&gt;I think this method works only if the delay (K) is less than the degree of the C polynomial. What is your opinion?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26044">
+            <parent>25987</parent>
+            <userid>20594</userid>
+            <created>1362999277</created>
+            <modified>1362999277</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide14</subject>
+            <message>&lt;p&gt;What is the significance of delta in the given equation of ARIMAX model?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26065">
+            <parent>25987</parent>
+            <userid>18685</userid>
+            <created>1363005352</created>
+            <modified>1363005352</modified>
+            <mailed>1</mailed>
+            <subject>Slide 9: spitting of noise</subject>
+            <message>&lt;p&gt;Why we are spitting noise in future and past values?&lt;/p&gt;
+&lt;p&gt;Is the expected values of future noise is zero?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26074">
+            <parent>25988</parent>
+            <userid>31087</userid>
+            <created>1363006798</created>
+            <modified>1363012406</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 21: Differentiating wrt a discrete variable</subject>
+            <message>&lt;p&gt;This is not the issue, because we take u to be a continuous variable.  Recall that we do not discuss quantisation errors in this course.  We assume that there are no quantisation errors.  We said that if the quantisation error is large, go for a more bits in the A/D converter.  But the differentiation through the expectation operator is a problem!  It is only an approximation.  The correct answer is to use LQG, covered in Chapter 13.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26075">
+            <parent>25989</parent>
+            <userid>31087</userid>
+            <created>1363006885</created>
+            <modified>1363006885</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 5, noise: past and future</subject>
+            <message>&lt;p&gt;So, we are estimating the noise.  The best estimate is mean, which is zero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26076">
+            <parent>25997</parent>
+            <userid>31087</userid>
+            <created>1363006930</created>
+            <modified>1363006930</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 14</subject>
+            <message>&lt;p&gt;This is the way to model step signals of random height.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26078">
+            <parent>26006</parent>
+            <userid>31087</userid>
+            <created>1363008350</created>
+            <modified>1363011405</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 15</subject>
+            <message>&lt;p&gt;If there is C ($$\neq 1$$), then it is "filtered" random steps.  Otherwise, it is random step.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26081">
+            <parent>25989</parent>
+            <userid>31087</userid>
+            <created>1363009295</created>
+            <modified>1363009295</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 5, noise: past and future</subject>
+            <message>&lt;p&gt;For the given model, the way future noise affects output y can easily be determined.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26084">
+            <parent>26043</parent>
+            <userid>31087</userid>
+            <created>1363009855</created>
+            <modified>1363009855</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 3</subject>
+            <message>&lt;p&gt;If C is exactly divisible by A, this may happen.  But this is a rare situation. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26086">
+            <parent>26026</parent>
+            <userid>31087</userid>
+            <created>1363010181</created>
+            <modified>1363010181</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 5: White Noise</subject>
+            <message>&lt;p&gt;If a noise is not white, it can be written as a filtered white noise.  This will change the values of the poloynomials C and A.  But we recover $$\xi$$, the white noise.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26087">
+            <parent>26027</parent>
+            <userid>31087</userid>
+            <created>1363010739</created>
+            <modified>1363010739</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 6</subject>
+            <message>&lt;p&gt;Do it until $$z^{-k}$$ comes out of the division.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26088">
+            <parent>26065</parent>
+            <userid>31087</userid>
+            <created>1363011090</created>
+            <modified>1363011090</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 9: spitting of noise</subject>
+            <message>&lt;p&gt;Yes, the expected value of a white noise with zero mean is zero.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26089">
+            <parent>26025</parent>
+            <userid>31087</userid>
+            <created>1363011607</created>
+            <modified>1363011607</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 16, minimum variance</subject>
+            <message>&lt;p&gt;Because it is a regulation problem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26090">
+            <parent>26044</parent>
+            <userid>31087</userid>
+            <created>1363011696</created>
+            <modified>1363011696</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide14</subject>
+            <message>&lt;p&gt;It signifies random steps.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26091">
+            <parent>26029</parent>
+            <userid>31087</userid>
+            <created>1363011743</created>
+            <modified>1363011743</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 16 </subject>
+            <message>&lt;p&gt;Because it is a regulation problem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26092">
+            <parent>26041</parent>
+            <userid>31087</userid>
+            <created>1363012024</created>
+            <modified>1363012024</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 21 - Value of ρ</subject>
+            <message>&lt;p&gt;$$\rho$$ is a tuning parameter.  It has to be selected by trial and error.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="33790">
+            <parent>25987</parent>
+            <userid>23190</userid>
+            <created>1367341649</created>
+            <modified>1367341649</modified>
+            <mailed>1</mailed>
+            <subject>control law for non minimum phase system</subject>
+            <message>&lt;p&gt;How does one arrive at the Aryabhatta's identity&lt;/p&gt;
+&lt;p&gt;A(z) R(z) + Z^-k B(z)S(z) = C(z)B(z).  how C(z)B(z) is ch. equation?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2553">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2554">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2555">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2556">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="2557">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="2558">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2559">
+        <userid>18658</userid>
+      </subscription>
+      <subscription id="2560">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="2561">
+        <userid>13802</userid>
+      </subscription>
+      <subscription id="2562">
+        <userid>11394</userid>
+      </subscription>
+      <subscription id="2563">
+        <userid>11633</userid>
+      </subscription>
+      <subscription id="2564">
+        <userid>12583</userid>
+      </subscription>
+      <subscription id="2565">
+        <userid>18685</userid>
+      </subscription>
+      <subscription id="2636">
+        <userid>23190</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

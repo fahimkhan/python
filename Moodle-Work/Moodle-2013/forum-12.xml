@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1669" moduleid="10435" modulename="forum" contextid="57436">
+  <forum id="1669">
+    <type>general</type>
+    <name>4 March 2013 - 12: 2-DOF pole placement controller</name>
+    <intro>&lt;p&gt;Post your questions here.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1362289082</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="13420">
+        <name>Give the slide number and ask your question</name>
+        <firstpost>24948</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1362394618</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="24948">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362289046</created>
+            <modified>1362289123</modified>
+            <mailed>1</mailed>
+            <subject>Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24956">
+            <parent>24948</parent>
+            <userid>23190</userid>
+            <created>1362295351</created>
+            <modified>1362295351</modified>
+            <mailed>1</mailed>
+            <subject>Slide 12: Gain perturbation</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;we apply internal mode priniciple to handle gain perturbation and add an integral to Rc.&lt;/p&gt;
+&lt;p&gt;What are the limitations of this procedure? how to ensure that conditions for the Aryabhattas' identity to give solutions are maintained?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24961">
+            <parent>24956</parent>
+            <userid>31087</userid>
+            <created>1362301178</created>
+            <modified>1362301178</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 12: Gain perturbation</subject>
+            <message>&lt;p&gt;There are problems related to satisfying some conditions for low degree polynomials only.  When internal model principle is used (e.g. an integrator, etc., is included), the polynomial degree goes up and the problem some times becomes easier to solve.&lt;/p&gt;
+&lt;p&gt;There are no general conditions, however.  I don't see any other limitations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24980">
+            <parent>24948</parent>
+            <userid>15509</userid>
+            <created>1362314862</created>
+            <modified>1362314862</modified>
+            <mailed>1</mailed>
+            <subject>slide 4: cancellation of Ab while arriving at the transfer function</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;while deriving the transfer function between Y and R we have ensured that should not be any unstable pole zero cancellation for eg R1 should have its roots inside the unit circle.&lt;/p&gt;
+&lt;p&gt;but in the process we are also cancelling out Ab which we know has unstable roots.&lt;/p&gt;
+&lt;p&gt;can you elaborate as to why this is not leading to an unstable response.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24981">
+            <parent>24948</parent>
+            <userid>13634</userid>
+            <created>1362315238</created>
+            <modified>1362315238</modified>
+            <mailed>1</mailed>
+            <subject>slide 12: internal model principle as a method to ensure same steady state</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;we have used the IMC principle to ensure that irrespective of the perturbations applied on the gain the controller ensures that the output reaches the same steady state.&lt;/p&gt;
+&lt;p&gt;But Sir we had read that IMC is a method to ensure internal stability.&lt;/p&gt;
+&lt;p&gt;even without IMC being employed the output is merely reaching a different steady state and not being unstable.&lt;/p&gt;
+&lt;p&gt;can you please say where the stability factor is coming into play.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24999">
+            <parent>24948</parent>
+            <userid>10036</userid>
+            <created>1362325029</created>
+            <modified>1362325029</modified>
+            <mailed>1</mailed>
+            <subject>slide 17: sluggish response</subject>
+            <message>&lt;p&gt;In the slide 17, there is a transfer function which has a pole approximately at -0.9. In the video, how did you conclude that the system will give a sluggish response because of the pole being close to -1 ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25004">
+            <parent>24981</parent>
+            <userid>31087</userid>
+            <created>1362326521</created>
+            <modified>1362326521</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 12: internal model principle as a method to ensure same steady state</subject>
+            <message>&lt;p&gt;Are you confusing between internal model principle and a control method known as the internal model control?  These two are completely different. &lt;/p&gt;
+&lt;p&gt;We have demonstrated that when the internal model principle is satisfied, the offset can be removed.  Look at slides 7 and 8 in lecture 7.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25005">
+            <parent>24980</parent>
+            <userid>31087</userid>
+            <created>1362326709</created>
+            <modified>1362326709</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 4: cancellation of Ab while arriving at the transfer function</subject>
+            <message>&lt;p&gt;Please note that the two Abs that are getting cancelled are IDENTICAL, as they come from the same source.  In contrast, in slides 5 and 6, the unstable factor R1 is from two different sources, which is not permitted.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25006">
+            <parent>24999</parent>
+            <userid>31087</userid>
+            <created>1362326937</created>
+            <modified>1362326937</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 17: sluggish response</subject>
+            <message>&lt;p&gt;Let us consider a factor of the form E = $$\rho^n$$, with $$0&amp;lt;\rho&amp;lt;1$$.  If $$\rho$$ is close to 0, E will vanish fast.  If on the other hand, it is close 1, E will take for ever to vanish.  So, I say that the second case is sluggish.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25007">
+            <parent>24948</parent>
+            <userid>23191</userid>
+            <created>1362327091</created>
+            <modified>1362327091</modified>
+            <mailed>1</mailed>
+            <subject>about Φcl</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;while calculating Φcl from desired region method, we use value of min value of ω and max value for ρ. when we use these values to calculate Φcl, some time we observed that our rise time falls short of desired value. &lt;/p&gt;
+&lt;p&gt;my question is whether we should use ω some what higher than the ωmin come from response specifications. same way for ρ as well.( choose ρ less that ρmax).&lt;/p&gt;
+&lt;p&gt;will it have any implecations on other specifications?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25010">
+            <parent>24948</parent>
+            <userid>15477</userid>
+            <created>1362328071</created>
+            <modified>1362328071</modified>
+            <mailed>1</mailed>
+            <subject>Slide 8: Change in c</subject>
+            <message>&lt;p&gt;In the state-space model, c signifies how exactly are we measuring the output.&lt;/p&gt;
+&lt;p&gt;So, when we say that c changes from [1 0 0] to [1.1 0 0], shouldn't it mean that we are measuring 1.1 times whatever is the output?&lt;/p&gt;
+&lt;p&gt;How is it affecting the gain of the plant?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25018">
+            <parent>24948</parent>
+            <userid>23067</userid>
+            <created>1362332386</created>
+            <modified>1362332386</modified>
+            <mailed>1</mailed>
+            <subject>Slide 11-12 about Rc and Δ</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;1. you have given Rc=αR1 in slide 11, and taken Δ=α, but in slide 12 why you take Rc=BgΔR1?&lt;/p&gt;
+&lt;p&gt;2. In slide 32 how we got 1/F as 1/(F-E) for with in satuartion limit conditon?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25021">
+            <parent>24948</parent>
+            <userid>13355</userid>
+            <created>1362333792</created>
+            <modified>1362333792</modified>
+            <mailed>1</mailed>
+            <subject>slide 6</subject>
+            <message>&lt;p&gt;Sir, please explain how the change in position of 1/rc is affecting the stability conceptually.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25024">
+            <parent>24948</parent>
+            <userid>15538</userid>
+            <created>1362335267</created>
+            <modified>1362335293</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;How will we get Delta, if disturbance has white noise type of PSD?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25028">
+            <parent>24948</parent>
+            <userid>13030</userid>
+            <created>1362338138</created>
+            <modified>1362338138</modified>
+            <mailed>1</mailed>
+            <subject>Slide 5 - Rise time &amp; overshoot</subject>
+            <message>&lt;p&gt;Rise time and overshoot are mentioned. While designing the controller, how do we take them in consideration?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25029">
+            <parent>24948</parent>
+            <userid>15642</userid>
+            <created>1362338408</created>
+            <modified>1362338408</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;with ref. to slide no 17, you said that system will have sluggish response . &lt;span style="line-height: 1.4;"&gt;I couldn't  follow this because the pole is inside the&lt;/span&gt;&lt;span style="line-height: 1.4;"&gt; unit circle.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25030">
+            <parent>24948</parent>
+            <userid>20594</userid>
+            <created>1362338530</created>
+            <modified>1362338580</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 36</subject>
+            <message>&lt;p&gt;Can we model saturation nonlinearty and replaced it by an equivelent transfer function?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25031">
+            <parent>24948</parent>
+            <userid>20594</userid>
+            <created>1362339113</created>
+            <modified>1362339160</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 34</subject>
+            <message>&lt;p&gt;I did not understand that controller crancks up because of non zero error.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25032">
+            <parent>25010</parent>
+            <userid>13030</userid>
+            <created>1362341970</created>
+            <modified>1362341970</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 8: Change in c</subject>
+            <message>&lt;p&gt;I have the same doubt too. Changing C matrix from [1 0 0] to [1.1 0 0] or [0.9 0 0] should change the steady state point for a step input but it should not change the controller properties.&lt;/p&gt;
+&lt;p&gt;So how does it change the good/bad zeros?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25033">
+            <parent>24948</parent>
+            <userid>13030</userid>
+            <created>1362342129</created>
+            <modified>1362342129</modified>
+            <mailed>1</mailed>
+            <subject>Slide 20 - Pole at zero</subject>
+            <message>&lt;p&gt;What will happen if the pole is at the zero on real axis?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25034">
+            <parent>24948</parent>
+            <userid>13781</userid>
+            <created>1362346958</created>
+            <modified>1362346958</modified>
+            <mailed>1</mailed>
+            <subject>Slide no. 5</subject>
+            <message>&lt;p&gt;How did you get S1 and R1 values?how can S1 and R1 be first order if characteristic equation is second order ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25035">
+            <parent>24948</parent>
+            <userid>17192</userid>
+            <created>1362349170</created>
+            <modified>1362349170</modified>
+            <mailed>1</mailed>
+            <subject>7. Perturbations of Initial Conditions</subject>
+            <message>&lt;p&gt;Sir, In the discussions pertaining to the robustness of initial conditions, we have not obtained any analytical approach to check if the controller is robust. We have basically tried and tested the controller to be robust.&lt;/p&gt;
+&lt;p&gt;But what if we wanted to find out the limit of robustness of the controller analytically? I mean lets say upto 10% change in intial condition can be handled by our controller. How can we find that out analytically?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25036">
+            <parent>24948</parent>
+            <userid>19315</userid>
+            <created>1362354276</created>
+            <modified>1362354309</modified>
+            <mailed>1</mailed>
+            <subject>Slide 4</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;SInce A&lt;sub&gt;b &lt;/sub&gt;is necessarily unstable, I do not understand how can we cancel A&lt;sub&gt;b?&lt;/sub&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25037">
+            <parent>24948</parent>
+            <userid>11633</userid>
+            <created>1362355622</created>
+            <modified>1362355622</modified>
+            <mailed>1</mailed>
+            <subject>Slide 10</subject>
+            <message>&lt;p&gt;Why do we take a factor of 1.1 or 0.9 for difference in actual and assumed B&lt;sup&gt;b&lt;/sup&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25038">
+            <parent>25007</parent>
+            <userid>31087</userid>
+            <created>1362356810</created>
+            <modified>1362356810</modified>
+            <mailed>1</mailed>
+            <subject>Re: about Φcl</subject>
+            <message>&lt;p&gt;What you say is correct.  All we know is that the poles should be in the shaded region.  The boundary values do not work some times, because of the errors in modelling and the loss of performance because of the bad part of B. &lt;/p&gt;
+&lt;p&gt;Revising the conditions does indeed allow us to "inside" this boundary.  For example, compare the values in slides 24 and 35 in the previous lecture, i.e., 11.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25041">
+            <parent>25018</parent>
+            <userid>31087</userid>
+            <created>1362363533</created>
+            <modified>1362363533</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 11-12 about Rc and Δ</subject>
+            <message>&lt;p&gt;Have a feeling that you did not listen to the video.  In slide 11, I clearly say that this a slide taken from lecture 7, in fact, slide 4.  The nomenclature is different, however.  From that lecture, we concluded that $$\alpha$$ should be present in the denominator of R.  &lt;/p&gt;
+&lt;p&gt;Let us apply that principle in this context.  The basic design had $$R_c=B^gR_1$$, see slide 3.  Now that we want to include $$\Delta$$, the new expression is $$R_c=B^g\Delta R_1$$.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25042">
+            <parent>25021</parent>
+            <userid>31087</userid>
+            <created>1362364052</created>
+            <modified>1362364052</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 6</subject>
+            <message>&lt;p&gt;$$R_c$$ is in the denominator of the controller.  So if its roots are outside the unit circle, the controller becomes unstable.  What is there to "conceptually" explain?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25043">
+            <parent>25024</parent>
+            <userid>31087</userid>
+            <created>1362364243</created>
+            <modified>1362364243</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;What slide are you talking about?&lt;/p&gt;
+&lt;p&gt;Our approach explains how to handle a disturbance when we "know" it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25044">
+            <parent>25028</parent>
+            <userid>31087</userid>
+            <created>1362364365</created>
+            <modified>1362364365</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 5 - Rise time &amp; overshoot</subject>
+            <message>&lt;p&gt;I don't understand that you ask this question in this lecture.  We used the same method in the last lecture also.  Did you have the doubt there also but did not ask the question or did you understand last time but not now, because it is discrete time case now?  Which one?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25045">
+            <parent>25029</parent>
+            <userid>31087</userid>
+            <created>1362364423</created>
+            <modified>1362364423</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;See my answer to another post that has "Slide 17" in the subject head.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25046">
+            <parent>25030</parent>
+            <userid>31087</userid>
+            <created>1362367275</created>
+            <modified>1362367275</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 36</subject>
+            <message>&lt;p&gt;This is an approximate way to handle nonlinearities in the transfer function framework.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25047">
+            <parent>25031</parent>
+            <userid>31087</userid>
+            <created>1362367468</created>
+            <modified>1362367468</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 34</subject>
+            <message>&lt;p&gt;Integral of a positive constant will result in ever increasing output!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25048">
+            <parent>25033</parent>
+            <userid>31087</userid>
+            <created>1362367552</created>
+            <modified>1362367552</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 20 - Pole at zero</subject>
+            <message>&lt;p&gt;Nothing.  This is not a continuous time system!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25051">
+            <parent>25044</parent>
+            <userid>13030</userid>
+            <created>1362371209</created>
+            <modified>1362371674</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 5 - Rise time &amp; overshoot</subject>
+            <message>&lt;p&gt;I missed slide 24 in previous lecture and had wrong understanding in determining Φ&lt;sub&gt;d&lt;/sub&gt;. So while studying this lecture, I got this doubt but n&lt;span style="line-height: 1.4;"&gt;ow I understand how they are considered while designing.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25053">
+            <parent>24948</parent>
+            <userid>13802</userid>
+            <created>1362372498</created>
+            <modified>1362373729</modified>
+            <mailed>1</mailed>
+            <subject>Re: Give the slide number and ask your question</subject>
+            <message>&lt;p&gt;Slide 21.&lt;/p&gt;
+&lt;p&gt;For eliminating oscillations, is it the best possible approach to define a negative real factor as bad part of the polynomial, and hence concentrate only on the real factors in right half circle?&lt;/p&gt;
+&lt;p&gt;Would it not affect the controller's performance in any manner? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25105">
+            <parent>25036</parent>
+            <userid>31087</userid>
+            <created>1362394032</created>
+            <modified>1362394032</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 4</subject>
+            <message>&lt;p&gt;This was asked by Aniket Deb also, as a question on Slide 4.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25106">
+            <parent>25034</parent>
+            <userid>31087</userid>
+            <created>1362394288</created>
+            <modified>1362394288</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no. 5</subject>
+            <message>&lt;p&gt;Can you please substitute and check whether Aryabhatta's identity is satisfied?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25107">
+            <parent>25035</parent>
+            <userid>31087</userid>
+            <created>1362394383</created>
+            <modified>1362394383</modified>
+            <mailed>1</mailed>
+            <subject>Re: 7. Perturbations of Initial Conditions</subject>
+            <message>&lt;p&gt;Good question, but I haven't thought about it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25108">
+            <parent>25037</parent>
+            <userid>31087</userid>
+            <created>1362394618</created>
+            <modified>1362394618</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 10</subject>
+            <message>&lt;p&gt;That is because $$H(zI-F)^{-1}G = B/A$$, where F, G, H form the state space equations and B/A is the transfer function.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2498">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2499">
+        <userid>23190</userid>
+      </subscription>
+      <subscription id="2501">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2502">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2503">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="2506">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2507">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="2508">
+        <userid>23067</userid>
+      </subscription>
+      <subscription id="2509">
+        <userid>13355</userid>
+      </subscription>
+      <subscription id="2510">
+        <userid>15538</userid>
+      </subscription>
+      <subscription id="2511">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="2512">
+        <userid>13781</userid>
+      </subscription>
+      <subscription id="2513">
+        <userid>17192</userid>
+      </subscription>
+      <subscription id="2514">
+        <userid>19315</userid>
+      </subscription>
+      <subscription id="2515">
+        <userid>11633</userid>
+      </subscription>
+      <subscription id="2516">
+        <userid>13802</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

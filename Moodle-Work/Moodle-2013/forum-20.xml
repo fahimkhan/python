@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1684" moduleid="11832" modulename="forum" contextid="58996">
+  <forum id="1684">
+    <type>general</type>
+    <name>4 April 2013 - 20: Linear quadratic regulator</name>
+    <intro>&lt;p&gt;Discussions for lecture 20&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1364968736</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="15737">
+        <name>19th lecture: post the slide number and ask your question</name>
+        <firstpost>29108</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1365084251</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="29108">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1364968792</created>
+            <modified>1364968792</modified>
+            <mailed>1</mailed>
+            <subject>19th lecture: post the slide number and ask your question</subject>
+            <message>&lt;p&gt;P&lt;span&gt;lease post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29180">
+            <parent>29108</parent>
+            <userid>12583</userid>
+            <created>1364994706</created>
+            <modified>1364994766</modified>
+            <mailed>1</mailed>
+            <subject>slide 7</subject>
+            <message>&lt;p&gt;How did you obtain the model for queue  system?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29181">
+            <parent>29108</parent>
+            <userid>13030</userid>
+            <created>1364995065</created>
+            <modified>1364995857</modified>
+            <mailed>1</mailed>
+            <subject>Slide 3 - Integral Action</subject>
+            <message>&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;As we are calling it 'Integral Action', where is the integration involved?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29185">
+            <parent>29108</parent>
+            <userid>19315</userid>
+            <created>1364995908</created>
+            <modified>1364995908</modified>
+            <mailed>1</mailed>
+            <subject>Slide 15: Value of λ(N)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;x(N+1) =0 and we have assumed u(N) = 0. The state equation then implies that x(N) =0. This in turn will imply λ(N) = Q&lt;sub&gt;1&lt;/sub&gt;x(N) = 0 and henceforth, which should not be the case. What am I missing here?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29195">
+            <parent>29108</parent>
+            <userid>12583</userid>
+            <created>1365003094</created>
+            <modified>1365003094</modified>
+            <mailed>1</mailed>
+            <subject>slide 21</subject>
+            <message>&lt;p&gt;sir, gain matirx K suddently appears in slide 21 which was not used in the earlier fomulations. kindly explain&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29203">
+            <parent>29108</parent>
+            <userid>23191</userid>
+            <created>1365008363</created>
+            <modified>1365008363</modified>
+            <mailed>1</mailed>
+            <subject>slide 3: integeral action</subject>
+            <message>&lt;p&gt;dear sir,&lt;/p&gt;
+&lt;p&gt;why are we calling X&lt;sub&gt;I&lt;/sub&gt;(k+1)=X&lt;sub&gt;I&lt;/sub&gt;(k)+e(k) as integeral action?&lt;/p&gt;
+&lt;p&gt;please ellaborate.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29215">
+            <parent>29108</parent>
+            <userid>20594</userid>
+            <created>1365014849</created>
+            <modified>1365014849</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 11</subject>
+            <message>&lt;p&gt;Why only x1 has to be made zero and no constrainet on x2 ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29216">
+            <parent>29108</parent>
+            <userid>15477</userid>
+            <created>1365015655</created>
+            <modified>1365015655</modified>
+            <mailed>1</mailed>
+            <subject>Slide 8: Pole placements</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;If given a choice, which poles should be placed nearer to the origin: for x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt; or for x&lt;sub&gt;I&lt;/sub&gt;?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29219">
+            <parent>29108</parent>
+            <userid>17192</userid>
+            <created>1365016074</created>
+            <modified>1365016074</modified>
+            <mailed>1</mailed>
+            <subject>Slide 3: Integral action</subject>
+            <message>&lt;p&gt;How can we say that x&lt;sub&gt;I&lt;/sub&gt; incorporates integral action?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29221">
+            <parent>29108</parent>
+            <userid>23190</userid>
+            <created>1365017129</created>
+            <modified>1365017129</modified>
+            <mailed>1</mailed>
+            <subject>slide 10: dead beat controller</subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;For the example we discussed in the video, if poles are chosen at the origin ,the final r value is obtained in n (3) steps. But for the problem 14.7 (mentioned in the video)  this is not seen. Should we take a different value of 'c' matrix for this problem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29223">
+            <parent>29108</parent>
+            <userid>15509</userid>
+            <created>1365021000</created>
+            <modified>1365021000</modified>
+            <mailed>1</mailed>
+            <subject>slide 8 : form of the A-BK system</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In the A-BK form we have a matrix consisting of A and -C since A &amp;amp; C are matrices themselves can you please say what will the form of this characteristic equation&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29224">
+            <parent>29108</parent>
+            <userid>13634</userid>
+            <created>1365021141</created>
+            <modified>1365021141</modified>
+            <mailed>1</mailed>
+            <subject>slide 39 : control hamiltonian matrix</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;what is the logic/rationale behind constructing the control hamiltonian matrix ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29246">
+            <parent>29180</parent>
+            <userid>31087</userid>
+            <created>1365052352</created>
+            <modified>1365052352</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7</subject>
+            <message>&lt;p&gt;I have taken it from a book that explains the advantages of using feedback control in computing systems.  The reference is given in the text.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29248">
+            <parent>29181</parent>
+            <userid>31087</userid>
+            <created>1365052452</created>
+            <modified>1365052658</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 3 - Integral Action</subject>
+            <message>&lt;p&gt;There are two ways of looking at the equation $$x_I(k+1)=x_I(k) + e(k)$$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;At steady state, the state instant k+1 is equal to the state at k and hence, the error term e becomes zero.&lt;/li&gt;
+&lt;li&gt;If you write this recursively, you will see the error adding up, just as it happens in integral mode.&lt;/li&gt;
+&lt;/ol&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29251">
+            <parent>29185</parent>
+            <userid>31087</userid>
+            <created>1365053011</created>
+            <modified>1365053011</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 15: Value of λ(N)</subject>
+            <message>&lt;p&gt;What we are trying to convey is that the control is so effective that after N moves, we can make the control effort zero.  Possibly, I could have said the following:  Demand u(N) = 0, else x(N+1) is not negligibly small.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29252">
+            <parent>29195</parent>
+            <userid>31087</userid>
+            <created>1365053249</created>
+            <modified>1365053249</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 21</subject>
+            <message>&lt;p&gt;It comes from the definition of control law, namely, u = - Kx.  As this form is a standard one, it is not explicitly stated here, although I could have done that.  Please see the second last equation on slide 17.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29253">
+            <parent>29203</parent>
+            <userid>31087</userid>
+            <created>1365053296</created>
+            <modified>1365053296</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 3: integeral action</subject>
+            <message>&lt;p&gt;Please see the answer I have given to Pranavkumar.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29254">
+            <parent>29216</parent>
+            <userid>31087</userid>
+            <created>1365053419</created>
+            <modified>1365053419</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 8: Pole placements</subject>
+            <message>&lt;p&gt;The dynamical equation whose solution should fast converge should have its eigenvalue or pole close to the origin.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29255">
+            <parent>29219</parent>
+            <userid>31087</userid>
+            <created>1365053445</created>
+            <modified>1365053445</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 3: Integral action</subject>
+            <message>&lt;p&gt;See the reply that I have given to Pranavkumar.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29256">
+            <parent>29221</parent>
+            <userid>31087</userid>
+            <created>1365053549</created>
+            <modified>1365053549</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 10: dead beat controller</subject>
+            <message>&lt;p&gt;The number of steps to converge to zero is n or less.  Do you need more than n steps in example 14.7?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29257">
+            <parent>29223</parent>
+            <userid>31087</userid>
+            <created>1365053703</created>
+            <modified>1365053726</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8 : form of the A-BK system</subject>
+            <message>&lt;p&gt;It is obtained by taking determinant.  Please see slide 3 in lecture 17.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29258">
+            <parent>29224</parent>
+            <userid>31087</userid>
+            <created>1365053788</created>
+            <modified>1365084251</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 39 : control hamiltonian matrix</subject>
+            <message>&lt;p&gt;Two point BVP (boundary value problem) in the finite time case and an iterative calculation in the infinite time case get converted into an eigenvalue problem, which is easier to solve.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29262">
+            <parent>29248</parent>
+            <userid>13030</userid>
+            <created>1365054635</created>
+            <modified>1365054635</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 3 - Integral Action</subject>
+            <message>&lt;p&gt;So it will be X&lt;sub&gt;I&lt;/sub&gt;(k+1)=e(k)+e(k-1)+e(k-2)+....+e(0)+X&lt;sub&gt;I&lt;/sub&gt;(0)&lt;/p&gt;
+&lt;p&gt;How do we choose the value of X&lt;sub&gt;I&lt;/sub&gt;(0)?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29264">
+            <parent>29256</parent>
+            <userid>23190</userid>
+            <created>1365055814</created>
+            <modified>1365055814</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 10: dead beat controller</subject>
+            <message>&lt;p&gt;I had tried with c = [1 1 0] earlier, which didn't converge.&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;No of steps to converge is exactly n with c = [1 1 1].  Does it imply that c matrix has to have this value always? &lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="29339">
+            <parent>29108</parent>
+            <userid>13802</userid>
+            <created>1365075480</created>
+            <modified>1365075581</modified>
+            <mailed>1</mailed>
+            <subject>Slide 10</subject>
+            <message>&lt;p&gt;What if we want the states to go to a non zero value?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1672" moduleid="10640" modulename="forum" contextid="57663">
+  <forum id="1672">
+    <type>general</type>
+    <name>7 March 2013 - 13: Internal Model Control</name>
+    <intro>&lt;p&gt;For discussing 13th lecture.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1362591081</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="13666">
+        <name>Please state the slide number and ask your question</name>
+        <firstpost>25377</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363242988</timemodified>
+        <usermodified>23190</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="25377">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1362560677</created>
+            <modified>1362636935</modified>
+            <mailed>1</mailed>
+            <subject>Please state the slide number and ask your question</subject>
+            <message>&lt;div class="left"&gt;
+&lt;div class="grouppictures"&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.  Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25413">
+            <parent>25377</parent>
+            <userid>23190</userid>
+            <created>1362572138</created>
+            <modified>1362572138</modified>
+            <mailed>1</mailed>
+            <subject>slide 20: Reciprocal polynomials in finding Gq</subject>
+            <message>&lt;p&gt;SIr&lt;/p&gt;
+&lt;p&gt;In the design of G&lt;sub&gt;Q&lt;/sub&gt;, is the objective  G&lt;sub&gt;Q&lt;/sub&gt; = G&lt;sub&gt;p&lt;/sub&gt;&lt;sup&gt;-1&lt;/sup&gt;?  . If so application of reciprocal polynomials may not help in achieving this . please explain? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25429">
+            <parent>25377</parent>
+            <userid>15509</userid>
+            <created>1362578690</created>
+            <modified>1362578690</modified>
+            <mailed>1</mailed>
+            <subject>slide 7 - delay compensation</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;one delay is included to prevent algebraic loops. &lt;/p&gt;
+&lt;p&gt;what exactly are algebraic loops and what are the implications of the presence of these loops.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25432">
+            <parent>25377</parent>
+            <userid>10036</userid>
+            <created>1362581245</created>
+            <modified>1362581245</modified>
+            <mailed>1</mailed>
+            <subject>slide 7: algebric loops</subject>
+            <message>&lt;p&gt;how are algebric loops different from the normal ones ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25445">
+            <parent>25413</parent>
+            <userid>23191</userid>
+            <created>1362585296</created>
+            <modified>1362585296</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 20: Reciprocal polynomials in finding Gq</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;If i understood correctly, G&lt;sub&gt;Q&lt;/sub&gt;(z) = G&lt;sub&gt;p&lt;/sub&gt;&lt;sup&gt;-1&lt;/sup&gt; is applied only in case Gp does not have zeroes outside unity circle and all roots are with positive real part. that is numerator polynomial of G&lt;sub&gt;p&lt;/sub&gt; does not have any bad part.&lt;/p&gt;
+&lt;p&gt;if it has bad part then, reciprocal polynomial method is used and G&lt;sub&gt;Q&lt;/sub&gt; will not be equal to Gp&lt;sup&gt;-1.&lt;/sup&gt; if we use Gp-1 directly in this case, then GQ will be unstable, which is not recommended.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25448">
+            <parent>25377</parent>
+            <userid>23191</userid>
+            <created>1362585549</created>
+            <modified>1362585549</modified>
+            <mailed>1</mailed>
+            <subject>slide 3 about φcl</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;can we say first order polynomial for φcl with positive roots are equivalent to overdamped second order system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25449">
+            <parent>25377</parent>
+            <userid>13413</userid>
+            <created>1362585640</created>
+            <modified>1362585640</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;    how does one delay inclusion cause in algebraic loop, why these algebraic loops creats difficulties in simulation?&lt;/p&gt;
+&lt;p&gt;and why these difficulties do not arise in the presence of noise or plant model mismatch?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25452">
+            <parent>25377</parent>
+            <userid>23191</userid>
+            <created>1362586113</created>
+            <modified>1362586113</modified>
+            <mailed>1</mailed>
+            <subject>system delay</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;this question comes to my mind due to time jitter phenomenon in electronic circuits. we discuss about discretisation of plant and even a very small delay in analog system can cause atleast one unit of discrete time delay. my plant delay is varying (due to jitter) slightly and causing the change of one unit (or more depending upon sampling time and jitter) in the value of discrete time delay k. for such system, how plant is defined and can we make a controller for such systems?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25462">
+            <parent>25377</parent>
+            <userid>15642</userid>
+            <created>1362588158</created>
+            <modified>1362588343</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;I am unable to folllow slide no . 8. Why there is another term present in the expression of y(n). what is the difference between &lt;span style="line-height: 1.4;"&gt; estimated output and actual output? do they refer the same thing ?  &lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25463">
+            <parent>25377</parent>
+            <userid>13107</userid>
+            <created>1362588274</created>
+            <modified>1362588274</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;What do you mean by an algebric loop?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25465">
+            <parent>25377</parent>
+            <userid>13030</userid>
+            <created>1362588977</created>
+            <modified>1362588977</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;Why did not we factor B as B&lt;sup&gt;g+&lt;/sup&gt;B&lt;sup&gt;g-&lt;/sup&gt;B&lt;sup&gt;b&lt;/sup&gt; like previous lecture?&lt;/p&gt;
+&lt;p&gt;Where B&lt;sup&gt;b&lt;/sup&gt; refers to part of B containing nonminimum zeros of B, B&lt;sup&gt;g+&lt;/sup&gt; refers to factor of B with roots inside unit circle and positive real parts and B&lt;sup&gt;b-&lt;/sup&gt; refers to factor of B with roots inside unit circle and negative real parts (which were considered as B&lt;sup&gt;b&lt;/sup&gt; in previous lecture)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25482">
+            <parent>25377</parent>
+            <userid>19275</userid>
+            <created>1362595785</created>
+            <modified>1362596005</modified>
+            <mailed>1</mailed>
+            <subject>slide 7</subject>
+            <message>&lt;p&gt;why delay compensation required and how does it prevent algebraic loops?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25491">
+            <parent>25377</parent>
+            <userid>23067</userid>
+            <created>1362597324</created>
+            <modified>1362597324</modified>
+            <mailed>1</mailed>
+            <subject>my2cd function</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;In scilab code my2cd.sci, for converting continious to discrete used function 'dscr', but whydont we use 'cls2dls'?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25494">
+            <parent>25377</parent>
+            <userid>13355</userid>
+            <created>1362599277</created>
+            <modified>1362599277</modified>
+            <mailed>1</mailed>
+            <subject>Slide no 12</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;We use the assumption that we know a very accurate assumption of the plant, but if we actually knew it we wouldnt have to go through this exercise, we could have simply used delayless plant. where am i going wrong in this?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25495">
+            <parent>25377</parent>
+            <userid>20594</userid>
+            <created>1362599431</created>
+            <modified>1362599431</modified>
+            <mailed>1</mailed>
+            <subject>Re slide 7 algebraic loops</subject>
+            <message>&lt;p&gt;How delay helps to prevent algebraic loops?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25496">
+            <parent>25377</parent>
+            <userid>19315</userid>
+            <created>1362599591</created>
+            <modified>1362599591</modified>
+            <mailed>1</mailed>
+            <subject>Slide 12</subject>
+            <message>&lt;p&gt;Addition of plant estimator does not have any effect on output but it changes the closed loop characterstic polynomial. &lt;span style="line-height: 1.4;"&gt;How do we decide when to implement this control strategy?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25498">
+            <parent>25377</parent>
+            <userid>15502</userid>
+            <created>1362600820</created>
+            <modified>1362600820</modified>
+            <mailed>1</mailed>
+            <subject>Re:  slide 8, estimators of k,  Bd and A</subject>
+            <message> Sir,  you discussed the case when ' we have good knowledge of plant' 
+I did not understand how it practically works. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25499">
+            <parent>25377</parent>
+            <userid>13781</userid>
+            <created>1362603471</created>
+            <modified>1362603471</modified>
+            <mailed>1</mailed>
+            <subject>Slide no.8</subject>
+            <message>&lt;p&gt;Is Smith predictor an observer for the plant?And why have we chosen the given equation as estimated value of output?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25500">
+            <parent>25377</parent>
+            <userid>11633</userid>
+            <created>1362612528</created>
+            <modified>1362612528</modified>
+            <mailed>1</mailed>
+            <subject>slide 7</subject>
+            <message>&lt;p&gt;How does including one delay in B&lt;sub&gt;d&lt;/sub&gt; help in  preventing algebraic loops&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25501">
+            <parent>25377</parent>
+            <userid>15477</userid>
+            <created>1362614522</created>
+            <modified>1362614522</modified>
+            <mailed>1</mailed>
+            <subject>Slide 4 - Effect of plant delay</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In this slide you mention that we can directly specify Φ&lt;sub&gt;cl&lt;/sub&gt;. Sir, I wanted to know that what would be the case in which we could directly mention it. Obviously, using rise time and other specifications we can find it out, but if we wanted to specify the Φ&lt;sub&gt;cl&lt;/sub&gt; directly, what wouldbe the necessary conditions of Φ&lt;sub&gt;cl&lt;/sub&gt; (Other than being a stable system with zeros on RHP) ??&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25503">
+            <parent>25377</parent>
+            <userid>17192</userid>
+            <created>1362615298</created>
+            <modified>1362615298</modified>
+            <mailed>1</mailed>
+            <subject>Slide # 3</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;During Slide 3 you said that Smith Predictor is a strategy to handle plant delays. I did not quite understand how and why we need the predictor to handle the plant delays.&lt;/p&gt;
+&lt;p&gt;When we run system identification for the plant we would get an estimate of the chracteristic polynomial of the plant and the net delay due to the plant. Hence, we get k, B&lt;sub&gt;m&lt;/sub&gt;, A&lt;sub&gt;m&lt;/sub&gt;. We can design our controller appropriately. Why do we need the Smith Predictor?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25504">
+            <parent>25377</parent>
+            <userid>13634</userid>
+            <created>1362615818</created>
+            <modified>1362615818</modified>
+            <mailed>1</mailed>
+            <subject>slide 7: Delay Compensation: Heuristics</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;We say that we include one delay to denote minimum unit delay. Are there any heuristics to decide if we need more than one unit delay for a specific problem - as in can a problem be inherently such that the controller designed cannot have just one unit delay, but needs more, in which case we'll have to carry out a different analysis?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25506">
+            <parent>25377</parent>
+            <userid>18658</userid>
+            <created>1362617012</created>
+            <modified>1362617012</modified>
+            <mailed>1</mailed>
+            <subject>slide 7, delay compensation</subject>
+            <message>&lt;p&gt;why is delay compensation required for B&lt;sub&gt;d &lt;/sub&gt;?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25507">
+            <parent>25377</parent>
+            <userid>13802</userid>
+            <created>1362619439</created>
+            <modified>1362619439</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;Slide 21&lt;/p&gt;
+&lt;p&gt;What is steady state equivalent?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25538">
+            <parent>25498</parent>
+            <userid>15502</userid>
+            <created>1362632625</created>
+            <modified>1362632625</modified>
+            <mailed>1</mailed>
+            <subject>Re:  slide 8 and 12, estimators of k,  Bd and A</subject>
+            <message>&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;I mean, first we assumed we know A and B, which means we know the plant. Then k&lt;/span&gt;&lt;sub&gt;m&lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;, B&lt;/span&gt;&lt;sub&gt;dm &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;and A&lt;/span&gt;&lt;sub&gt;m &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;are intoduced as estimates of plant parameters. Then we arrived at an expression for &lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;φ&lt;/span&gt;&lt;sub&gt;cl&lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt; in terms of both parameters and estimates. But practically we have only estimates. Then how do we calculate &lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;φ&lt;/span&gt;&lt;sub&gt;cl &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;?&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25552">
+            <parent>25445</parent>
+            <userid>31087</userid>
+            <created>1362637140</created>
+            <modified>1362637140</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 20: Reciprocal polynomials in finding Gq</subject>
+            <message>&lt;p&gt;What Jitendra Kumar says is perfectly correct.  Only one clarification: although the negative real part may not affect stability, the performance may be reduced, as we have seen before.  As a result, IMC takes the negative real part also as bad.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25554">
+            <parent>25429</parent>
+            <userid>31087</userid>
+            <created>1362637432</created>
+            <modified>1362637432</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 - delay compensation</subject>
+            <message>&lt;p&gt;Let me give an intutitve explanation.  Remember that we have to compare the current output of the plant with the current setpoint and use this error to drive the controller.  But what is meant by the "current" output?  Is it the output "before" you apply the control effort or the output that you get "after" you apply the control effort?  Both of them will happen "simultaneously" when there is absolutely no delay in the loop.  This situation is referred to as the algebraic loop.  When there is no algebraic loop, it will be possible to distinguish between before and after.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25555">
+            <parent>25432</parent>
+            <userid>31087</userid>
+            <created>1362637478</created>
+            <modified>1362637478</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7: algebric loops</subject>
+            <message>&lt;p&gt;Please see the reply to Aniket Deb, who also asked the same question on Slide 7.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25560">
+            <parent>25448</parent>
+            <userid>31087</userid>
+            <created>1362639096</created>
+            <modified>1362639096</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 3 about φcl</subject>
+            <message>&lt;p&gt;It is ok to say this.  But comparison with a first order system is more appropriate.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25561">
+            <parent>25449</parent>
+            <userid>31087</userid>
+            <created>1362639240</created>
+            <modified>1362639273</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;Please see my answer to the same question to a similar post - see the post with Slide 7 in its heading.&lt;/p&gt;
+&lt;p&gt;Who says that this problem will go away if noise or plant model mismatch is introduced?  These are two orthogonal issues.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25562">
+            <parent>25452</parent>
+            <userid>31087</userid>
+            <created>1362639491</created>
+            <modified>1362639491</modified>
+            <mailed>1</mailed>
+            <subject>Re: system delay</subject>
+            <message>&lt;p&gt;In discrete time systems, the delay can change only in integral numbers of the sampling period.  Naturally, the control system should be capable of handling such changes.  Robust control design techniques, such as QFT and $$H^\infty$, can possibly be used in such situations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25564">
+            <parent>25462</parent>
+            <userid>31087</userid>
+            <created>1362639991</created>
+            <modified>1362639991</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;You should state the slide number on the Subject Heading.  This will help locate your question easily in the class.  Can you please edit your subject title now?&lt;/p&gt;
+&lt;p&gt;The answer to your question is in Slide 9.  This choice results in $$\hat y$$ being equal to the delay-free version of the plant output when we have a perfect knowledge of the plant.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25610">
+            <parent>25463</parent>
+            <userid>31087</userid>
+            <created>1362650202</created>
+            <modified>1362650202</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;Please see my answer to Aniket Deb.  His post has "Slide 7" in the subject heading.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25612">
+            <parent>25482</parent>
+            <userid>31087</userid>
+            <created>1362650464</created>
+            <modified>1362650464</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7</subject>
+            <message>&lt;p&gt;It is not correct to say that delay compensation prevents algebraic loops.  I don't think that I said that in the video.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Delay compensation is used to get better control performance.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Algebraic loops are introduced when there is no delay (not even one unit sample delay) in the loop.  I have explained the problems created by this in the post by Aniket with "Slide 7" in the subject heading.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25614">
+            <parent>25491</parent>
+            <userid>31087</userid>
+            <created>1362650901</created>
+            <modified>1362650901</modified>
+            <mailed>1</mailed>
+            <subject>Re: my2cd function</subject>
+            <message>&lt;p&gt;The function cls2dls implements bilinear or Tustin approximation.  I have not been able to find out about dscr.  I won't be surprised if it implements ZOH equivalent approximation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25615">
+            <parent>25499</parent>
+            <userid>31087</userid>
+            <created>1362651033</created>
+            <modified>1362651033</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no.8</subject>
+            <message>&lt;p&gt;It is an estimate of what the output would have been if there had been no delay (except one unit, which is due to sampling). &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25616">
+            <parent>25494</parent>
+            <userid>31087</userid>
+            <created>1362651226</created>
+            <modified>1362651226</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no 12</subject>
+            <message>&lt;p&gt;In this slide we only ask the question what happens if we know the plant exactly.  This is just one of the things we discussed.  We also allow model-plant mismatch, as can be seen from the discussion Slides 8 and 9.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25617">
+            <parent>25465</parent>
+            <userid>31087</userid>
+            <created>1362651340</created>
+            <modified>1362651340</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please state the slide number and ask your question</subject>
+            <message>&lt;p&gt;Which slide?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25618">
+            <parent>25500</parent>
+            <userid>31087</userid>
+            <created>1362651409</created>
+            <modified>1362651409</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7</subject>
+            <message>&lt;p&gt;Please see my answer to Aniket whose post also has Slide 7 in the title.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="25643">
+            <parent>25501</parent>
+            <userid>31087</userid>
+            <created>1362662504</created>
+            <modified>1362662504</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 4 - Effect of plant delay</subject>
+            <message>&lt;p&gt;In order to compare the results of Astrom's book, I used their example directly.  If there is no overshoot, we cannot discuss rise time as the way we have defined, because a second order underdamped system is required for overshoot and oscillations. &lt;/p&gt;
+&lt;p&gt;Astrom has not followed our approach.  If we define 90% of the time to reach the final value as the rise time, we can arrive at an interpretation of what Astrom has used.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26471">
+            <parent>25413</parent>
+            <userid>23190</userid>
+            <created>1363240991</created>
+            <modified>1363240991</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 20: Reciprocal polynomials in finding Gq- class discussion</subject>
+            <message>&lt;p&gt;If the inverse of the plant model is not stable, we need to find the best approximate to use IMC. Hence the reciprocal polynomials are used. This is an optimization problem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26472">
+            <parent>25429</parent>
+            <userid>23190</userid>
+            <created>1363241304</created>
+            <modified>1363241304</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7 - delay compensation - class discussion</subject>
+            <message>&lt;p&gt;System won't be physically meaning ful if everything happens instantaneously. At least one sample delay is there in every sampled data system. Xcos or Simulink assume minimum delay while solving the equations, other wise simulation shows error as algebraic loops.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26474">
+            <parent>25465</parent>
+            <userid>23190</userid>
+            <created>1363241821</created>
+            <modified>1363241821</modified>
+            <mailed>1</mailed>
+            <subject>Re: IMC design  - class discussion</subject>
+            <message>&lt;p&gt;The factoring method followed in IMC design is a from an optimization solution. &lt;/p&gt;
+&lt;p&gt;It will be interesting to see this approach in pol placement controllers and use reciprocal polynomials to avoid B&lt;sup&gt;b&lt;/sup&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26475">
+            <parent>25614</parent>
+            <userid>23190</userid>
+            <created>1363242043</created>
+            <modified>1363242043</modified>
+            <mailed>1</mailed>
+            <subject>Re: my2cd function - class discussion</subject>
+            <message>&lt;p&gt;cls2dls uses billinear approximation. dscr uses ZOH appproximations. Future  versions of scilab may have dscr with optional  set of approximations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26477">
+            <parent>25507</parent>
+            <userid>23190</userid>
+            <created>1363242988</created>
+            <modified>1363242988</modified>
+            <mailed>1</mailed>
+            <subject>Re: steady state - class discussion</subject>
+            <message>&lt;p&gt;Application of final value theorm. Steady state gain is the steady state value which is given by G(1).&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2535">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2537">
+        <userid>23190</userid>
+      </subscription>
+      <subscription id="2539">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2540">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="2541">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2542">
+        <userid>13413</userid>
+      </subscription>
+      <subscription id="2545">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="2546">
+        <userid>13107</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

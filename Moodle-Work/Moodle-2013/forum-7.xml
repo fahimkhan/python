@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1648" moduleid="9004" modulename="forum" contextid="55659">
+  <forum id="1648">
+    <type>general</type>
+    <name>4 Feb. 2013 - 7: Internal model and internal stability</name>
+    <intro>&lt;p&gt;Discussion forum for lecture 7: internal model principle and internal stability.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1359782798</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="11190">
+        <name>Internal model, stability questions</name>
+        <firstpost>20933</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361343819</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="20933">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1359782849</created>
+            <modified>1359782849</modified>
+            <mailed>1</mailed>
+            <subject>Internal model, stability questions</subject>
+            <message>&lt;div class="box generalbox"&gt;
+&lt;div class="no-overflow"&gt;
+&lt;p&gt;&lt;strong&gt;Please reply to this post.  Do NOT start a new post for discussions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20987">
+            <parent>20933</parent>
+            <userid>12583</userid>
+            <created>1359823803</created>
+            <modified>1360130276</modified>
+            <mailed>1</mailed>
+            <subject>Internal Model Principle</subject>
+            <message>&lt;p&gt;In the first few slides , design of controller for unbounded r(n) and v(n) are explained. The following questions are related to this topic.&lt;/p&gt;
+&lt;p&gt;1.Generally control system design is targeted for closed loop BIBO stability with internal stability (no cancellation unstable poles).  Why do we require bounded output for an unbounded input or disturbance?&lt;/p&gt;
+&lt;p&gt;2.Will this approach affect the tracking performance of the control system (step and ramp inputs are common – and are not bounded)? Could you please explain a little more detailed?&lt;/p&gt;
+&lt;p&gt;3.&lt;span style="line-height: 1.4;"&gt;The controller designed with this theory is applicable for a particular type of functions (r(n) and v(n)) only.  Is it always possible to predict the nature of input (r(n)) and v(n)?. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;4.&lt;/span&gt;&lt;span style="line-height: 1.4;"&gt; Suppose that α&lt;/span&gt;&lt;sub&gt;r &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;and &lt;/span&gt;&lt;sub&gt;  &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;α&lt;/span&gt;&lt;sub&gt;v  &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;different  and this situation results in α&lt;/span&gt;&lt;sub&gt;v   &lt;/sub&gt;&lt;span style="line-height: 1.4;"&gt;in the  numerator of the closed loop transfer function and makes zeros outside unit cirlce. What are the effect of these zeros  on the closed loop output response y(n) to a tracking command  - r(n)?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;5.&lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;Gc(z) in the given form results in a unstable(stand alone) controller and makes the loop transfer function unstable even if the open loop plant is stable.  This can create issues if there is physical break in the feedback signal(sensor failure , wire cut etc) .&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;6. &lt;/span&gt;&lt;span style="line-height: 1.4;"&gt;Is this just a theoretical method of synthesizing controller? Can it be used for controlling practical systems?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Saturday, 2 February 2013, 10:49 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20995">
+            <parent>20933</parent>
+            <userid>23191</userid>
+            <created>1359829889</created>
+            <modified>1360130325</modified>
+            <mailed>1</mailed>
+            <subject>Internal stability</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;i have an unstable plant transfer function lets say G(z) as z/(z-1.5). this plant is closed with Gc =1 to make it stable. r is set point, e is error = r-y, where y is output of the plant. by solving this we get y/r = G/(1+G)= z/(2*z-1.5). this gives me bounded output for bounded input. i also have e/r = 1/(1+G)= (z-1.5)/(2*z-1.5)= Gm(z) (lets say), this is stable too. so it fulfills internal stability criterion.&lt;/p&gt;
+&lt;p&gt;now if I say, r is input and e is internal variable to my closed loop system and y is output of the closed loop system. my system can be represented as open loop system with r as input to Gm(z) cascaded with G(z) and e as output of Gm(z) and input to G(z), y as final output to G(z). this seems to me as same system with all internal variables stable. but curiously, we have unstable pole  and zero cancelation between Gm(z) and G(z) here.&lt;/p&gt;
+&lt;p&gt;i also observed that this similarity evaporates if i add some noise at e (which is at input to my plant G(z)) in both these equivalent models. the original feedback model is still stable where as output of my open loop equivalent (as mentioned above) will be unstable.&lt;/p&gt;
+&lt;p&gt; is it right, sir? please comment.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 12:17 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21017">
+            <parent>20933</parent>
+            <userid>13253</userid>
+            <created>1359870778</created>
+            <modified>1360130380</modified>
+            <mailed>1</mailed>
+            <subject>Open loop instability</subject>
+            <message>&lt;p&gt;In the concept of internal stability, when we are talking about unstable pole-zero cancellations, we can observe that the open-loop transfer funtion of the plant is unstable [Eg. G(z)=1/(z+2)]. What is its relevance in the practical scenario? Do we actually have plants which are open-loop unstable? Can you please give me an example?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 11:22 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21089">
+            <parent>20933</parent>
+            <userid>15509</userid>
+            <created>1359900453</created>
+            <modified>1360130442</modified>
+            <mailed>1</mailed>
+            <subject>What if input signals are unbounded?</subject>
+            <message>&lt;p&gt;Sir, &lt;/p&gt;
+&lt;p&gt;For internal stability and the unstable pole zero cancellation the inputs R1 and R2 have been taken to be stable.&lt;/p&gt;
+&lt;p&gt;what if R1 and R2 are unbounded and the transfer functions are able to nullify the unstable pole effect.&lt;/p&gt;
+&lt;p&gt;in that case the error signals might be stable. can you please clarify as to what is the state of the system in this case.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 7:37 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21091">
+            <parent>20933</parent>
+            <userid>10036</userid>
+            <created>1359901629</created>
+            <modified>1360130493</modified>
+            <mailed>1</mailed>
+            <subject>Internal Stability: Use of Low pass filters</subject>
+            <message>&lt;p&gt;Why don't we use low pass filters in our loop so as to take care of the unbounded signals ? Are they difficult to implement ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 7:57 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21097">
+            <parent>20933</parent>
+            <userid>13634</userid>
+            <created>1359905035</created>
+            <modified>1360130590</modified>
+            <mailed>1</mailed>
+            <subject>Analysis of more complicated cases</subject>
+            <message>&lt;p&gt;Sir, &lt;/p&gt;
+&lt;p&gt;If we have more than one plant (say two plants, and disturbances can be introduced at either input, or other such complicated cases), can this analysis be extended to such a general case? Can a similar matrix of transfer functions be determined in such a case to determine internal stability? Or do we need other non-linear methods to address such systems?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 8:53 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21098">
+            <parent>20933</parent>
+            <userid>13030</userid>
+            <created>1359905634</created>
+            <modified>1360130712</modified>
+            <mailed>1</mailed>
+            <subject>Can pole-zero cancellation be avoided by design?</subject>
+            <message>&lt;p&gt;Most of the systems are nonlinear and we don't have their exact plant models. We work with most accurate models and linearize them about an operating point. So our plant transfer function G(z) is an approximation.&lt;/p&gt;
+&lt;p&gt;So shouldn't there be some tolerance level when we are designing Gc(z) so that pole-zero calcellation doesn't happen in reality?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 9:03 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21100">
+            <parent>20933</parent>
+            <userid>20594</userid>
+            <created>1359906982</created>
+            <modified>1360130752</modified>
+            <mailed>1</mailed>
+            <subject>Pole-Zero Cancellation</subject>
+            <message>&lt;p&gt;After stable pole zero cancellation we get a new system. Is the new  system is same as the previous system?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 9:26 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21102">
+            <parent>21100</parent>
+            <userid>13030</userid>
+            <created>1359907798</created>
+            <modified>1359907798</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Yes! In that case, A matrix of x(k+1)=Ax(k)+bu(k) will not go to infinity as k→∞, so y(k) will be bounded.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21104">
+            <parent>20933</parent>
+            <userid>13030</userid>
+            <created>1359908700</created>
+            <modified>1360130788</modified>
+            <mailed>1</mailed>
+            <subject>Z-Transform of V</subject>
+            <message>&lt;p&gt;We can know the z-transform of reference r, but how do we find the z-transform of noise v?&lt;br /&gt;&lt;br /&gt;Because it is modeled approximately so how do we know that denominator of V(z) have the common factor α(z)?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 9:55 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21106">
+            <parent>20933</parent>
+            <userid>19471</userid>
+            <created>1359909266</created>
+            <modified>1360130918</modified>
+            <mailed>1</mailed>
+            <subject>Unbounded intermediate signals</subject>
+            <message>&lt;p&gt;Sir, we worked out that cancellation in the system with no intermediate signals will also lead to unbounded signals, is it just because the initial non-zero signals amplify with time and make it unbounded ? delay of 1 Ts between controller and output is okay. But from there I didnt understand why would it create any problems, You mentioned that the controller was not realisable, why is that so? Please clarify...&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 10:04 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21107">
+            <parent>21091</parent>
+            <userid>12583</userid>
+            <created>1359909333</created>
+            <modified>1359909333</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;lowpass filter limits the spectrem of the signal to the cut off frequency. so we can say that the frequency spectrum of the signal is bounded, but the power levels at the pass band frequencies are still unbounded and makes the signal unbounded.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21109">
+            <parent>20933</parent>
+            <userid>18658</userid>
+            <created>1359910554</created>
+            <modified>1360130958</modified>
+            <mailed>1</mailed>
+            <subject>Physical Meaning of System without Pole-zero Cancellation</subject>
+            <message>&lt;p&gt;Dear Sir&lt;/p&gt;
+&lt;p&gt;I understood the topic "System without Pole-zero Cancellation" mathematically (discussed in slide 14) but didn't get physical insight of the topic. Please explain this topic again.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 10:25 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21111">
+            <parent>20933</parent>
+            <userid>19275</userid>
+            <created>1359910782</created>
+            <modified>1360130989</modified>
+            <mailed>1</mailed>
+            <subject>Unstable Pole-Zero cancellation</subject>
+            <message>&lt;p&gt;In slide 21, it's written that "if unstable pole-zero cancellation is forbidden.......", so is there any case where unstable ple-zero cancellation is not forbidden?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 10:29 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21112">
+            <parent>20933</parent>
+            <userid>15642</userid>
+            <created>1359911864</created>
+            <modified>1359911864</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;with ref. to slide no. 6,  In servo problem we keep V=0 but how will the system respond if we consider V as some disturbance while tracking set point R ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21113">
+            <parent>20933</parent>
+            <userid>19309</userid>
+            <created>1359911984</created>
+            <modified>1359911984</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal stability</subject>
+            <message>&lt;p&gt;system's output is stable provided no zero-pole cancellation is applied then it is called internaly stable. Does this statement has any excepetion as we have exception when system is marginally stable and the step response makes it unstable?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21120">
+            <parent>20987</parent>
+            <userid>31087</userid>
+            <created>1359913371</created>
+            <modified>1359913371</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;1.  We would want the difference between the reference signal and the actual output to be small, even for an unbounded reference signal.  The reference signal could be a step or ramp, etc.&lt;/p&gt;
+&lt;p&gt;2.  No, it will not affect.&lt;/p&gt;
+&lt;p&gt;3.  If v(n) and r(n) are bounded signals, we need not know the exact nature.  But if it is an unbounded signal, we need to know it exactly.&lt;/p&gt;
+&lt;p&gt;4. A zero outside the unit circle gives rise to a nonminimum phase response.  This results in reduced performance.&lt;/p&gt;
+&lt;p&gt;5.  Yes, it is a terrible thing to use an unstable controller with an open loop stable plant, even if the closed loop system is stable.  What you have suggested is worse - you say that the closed loop system is unstable - it is not at all acceptable.  Why would you want to destabilise a stable system?&lt;/p&gt;
+&lt;p&gt;6.  We will use these theories to design controllers for practical systems.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21122">
+            <parent>20995</parent>
+            <userid>31087</userid>
+            <created>1359913748</created>
+            <modified>1359913748</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;What you are saying is equivalent to $$\dfrac 1{1+G}\times G$$.  In this case, the unstable roots are identical - they come from the same G.  This cancellation is perfectly ok.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21123">
+            <parent>20933</parent>
+            <userid>18685</userid>
+            <created>1359913756</created>
+            <modified>1359913756</modified>
+            <mailed>1</mailed>
+            <subject>Re: Delay modeling</subject>
+            <message>&lt;p&gt;Most of the real time systems have a some responce time that creates the time lag between input and output. When Y(0),-----,Y(N) (desired outputs of system) are known, we can design a controller to account that delay. What if the Y() series is unknown and it is dependent on realtime conditions (such as tracking or servo control)? Is there a way or method to design control which can react with realtime responces while the system delay is significant?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21124">
+            <parent>21017</parent>
+            <userid>31087</userid>
+            <created>1359913840</created>
+            <modified>1359913840</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Inverted pendulum is an example.  It will fall down if no control is applied.  A bicycle is an unstable system.  If it is not driven, it will fall. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21126">
+            <parent>21089</parent>
+            <userid>31087</userid>
+            <created>1359914031</created>
+            <modified>1359914031</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;The notion of stability that we use is in the sense of bounded input, bounded output.  With respect to tracking and disturbance rejection, we allow the exogeneous signals, i.e., v(n) and r(n) to be unbounded, so long as we know the exact nature.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21127">
+            <parent>21097</parent>
+            <userid>31087</userid>
+            <created>1359914091</created>
+            <modified>1359914091</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;This analysis is indeed possible for a multivariable system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21128">
+            <parent>20933</parent>
+            <userid>11633</userid>
+            <created>1359914113</created>
+            <modified>1360131073</modified>
+            <mailed>1</mailed>
+            <subject>Laplace Transform and Z-Transform</subject>
+            <message>&lt;p&gt;For studying Internal model stability we studied it using laplace transform and in this course we are studying IMC using Z tranform. Can  both the approaches be used interchangibly or z transform has some advantage over laplace transform.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Sunday, 3 February 2013, 11:25 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21129">
+            <parent>21098</parent>
+            <userid>31087</userid>
+            <created>1359914199</created>
+            <modified>1359914199</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;This is indeed the topic in robust control.  In these methods, one often calculates the controller recursively, solving a "known" problem at every step.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21130">
+            <parent>21104</parent>
+            <userid>31087</userid>
+            <created>1359914271</created>
+            <modified>1359914271</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;In this lecture, we are taking v to be deterministic.  If it is not deterministic, we will follow the methods presented in the previous lecture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21131">
+            <parent>21100</parent>
+            <userid>31087</userid>
+            <created>1359914399</created>
+            <modified>1359914399</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Yes, even if there are imperfections in the pole zero cancellation, the response will reach the correct values at least for large time values.  In view of this we can say that the cancelled system is more or less similar to the uncancelled system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21132">
+            <parent>21106</parent>
+            <userid>31087</userid>
+            <created>1359914493</created>
+            <modified>1359914493</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Can you please give me the context - e.g., which slide?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21133">
+            <parent>21109</parent>
+            <userid>31087</userid>
+            <created>1359914574</created>
+            <modified>1359914574</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;One way to understand this is to look at the underlying difference equation.  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21135">
+            <parent>21111</parent>
+            <userid>31087</userid>
+            <created>1359914663</created>
+            <modified>1359914663</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;What I mean is that because we forbid unstable pole zero cancellation, realisability is not an issue in discrete time systems.  We don't have such an elegant mechanism in continuous time systems.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21136">
+            <parent>21112</parent>
+            <userid>31087</userid>
+            <created>1359914696</created>
+            <modified>1359914696</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Apply superposition principle.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21138">
+            <parent>21113</parent>
+            <userid>31087</userid>
+            <created>1359914774</created>
+            <modified>1359914774</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal stability</subject>
+            <message>&lt;p&gt;We make no exception to marginally stable systems.  In this course, what you call as marginally stable is actually an unstable system!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21139">
+            <parent>21128</parent>
+            <userid>31087</userid>
+            <created>1359914942</created>
+            <modified>1359914942</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;The principles that work on both Z and Laplace transforms are known as algebraic.  While Laplace transforms are easier to understand, Z-transforms are easier to implement.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21140">
+            <parent>21111</parent>
+            <userid>19309</userid>
+            <created>1359915288</created>
+            <modified>1359915288</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;As far as i know there is no such real or practicle system exist. It we designed a controller in which we did unstable pole-zero calculation by using  mathematical equations we can show that no of zeros will exceed the no of poles which in practice can not exist. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21145">
+            <parent>20933</parent>
+            <userid>13107</userid>
+            <created>1359916856</created>
+            <modified>1360131125</modified>
+            <mailed>1</mailed>
+            <subject>Filtering unbounded signals</subject>
+            <message>&lt;p&gt;If by filtering we bound the unbounded signal as discussed in previous lecture  then , will it give internal stablity or strictly bounded signal are requird for it ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 12:10 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21147">
+            <parent>20933</parent>
+            <userid>18685</userid>
+            <created>1359916910</created>
+            <modified>1360131162</modified>
+            <mailed>1</mailed>
+            <subject>Pole-Zero Cancellation</subject>
+            <message>&lt;p&gt;Is the zero-pole cancellation applicable to MIMO system?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 12:11 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21148">
+            <parent>21136</parent>
+            <userid>15642</userid>
+            <created>1359916974</created>
+            <modified>1359916974</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;yes by superposition we can have the o/p but what about stability??&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21150">
+            <parent>20933</parent>
+            <userid>13355</userid>
+            <created>1359918365</created>
+            <modified>1360131203</modified>
+            <mailed>1</mailed>
+            <subject>Common terms between B and alpha</subject>
+            <message>&lt;p&gt;What happens if B has some common terms from alpha?(wrt to internal model principle)&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 12:36 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21152">
+            <parent>21017</parent>
+            <userid>12583</userid>
+            <created>1359919303</created>
+            <modified>1359919303</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Many of the fighter aircrafts are open-loop unstable systems. They are designed like that to improve maneuverability. Rocket/missiles are also unstable systems(just like an inverted pendulum).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21153">
+            <parent>21120</parent>
+            <userid>12583</userid>
+            <created>1359919564</created>
+            <modified>1359919635</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;1.&lt;span style="line-height: 1.4;"&gt; I think this method is equivalent to an integral controller in the forward path to track step input and double integrator to track ramp inputs exactly in continuous domain.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21157">
+            <parent>20933</parent>
+            <userid>13130</userid>
+            <created>1359920964</created>
+            <modified>1360131251</modified>
+            <mailed>1</mailed>
+            <subject>Internal Stability</subject>
+            <message>&lt;p&gt;If due to some reason continuity of the input signal is disrupted or any delay occurs then how internal stability can be  obtained?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 1:19 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21158">
+            <parent>21100</parent>
+            <userid>12583</userid>
+            <created>1359920980</created>
+            <modified>1359920980</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;External behavior of the system is different, assume a third order plant and dominant pole is cancelled by a controller zero, the input / output behavior of the combined system will be like a second order system. However the system is still internally a third order system. I think so.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21159">
+            <parent>20933</parent>
+            <userid>19455</userid>
+            <created>1359921586</created>
+            <modified>1360131400</modified>
+            <mailed>1</mailed>
+            <subject>Does stability in analog guarantee the same in digital?</subject>
+            <message>&lt;p&gt;if a controller is stable when implemented as an analog controller, could it be unstable when implemented as a digital controller?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 1:29 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21161">
+            <parent>20933</parent>
+            <userid>17192</userid>
+            <created>1359922233</created>
+            <modified>1360131444</modified>
+            <mailed>1</mailed>
+            <subject>Hidden Modes in Pole-Zero Cancellation</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;While discussing 'the diagonalization of the square matrix' you have taken the y(k) to be:&lt;/p&gt;
+&lt;p&gt;y(k) = (3/2)&lt;sub&gt;*&lt;/sub&gt;[(-0.5)&lt;sup&gt;k&lt;/sup&gt;&lt;sub&gt;*&lt;/sub&gt;(-2)&lt;sup&gt;k&lt;/sup&gt;]&lt;sub&gt;*&lt;/sub&gt;[...]+...&lt;/p&gt;
+&lt;p&gt;Sir, I wanted to know why in all the cases you have used (-0.5)&lt;sup&gt;k&lt;/sup&gt;&lt;sub&gt;*&lt;/sub&gt;(-2)&lt;sup&gt;k&lt;/sup&gt;. Can we not simplify this to 1&lt;sup&gt;k&lt;/sup&gt; i.e., 1 ??&lt;/p&gt;
+&lt;p&gt;Also, sir I did not quite understand what were the "hidden modes" that you spoke of during 'diagonalization of the square matrix'??&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 1:40 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21164">
+            <parent>20933</parent>
+            <userid>13413</userid>
+            <created>1359924053</created>
+            <modified>1360131487</modified>
+            <mailed>1</mailed>
+            <subject>Mathematical development from transfer function</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;    In slide 14 , how block 1 equation is derived from transfer function ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 2:10 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21165">
+            <parent>20933</parent>
+            <userid>15100</userid>
+            <created>1359926692</created>
+            <modified>1360131569</modified>
+            <mailed>1</mailed>
+            <subject>Controller unstable?</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;By having /alpha in the denominator of controller G_c(z), we are making the controller unstable, which can make the input signal, u(n), to the plant unstable. How is this problem sorted out?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 2:54 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21166">
+            <parent>20933</parent>
+            <userid>13802</userid>
+            <created>1359927602</created>
+            <modified>1360131700</modified>
+            <mailed>1</mailed>
+            <subject>V stochastic or deterministic?</subject>
+            <message>&lt;p&gt;While developing the internal model principle, you say that V should be stable. We can't solve the problem for unstable V. We are solving the problem where first we model a random disturbance and then impose a condition of stability on it. 1)How can I be assured that we are not severly limiting the system? 2)What are implications of unstable v?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 3:10 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21167">
+            <parent>20933</parent>
+            <userid>15100</userid>
+            <created>1359927720</created>
+            <modified>1360131880</modified>
+            <mailed>1</mailed>
+            <subject>Presence of alpha in transfer functions</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;The numerator of the transfer function between Y(Z) and V(Z) (regulation), as well as of the transfer function between E(z) and R(Z)(tracking), contains \alpha. All the components of \alpha in each of the transfer function may not be cancelled. This leads to a non-minimum phase system. Will this have any undue effects on the system? if so, how?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 3:12 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21168">
+            <parent>20933</parent>
+            <userid>19315</userid>
+            <created>1359934132</created>
+            <modified>1360131949</modified>
+            <mailed>1</mailed>
+            <subject>Assumption of no common factor between B and alpha</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;Is the assumption that B and α do not have a common factor justified, since its the controller transfer function that we can control and not the plant transfer function? If B does have a common factor, how do we go about modelling the controller?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 4 February 2013, 4:58 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21169">
+            <parent>20933</parent>
+            <userid>15477</userid>
+            <created>1359937096</created>
+            <modified>1360132021</modified>
+            <mailed>1</mailed>
+            <subject>Practical Problems in case of intermediate unbounded signals</subject>
+            <message>&lt;p&gt;Sir, In practical sense, why do we need to bother about internal stability at all if our output is stable?&lt;/p&gt;
+&lt;p&gt;We have talked about saturation/overflow/explosion in the slides but please explain it in context of an unbounded signal from the controller to the plant, the final output being stable.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21176">
+            <parent>21123</parent>
+            <userid>31087</userid>
+            <created>1359948346</created>
+            <modified>1359948346</modified>
+            <mailed>1</mailed>
+            <subject>Re: Delay modeling</subject>
+            <message>&lt;p&gt;Your question is not clear. &lt;/p&gt;
+&lt;p&gt;Normally, the desired response is known to the person who operates it, we could call them the domain specialist or expert.  If they want to change the desired response with time, say, depending on plant conditions, it is very much possible.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21177">
+            <parent>21145</parent>
+            <userid>31087</userid>
+            <created>1359948471</created>
+            <modified>1359948471</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;What do you mean by bounding the unbounded signals?  By this, do you mean the stabilisation of unbounded "systems"? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21178">
+            <parent>21147</parent>
+            <userid>31087</userid>
+            <created>1359948588</created>
+            <modified>1359948588</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Yes.  We need the concepts of poles and zeros of MIMO systems, defined by matrices of transfer functions.  Smith McMillan form brings out the pole zero structure of MIMO systems.  A good reference on this topic is Thomas Kailath, Linear Systems.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21179">
+            <parent>21150</parent>
+            <userid>31087</userid>
+            <created>1359949055</created>
+            <modified>1359949125</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;If these common terms have zeros inside the unit circle, there is no problem.  If these common terms are outside the unit circle, then it is forbidden.  Of course, we do talk about the cancellation of terms of the form $$(z-1)^n$$.  Here, we assume that we know these terms "exactly".  This topic is explained in the book.  We don't normally work with signals whose poles lie "outside" i.e., z&amp;gt;1, the unit circle.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21180">
+            <parent>21157</parent>
+            <userid>31087</userid>
+            <created>1359949091</created>
+            <modified>1359949091</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Your question is not clear.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21181">
+            <parent>21159</parent>
+            <userid>31087</userid>
+            <created>1359949333</created>
+            <modified>1359949333</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;It is possible to make the digital controller almost identical to the analog controller through very high sampling rate.  At the same time, it is possible to design the digital controller quite different from its analog version by improper approximation.  In this case, we can certainly destabilise the system under focus.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21183">
+            <parent>21161</parent>
+            <userid>31087</userid>
+            <created>1359949629</created>
+            <modified>1359949629</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;I guess that you are talking about slide 17.  What you are talking about is a 1x2 matrix and not a product.  As a result, the simplification of the form you have in mind is not at all possible.&lt;/p&gt;
+&lt;p&gt;You should compare the results of slide 17 with that of slide 13.  The $$-2$$ term, which creates all difficulties, is missing in slide 13.  This is the missing mode.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21184">
+            <parent>21164</parent>
+            <userid>31087</userid>
+            <created>1359949681</created>
+            <modified>1359949681</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;I multiiplied the two transfer functions and cancelled the common factor.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21185">
+            <parent>21165</parent>
+            <userid>31087</userid>
+            <created>1359950548</created>
+            <modified>1359950548</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Although the controller by itself may be unstable, its output, namely u, need not be unstable.  You have to look at the closed loop transfer function between the reference signal r and the controller output u.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21186">
+            <parent>21166</parent>
+            <userid>31087</userid>
+            <created>1359950645</created>
+            <modified>1359950645</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;What I mean is that if V is unbounded, we should know it "exactly".  If V is bounded, we need not know its exact nature.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21187">
+            <parent>21167</parent>
+            <userid>31087</userid>
+            <created>1359950721</created>
+            <modified>1359950721</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;The nonminimum phase results in performance deterioration.  We may not be able to eliminate this effect.  This topic is discussed in detail in Chapter 9 of the book.  We will soon get to it in the class also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21188">
+            <parent>21168</parent>
+            <userid>31087</userid>
+            <created>1359950805</created>
+            <modified>1359950805</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;If B already has the factor $$\alpha$$, we need not include it in the controller $$G_c$$.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21189">
+            <parent>21169</parent>
+            <userid>31087</userid>
+            <created>1359951005</created>
+            <modified>1359951005</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;If we allow unstable pole-zero cancellation, some loop signals can grow unbounded, even if the output is perfectly bounded.  These unbounded signals can exceed the allowable limits and hence can result in a disaster.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="21243">
+            <parent>20933</parent>
+            <userid>15477</userid>
+            <created>1359971405</created>
+            <modified>1360132101</modified>
+            <mailed>1</mailed>
+            <subject>Can signals have poles, zeros?</subject>
+            <message>&lt;p&gt;Sir, what exactly does V denote?&lt;/p&gt;
+&lt;p&gt;If it's the transfer function, then instead of V, shouldn't we write d.V in the equation; d being the disturbance?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;And if it's a transfer function, how can we talk of it having unstable "poles"?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23624">
+            <parent>20933</parent>
+            <userid>23190</userid>
+            <created>1361338846</created>
+            <modified>1361338846</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Sir&lt;/p&gt;
+&lt;p&gt;While discussing internal model principle,  we are saying unbounded disturbances can be handled by the controller provided their pole positions are known. But if their pole positions are known, can they be pre - processed to make them bounded before entering the control loop? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="23636">
+            <parent>23624</parent>
+            <userid>31087</userid>
+            <created>1361343819</created>
+            <modified>1361343819</modified>
+            <mailed>1</mailed>
+            <subject>Re: Internal model, stability questions</subject>
+            <message>&lt;p&gt;Yes, it may be possible.  But this could imply changing the process itself.  If the plant is made to behave better based on the domain related considerations, it will be much better.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

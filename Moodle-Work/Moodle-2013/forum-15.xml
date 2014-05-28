@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1675" moduleid="11001" modulename="forum" contextid="58062">
+  <forum id="1675">
+    <type>general</type>
+    <name>14 March 2013 - 15: Generalised Predictive Control</name>
+    <intro>&lt;p&gt;Discussion on GPC&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1363183504</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="14242">
+        <name>Lecture 15: State the slide number and ask your question</name>
+        <firstpost>26396</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363375657</timemodified>
+        <usermodified>23190</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="26396">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1363183534</created>
+            <modified>1363183594</modified>
+            <mailed>1</mailed>
+            <subject>Lecture 15: State the slide number and ask your question</subject>
+            <message>&lt;p&gt;&lt;span&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please remember to include the slide number in the subject heading - please also provide a brief description of your question.&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26406">
+            <parent>26396</parent>
+            <userid>23191</userid>
+            <created>1363189251</created>
+            <modified>1363189401</modified>
+            <mailed>1</mailed>
+            <subject>slide no 7: about Minimum variance control</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;you told us that noise or system variations (random) are like step. we should use ARIMAX model for prediction. but if B has Δ as a factor in it, then my control effort for minimum variance control will be unstable. so please tell, what model we should use in such case.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26407">
+            <parent>26396</parent>
+            <userid>23191</userid>
+            <created>1363190759</created>
+            <modified>1363190851</modified>
+            <mailed>1</mailed>
+            <subject>slide No 8: is MVC and GPC are to find optimisation goal functions for controllers</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;it looks to me as if minimum variance control or other method mentioned here are used as a method to find out goal functions for the controllers. we derived control effort (u(n)) using MVC and then our controller should be such that it can attain these control effort u(n). please clarify.&lt;/p&gt;
+&lt;p&gt;to achieve these requirements can we use controllers we have studied earlier or should we use some special controller?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26409">
+            <parent>26396</parent>
+            <userid>18685</userid>
+            <created>1363191502</created>
+            <modified>1363191502</modified>
+            <mailed>1</mailed>
+            <subject>Slide 3: ARMAX vs ARIMAX</subject>
+            <message>&lt;p&gt;Which model is better (ARMAX or ARIMAX)?&lt;/p&gt;
+&lt;p&gt;Does the comparison depend on the nature (ar amplitude) of noise?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26412">
+            <parent>26396</parent>
+            <userid>10036</userid>
+            <created>1363192278</created>
+            <modified>1363192278</modified>
+            <mailed>1</mailed>
+            <subject>slide 7: GPC vs LQG</subject>
+            <message>&lt;p&gt;Why are these techniques, rigorous and on what grounds do we decide the technique to be used i.e. GPC or LQG ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26432">
+            <parent>26396</parent>
+            <userid>23067</userid>
+            <created>1363198493</created>
+            <modified>1363198493</modified>
+            <mailed>1</mailed>
+            <subject>Slide -9</subject>
+            <message>&lt;p&gt;The model predictive control which is developed for a process, is it  able to apply same model for another process?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26435">
+            <parent>26396</parent>
+            <userid>13030</userid>
+            <created>1363200847</created>
+            <modified>1363200897</modified>
+            <mailed>1</mailed>
+            <subject>Slide 17 - Value of N</subject>
+            <message>&lt;p&gt;In the example, N is equal to 3 but according to slide 10, N is supposed to be large. Is N=3 large enough?&lt;/p&gt;
+&lt;p&gt;How can we choose value of N?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26436">
+            <parent>26396</parent>
+            <userid>19275</userid>
+            <created>1363202014</created>
+            <modified>1363202014</modified>
+            <mailed>1</mailed>
+            <subject>slide 10</subject>
+            <message>&lt;p&gt;How do we decide value of N? &lt;/p&gt;
+&lt;p&gt;You said that N should be large, how large it should  be?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26439">
+            <parent>26396</parent>
+            <userid>13107</userid>
+            <created>1363204320</created>
+            <modified>1363204320</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture 15: slide 7 State the slide number and ask your question</subject>
+            <message>&lt;p&gt;Among GPC and MVC , which controller required less control effort ? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26440">
+            <parent>26396</parent>
+            <userid>15477</userid>
+            <created>1363204821</created>
+            <modified>1363204821</modified>
+            <mailed>1</mailed>
+            <subject>Slide 5: Filtered White Noise</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;While answering a particular question (in the video), you said that C.ξ(n) is &lt;strong&gt;the filtered white noise&lt;/strong&gt;. We know that C is also the &lt;strong&gt;moving average term&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Please explain how are these two related.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26441">
+            <parent>26396</parent>
+            <userid>23190</userid>
+            <created>1363205634</created>
+            <modified>1363205634</modified>
+            <mailed>1</mailed>
+            <subject>slide 6: Notation clarification</subject>
+            <message>&lt;p&gt;Δu used in the expression for J&lt;sub&gt;GPC&lt;/sub&gt; is for the change in u. where as the Δu in prediction model (slide 7) is Δ * u. Why they are treated as same?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26442">
+            <parent>26396</parent>
+            <userid>13107</userid>
+            <created>1363207812</created>
+            <modified>1363207812</modified>
+            <mailed>1</mailed>
+            <subject>slide no. 10</subject>
+            <message>&lt;p&gt;How large value of N will solve the purpose? Upon whiich parameters do we select between ARMAX and ARIMAX?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26444">
+            <parent>26396</parent>
+            <userid>19315</userid>
+            <created>1363211155</created>
+            <modified>1363211155</modified>
+            <mailed>1</mailed>
+            <subject>slide 8 and 10: minimizing variance of u(n)</subject>
+            <message>Sir,
+For GPC it is mentioned that it's not possible to constrain the values of u(n) but only its changes. By the same logic, we should be minimizing variance of delta of u(n) in GMVC method as well.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26445">
+            <parent>26396</parent>
+            <userid>13634</userid>
+            <created>1363213199</created>
+            <modified>1363213199</modified>
+            <mailed>1</mailed>
+            <subject>slide 20: Determination of N</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;As we saw in the example where we calculated the pre-multipllier matrix G to be a square matrix (taking N = 3), can we not do this every time, namely choose an N such that G is square? Will there be cases where this is not possible?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26446">
+            <parent>26396</parent>
+            <userid>15509</userid>
+            <created>1363214710</created>
+            <modified>1363214710</modified>
+            <mailed>1</mailed>
+            <subject>slide 8: Regulation Problem</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;For the regulation problem, we have a different function to be minimized as opposed to the servo problem. But since we would like a single controller to be able to tackle both the problems, how do we obtain a transfer function for the same?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26447">
+            <parent>26396</parent>
+            <userid>15538</userid>
+            <created>1363219386</created>
+            <modified>1363219386</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture 15: State the slide number and ask your question</subject>
+            <message>&lt;p&gt;Slide 7,&lt;br /&gt;&lt;br /&gt;How the three control methods GMVC, GPC and LQG are compared in performance in control action and the implimentation in plant.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26506">
+            <parent>26441</parent>
+            <userid>23191</userid>
+            <created>1363254448</created>
+            <modified>1363254448</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 6: Notation clarification</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;Δ*u =(1-Z&lt;sup&gt;-1&lt;/sup&gt;)*u= u(n)-u(n-1)= Δu&lt;/p&gt;
+&lt;p&gt;hence Δu same as Δ*u.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26536">
+            <parent>26406</parent>
+            <userid>31087</userid>
+            <created>1363264027</created>
+            <modified>1363264027</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 7: about Minimum variance control</subject>
+            <message>&lt;p&gt;What you say is correct, but this is an extreme situation.  In any case, the minimum variance control does not have any facility to reduce the control effort.  It is not the question of which model to use - model choice is decided by other considerations.  But once a model is given, one has to select the control technique to use.  As minimum variance control has a problem, you have to try other methods.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26538">
+            <parent>26407</parent>
+            <userid>31087</userid>
+            <created>1363264104</created>
+            <modified>1363264104</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide No 8: is MVC and GPC are to find optimisation goal functions for controllers</subject>
+            <message>&lt;p&gt;MVC is used as a reference.  No controller can get a better performance.  Unfortunately, however, MVC cannot be used in real practise.  All controller performance is generally compared with that of MVC.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26543">
+            <parent>26409</parent>
+            <userid>31087</userid>
+            <created>1363264333</created>
+            <modified>1363264333</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 3: ARMAX vs ARIMAX</subject>
+            <message>&lt;p&gt;It depends on whether the noise is "random" or whether it has random "steps".&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26544">
+            <parent>26412</parent>
+            <userid>31087</userid>
+            <created>1363264554</created>
+            <modified>1363264554</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7: GPC vs LQG</subject>
+            <message>&lt;p&gt;These are rigorous, because these do not make the approximation that GMVC makes. &lt;/p&gt;
+&lt;p&gt;In LQG there is only one model that is used.  For example, fix the model, calculate the control law and apply it.  In GPC, it is possible to change the model with time, based on recently obtained data.  The model predictive controllers are said to be effective when plant varies with time.  If the model does not vary much and if you want to minimise the calculations, you should go for LQG.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26545">
+            <parent>26432</parent>
+            <userid>31087</userid>
+            <created>1363264593</created>
+            <modified>1363264593</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide -9</subject>
+            <message>&lt;p&gt;Your question is unclear.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26546">
+            <parent>26435</parent>
+            <userid>31087</userid>
+            <created>1363264657</created>
+            <modified>1363264657</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 17 - Value of N</subject>
+            <message>&lt;p&gt;I chose N to be 3 for convenience.  In practice, it will be much larger.  It could be as long as 100 also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26547">
+            <parent>26439</parent>
+            <userid>31087</userid>
+            <created>1363264682</created>
+            <modified>1363264682</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture 15: slide 7 State the slide number and ask your question</subject>
+            <message>&lt;p&gt;GPC.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26548">
+            <parent>26436</parent>
+            <userid>31087</userid>
+            <created>1363264728</created>
+            <modified>1363264728</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 10</subject>
+            <message>&lt;p&gt;It can be quite large - numbers as high as 500 have been reported.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26549">
+            <parent>26440</parent>
+            <userid>31087</userid>
+            <created>1363264787</created>
+            <modified>1363269450</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 5: Filtered White Noise</subject>
+            <message>&lt;p&gt;Moving average is a filtering action.  As a result, there is no difference in the two things you have said.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26550">
+            <parent>26442</parent>
+            <userid>31087</userid>
+            <created>1363264869</created>
+            <modified>1363264869</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no. 10</subject>
+            <message>&lt;p&gt;People have used N values as large as 500. &lt;/p&gt;
+&lt;p&gt;ARMAX or ARIMAX will depend on whether or not the noise has random steps.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26551">
+            <parent>26444</parent>
+            <userid>31087</userid>
+            <created>1363264928</created>
+            <modified>1363264928</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8 and 10: minimizing variance of u(n)</subject>
+            <message>&lt;p&gt;Yes, what you say is correct.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26552">
+            <parent>26445</parent>
+            <userid>31087</userid>
+            <created>1363265047</created>
+            <modified>1363265047</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 20: Determination of N</subject>
+            <message>&lt;p&gt;Most of the time, G will be a tall matrix.  Let us see how.  What does N depend on?  It depends on the time over which the model has an effect.  The model may have only a few parameters, but may affect the output for long times.  It follows that G will be tall.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26554">
+            <parent>26446</parent>
+            <userid>31087</userid>
+            <created>1363265104</created>
+            <modified>1363265104</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 8: Regulation Problem</subject>
+            <message>&lt;p&gt;You can switch between the two controllers.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26555">
+            <parent>26447</parent>
+            <userid>31087</userid>
+            <created>1363265207</created>
+            <modified>1363265279</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lecture 15: State the slide number and ask your question</subject>
+            <message>&lt;p&gt;GMVC is easy to design and use, although approximate.  It is used by the Japanese in self tuning controllers, for example.  But this controller is only approximate.&lt;/p&gt;
+&lt;p&gt;I have given a comparison of GPC vs. LQG in another question, asked by Lalwani Aditya Ajit.  Please see it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26750">
+            <parent>26406</parent>
+            <userid>23190</userid>
+            <created>1363373451</created>
+            <modified>1363373451</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide no 7: about Minimum variance control - class discussion</subject>
+            <message>&lt;p&gt;There is no control problem where the cost of control effort is not a concern. MVC may demand large control effort such that the controller is not implementable.&lt;/p&gt;
+&lt;p&gt;example: assume an air conditioning system where the set point temperature has to be achieved quickly, the control effort may demand the application of 1 million ton cold air within 1ns - which will be prohibitive, cost wise. MVC is not a suitble choice for such requirements.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26751">
+            <parent>26407</parent>
+            <userid>23190</userid>
+            <created>1363373695</created>
+            <modified>1363373695</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide No 8: is MVC and GPC are to find optimisation goal functions for controllers - class discussion</subject>
+            <message>&lt;p&gt;MVC contollers are not used in a plant.&lt;/p&gt;
+&lt;p&gt;GPC based controllers will be discussed in subsequent classes.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26752">
+            <parent>26412</parent>
+            <userid>23190</userid>
+            <created>1363373914</created>
+            <modified>1363374112</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 7: GPC vs LQG - class discussion</subject>
+            <message>&lt;p&gt;The approximate method used to find solution for GMVC is to to differentiate the argument of the expectation (operator) withe respect to u(n). Such approximations are not used GPC ,LQG hence they are more accurate&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="26756">
+            <parent>26436</parent>
+            <userid>23190</userid>
+            <created>1363375657</created>
+            <modified>1363375657</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 10 Value of N - class discussion</subject>
+            <message>&lt;p&gt;A y = B u ................(1)&lt;/p&gt;
+&lt;p&gt;y = B/A u .................(2)&lt;/p&gt;
+&lt;p&gt;These two expressions are equivalent. However in eqn (2) long division of B by A can result in large no: of terms. For system identification requirements eqn(2) is better though computational requirements are high.The no:of terms is a trade off between accuracy and computational constraints. Similar logic is applied in selecting N value for GPC.  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

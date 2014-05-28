@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1612" moduleid="8459" modulename="forum" contextid="54859">
+  <forum id="1612">
+    <type>general</type>
+    <name>28 Jan. 2013 - 5: Identification</name>
+    <intro>&lt;p&gt;Discussion on lecture 5.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1359080132</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="10486">
+        <name>Identification: please post your questions</name>
+        <firstpost>19676</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1372967726</timemodified>
+        <usermodified>13130</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="19676">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1359080206</created>
+            <modified>1359080206</modified>
+            <mailed>1</mailed>
+            <subject>Identification: please post your questions</subject>
+            <message>&lt;div class="box generalbox"&gt;
+&lt;div class="no-overflow"&gt;
+&lt;p&gt;&lt;strong&gt;Please reply to this post.  Do NOT start a new post for discussions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;
+&lt;p&gt;This generally breaks down when you start a new post - you cannot then see the post of others and hence participate in the discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19830">
+            <parent>19676</parent>
+            <userid>23191</userid>
+            <created>1359267723</created>
+            <modified>1372965888</modified>
+            <mailed>1</mailed>
+            <subject>How to generate white noise (Slide 9)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;can you elaborate nature of ξ(n) white noise. how it is generated in reallity. there will be other types of loise as well, abd how they are modeled.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 11:52 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:26 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19831">
+            <parent>19676</parent>
+            <userid>23191</userid>
+            <created>1359268574</created>
+            <modified>1372965932</modified>
+            <mailed>1</mailed>
+            <subject>H(z) will not be deterministic (Slide 9)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;since input and output of H(z) are random, in my veiw H(z) will not be deterministic process. please coment.&lt;/p&gt;
+&lt;p&gt;whether H(z) is LTI? please elaborate properties of H(z) if any.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 12:06 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:26 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19832">
+            <parent>19676</parent>
+            <userid>20594</userid>
+            <created>1359269645</created>
+            <modified>1372965976</modified>
+            <mailed>1</mailed>
+            <subject>Use of ACF and CCF (Slide 12)</subject>
+            <message>&lt;p&gt;what is the use of ACF and CCF functions and why z transform of &lt;span&gt;ɛ(n) does not exist?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 12:24 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:27 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19845">
+            <parent>19830</parent>
+            <userid>31087</userid>
+            <created>1359280977</created>
+            <modified>1359280977</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;It is difficult to visualise a white noise in reality.  The reason is that two successive samples are uncorrelated.  It is difficult to visualise it.  But the concept of white noise is extremely useful.  All other noise processes can be obtained by filtering white noise.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;White noise is approximated by a pseudo random binary sequence.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19846">
+            <parent>19831</parent>
+            <userid>31087</userid>
+            <created>1359281275</created>
+            <modified>1359281275</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;The output is not random.  It is related to the input.  By an analysis of an input and the corresponding output, the relation between them is brought out in the form of a transfer function.&lt;/p&gt;
+&lt;p&gt;Yes, H(z) is the transfer function of an LTI system.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19847">
+            <parent>19832</parent>
+            <userid>31087</userid>
+            <created>1359281449</created>
+            <modified>1359281449</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Using ACF and CCF, we carry out identification, as explained in Chapter 6 of the book. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19850">
+            <parent>19676</parent>
+            <userid>23191</userid>
+            <created>1359285051</created>
+            <modified>1372966022</modified>
+            <mailed>1</mailed>
+            <subject>Calculation of inverse of Phi (Slide 32)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;for normal equation Φ&lt;sup&gt;T&lt;/sup&gt;WΦθ = Φ&lt;sup&gt;T&lt;/sup&gt;WZ..............&lt;/p&gt;
+&lt;p&gt;if i simplify it, i get&lt;/p&gt;
+&lt;p&gt;θ =Φ&lt;sup&gt;-1&lt;/sup&gt;Z,&lt;/p&gt;
+&lt;p&gt;but in the lecture it wasn't simplified, whether there is any purpose or we cannot do the simplification.&lt;/p&gt;
+&lt;p&gt;please comment........&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 4:40 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:28 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19854">
+            <parent>19846</parent>
+            <userid>23191</userid>
+            <created>1359285964</created>
+            <modified>1359285964</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;i am asking about the inputs and output of H(z) which is placed in the path of noise ξ(n). if have learnt correcly from the lecture, ξ(n) as well as v(n) are random. hence H(z) should not be diterministic process (or whatever we call).&lt;/p&gt;
+&lt;p&gt;It seems to me that H(z) should not be LTI as well as input and output to it are random and not fixed over time.&lt;/p&gt;
+&lt;p&gt;please explain! I didn't get your answer.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19863">
+            <parent>19854</parent>
+            <userid>31087</userid>
+            <created>1359290814</created>
+            <modified>1359290814</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Let me try to answer in a different way.  Suppose you subject a transfer function H(z) to a random signal $$\xi$$ and call the output $$v$$.  Suppose that we consider the output $$v$$ also to be a random signal.  Should we, as a result, call H(z) as something different from a transfer function? &lt;/p&gt;
+&lt;p&gt;In other words, we assume that the disturbance is also defined by a transfer function and try to fit it with experimental data.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19864">
+            <parent>19850</parent>
+            <userid>31087</userid>
+            <created>1359290891</created>
+            <modified>1359290891</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;You are assuming that $$\Phi$$ is square and invertible.  Those assumptions are not present in our approach.  As a matter of fact, $$\Phi$$ will be a tall matrix.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19873">
+            <parent>19863</parent>
+            <userid>23191</userid>
+            <created>1359296807</created>
+            <modified>1359296807</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;thanx, it was good,&lt;/p&gt;
+&lt;p&gt;but still I can't convince myself about whether H(z) will be LTI. are we assuming it LTI as a simplistic approach?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19875">
+            <parent>19864</parent>
+            <userid>23191</userid>
+            <created>1359296933</created>
+            <modified>1359296933</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;thank you sir,&lt;/p&gt;
+&lt;p&gt;i didn't made mistake.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19876">
+            <parent>19676</parent>
+            <userid>23191</userid>
+            <created>1359297130</created>
+            <modified>1372966067</modified>
+            <mailed>1</mailed>
+            <subject>Correctness of mathematical notation (Slide 14)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;are the concept of mixed notations mathmatically correct?&lt;/p&gt;
+&lt;p&gt;please explain.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 8:02 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:28 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19878">
+            <parent>19676</parent>
+            <userid>13030</userid>
+            <created>1359297962</created>
+            <modified>1372966139</modified>
+            <mailed>1</mailed>
+            <subject>Assigning weights (Slide 25)</subject>
+            <message>&lt;p&gt;For least square estimation, how do we determine W(n)=diag(w(n),w(n-1),...,w(n-N))?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 8:16 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:29 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19880">
+            <parent>19875</parent>
+            <userid>31087</userid>
+            <created>1359298517</created>
+            <modified>1359298517</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;I am not sure what you mean by "I didn't made mistake" - How can you find the inverse of a nonsquare system?  What do you mean by writing $$\Phi^{-1}$$ when $$\Phi$$ is not a square matrix?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19881">
+            <parent>19876</parent>
+            <userid>31087</userid>
+            <created>1359298599</created>
+            <modified>1359298599</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;It is only a notation.  So long as you assign a mathematically consistent meaning to a notation and be consistent about it, it is perfectly fine.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19883">
+            <parent>19878</parent>
+            <userid>31087</userid>
+            <created>1359298799</created>
+            <modified>1359298799</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;There is no theory that explains how to assign weighting factors for different components.  One usually follows a trial and error method: assign some weight to every component of the vector and proceed with solving the system.  In the final result, if you find some component to be larger than allowed, then increase its weight and repeat.  This topic will be discussed again when we deal with Generalised Predictive Control and State Space Control.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19884">
+            <parent>19873</parent>
+            <userid>31087</userid>
+            <created>1359298872</created>
+            <modified>1359298872</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Yes, you may think of it as an approximation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19903">
+            <parent>19676</parent>
+            <userid>13413</userid>
+            <created>1359308167</created>
+            <modified>1372966181</modified>
+            <mailed>1</mailed>
+            <subject>White noise has to be continuous (Slide 9)</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;     White noise is analog and continuous , but here we are using discrete model for that, how ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 11:06 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:29 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19907">
+            <parent>19676</parent>
+            <userid>15642</userid>
+            <created>1359309965</created>
+            <modified>1372966207</modified>
+            <mailed>1</mailed>
+            <subject>Why a two step process for G and H (Slide 10)</subject>
+            <message>&lt;p&gt;I am unable to follow slide no. 10 as while calculating G(z) only H(z) is not taken into account. why is it so?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 11:36 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:30 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19908">
+            <parent>19676</parent>
+            <userid>15538</userid>
+            <created>1359310166</created>
+            <modified>1372966248</modified>
+            <mailed>1</mailed>
+            <subject>v is not white; ergodicity (Slide 10,11)</subject>
+            <message>&lt;p&gt;Sir, &lt;/p&gt;
+&lt;p&gt;1. In slide number 10, How we assume that when white noise passing through H(z) is still white, H(z) may be some frequency transforming function then in that case v(n) may not be white noise.&lt;/p&gt;
+&lt;p&gt;2. Can you little bit clearify the term "Ergodic" in slide 11.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 11:39 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:30 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19910">
+            <parent>19676</parent>
+            <userid>13107</userid>
+            <created>1359310565</created>
+            <modified>1359345911</modified>
+            <mailed>1</mailed>
+            <subject>No. of parameters of three models</subject>
+            <message>&lt;p&gt;Are the number of parameter for all three model different for a particular accuracy of model ? &lt;span style="line-height: 1.4;"&gt;If these are different then which has lowest number of parameters ?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Sunday, 27 January 2013, 11:46 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19917">
+            <parent>19676</parent>
+            <userid>15477</userid>
+            <created>1359314651</created>
+            <modified>1372966324</modified>
+            <mailed>1</mailed>
+            <subject>Physical meaning of ACF (Slide 12)</subject>
+            <message>&lt;p&gt;When discussing the Auto Co-vairance function,I'm unable to interpret its  physical meaning (Please explain relating it to Covariance). Also, I didn't understand how did we get the ACF for white noise.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 12:54 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19922">
+            <parent>19676</parent>
+            <userid>18658</userid>
+            <created>1359315291</created>
+            <modified>1372966347</modified>
+            <mailed>1</mailed>
+            <subject>Physical meaning of ACF (Slide 12)</subject>
+            <message>&lt;p&gt;Covariance or Variance by definition is measure of spread of data around the mean. Auto covariance function(ACF) is defined for different values of l(lag) and u(k-l) is used in calculation. I didnt get the physical meaning of this definition.&lt;/p&gt;
+&lt;p&gt;Also video quality for Aliasing part was not good, so please repeat this topic in Class.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 1:04 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:36 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19923">
+            <parent>19676</parent>
+            <userid>11675</userid>
+            <created>1359315485</created>
+            <modified>1372966403</modified>
+            <mailed>1</mailed>
+            <subject>Lower than sampling rate (Slide 6)</subject>
+            <message>&lt;p&gt;For a sample sampled at rateF&lt;sub&gt;S&lt;/sub&gt; less than 2B&lt;sub&gt;, &lt;/sub&gt;Can we apply sampling theorm ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 1:08 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:36 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19926">
+            <parent>19676</parent>
+            <userid>15100</userid>
+            <created>1359317435</created>
+            <modified>1372966453</modified>
+            <mailed>1</mailed>
+            <subject>white noise nature (Slide 9)</subject>
+            <message>&lt;p&gt;Practically, will the nature of noise be white ? If not, how to decide which type of noise is affecting a particular plant?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 1:40 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:25 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19929">
+            <parent>19676</parent>
+            <userid>14023</userid>
+            <created>1359318543</created>
+            <modified>1372966575</modified>
+            <mailed>1</mailed>
+            <subject>How to separate noise from signal (Slide 9)</subject>
+            <message>&lt;p&gt;The noise is embedded inside the signal instead of coming externally. So, we have to analyse the variation of noise in a signal which is varying itself.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;How to we deal with this? In other words, how do we determine if the noise in a signal is white or not?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 1:59 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:42 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19930">
+            <parent>19676</parent>
+            <userid>15100</userid>
+            <created>1359319895</created>
+            <modified>1372966619</modified>
+            <mailed>1</mailed>
+            <subject>Can we take v as zero? (Slide 22)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In the regression eqn, z(k) = phi(k)theta + E(k), we assumed E(k) as negligible. If thats the case then why are we trying to find H(z) in the first place?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 2:21 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:43 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19931">
+            <parent>19676</parent>
+            <userid>14476</userid>
+            <created>1359321236</created>
+            <modified>1372966663</modified>
+            <mailed>1</mailed>
+            <subject>How do we know white noise (Slide 9)</subject>
+            <message>&lt;p&gt;Sir, How to know whether the noise  is white or of some other type?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 2:43 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:44 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19932">
+            <parent>19676</parent>
+            <userid>15509</userid>
+            <created>1359322494</created>
+            <modified>1372966715</modified>
+            <mailed>1</mailed>
+            <subject>Sampling rate and ZOH (Slide 7)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In the lecture you have said that Shannon's reconstruction cannot be implemented. In that case faster sampling is used.&lt;/p&gt;
+&lt;p&gt;But what if necessary instruments for faster sampling is not available. Is ZOH a viable option then ? Can other reconstruction methods be used depending on the type of signal ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 3:04 AM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 9:46 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19941">
+            <parent>19903</parent>
+            <userid>31087</userid>
+            <created>1359343967</created>
+            <modified>1359343967</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;What we are using is the discrete time approximation.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19942">
+            <parent>19907</parent>
+            <userid>31087</userid>
+            <created>1359344132</created>
+            <modified>1359344242</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;It is a two step process.  First find G and attribute the difference to v(n).  Then describe v(n) as a filtered white noise.  Through this, obtain H.  Finally, with G and H as the initial values, do a fitting once again.  This is explained in the book, chapter 6.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;This process makes the identification easier.  It is almost like our approach to solve nonlinear equations: first come up with an initial guess; using this as the starting point, arrive at the final solution.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19944">
+            <parent>19908</parent>
+            <userid>31087</userid>
+            <created>1359344617</created>
+            <modified>1359344617</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Yes, v(n) is not white noise.  It is the difference between the actual measurement and G(z)u(n).&lt;/p&gt;
+&lt;p&gt;In simple terms, ergodicity allows us to get an idea of all &lt;em&gt;realisations &lt;/em&gt;through what actually happens in time, sequentially.  The second one actually happens and we can measure them.  On the other hand, all the realisations actually don't happen and we can only hypothesize about them.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19945">
+            <parent>19676</parent>
+            <userid>23190</userid>
+            <created>1359344782</created>
+            <modified>1359378738</modified>
+            <mailed>1</mailed>
+            <subject>Design of persistent input</subject>
+            <message>&lt;p&gt;How to derive a 'persistently exciting' input?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 9:16 AM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19946">
+            <parent>19910</parent>
+            <userid>31087</userid>
+            <created>1359344843</created>
+            <modified>1359344843</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;ARMA models will have the least number of parameters.  This is useful for fast computations.  On the other hand, having least number of parameters may not be the most &lt;em&gt;correct.  &lt;/em&gt;For example, MA models give less unbiased estimates, compared to ARMA models - explained in chapter 6.  As a result, people prefer to work with MA models, even if it contains a large number of (say, 500) terms.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19947">
+            <parent>19917</parent>
+            <userid>31087</userid>
+            <created>1359344991</created>
+            <modified>1359344991</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Auto covariance function has only one signal as the input: covariance is taken with the signal itself.  Any two terms of the white noise, if even separated by one time instant, are uncorrelated and hence result in zero, when we carry out the calculations.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19948">
+            <parent>19922</parent>
+            <userid>31087</userid>
+            <created>1359345251</created>
+            <modified>1359345251</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;ACF helps find out how a time is correlated with a time shifted version of itself.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19949">
+            <parent>19923</parent>
+            <userid>31087</userid>
+            <created>1359346087</created>
+            <modified>1359346087</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lower than sampling rate</subject>
+            <message>&lt;p&gt;If you reconstruct using values obtained with lower than minimum sampling rate, you will not get the original signal back.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19951">
+            <parent>19926</parent>
+            <userid>31087</userid>
+            <created>1359346183</created>
+            <modified>1359346183</modified>
+            <mailed>1</mailed>
+            <subject>Re: white noise nature</subject>
+            <message>&lt;p&gt;As far as the plant output is concerned, the noise is denoted as v(n), which need not be white.  Based on what it is, we determine H(z).  Please note that H(z) is strictly not a part of the plant.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19952">
+            <parent>19929</parent>
+            <userid>31087</userid>
+            <created>1359346307</created>
+            <modified>1359346307</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Please see my answers to the following two posts: two step process G, H and white noise nature.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19953">
+            <parent>19930</parent>
+            <userid>31087</userid>
+            <created>1359346465</created>
+            <modified>1359346465</modified>
+            <mailed>1</mailed>
+            <subject>Re: Can we take v as zero?</subject>
+            <message>&lt;p&gt;If it is indeed negligible, no need to worry about it.  If it is not negligible, you will have to model it.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19954">
+            <parent>19931</parent>
+            <userid>31087</userid>
+            <created>1359346529</created>
+            <modified>1359346529</modified>
+            <mailed>1</mailed>
+            <subject>Re: How do we know white noise</subject>
+            <message>&lt;p&gt;Calculate the ACF, for example.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19955">
+            <parent>19932</parent>
+            <userid>31087</userid>
+            <created>1359346688</created>
+            <modified>1359346688</modified>
+            <mailed>1</mailed>
+            <subject>Re: Sampling rate and ZOH</subject>
+            <message>&lt;p&gt;If you want to use ZOH, you will have to use &lt;em&gt;many&lt;/em&gt; (say, 5 to 10) times the minimum sampling rate!  If you sample at lower than minimum rate NO reconstruction method will work, ZOH, the least of all.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19976">
+            <parent>19676</parent>
+            <userid>11394</userid>
+            <created>1359358375</created>
+            <modified>1359358993</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;In Process Control course, we considered transfer functions by taking Laplace transforms but here we are considering z-transforms. Why did not we use z-transform there? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19982">
+            <parent>19676</parent>
+            <userid>23067</userid>
+            <created>1359361177</created>
+            <modified>1372966835</modified>
+            <mailed>1</mailed>
+            <subject>Random noise (Slide 13)</subject>
+            <message>&lt;p&gt;Sir, Is it every time the noise is random?&lt;/p&gt;
+&lt;p&gt;If it is not, there is any possibility of output v(n) is random for noise input which is not random. Explain any example of the noise which are not random.&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 1:49 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 6:40 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19990">
+            <parent>19676</parent>
+            <userid>19275</userid>
+            <created>1359363679</created>
+            <modified>1359364334</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Sir, can we have slides used in the video, the video quality is not good and slides are not properly visible. Also in video 5A complete slides aren't given.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19996">
+            <parent>19676</parent>
+            <userid>19275</userid>
+            <created>1359367193</created>
+            <modified>1372966941</modified>
+            <mailed>1</mailed>
+            <subject>Assigning weights (Slide 25)</subject>
+            <message>&lt;p&gt;Is trial and error only method to find out W(n) ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 3:29 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 6:46 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19997">
+            <parent>19676</parent>
+            <userid>19315</userid>
+            <created>1359367287</created>
+            <modified>1372966996</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 5)</subject>
+            <message>&lt;p&gt;Sir What kind of signals result on cases where aliasing cannot be avoided? Since the fourier transform is restricted to bounded signals and z in unit circle, does that not take care of such a case?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 3:31 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="19998">
+            <parent>19976</parent>
+            <userid>19275</userid>
+            <created>1359367372</created>
+            <modified>1359367372</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Z-transform is defined for discrete functions, and laplace is for continuous functions.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20000">
+            <parent>19676</parent>
+            <userid>13634</userid>
+            <created>1359369061</created>
+            <modified>1372967051</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 32)</subject>
+            <message>&lt;p&gt;Sir you say that the 'input should be chosen properly' to ensure that the persistence condition is satisfied for determination of the theta vector. Is this done purely by trial and error, or are there techniques that help us know a-priori estimates that ensure the satisfaction of the condition?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 4:01 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20005">
+            <parent>19676</parent>
+            <userid>15521</userid>
+            <created>1359369538</created>
+            <modified>1372967081</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 32)</subject>
+            <message>&lt;p&gt;&lt;span&gt;Sir, we have assumed that ΦTWΦ is non-singular. What if it is singular? Is there a possibility of such a thing happeneing? &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 4:08 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20010">
+            <parent>20005</parent>
+            <userid>13634</userid>
+            <created>1359371226</created>
+            <modified>1359371226</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;We choose our input signals such that the matrix turns out to be singular. However I don't know if there is a definite way to ensure such a choice of input signal without knowing the system except for trial and error, which is my doubt as asked above.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20018">
+            <parent>19676</parent>
+            <userid>19471</userid>
+            <created>1359372156</created>
+            <modified>1372967287</modified>
+            <mailed>1</mailed>
+            <subject>Why regression in AR? (Slide 16)</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;For the ARMA model, what is the motivation in defining regression of the previous outputs and averaging of the previous inputs for prediction of a random series?&lt;/p&gt;
+&lt;p&gt;I understand it is just a model, but why regression?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 4:52 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 6:38 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20020">
+            <parent>19676</parent>
+            <userid>10036</userid>
+            <created>1359372358</created>
+            <modified>1372967329</modified>
+            <mailed>1</mailed>
+            <subject>Random walk model (Slide 15)</subject>
+            <message>&lt;p&gt;Can we use Random Walk (RW) model  instead of MA ?&lt;/p&gt;
+&lt;p&gt;Are there any conditions for the selection of model ?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="http://moodle.iitb.ac.in/user/view.php?id=19569&amp;amp;course=1622"&gt;Kannan Moudgalya&lt;/a&gt; - original submission Monday, 28 January 2013, 4:55 PM)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 6:39 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20028">
+            <parent>19676</parent>
+            <userid>19309</userid>
+            <created>1359373041</created>
+            <modified>1359373041</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions</subject>
+            <message>&lt;p&gt;Why are we taking the fourior of sample and then inverse fourior to get continuous signal instead of taking higher order interpolation? Will both method produce similiar results?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20029">
+            <parent>19676</parent>
+            <userid>18685</userid>
+            <created>1359373262</created>
+            <modified>1372967622</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 7)</subject>
+            <message>&lt;p&gt;If we have a guess of frequencies in desired output and input. Then applying higher order frequency-band filter over output will cutoff the noise in the region. The we will have the rough guess of frequency of nosie so we can find it using fourior series. Can it be possible to use this method?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 5:11 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20034">
+            <parent>19676</parent>
+            <userid>15502</userid>
+            <created>1359374173</created>
+            <modified>1372967656</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 13)</subject>
+            <message>&lt;p&gt;What is the reason behind coming up with the concept called white noise? Do the noises in real systems have characteristics similar to white noise?&lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 5:26 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20036">
+            <parent>19676</parent>
+            <userid>13130</userid>
+            <created>1359374468</created>
+            <modified>1372967726</modified>
+            <mailed>1</mailed>
+            <subject>Re: Identification: please post your questions (Slide 15)</subject>
+            <message>&lt;p&gt;Can we model transient noise? &lt;/p&gt;
+&lt;p&gt;&lt;span class="edited"&gt;(Edited by &lt;a href="https://moodle.iitb.ac.in/user/view.php?id=15477&amp;amp;course=1622"&gt;RAHUL PRAKASH&lt;/a&gt; - original submission Monday, 28 January 2013, 5:31 PM)&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20048">
+            <parent>20018</parent>
+            <userid>31087</userid>
+            <created>1359378526</created>
+            <modified>1359378526</modified>
+            <mailed>1</mailed>
+            <subject>Re: Why regression in AR?</subject>
+            <message>&lt;p&gt;Otherwise, you will have a large number of MA terms - obvious if you do long division.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20049">
+            <parent>19982</parent>
+            <userid>31087</userid>
+            <created>1359378688</created>
+            <modified>1359378688</modified>
+            <mailed>1</mailed>
+            <subject>Re: Random noise</subject>
+            <message>&lt;p&gt;Only $$\xi$$ is white noise - this means that even successive values are uncorrelated.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="20050">
+            <parent>19996</parent>
+            <userid>31087</userid>
+            <created>1359379046</created>
+            <modified>1359379046</modified>
+            <mailed>1</mailed>
+            <subject>Re: Assigning weights</subject>
+            <message>&lt;p&gt;Yes.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="2021">
+        <userid>19569</userid>
+      </subscription>
+      <subscription id="2029">
+        <userid>23191</userid>
+      </subscription>
+      <subscription id="2035">
+        <userid>13413</userid>
+      </subscription>
+      <subscription id="2036">
+        <userid>13802</userid>
+      </subscription>
+      <subscription id="2037">
+        <userid>15642</userid>
+      </subscription>
+      <subscription id="2038">
+        <userid>15538</userid>
+      </subscription>
+      <subscription id="2039">
+        <userid>13107</userid>
+      </subscription>
+      <subscription id="2040">
+        <userid>15477</userid>
+      </subscription>
+      <subscription id="2043">
+        <userid>18658</userid>
+      </subscription>
+      <subscription id="2044">
+        <userid>11675</userid>
+      </subscription>
+      <subscription id="2045">
+        <userid>15100</userid>
+      </subscription>
+      <subscription id="2046">
+        <userid>14023</userid>
+      </subscription>
+      <subscription id="2047">
+        <userid>14476</userid>
+      </subscription>
+      <subscription id="2048">
+        <userid>15509</userid>
+      </subscription>
+      <subscription id="2049">
+        <userid>23190</userid>
+      </subscription>
+      <subscription id="2054">
+        <userid>11394</userid>
+      </subscription>
+      <subscription id="2056">
+        <userid>23067</userid>
+      </subscription>
+      <subscription id="2058">
+        <userid>19275</userid>
+      </subscription>
+      <subscription id="2059">
+        <userid>19315</userid>
+      </subscription>
+      <subscription id="2060">
+        <userid>13634</userid>
+      </subscription>
+      <subscription id="2061">
+        <userid>15521</userid>
+      </subscription>
+      <subscription id="2062">
+        <userid>19471</userid>
+      </subscription>
+      <subscription id="2063">
+        <userid>10036</userid>
+      </subscription>
+      <subscription id="2064">
+        <userid>19309</userid>
+      </subscription>
+      <subscription id="2065">
+        <userid>18685</userid>
+      </subscription>
+      <subscription id="2067">
+        <userid>15502</userid>
+      </subscription>
+      <subscription id="2068">
+        <userid>13130</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

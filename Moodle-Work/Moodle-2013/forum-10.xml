@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1665" moduleid="10041" modulename="forum" contextid="56980">
+  <forum id="1665">
+    <type>general</type>
+    <name>25 Feb. 2013 - 10: Discretisation of PID controllers</name>
+    <intro>&lt;p&gt;Discussion thread for PID discretisation related topics.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1361673129</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <discussions>
+      <discussion id="12901">
+        <name>Please post your questions here</name>
+        <firstpost>23998</firstpost>
+        <userid>31087</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1361791851</timemodified>
+        <usermodified>19569</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="23998">
+            <parent>0</parent>
+            <userid>31087</userid>
+            <created>1361673165</created>
+            <modified>1361673165</modified>
+            <mailed>1</mailed>
+            <subject>Please post your questions here</subject>
+            <message>&lt;p&gt;Please post all your questions as a reply to this question.  After you make a post, you will be able to see the post of other people - you may reply to their posts also.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24003">
+            <parent>23998</parent>
+            <userid>23190</userid>
+            <created>1361678825</created>
+            <modified>1361678873</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;sir&lt;/p&gt;
+&lt;p&gt;When gain is changed (programmatically),  how bump is avoided? Assuming there is no manual intervention.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24032">
+            <parent>23998</parent>
+            <userid>13634</userid>
+            <created>1361706434</created>
+            <modified>1361706434</modified>
+            <mailed>1</mailed>
+            <subject>Regarding multiple options for discretization</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;When we have to choose between forward difference/backward difference methods for discretization, it does affect the form of the eventual transfer function. Does the nature of frequency rejection of the eventual transfer function (wrt being a high or a low pass filter) depend upon the choice of the method of discretization/are their any heuristics for deciding which method will give us a high pass or a low pass filter?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24042">
+            <parent>24032</parent>
+            <userid>31087</userid>
+            <created>1361716004</created>
+            <modified>1361716004</modified>
+            <mailed>1</mailed>
+            <subject>Re: Regarding multiple options for discretization</subject>
+            <message>&lt;p&gt;Only the denominator will be modified by the choice of approximation.  Thus, the rule is very simple, just as we discussed in the slides.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24043">
+            <parent>24003</parent>
+            <userid>31087</userid>
+            <created>1361716136</created>
+            <modified>1361716136</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;It is not a question of whether the gain is programmatically or manually changed.  Instead, it is a question of whether the change is given in absolute form or incremental form.  If it is the former, any mistakes in the initial values may affect drastically, while it may not be a serious problem in the case of the latter.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24064">
+            <parent>23998</parent>
+            <userid>23067</userid>
+            <created>1361730192</created>
+            <modified>1361730192</modified>
+            <mailed>1</mailed>
+            <subject>Cascade Control</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;In bumpless PID controller output is smooth with using only one PID controller, but why in cascade control using two PID for smooth output&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24066">
+            <parent>23998</parent>
+            <userid>13413</userid>
+            <created>1361730325</created>
+            <modified>1361730325</modified>
+            <mailed>1</mailed>
+            <subject>Nature of different approximations</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style="margin-bottom: 0.35cm;"&gt;how can we check that nature of integral type approximation is low pass filter , while that of others is high pass filter?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24068">
+            <parent>23998</parent>
+            <userid>13355</userid>
+            <created>1361730744</created>
+            <modified>1361730744</modified>
+            <mailed>1</mailed>
+            <subject>Slide 14</subject>
+            <message>&lt;p&gt;Sir ,&lt;/p&gt;
+&lt;p&gt;please explain the inverse Z transform on this slide,its unclear to me as to how n-2 and n-1 came into picture.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24069">
+            <parent>23998</parent>
+            <userid>14023</userid>
+            <created>1361730877</created>
+            <modified>1361730894</modified>
+            <mailed>1</mailed>
+            <subject>Slide 15</subject>
+            <message>&lt;p&gt;What exactly is a "bump"?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24070">
+            <parent>23998</parent>
+            <userid>14023</userid>
+            <created>1361730925</created>
+            <modified>1361730925</modified>
+            <mailed>1</mailed>
+            <subject>Slide 22</subject>
+            <message>&lt;p&gt;What exactly is "control effort"?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24071">
+            <parent>23998</parent>
+            <userid>18685</userid>
+            <created>1361731621</created>
+            <modified>1361731621</modified>
+            <mailed>1</mailed>
+            <subject>About integral term </subject>
+            <message>&lt;p&gt;Integral mode is generally implemented when the error is below some threshold value. How to decide the threshold value of error?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24072">
+            <parent>23998</parent>
+            <userid>19275</userid>
+            <created>1361731742</created>
+            <modified>1361731787</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;How set point kick is removed by feed forward controller?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24073">
+            <parent>23998</parent>
+            <userid>12583</userid>
+            <created>1361731864</created>
+            <modified>1361731864</modified>
+            <mailed>1</mailed>
+            <subject>PID controller with filtering slide 20</subject>
+            <message>&lt;p&gt;Can you explain how the addition of a filter in the derivative part causes ‘lose’ of bump-less transfer?  The filter is expected to smoothen the derivative kick, when the control is transferred from manual mode to auto mode.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24075">
+            <parent>23998</parent>
+            <userid>19309</userid>
+            <created>1361732678</created>
+            <modified>1361732678</modified>
+            <mailed>1</mailed>
+            <subject>slide 25</subject>
+            <message>&lt;p&gt;is I-Pd controllar different form that of feedforward controllar.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24076">
+            <parent>23998</parent>
+            <userid>15538</userid>
+            <created>1361733790</created>
+            <modified>1361733790</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Sir, I am not getting why we have used different approximation of {1/s} as in trapezoidal approximation, Backward difference approximation and in forward difference approximation. what are the importance of having these three different approximation. Please clearify in detail.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24077">
+            <parent>23998</parent>
+            <userid>23191</userid>
+            <created>1361734309</created>
+            <modified>1361734309</modified>
+            <mailed>1</mailed>
+            <subject>slide 13</subject>
+            <message>&lt;p&gt;sir,&lt;/p&gt;
+&lt;p&gt;in one expression we are replacing one S by one expression and other s by something else. how it can be explained. will it not change the transfer funcion completely from its actual value?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24079">
+            <parent>23998</parent>
+            <userid>13107</userid>
+            <created>1361734628</created>
+            <modified>1361734628</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;In slide no.13 why u have used Trapezoidal approximation to approximate integral , instead of forward difference or backward difference approximation ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24080">
+            <parent>23998</parent>
+            <userid>18658</userid>
+            <created>1361735566</created>
+            <modified>1361735566</modified>
+            <mailed>1</mailed>
+            <subject>slide 22, setpoint kick </subject>
+            <message>&lt;p&gt;Sir &lt;/p&gt;
+&lt;p&gt;Why there is no integral kicks in PID Controllers&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24082">
+            <parent>23998</parent>
+            <userid>15502</userid>
+            <created>1361736935</created>
+            <modified>1361737728</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>Sir, 
+In the 20th slide, from the form of control law we got, I did not understand how the bumpless control action is lost .
+</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24083">
+            <parent>23998</parent>
+            <userid>15477</userid>
+            <created>1361736977</created>
+            <modified>1361736977</modified>
+            <mailed>1</mailed>
+            <subject>Slide 12: Tc=Sc</subject>
+            <message>&lt;p&gt;For Tc = Sc, we have considered the options &lt;/p&gt;
+&lt;p&gt;Tc(1)=Sc(1)&lt;/p&gt;
+&lt;p&gt;Tc=Sc and&lt;/p&gt;
+&lt;p&gt;Tc = Sc(1).&lt;/p&gt;
+&lt;p&gt;Why haven't we considered the option Tc(1) =Sc?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24084">
+            <parent>23998</parent>
+            <userid>15509</userid>
+            <created>1361739588</created>
+            <modified>1361739588</modified>
+            <mailed>1</mailed>
+            <subject>slide 15 - bumpless transfer </subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;You talked about the valve example and the concept of bumpless transfer.&lt;/p&gt;
+&lt;p&gt;What if we have a case where through calculations we know that the valve is supposed to open 60% but due to information mismatch and use of del(u) the valve opening increased from 40 to 50%&lt;/p&gt;
+&lt;p&gt;Won't the use of u be better in that case over the use of del(u) ? &lt;/p&gt;
+&lt;p&gt;We can specify the absolute values and the controller will behave accordingly.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24085">
+            <parent>23998</parent>
+            <userid>11633</userid>
+            <created>1361739609</created>
+            <modified>1361739609</modified>
+            <mailed>1</mailed>
+            <subject>slide 13, different expression for s </subject>
+            <message>&lt;p&gt;Sir, how can we use different expression for s (one by trapezoidal rule and one from backward approximation) ?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24086">
+            <parent>23998</parent>
+            <userid>13781</userid>
+            <created>1361745267</created>
+            <modified>1361745267</modified>
+            <mailed>1</mailed>
+            <subject>Slide no. 6</subject>
+            <message>&lt;p&gt;Why is forward difference approximation not useful for derivative terms?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24087">
+            <parent>23998</parent>
+            <userid>15100</userid>
+            <created>1361745349</created>
+            <modified>1361745349</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;In filtered derivative mode, backward approximation is used for both integrator and differentiator. Why not use Tustins approx for integrator?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24088">
+            <parent>23998</parent>
+            <userid>15100</userid>
+            <created>1361745523</created>
+            <modified>1361745523</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Sudden change in input may cause large control effort because of integrator mode also. Why is this not considered?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24091">
+            <parent>23998</parent>
+            <userid>17192</userid>
+            <created>1361750355</created>
+            <modified>1361750355</modified>
+            <mailed>1</mailed>
+            <subject>Slide 13 Integral and derivative approximations of PID controller</subject>
+            <message>&lt;p&gt;Sir,&lt;/p&gt;
+&lt;p&gt;In slide 13, we are using the trapezoidal approximation to discretise the I mode and we are using the backward difference approximation to discretise the D mode. Even if we use the backward difference approximation for both I and D modes, we shall have offset-free tracking. So, is there any specific reason we are using two different approaches for approximation in the same equation??&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24094">
+            <parent>24064</parent>
+            <userid>31087</userid>
+            <created>1361756434</created>
+            <modified>1361756434</modified>
+            <mailed>1</mailed>
+            <subject>Re: Cascade Control</subject>
+            <message>&lt;p&gt;The two situtations are different.  The bumpless controller that I am talking about will remove the bumps that arise out of possible book keeping mistakes while going from one control mode (say manual) to another (say automatic). &lt;/p&gt;
+&lt;p&gt;What you are talking about has to do with the situation when no mistake in book keeping is made.  &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24095">
+            <parent>24066</parent>
+            <userid>31087</userid>
+            <created>1361756562</created>
+            <modified>1361756562</modified>
+            <mailed>1</mailed>
+            <subject>Re: Nature of different approximations</subject>
+            <message>&lt;p&gt;If you had come to the previous class, you would know the answer, as I explained it in the class.  Please read section 5.4.1 in the book.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24096">
+            <parent>24068</parent>
+            <userid>31087</userid>
+            <created>1361756721</created>
+            <modified>1361756721</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 14</subject>
+            <message>&lt;p&gt;When you multiply out, you will get a polynomial involving z^2, z and a constant term.  If you multiply throughout by z^{-2}, these terms will respecively become, 1, z^{-1} and z^{-2}, resulting in e(n), e(n-1) and e(n-2). &lt;/p&gt;
+&lt;p&gt;You should carry out the calculations and check them out for yourself.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24097">
+            <parent>24069</parent>
+            <userid>31087</userid>
+            <created>1361756757</created>
+            <modified>1361756757</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 15</subject>
+            <message>&lt;p&gt;Have I not explained in the video?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24098">
+            <parent>24070</parent>
+            <userid>31087</userid>
+            <created>1361756816</created>
+            <modified>1361756816</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 22</subject>
+            <message>&lt;p&gt;This is the same as control input or manipulated variable.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24099">
+            <parent>24071</parent>
+            <userid>31087</userid>
+            <created>1361756909</created>
+            <modified>1361756909</modified>
+            <mailed>1</mailed>
+            <subject>Re: About integral term </subject>
+            <message>&lt;p&gt;This question is not clear.  What error are you talking about - tracking error or measurement error?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24100">
+            <parent>24072</parent>
+            <userid>31087</userid>
+            <created>1361757326</created>
+            <modified>1361757326</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;You should have stated the slide number.  My answer would have been slightly different, depending on the slide number.&lt;/p&gt;
+&lt;p&gt;We start off by saying that we will give the sudden change in the reference signal only to the integral mode - giving sudden change to the derivative and proportional modes can result in big changes in the error and hence in the control effort.  Thus, the integral mode only comes in the forward path.  The other modes are weighted by a small number in the forward path.&lt;/p&gt;
+&lt;p&gt;The proportional mode and the derivative mode can be given the plant output, however, as it does not have sudden changes.  Thus, the feedback path can have the proportional and the derivative modes.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24101">
+            <parent>24073</parent>
+            <userid>31087</userid>
+            <created>1361757491</created>
+            <modified>1361757491</modified>
+            <mailed>1</mailed>
+            <subject>Re: PID controller with filtering slide 20</subject>
+            <message>&lt;p&gt;I answered the logic for splitting the three modes into forward and feedback paths while answering Ashish Pareek's question. &lt;/p&gt;
+&lt;p&gt;The filtering action on the derivative mode comes when we try to satisfy the tracking condition.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24102">
+            <parent>24075</parent>
+            <userid>31087</userid>
+            <created>1361757588</created>
+            <modified>1361757588</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 25</subject>
+            <message>&lt;p&gt;Yes.  I-PD controller is a full and full feedback controller.  If the plant output is not available, I-PD controller cannot be implemented.  In feed forward controller, however, there is no need at all to measure the plant output.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24103">
+            <parent>24076</parent>
+            <userid>31087</userid>
+            <created>1361757890</created>
+            <modified>1361757890</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;ul&gt;
+&lt;li&gt;Trapezoidal approximation is more correct than forward or backward approximation.&lt;/li&gt;
+&lt;li&gt;Unfortunately, if you use it in the derivative mode, there are oscillations, as it is a high pass filter.&lt;/li&gt;
+&lt;li&gt;So, we go for another implementation, even if it is less approximate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I explained in the last class how the filtering action changes depending on the pole, zero locations.  From your question, I believe that you did not attend it.  You may want to read section 5.4.1 in the book.&lt;/p&gt;
+&lt;p&gt;There is no hard and fast rule that tells which approximation is to be used.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24104">
+            <parent>24077</parent>
+            <userid>31087</userid>
+            <created>1361757960</created>
+            <modified>1361757960</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 13</subject>
+            <message>&lt;p&gt;This simply means that each term is approximated by different quantities.  Each of these terms is multiplied by a tuning parameter, which gets adjusted any way.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24105">
+            <parent>24079</parent>
+            <userid>31087</userid>
+            <created>1361758162</created>
+            <modified>1361758162</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;It is because the trapezoidal approximation is more accurate than both the forward and backward versions.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24106">
+            <parent>24080</parent>
+            <userid>31087</userid>
+            <created>1361758372</created>
+            <modified>1361758372</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 22, setpoint kick </subject>
+            <message>&lt;p&gt;That is because integration is a smoothing operation.  For example, the area under the curve, even if it has steps, increases as a continuous function!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24108">
+            <parent>24082</parent>
+            <userid>31087</userid>
+            <created>1361758672</created>
+            <modified>1361758672</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Actually, what I have written in the slide is only partially correct, as the bumpless action can be recovered.&lt;/p&gt;
+&lt;p&gt;The reason for making that statement is that when you multiply the terms on the left hand side, we lose the $$\Delta u$$ form.&lt;/p&gt;
+&lt;p&gt;How do we recover the bumpless action?  Let $$u_1 = (1+r_1z^{-1})u$$.  Then, the left hand side can be written as $$\Delta u_1$$, which is once again in the difference form!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24109">
+            <parent>24083</parent>
+            <userid>31087</userid>
+            <created>1361758791</created>
+            <modified>1361758791</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 12: Tc=Sc</subject>
+            <message>&lt;p&gt;This question was asked in the last class itself and I gave the same following answer:  Normally, we expect Tc to be a lower degree polynomial compared to Sc and hence, this condition may not arise.  For completeness, however, we can include the fourth condition as well.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24110">
+            <parent>24084</parent>
+            <userid>31087</userid>
+            <created>1361758882</created>
+            <modified>1361758882</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 15 - bumpless transfer </subject>
+            <message>&lt;p&gt;The question is not clear.  You seem to be assuming something else.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24111">
+            <parent>24085</parent>
+            <userid>31087</userid>
+            <created>1361758935</created>
+            <modified>1361758982</modified>
+            <mailed>1</mailed>
+            <subject>Re: slide 13, different expression for s </subject>
+            <message>&lt;p&gt;Please see my answer to Jitendra Kumar Mishra.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24112">
+            <parent>24086</parent>
+            <userid>31087</userid>
+            <created>1361759093</created>
+            <modified>1361759093</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide no. 6</subject>
+            <message>&lt;p&gt;The derivative mode will have the form (z-1)e(n), which will result in e(n+1)-e(n), with us being at time n.  This means that e(n+1), the future error term, will be needed.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24113">
+            <parent>24087</parent>
+            <userid>31087</userid>
+            <created>1361759135</created>
+            <modified>1361759135</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Which slide?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24114">
+            <parent>24088</parent>
+            <userid>31087</userid>
+            <created>1361759304</created>
+            <modified>1361759304</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Please see my answer to Shubham Gupta also.  The jump in the integral term will be a lot slower, as the integral term is a low pass filter!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24115">
+            <parent>24091</parent>
+            <userid>31087</userid>
+            <created>1361759435</created>
+            <modified>1361759435</modified>
+            <mailed>1</mailed>
+            <subject>Re: Slide 13 Integral and derivative approximations of PID controller</subject>
+            <message>&lt;p&gt;What you say is correct: backward difference approximation could have been used for both.  As the trapezoidal approximation is more correct, however, it may be used whenever permissible.&lt;/p&gt;
+&lt;p&gt;Depending on the different types of approximations, various "industrial implementations" have resulted!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24127">
+            <parent>24099</parent>
+            <userid>18685</userid>
+            <created>1361770851</created>
+            <modified>1361770851</modified>
+            <mailed>1</mailed>
+            <subject>Re: About integral term </subject>
+            <message>&lt;p&gt;The difference between desired position and actual position. In the beginning the tracking error is maximum. So if we apply the integration term from the beginning it would create much more large integral term compared to that of proportional and differential. So we can apply itegration of the error after the error has reached below some threshold and not from the beginning so as to reduce steady state offset.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24170">
+            <parent>24103</parent>
+            <userid>15538</userid>
+            <created>1361783800</created>
+            <modified>1361783800</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;Sir, there is one statement "If poles are on real axis then it leads to oscillation, let say at z=-1". I am not clear about this statement.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24171">
+            <parent>24113</parent>
+            <userid>15100</userid>
+            <created>1361783814</created>
+            <modified>1361783814</modified>
+            <mailed>1</mailed>
+            <subject>slide 16</subject>
+            <message>&lt;p&gt;slide 16&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="24192">
+            <parent>24087</parent>
+            <userid>31087</userid>
+            <created>1361791484</created>
+            <modified>1361791851</modified>
+            <mailed>1</mailed>
+            <subject>Re: Please post your questions here</subject>
+            <message>&lt;p&gt;It could have been used.  It would be another PID discretisation method.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>
