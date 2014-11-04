@@ -1,0 +1,18 @@
+\newline Escape (i.e., ignore) the newline
+\\ Backslash (\)
+\' Single quote (’)
+\" Double quote (")
+\a ASCII bell (BEL)
+\b ASCII backspace (BS)
+\f ASCII formfeed (FF)
+\n ASCII linefeed (LF)
+\N{name} Unicode character name
+\r ASCII carriage return (CR)
+\t ASCII tab (TAB)
+\uhhhh Unicode character with the given 16-bit hexadecimal value
+\Uhhhhhhhh Unicode character with the given 32-bit hexadecimal value
+
+\v ASCII vertical tab (VT)
+\ooo Character with the given octal value
+\xhh Character with the given hexadecimal value
+

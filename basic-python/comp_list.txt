@@ -1,0 +1,8 @@
+R1
+VCC1
+RWire3
+RWire6
+R2
+R5
+R7
+R6

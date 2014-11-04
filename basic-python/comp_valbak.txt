@@ -1,0 +1,6 @@
+R1:1
+VCC1:dc
+RWire3:3
+RWire6:6
+R3:3
+R5:15

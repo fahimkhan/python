@@ -1,0 +1,9 @@
+1.For AC source write ac
+2.For sinusoidal source write SINE
+3.For DC source write dc
+4.For Diode use model name e.g 1N4007
+5.For Resistance e.g 100,1K,1M
+6.For Capacitor e.g 1uf,10nf,1pf
+7.For Inductor e.g 1mh,5nh
+8.For BJT- Use npn or pnp And for MOS- Use nmos or pmos
+9.If you have any model in your circuit use proper model through Oscad
