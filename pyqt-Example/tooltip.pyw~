@@ -6,8 +6,8 @@ from PyQt4 import QtGui
 
 class Example(QtGui.QWidget):
     def __init__(self):
-	super(Example,self).__init__()
-	self.initUI()
+	    super(Example,self).__init__()
+		self.initUI()
 
     def initUI(self):
 	    QtGui.QToolTip.setFont(QtGui.QFont('SansSerif',10))

@@ -16,10 +16,9 @@ class app_icon(QtGui.QWidget):
 
 
 def main():
-	
 	app = QtGui.QApplication(sys.argv)
-    	ex = app_icon()
-    	sys.exit(app.exec_())
+        ex = app_icon()
+        sys.exit(app.exec_())
 
 
 if __name__ == '__main__':
